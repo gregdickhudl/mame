@@ -328,7 +328,7 @@ void ui_manager::display_startup_screens(bool first_time, bool show_disclaimer)
 
 	// loop over states
 	set_handler(handler_ingame, 0);
-	for (state = 0; state < maxstate && !machine().scheduled_event_pending() && !ui_menu::stack_has_special_main_menu(); state++)
+	for (state = 0; state < maxstate && !machine().scheduled_event_pending() && !ui_menu::stack_has_special_main_menu() && machine().options().disable_nagscreen_patch(); state++)
 	{
 		// default to standard colors
 		messagebox_backcolor = UI_BACKGROUND_COLOR;
@@ -397,6 +397,10 @@ void ui_manager::set_startup_text(const char *text, bool force)
 {
 	static osd_ticks_t lastupdatetime = 0;
 	osd_ticks_t curtime = osd_ticks();
+
+	//MKCHAMP -- DISABLE IS NOT DISABLED :-)
+	if (!machine().options().disable_loading_patch())
+		return;
 
 	// copy in the new text
 	messagebox_text.assign(text);
