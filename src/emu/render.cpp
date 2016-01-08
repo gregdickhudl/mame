@@ -1144,27 +1144,30 @@ const render_screen_list &render_target::view_screens(int viewindex)
 void render_target::compute_visible_area(INT32 target_width, INT32 target_height, float target_pixel_aspect, int target_orientation, INT32 &visible_width, INT32 &visible_height)
 {
 	float width, height;
-	float scale;
+	float xscale, yscale;
 
 	// constrained case
 	if (target_pixel_aspect != 0.0f)
 	{
-		// start with the aspect ratio of the square pixel layout
-		width = m_curview->effective_aspect(m_layerconfig);
-		height = 1.0f;
+		if (!switchres_get_scale(this, target_width, target_height, width, height, xscale, yscale))
+		{
+			// start with the aspect ratio of the square pixel layout
+			width = m_curview->effective_aspect(m_layerconfig);
+			height = 1.0f;
 
-		// first apply target orientation
-		if (target_orientation & ORIENTATION_SWAP_XY)
-			FSWAP(width, height);
+			// first apply target orientation
+			if (target_orientation & ORIENTATION_SWAP_XY)
+				FSWAP(width, height);
 
-		// apply the target pixel aspect ratio
-		height *= target_pixel_aspect;
+			// apply the target pixel aspect ratio
+			height *= target_pixel_aspect;
 
-		// based on the height/width ratio of the source and target, compute the scale factor
-		if (width / height > (float)target_width / (float)target_height)
-			scale = (float)target_width / width;
-		else
-			scale = (float)target_height / height;
+			// based on the height/width ratio of the source and target, compute the scale factor
+			if (width / height > (float)target_width / (float)target_height)
+				xscale = yscale = (float)target_width / width;
+			else
+				xscale = yscale = (float)target_height / height;
+		}
 	}
 
 	// stretch-to-fit case
@@ -1172,12 +1175,12 @@ void render_target::compute_visible_area(INT32 target_width, INT32 target_height
 	{
 		width = (float)target_width;
 		height = (float)target_height;
-		scale = 1.0f;
+		xscale = yscale = 1.0f;
 	}
 
 	// set the final width/height
-	visible_width = render_round_nearest(width * scale);
-	visible_height = render_round_nearest(height * scale);
+	visible_width = render_round_nearest(width * xscale);
+	visible_height = render_round_nearest(height * yscale);
 }
 
 
@@ -1250,6 +1253,10 @@ void render_target::compute_minimum_size(INT32 &minwidth, INT32 &minheight)
 	// round up
 	minwidth = render_round_nearest(maxxscale);
 	minheight = render_round_nearest(maxyscale);
+
+	// check for resolution changes, but only for window #0
+	if (this->index() == 0)
+		switchres_check_resolution_change(m_manager.machine(), minwidth, minheight);
 }
 
 
@@ -2521,7 +2528,7 @@ float render_manager::ui_aspect(render_container *rc)
 
 		// if we have a valid pixel aspect, apply that and return
 		if (m_ui_target->pixel_aspect() != 0.0f)
-				return (aspect / m_ui_target->pixel_aspect());
+				aspect /= m_ui_target->pixel_aspect();
 	} else {
 		// single screen container
 

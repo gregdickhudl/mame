@@ -36,6 +36,9 @@
 
 #define DEBUG_SLOW_LOCKS    0
 
+extern bool switchres_modeline_setup(running_machine &machine);
+extern bool switchres_modeline_remove(running_machine &machine);
+
 //**************************************************************************
 //  MACROS
 //**************************************************************************
@@ -45,8 +48,6 @@
 #else
 #define UNICODE_POSTFIX "A"
 #endif
-
-
 
 //**************************************************************************
 //  TYPE DEFINITIONS
@@ -277,7 +278,7 @@ const options_entry windows_options::s_option_entries[] =
 
 	// DirectDraw-specific options
 	{ NULL,                                           NULL,       OPTION_HEADER,     "DIRECTDRAW-SPECIFIC OPTIONS" },
-	{ WINOPTION_HWSTRETCH ";hws",                     "1",        OPTION_BOOLEAN,    "enables hardware stretching" },
+	{ WINOPTION_HWSTRETCH ";hws",                     "0",        OPTION_BOOLEAN,    "enables hardware stretching" },
 
 	// post-processing options
 	{ NULL,                                                     NULL,                OPTION_HEADER,     "DIRECT3D POST-PROCESSING OPTIONS" },
@@ -544,6 +545,10 @@ void windows_osd_interface::init(running_machine &machine)
 	const char *stemp;
 	windows_options &options = downcast<windows_options &>(machine.options());
 
+	// Switchres
+	switchres_init_osd(machine);
+	switchres_modeline_setup(machine);
+
 	// determine if we are benchmarking, and adjust options appropriately
 	int bench = options.bench();
 	std::string error_string;
@@ -639,6 +644,9 @@ void windows_osd_interface::init(running_machine &machine)
 
 void windows_osd_interface::osd_exit()
 {
+	// Remove Switchres
+	switchres_modeline_remove(machine());
+
 	// no longer have a machine
 	g_current_machine = NULL;
 

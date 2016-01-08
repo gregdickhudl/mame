@@ -29,7 +29,7 @@ public:
 
 private:
 	// internal state
-	enum { VISIBLE_GAMES_IN_LIST = 15 };
+	enum { VISIBLE_GAMES_IN_LIST = 99999 };
 	UINT8                   m_error;
 	UINT8                   m_rerandomize;
 	char                    m_search[40];

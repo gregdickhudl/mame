@@ -106,8 +106,9 @@ public:
 	// drawing data
 	osd_renderer *      m_renderer;
 
-private:
 	void draw_video_contents(HDC dc, int update);
+
+private:
 	int complete_create();
 	void set_starting_view(int index, const char *defview, const char *view);
 	int wnd_extra_width();

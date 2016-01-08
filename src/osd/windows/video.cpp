@@ -190,13 +190,23 @@ void windows_osd_interface::update(bool skip_redraw)
 //      profiler_mark(PROFILER_END);
 	}
 
+	// if we're running, disable some parts of the debugger
+	if ((machine().debug_flags & DEBUG_FLAG_OSD_ENABLED) != 0)
+		debugger_update();
+}
+
+
+
+//============================================================
+//  poll_input
+//============================================================
+
+void windows_osd_interface::poll_input(void)
+{
 	// poll the joystick values here
 	winwindow_process_events(machine(), TRUE, FALSE);
 	wininput_poll(machine());
 	check_osd_inputs(machine());
-	// if we're running, disable some parts of the debugger
-	if ((machine().debug_flags & DEBUG_FLAG_OSD_ENABLED) != 0)
-		debugger_update();
 }
 
 
@@ -371,6 +381,8 @@ void windows_osd_interface::extract_video_config()
 	stemp = options().video();
 	if (strcmp(stemp, "d3d") == 0)
 		video_config.mode = VIDEO_MODE_D3D;
+	else if (strcmp(stemp, "d3d9ex") == 0)
+		video_config.mode = VIDEO_MODE_D3D9EX;
 	else if (strcmp(stemp, "auto") == 0)
 		video_config.mode = VIDEO_MODE_D3D;
 	else if (strcmp(stemp, "ddraw") == 0)
@@ -397,7 +409,7 @@ void windows_osd_interface::extract_video_config()
 		video_config.mode = VIDEO_MODE_GDI;
 	}
 	video_config.waitvsync     = options().wait_vsync();
-	video_config.syncrefresh   = options().sync_refresh();
+	video_config.syncrefresh   = machine().options().sync_refresh();
 	video_config.triplebuf     = options().triple_buffer();
 	video_config.switchres     = options().switch_res();
 

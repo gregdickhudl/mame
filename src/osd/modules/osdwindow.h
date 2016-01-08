@@ -123,6 +123,9 @@ public:
 
 	virtual void destroy() = 0;
 
+	// SwitchRes mode
+	modeline *          m_switchres_mode;
+
 protected:
 	/* Internal flags */
 	static const int FI_CHANGED                 = 0x010000;

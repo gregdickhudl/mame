@@ -246,6 +246,7 @@ public:
 	// general overridables
 	virtual void init(running_machine &machine) override;
 	virtual void update(bool skip_redraw) override;
+	virtual void poll_input(void) override;
 
 	// video overridables
 	virtual void *get_slider_list() override;

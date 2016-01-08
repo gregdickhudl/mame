@@ -40,6 +40,13 @@
 #include "modules/opengl/gl_shader_tool.h"
 #include "modules/opengl/gl_shader_mgr.h"
 
+#ifdef SDLMAME_UNIX
+// DRM
+#include <xf86drm.h>
+#include <xf86drmMode.h>
+#include <fcntl.h>
+#endif
+
 #if defined(SDLMAME_MACOSX)
 #ifndef APIENTRY
 #define APIENTRY
@@ -702,7 +709,9 @@ void sdl_info_ogl::set_blendmode(int blendmode)
 
 static void drawogl_exit(void);
 static void load_gl_lib(running_machine &machine);
-
+#ifdef SDLMAME_UNIX
+static int drawogl_drm_open(void);
+#endif
 
 
 // OGL 1.3
@@ -746,6 +755,9 @@ static void texture_set_data(ogl_texture_info *texture, const render_texinfo *te
 static int shown_video_info = 0;
 static int dll_loaded = 0;
 
+// Fixme: need to find a better way to make fd available to window.cpp
+int fd = 0;
+
 //============================================================
 //  drawsdl_init
 //============================================================
@@ -770,6 +782,11 @@ int drawogl_init(running_machine &machine, osd_draw_callbacks *callbacks)
 	osd_printf_verbose("Using SDL multi-window OpenGL driver (SDL 2.0+)\n");
 #else
 	osd_printf_verbose("Using SDL single-window OpenGL driver (SDL 1.2)\n");
+#endif
+
+#ifdef SDLMAME_UNIX
+	// Try to open DRM device
+	fd = drawogl_drm_open();
 #endif
 
 	return 0;
@@ -1045,7 +1062,7 @@ int sdl_info_ogl::create()
 		osd_printf_error("%s\n", m_gl_context->LastErrorMsg());
 		return 1;
 	}
-	m_gl_context->SetSwapInterval(video_config.waitvsync ? 1 : 0);
+	m_gl_context->SetSwapInterval((video_config.waitvsync && fd == 0) ? 1 : 0);
 
 
 	m_blittimer = 0;
@@ -1072,6 +1089,26 @@ int sdl_info_ogl::create()
 	return 0;
 }
 
+
+#ifdef SDLMAME_UNIX
+//============================================================
+//  drawogl_drm_open
+//============================================================
+
+static int drawogl_drm_open(void)
+{
+	const char *node = {"/dev/dri/card0"};
+
+	fd = open(node, O_RDWR | O_CLOEXEC);
+	if (fd < 0)
+	{
+		fprintf(stderr, "cannot open %s\n", node);
+		return 0;
+	}
+	osd_printf_verbose("%s successfully opened\n", node);
+	return fd;
+}
+#endif
 
 //============================================================
 //  sdl_info::destroy
@@ -1872,6 +1909,19 @@ int sdl_info_ogl::draw(const int update)
 
 	window().m_primlist->release_lock();
 	m_init_context = 0;
+
+#ifdef SDLMAME_UNIX
+	// wait for vertical retrace
+	if (video_config.waitvsync && fd)
+	{
+		drmVBlank vbl;
+		memset(&vbl, 0, sizeof(vbl));
+		vbl.request.type = DRM_VBLANK_RELATIVE;
+		vbl.request.sequence = 1;
+		if (drmWaitVBlank(fd, &vbl) != 0)
+			osd_printf_verbose("drmWaitVBlank failed\n");
+	}
+#endif
 
 	m_gl_context->SwapBuffer();
 

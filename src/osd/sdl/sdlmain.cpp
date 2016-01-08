@@ -62,6 +62,10 @@
 
 #include "watchdog.h"
 
+extern bool switchres_modeline_setup(running_machine &machine);
+extern bool switchres_modeline_reset(running_machine &machine);
+extern bool switchres_modeline_remove(running_machine &machine);
+
 //============================================================
 //  OPTIONS
 //============================================================
@@ -346,6 +350,9 @@ void sdl_osd_interface::osd_exit()
 		SDL_Quit();
 #endif
 	}
+	// SwitchRes modeline removal
+	switchres_modeline_reset(machine());
+	switchres_modeline_remove(machine());
 }
 
 //============================================================
@@ -484,6 +491,10 @@ void sdl_osd_interface::init(running_machine &machine)
 	osd_common_t::init(machine);
 
 	const char *stemp;
+
+	// Switchres
+	switchres_init_osd(machine);
+	switchres_modeline_setup(machine);
 
 	// determine if we are benchmarking, and adjust options appropriately
 	int bench = options().bench();

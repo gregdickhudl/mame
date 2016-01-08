@@ -1261,6 +1261,15 @@ std::string &ui_manager::game_info_astring(std::string &str)
 		}
 	}
 
+	/* display SwitchRes information */
+	modeline *mode = &machine().switchres.best_mode;
+	if (mode->hactive)
+	{
+		str.append("\nSwitchres:\n");
+		strcatprintf(str, "%d " UTF8_MULTIPLY " %d%s%s %2.3f Hz %2.3f kHz\n",
+			mode->hactive, mode->vactive, mode->interlace?"i":"p", mode->doublescan?"d":"", mode->vfreq, mode->hfreq/1000);
+	}
+
 	return str;
 }
 

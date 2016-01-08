@@ -23,7 +23,10 @@
 #include "winmain.h"
 #include "window.h"
 
-
+extern int win_version;
+extern float switchres_get_aspect(modeline *mode, float aspect);
+extern int display_set_desktop_mode(modeline *mode, int flags);
+extern int display_restore_desktop_mode(int flags);
 
 //============================================================
 //  TYPE DEFINITIONS
@@ -312,7 +315,6 @@ render_primitive_list *renderer_dd::get_primitives()
 }
 
 
-
 //============================================================
 //  drawdd_window_draw
 //============================================================
@@ -424,13 +426,6 @@ int renderer_dd::draw(const int update)
 	result = IDirectDrawSurface7_Unlock(blit, NULL);
 	if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X unlocking blit surface\n", (int)result);
 
-	// sync to VBLANK
-	if ((video_config.waitvsync || video_config.syncrefresh) && window().machine().video().throttled() && (!window().fullscreen() || back == NULL))
-	{
-		result = IDirectDraw7_WaitForVerticalBlank(ddraw, DDWAITVB_BLOCKBEGIN, NULL);
-		if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X waiting for VBLANK\n", (int)result);
-	}
-
 	// complete the blitting
 	blit_to_primary(blitwidth, blitheight);
 	return 0;
@@ -447,9 +442,19 @@ int renderer_dd::ddraw_create()
 	HRESULT result;
 	int verify;
 
+	// Get Windows version
+	OSVERSIONINFOA lpVersionInfo;
+	memset(&lpVersionInfo, 0, sizeof(OSVERSIONINFOA));
+	lpVersionInfo.dwOSVersionInfoSize = sizeof(OSVERSIONINFOA);
+	GetVersionExA (&lpVersionInfo);
+
 	// if a device exists, free it
 	if (ddraw != NULL)
 		ddraw_delete();
+
+	// Windows 7 hack to allow progressive/interlace mode switching
+	if (lpVersionInfo.dwMajorVersion > 5)
+		display_set_desktop_mode(m_switchres_mode, CDS_TEST | CDS_UPDATEREGISTRY);
 
 	// create the DirectDraw object
 	result = (*directdrawcreateex)(adapter_ptr, (LPVOID *)&ddraw, WRAP_REFIID(IID_IDirectDraw7), NULL);
@@ -495,9 +500,16 @@ int renderer_dd::ddraw_create()
 		}
 	}
 
+	// Windows 7 hack to allow progressive/interlace mode switching
+	if (lpVersionInfo.dwMajorVersion > 5)
+		display_restore_desktop_mode(CDS_TEST | CDS_UPDATEREGISTRY);
+
 	return ddraw_create_surfaces();
 
 error:
+	// Windows 7 hack to allow progressive/interlace mode switching
+	if (lpVersionInfo.dwMajorVersion > 5)
+		display_restore_desktop_mode(CDS_TEST | CDS_UPDATEREGISTRY);
 	ddraw_delete();
 	return 1;
 }
@@ -519,11 +531,11 @@ int renderer_dd::ddraw_create_surfaces()
 	primarydesc.ddsCaps.dwCaps = DDSCAPS_PRIMARYSURFACE;
 
 	// for triple-buffered full screen mode, allocate flipping surfaces
-	if (window().fullscreen() && video_config.triplebuf)
+	if (window().fullscreen())
 	{
 		primarydesc.dwFlags |= DDSD_BACKBUFFERCOUNT;
 		primarydesc.ddsCaps.dwCaps |= DDSCAPS_FLIP | DDSCAPS_COMPLEX;
-		primarydesc.dwBackBufferCount = 2;
+		primarydesc.dwBackBufferCount = 1;
 	}
 
 	// create the primary surface and report errors
@@ -532,7 +544,7 @@ int renderer_dd::ddraw_create_surfaces()
 
 	// full screen mode: get the back surface
 	back = NULL;
-	if (window().fullscreen() && video_config.triplebuf)
+	if (window().fullscreen())
 	{
 		DDSCAPS2 caps = { DDSCAPS_BACKBUFFER };
 		result = IDirectDrawSurface7_GetAttachedSurface(primary, &caps, &back);
@@ -829,7 +841,7 @@ int renderer_dd::create_clipper()
 void renderer_dd::compute_blit_surface_size()
 {
 	INT32 newwidth, newheight;
-	int xscale, yscale;
+	float xscale, yscale;
 	RECT client;
 
 	// start with the minimum size
@@ -837,6 +849,12 @@ void renderer_dd::compute_blit_surface_size()
 
 	// get the window's client rectangle
 	GetClientRect(window().m_hwnd, &client);
+	modeline *mode = m_switchres_mode;
+	if (mode && mode->hactive)
+	{
+		client.right = mode->type & MODE_ROTATED? mode->vactive : mode->hactive;
+		client.bottom = mode->type & MODE_ROTATED? mode->hactive : mode->vactive;
+	}
 
 	// hardware stretch case: apply prescale
 	if (video_config.hwstretch)
@@ -855,47 +873,13 @@ void renderer_dd::compute_blit_surface_size()
 	// non stretch case
 	else
 	{
-		INT32 target_width = rect_width(&client);
-		INT32 target_height = rect_height(&client);
-		float desired_aspect = 1.0f;
-
-		// compute the appropriate visible area if we're trying to keepaspect
-		if (video_config.keepaspect)
-		{
-			osd_monitor_info *monitor = window().winwindow_video_window_monitor(NULL);
-			window().target()->compute_visible_area(target_width, target_height, monitor->aspect(), window().target()->orientation(), target_width, target_height);
-			desired_aspect = (float)target_width / (float)target_height;
-		}
-
-		// compute maximum integral scaling to fit the window
-		xscale = (target_width + 2) / newwidth;
-		yscale = (target_height + 2) / newheight;
-
-		// try a little harder to keep the aspect ratio if desired
-		if (video_config.keepaspect)
-		{
-			// if we could stretch more in the X direction, and that makes a better fit, bump the xscale
-			while (newwidth * (xscale + 1) <= rect_width(&client) &&
-				better_mode(newwidth * xscale, newheight * yscale, newwidth * (xscale + 1), newheight * yscale, desired_aspect))
-				xscale++;
-
-			// if we could stretch more in the Y direction, and that makes a better fit, bump the yscale
-			while (newheight * (yscale + 1) <= rect_height(&client) &&
-				better_mode(newwidth * xscale, newheight * yscale, newwidth * xscale, newheight * (yscale + 1), desired_aspect))
-				yscale++;
-
-			// now that we've maxed out, see if backing off the maximally stretched one makes a better fit
-			if (rect_width(&client) - newwidth * xscale < rect_height(&client) - newheight * yscale)
-			{
-				while (xscale > 1 && better_mode(newwidth * xscale, newheight * yscale, newwidth * (xscale - 1), newheight * yscale, desired_aspect))
-					xscale--;
-			}
-			else
-			{
-				while (yscale > 1 && better_mode(newwidth * xscale, newheight * yscale, newwidth * xscale, newheight * (yscale - 1), desired_aspect))
-					yscale--;
-			}
-		}
+		INT32 target_width = client.right;
+		INT32 target_height = client.bottom;
+		float width = newwidth;
+		float height = newheight;
+		switchres_get_scale(window().target(), target_width, target_height, width, height, xscale, yscale);
+		newwidth = width;
+		newheight = height;
 	}
 
 	// ensure at least a scale factor of 1
@@ -957,6 +941,7 @@ void renderer_dd::blit_to_primary(int srcwidth, int srcheight)
 	RECT clear, outer, dest, source;
 	INT32 dstwidth, dstheight;
 	HRESULT result;
+	modeline *mode = m_switchres_mode;
 
 	// compute source rect
 	source.left = source.top = 0;
@@ -981,7 +966,9 @@ void renderer_dd::blit_to_primary(int srcwidth, int srcheight)
 	// compute outer rect -- full screen version
 	else
 	{
-		calc_fullscreen_margins(primarydesc.dwWidth, primarydesc.dwHeight, &outer);
+		int desc_width = mode && mode->hactive? (mode->type & MODE_ROTATED? mode->vactive : mode->hactive) : primarydesc.dwWidth;
+		int desc_height = mode && mode->hactive? (mode->type & MODE_ROTATED? mode->hactive : mode->vactive) : primarydesc.dwHeight;
+		calc_fullscreen_margins(desc_width, desc_height, &outer);
 	}
 
 	// if we're respecting the aspect ratio, we need to adjust to fit
@@ -1008,7 +995,7 @@ void renderer_dd::blit_to_primary(int srcwidth, int srcheight)
 	else if (video_config.keepaspect)
 	{
 		// compute the appropriate visible area
-		window().target()->compute_visible_area(rect_width(&outer), rect_height(&outer), monitor->aspect(), window().target()->orientation(), dstwidth, dstheight);
+		window().target()->compute_visible_area(rect_width(&outer), rect_height(&outer), switchres_get_aspect(mode, window().winwindow_video_window_monitor(NULL)->aspect()), window().target()->orientation(), dstwidth, dstheight);
 	}
 
 	// center within
@@ -1070,10 +1057,24 @@ void renderer_dd::blit_to_primary(int srcwidth, int srcheight)
 	result = IDirectDrawSurface7_Blt(target, &dest, blit, &source, DDBLT_WAIT, NULL);
 	if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X blitting to the screen\n", (int)result);
 
-	// page flip if triple buffered
+	// sync to VBLANK begin
+	if (video_config.waitvsync && m_switchres_mode && window().machine().video().throttled())
+	{
+		result = IDirectDraw7_WaitForVerticalBlank(ddraw, DDWAITVB_BLOCKBEGIN, NULL);
+		if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X waiting for VBLANK\n", (int)result);
+	}
+
+	// page flip
 	if (window().fullscreen() && back != NULL)
 	{
-		result = IDirectDrawSurface7_Flip(primary, NULL, DDFLIP_WAIT);
+		result = IDirectDrawSurface7_Flip(primary, NULL, video_config.triplebuf?DDFLIP_WAIT:DDFLIP_NOVSYNC);
+		if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X waiting for VBLANK\n", (int)result);
+	}
+
+	// sync to VBLANK end
+	if (video_config.waitvsync && m_switchres_mode && window().machine().video().throttled())
+	{
+		result = IDirectDraw7_WaitForVerticalBlank(ddraw, DDWAITVB_BLOCKEND, NULL);
 		if (result != DD_OK) osd_printf_verbose("DirectDraw: Error %08X waiting for VBLANK\n", (int)result);
 	}
 }
@@ -1239,10 +1240,6 @@ static HRESULT WINAPI enum_modes_callback(LPDDSURFACEDESC2 desc, LPVOID context)
 	// compute refresh score
 	refresh_score = 1.0f / (1.0f + fabs((double)desc->dwRefreshRate - einfo->target_refresh));
 
-	// if refresh is smaller than we'd like, it only scores up to 0.1
-	if ((double)desc->dwRefreshRate < einfo->target_refresh)
-		refresh_score *= 0.1f;
-
 	// if we're looking for a particular refresh, make sure it matches
 	if (desc->dwRefreshRate == einfo->window->m_win_config.refresh)
 		refresh_score = 2.0f;
@@ -1272,6 +1269,19 @@ void renderer_dd::pick_best_mode()
 {
 	mode_enum_info einfo;
 	HRESULT result;
+
+	// only link window #0 to SwitchRes
+	if (window().m_hwnd == window().m_focus_hwnd)
+	{
+		m_switchres_mode = &window().machine().switchres.best_mode;
+		if (m_switchres_mode)
+		{
+			width = m_switchres_mode->type & MODE_ROTATED? m_switchres_mode->height : m_switchres_mode->width;
+			height = m_switchres_mode->type & MODE_ROTATED? m_switchres_mode->width : m_switchres_mode->height;
+			refresh = (int)m_switchres_mode->refresh;
+			return;
+		}
+	}
 
 	// determine the minimum width/height for the selected target
 	// note: technically we should not be calling this from an alternate window

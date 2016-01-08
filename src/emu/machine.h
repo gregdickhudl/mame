@@ -235,6 +235,9 @@ public:
 	// debugger-related information
 	UINT32                  debug_flags;        // the current debug flags
 
+	// SwitchRes patch
+	switchres_manager       switchres;			// SwitchRes data
+
 	// internal core information
 	romload_private *       romload_data;       // internal data from romload.c
 	ui_input_private *      ui_input_data;      // internal data from uiinput.c

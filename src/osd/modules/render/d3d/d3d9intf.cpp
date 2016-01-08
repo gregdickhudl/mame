@@ -26,6 +26,7 @@
 //============================================================
 
 typedef IDirect3D9 *(WINAPI *direct3dcreate9_ptr)(UINT SDKVersion);
+typedef HRESULT(WINAPI *direct3dcreate9ex_ptr)(UINT SDKVersion, IDirect3D9Ex **ppD3D);
 
 namespace d3d
 {
@@ -58,13 +59,22 @@ static inline void convert_present_params(const present_parameters *params, D3DP
 	d3d9params->PresentationInterval = params->PresentationInterval;
 }
 
-
+static inline void display_mode_from_params(const present_parameters *params, D3DDISPLAYMODEEX *displaymode)
+{
+	memset(displaymode, 0, sizeof(D3DDISPLAYMODEEX));
+	displaymode->Size = sizeof(D3DDISPLAYMODEEX);
+	displaymode->Width = params->BackBufferWidth;
+	displaymode->Height = params->BackBufferHeight;
+	displaymode->RefreshRate = params->FullScreen_RefreshRateInHz;
+	displaymode->Format = params->BackBufferFormat;
+	displaymode->ScanLineOrdering = params->Interlaced? D3DSCANLINEORDERING_INTERLACED : D3DSCANLINEORDERING_PROGRESSIVE;
+}
 
 //============================================================
 //  drawd3d9_init
 //============================================================
 
-base *drawd3d9_init(void)
+base *drawd3d9_init(bool use_d3d9ex)
 {
 	bool post_available = true;
 
@@ -77,7 +87,15 @@ base *drawd3d9_init(void)
 	}
 
 	// import the create function
+	direct3dcreate9ex_ptr direct3dcreate9ex = (direct3dcreate9ex_ptr)GetProcAddress(dllhandle, "Direct3DCreate9Ex");
 	direct3dcreate9_ptr direct3dcreate9 = (direct3dcreate9_ptr)GetProcAddress(dllhandle, "Direct3DCreate9");
+
+	if (direct3dcreate9ex == nullptr)
+	{
+		use_d3d9ex = false;
+		osd_printf_verbose("Direct3D: Unable to find Direct3DCreate9Ex\n");
+	}
+
 	if (direct3dcreate9 == nullptr)
 	{
 		osd_printf_verbose("Direct3D: Unable to find Direct3DCreate9\n");
@@ -86,12 +104,27 @@ base *drawd3d9_init(void)
 	}
 
 	// create our core direct 3d object
-	IDirect3D9 *d3d9 = (*direct3dcreate9)(D3D_SDK_VERSION);
-	if (d3d9 == nullptr)
+
+	void *d3d9obj = nullptr;
+
+	if (use_d3d9ex)
 	{
-		osd_printf_verbose("Direct3D: Error attempting to initialize Direct3D9\n");
-		FreeLibrary(dllhandle);
-		return nullptr;
+		(*direct3dcreate9ex)(D3D_SDK_VERSION, (IDirect3D9Ex**) &d3d9obj);
+		if (d3d9obj == nullptr)
+		{
+			osd_printf_verbose("Direct3D: Error attempting to initialize Direct3D9Ex\n");
+			use_d3d9ex = false;
+		}
+	}
+	if (d3d9obj == nullptr)
+	{
+		d3d9obj = (*direct3dcreate9)(D3D_SDK_VERSION);
+		if (d3d9obj == nullptr)
+		{
+			osd_printf_verbose("Direct3D: Error attempting to initialize Direct3D9\n");
+			FreeLibrary(dllhandle);
+			return nullptr;
+		}
 	}
 
 	// dynamically grab the shader load function from d3dx9.dll
@@ -121,13 +154,14 @@ base *drawd3d9_init(void)
 	// allocate an object to hold our data
 	auto d3dptr = global_alloc(base);
 	d3dptr->version = 9;
-	d3dptr->d3dobj = d3d9;
+	d3dptr->d3dobj = d3d9obj;
 	d3dptr->dllhandle = dllhandle;
+	d3dptr->d3d9ex_available = use_d3d9ex;
 	d3dptr->post_fx_available = post_available;
 	d3dptr->libhandle = fxhandle;
 	set_interfaces(d3dptr);
 
-	osd_printf_verbose("Direct3D: Using Direct3D 9\n");
+	osd_printf_verbose("Direct3D: Using Direct3D 9%s\n", use_d3d9ex ? "Ex" : "");
 	return d3dptr;
 }
 
@@ -150,11 +184,37 @@ static HRESULT check_device_type(base *d3dptr, UINT adapter, D3DDEVTYPE devtype,
 	return IDirect3D9_CheckDeviceType(d3d9, adapter, devtype, format, backformat, windowed);
 }
 
-static HRESULT create_device(base *d3dptr, UINT adapter, D3DDEVTYPE devtype, HWND focus, DWORD behavior, present_parameters *params, device **dev)
+static HRESULT create_device(base *d3dintf, UINT adapter, D3DDEVTYPE devtype, HWND focus, DWORD behavior, present_parameters *params, device **dev)
 {
-	IDirect3D9 *d3d9 = (IDirect3D9 *)d3dptr->d3dobj;
 	D3DPRESENT_PARAMETERS d3d9params;
 	convert_present_params(params, &d3d9params);
+
+	if (d3dintf->d3d9ex_available)
+	{
+		HRESULT result;
+		IDirect3D9Ex *d3d9ex = (IDirect3D9Ex *)d3dintf->d3dobj;
+
+		if (params->Windowed)
+			result = d3d9ex->CreateDeviceEx(adapter, devtype, focus, behavior, &d3d9params, NULL, (IDirect3DDevice9Ex **)dev);
+		else
+		{
+			D3DDISPLAYMODEEX displaymode;
+			display_mode_from_params(params, &displaymode);
+			result = d3d9ex->CreateDeviceEx(adapter, devtype, focus, behavior, &d3d9params, &displaymode, (IDirect3DDevice9Ex **)dev);
+		}
+		
+		if (result == D3D_OK)
+		{
+			HRESULT latency_ok = IDirect3DDevice9Ex_SetMaximumFrameLatency((IDirect3DDevice9Ex *)*dev, 1);
+			if (latency_ok != D3D_OK)
+			{
+				osd_printf_error("Unable to set Direct3DEx device maximum frame latency\n");
+			}
+		}
+		return result;
+	}
+
+	IDirect3D9 *d3d9 = (IDirect3D9 *)d3dintf->d3dobj;
 	return IDirect3D9_CreateDevice(d3d9, adapter, devtype, focus, behavior, &d3d9params, (IDirect3DDevice9 **)dev);
 }
 
@@ -361,11 +421,28 @@ static ULONG device_release(device *dev)
 }
 
 
-static HRESULT device_reset(device *dev, present_parameters *params)
+static HRESULT device_reset(base *d3dintf, device *dev, present_parameters *params)
 {
-	IDirect3DDevice9 *device = (IDirect3DDevice9 *)dev;
 	D3DPRESENT_PARAMETERS d3d9params;
 	convert_present_params(params, &d3d9params);
+
+	if (d3dintf->d3d9ex_available)
+	{
+		HRESULT result;
+		IDirect3DDevice9Ex *device = (IDirect3DDevice9Ex *)dev;
+
+		if (params->Windowed)
+			result = IDirect3DDevice9Ex_ResetEx(device, &d3d9params, NULL);
+		else
+		{
+			D3DDISPLAYMODEEX displaymode;
+			display_mode_from_params(params, &displaymode);
+			result = IDirect3DDevice9Ex_ResetEx(device, &d3d9params, &displaymode);
+		}
+		return result;
+	}
+
+	IDirect3DDevice9 *device = (IDirect3DDevice9 *)dev;
 	return IDirect3DDevice9_Reset(device, &d3d9params);
 }
 
@@ -462,8 +539,13 @@ static HRESULT device_stretch_rect(device *dev, surface *source, const RECT *src
 }
 
 
-static HRESULT device_test_cooperative_level(device *dev)
+static HRESULT device_test_cooperative_level(base* d3dintf, device *dev)
 {
+	if (d3dintf->d3d9ex_available) {
+		IDirect3DDevice9Ex *device = (IDirect3DDevice9Ex *)dev;
+		return IDirect3DDevice9Ex_CheckDeviceState(device, NULL);
+	}
+
 	IDirect3DDevice9 *device = (IDirect3DDevice9 *)dev;
 	return IDirect3DDevice9_TestCooperativeLevel(device);
 }

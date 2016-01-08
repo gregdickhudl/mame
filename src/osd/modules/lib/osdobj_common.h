@@ -47,7 +47,6 @@
 #define OSDOPTION_KEEPASPECT            "keepaspect"
 #define OSDOPTION_UNEVENSTRETCH         "unevenstretch"
 #define OSDOPTION_WAITVSYNC             "waitvsync"
-#define OSDOPTION_SYNCREFRESH           "syncrefresh"
 
 #define OSDOPTION_SCREEN                "screen"
 #define OSDOPTION_ASPECT                "aspect"
@@ -111,7 +110,6 @@ public:
 	bool keep_aspect() const { return bool_value(OSDOPTION_KEEPASPECT); }
 	bool uneven_stretch() const { return bool_value(OSDOPTION_UNEVENSTRETCH); }
 	bool wait_vsync() const { return bool_value(OSDOPTION_WAITVSYNC); }
-	bool sync_refresh() const { return bool_value(OSDOPTION_SYNCREFRESH); }
 
 	// per-window options
 	const char *screen() const { return value(OSDOPTION_SCREEN); }
@@ -142,7 +140,7 @@ public:
 
 	// sound options
 	const char *sound() const { return value(OSDOPTION_SOUND); }
-	int audio_latency() const { return int_value(OSDOPTION_AUDIO_LATENCY); }
+	float audio_latency() const { return float_value(OSDOPTION_AUDIO_LATENCY); }
 
 	// CoreAudio specific options
 	const char *audio_output() const { return value(OSDOPTION_AUDIO_OUTPUT); }

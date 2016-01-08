@@ -328,6 +328,11 @@ files {
 	MAME_DIR .. "src/emu/video/vector.cpp",
 	MAME_DIR .. "src/emu/video/vector.h",
 	MAME_DIR .. "src/devices/video/poly.h",
+	MAME_DIR .. "src/emu/switchres/modeline.cpp",
+	MAME_DIR .. "src/emu/switchres/monitor.cpp",
+	MAME_DIR .. "src/emu/switchres/util.cpp",
+	MAME_DIR .. "src/emu/switchres/switchres.cpp",
+	MAME_DIR .. "src/emu/switchres/switchres.h",
 }
 
 dependency {
