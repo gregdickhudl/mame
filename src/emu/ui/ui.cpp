@@ -1027,6 +1027,9 @@ std::string &ui_manager::warnings_string(std::string &str)
 
 	str.clear();
 
+	//never show warning
+	return str;
+
 	// if no warnings, nothing to return
 	if (rom_load_warnings(machine()) == 0 && rom_load_knownbad(machine()) == 0 && !(machine().system().flags & WARNING_FLAGS) && software_load_warnings_message(machine()).length() == 0)
 		return str;
