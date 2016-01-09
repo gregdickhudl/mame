@@ -7625,22 +7625,22 @@ revlatns        // (c) 199?
 // SNK / Rock-ola games
 sasuke          // [1980] Shin Nihon Kikaku (SNK)
 satansat        // (c) 1981 SNK
-satansata       // (c) 1981 SNK
+// satansata       // (c) 1981 SNK
 zarzon          // (c) 1981 Taito, gameplay says SNK
-satansatind     // bootleg
+// satansatind     // bootleg
 vanguard        // (c) 1981 SNK
-vanguardc       // (c) 1981 SNK + Centuri
-vanguardj       // (c) 1981 SNK
+// vanguardc       // (c) 1981 SNK + Centuri
+// vanguardj       // (c) 1981 SNK
 fantasy         // (c) 1981 SNK
-fantasyu        // (c) 1981 Rock-Ola
-fantasyj        // (c) 1981 SNK
+// fantasyu        // (c) 1981 Rock-Ola
+// fantasyj        // (c) 1981 SNK
 pballoon        // (c) 1982 SNK
-pballoonr       // (c) 1982 SNK (Rock-Ola license)
+// pballoonr       // (c) 1982 SNK (Rock-Ola license)
 nibbler         // (c) 1982 Rock-ola (version 9)
-nibbler8        // (c) 1982 Rock-ola (version 8)
-nibbler6        // (c) 1982 Rock-ola (vresion 6)
-nibblerp        // (c) 1982 Rock-ola (pballoon conversion)
-nibblero        // (c) 1983 Olympia/Rock-Ola (version 8)
+// nibbler8        // (c) 1982 Rock-ola (version 8)
+// nibbler6        // (c) 1982 Rock-ola (vresion 6)
+// nibblerp        // (c) 1982 Rock-ola (pballoon conversion)
+// nibblero        // (c) 1983 Olympia/Rock-Ola (version 8)
 
 // later SNK games, each game can be identified by PCB code and ROM
 // code, the ROM code is the same between versions, and usually based
@@ -7650,7 +7650,7 @@ chameleo        // (c) 1983 Jaleco
 wwjgtin         // (c) 1984 Jaleco / Casio
 photof          // (c) 1984 Jaleco / Casio
 pinbo           // (c) 1984 Jaleco
-pinboa          // (c) 1984 Jaleco
+// pinboa          // (c) 1984 Jaleco
 pinbos          // (c) 1985 Strike
 joyfulr         // A2001      (c) 1983
 mnchmobl        // A2001      (c) 1983 + Centuri license
@@ -7663,74 +7663,74 @@ canvas          // A3008      (c) 1985
 jcross          // A3006      (c) 1984
 sgladiat        // A3006      (c) 1984
 hal21           // A4031      (c) 1985
-hal21j          //            (c) 1985 (Japan)
+// hal21j          //            (c) 1985 (Japan)
 aso             //            (c) 1985
 alphamis        //            (c) 1985
 arian           //            (c) 1985
 tnk3            // A5001      (c) 1985
-tnk3j           // A5001      (c) 1985
+// tnk3j           // A5001      (c) 1985
 athena          //       'UP' (c) 1986
 fitegolf        //       'GU' (c) 1988
-fitegolfu       //       'GU' (c) 1988
+// fitegolfu       //       'GU' (c) 1988
 countryc        // A7004 'CC' (c) 1988
 ikari           // A5004 'IW' (c) 1986
-ikaria          // A5004 'IW' (c) 1986
-ikarinc         // A5004 'IW' (c) 1986
-ikarijp         // A5004 'IW' (c) 1986 (Japan)
-ikarijpb        // bootleg
-ikariram		// bootleg
+// ikaria          // A5004 'IW' (c) 1986
+// ikarinc         // A5004 'IW' (c) 1986
+// ikarijp         // A5004 'IW' (c) 1986 (Japan)
+// ikarijpb        // bootleg
+// ikariram		// bootleg
 victroad        // A6002      (c) 1986
 dogosoke        // A6002      (c) 1986
-dogosokb        // bootleg
+// dogosokb        // bootleg
 gwar            // A7003 'GV' (c) 1987
-gwarj           // A7003 'GV' (c) 1987 (Japan)
-gwara           // A7003 'GV' (c) 1987
-gwarb           // bootleg
+// gwarj           // A7003 'GV' (c) 1987 (Japan)
+// gwara           // A7003 'GV' (c) 1987
+// gwarb           // bootleg
 bermudat        //            (c) 1987
-bermudatj       //            (c) 1987
-bermudata       // A6004 'WW' (c) 1987
+// bermudatj       //            (c) 1987
+// bermudata       // A6004 'WW' (c) 1987
 worldwar        // A6004 'WW' (c) 1987
 psychos         //       'PS' (c) 1987
-psychosj        //       'PS' (c) 1987 (Japan)
+// psychosj        //       'PS' (c) 1987 (Japan)
 chopper         // A7003 'KK' (c) 1988
-choppera        // A7003 'KK' (c) 1988
-chopperb        // A7003 'KK' (c) 1988
+// choppera        // A7003 'KK' (c) 1988
+// chopperb        // A7003 'KK' (c) 1988
 legofair        // A7003 'KK' (c) 1988
 fsoccer         // A6006 'FS' (c) 1988
-fsoccerj        // A6006 'FS' (c) 1988
-fsoccerb        //            (c) 1988
-fsoccerba       //            (c) 1988
+// fsoccerj        // A6006 'FS' (c) 1988
+// fsoccerb        //            (c) 1988
+// fsoccerba       //            (c) 1988
 tdfever         // A6006 'TD' (c) 1987
-tdfeverj        // A6006 'TD' (c) 1987
-tdfever2        // A6006 'TD'?(c) 1988
+// tdfeverj        // A6006 'TD' (c) 1987
+// tdfever2        // A6006 'TD'?(c) 1988
 ikari3          // A7007 'IK3'(c) 1989
-ikari3u         // A7007 'IK3'(c) 1989
-ikari3j         // A7007 'IK3'(c) 1989
-ikari3k         // A7007 'IK3'(c) 1989
+// ikari3u         // A7007 'IK3'(c) 1989
+// ikari3j         // A7007 'IK3'(c) 1989
+// ikari3k         // A7007 'IK3'(c) 1989
 pow             // A7008 'DG' (c) 1988
-powj            // A7008 'DG' (c) 1988
+// powj            // A7008 'DG' (c) 1988
 searchar        // A8007 'BH' (c) 1989
-searcharu       // A8007 'BH' (c) 1989
-searcharj       // A8007 'BH' (c) 1989
+// searcharu       // A8007 'BH' (c) 1989
+// searcharj       // A8007 'BH' (c) 1989
 streetsm        // A8007 'S2' (c) 1989
-streetsm1       // A7008 'S2' (c) 1989
-streetsmw       //            (c) 1989
-streetsmj       // A8007 'S2' (c) 1989
+// streetsm1       // A7008 'S2' (c) 1989
+// streetsmw       //            (c) 1989
+// streetsmj       // A8007 'S2' (c) 1989
 prehisle        // A8003 'GT' (c) 1989
-prehisleu       // A8003 'GT' (c) 1989
-prehislek       // A8003 'GT' (c) 1989
+// prehisleu       // A8003 'GT' (c) 1989
+// prehislek       // A8003 'GT' (c) 1989
 gensitou        // A8003 'GT' (c) 1989
 mechatt         // A8002 'MA' (c) 1989
-mechattj        // A8002 'MA' (c) 1989
-mechattu        // A8002 'MA' (c) 1989
-mechattu1       // A8002 'MA' (c) 1989
+// mechattj        // A8002 'MA' (c) 1989
+// mechattu        // A8002 'MA' (c) 1989
+// mechattu1       // A8002 'MA' (c) 1989
 bbusters        // A9003 'BB' (c) 1989
-bbustersu       // A9003 'BB' (c) 1989
-bbustersua      // A9003 'BB' (c) 1989
+// bbustersu       // A9003 'BB' (c) 1989
+// bbustersua      // A9003 'BB' (c) 1989
 
 // Electrocoin on early SNK hardware
 dmndrby         // G4001 'DD' (c) 1986
-dmndrbya        // G4001 'DD' (c) 1986
+// dmndrbya        // G4001 'DD' (c) 1986
 
 // Neo Geo games
 // the four digits number is the game ID stored at address 0x0108 of the program ROM
@@ -7738,18 +7738,18 @@ dmndrbya        // G4001 'DD' (c) 1986
 neogeo
 nam1975         // 0001 (c) 1990 SNK
 bstars          // 0002 (c) 1990 SNK
-bstarsh         // 0002 (c) 1990 SNK
+// bstarsh         // 0002 (c) 1990 SNK
 tpgolf          // 0003 (c) 1990 SNK
 mahretsu        // 0004 (c) 1990 SNK
 maglord         // 0005 (c) 1990 Alpha Denshi Co.
-maglordh        // 0005 (c) 1990 Alpha Denshi Co.
+// maglordh        // 0005 (c) 1990 Alpha Denshi Co.
 ridhero         // 0006 (c) 1990 SNK
-ridheroh        // 0006 (c) 1990 SNK
+// ridheroh        // 0006 (c) 1990 SNK
 alpham2         // 0007 (c) 1991 SNK
-alpham2p        // 0007 (c) 1991 SNK (prototype)
+// alpham2p        // 0007 (c) 1991 SNK (prototype)
 				// 0008 Sunshine (prototype) 1990 SNK
 ncombat         // 0009 (c) 1990 Alpha Denshi Co.
-ncombath        // 0009 (c) 1990 Alpha Denshi Co.
+// ncombath        // 0009 (c) 1990 Alpha Denshi Co.
 cyberlip        // 0010 (c) 1990 SNK
 superspy        // 0011 (c) 1990 SNK
 				// 0012
@@ -7757,19 +7757,19 @@ superspy        // 0011 (c) 1990 SNK
 mutnat          // 0014 (c) 1992 SNK
 				// 0015
 kotm            // 0016 (c) 1991 SNK
-kotmh           // 0016 (c) 1991 SNK
+// kotmh           // 0016 (c) 1991 SNK
 sengoku         // 0017 (c) 1991 SNK
-sengokuh        // 0017 (c) 1991 SNK
+// sengokuh        // 0017 (c) 1991 SNK
 burningf        // 0018 (c) 1991 SNK
-burningfh       // 0018 (c) 1991 SNK
-burningfp       // 0018 (c) 1991 SNK (prototype)
+// burningfh       // 0018 (c) 1991 SNK
+// burningfp       // 0018 (c) 1991 SNK (prototype)
 lbowling        // 0019 (c) 1990 SNK
 gpilots         // 0020 (c) 1991 SNK
-gpilotsh        // 0020 (c) 1991 SNK
+// gpilotsh        // 0020 (c) 1991 SNK
 joyjoy          // 0021 (c) 1990 SNK
 bjourney        // 0022 (c) 1990 Alpha Denshi Co.
 quizdais        // 0023 (c) 1991 SNK
-quizdaisk       // 0123 (c) 1991 SNK
+// quizdaisk       // 0123 (c) 1991 SNK
 lresort         // 0024 (c) 1992 SNK
 eightman        // 0025 (c) 1991 SNK / Pallas
 				// 0026 Fun Fun Brothers (prototype) 1991 Alpha
@@ -7777,10 +7777,10 @@ minasan         // 0027 (c) 1990 Monolith Corp.
 				// 0028 Dunk Star (prototype) Sammy
 legendos        // 0029 (c) 1991 SNK
 2020bb          // 0030 (c) 1991 SNK / Pallas
-2020bba         // 0030 (c) 1991 SNK / Pallas
-2020bbh         // 0030 (c) 1991 SNK / Pallas
+// 2020bba         // 0030 (c) 1991 SNK / Pallas
+// 2020bbh         // 0030 (c) 1991 SNK / Pallas
 socbrawl        // 0031 (c) 1991 SNK
-socbrawlh       // 0031 (c) 1991 SNK
+// socbrawlh       // 0031 (c) 1991 SNK
 roboarmy        // 0032 (c) 1991 SNK
 fatfury1        // 0033 (c) 1991 SNK
 fbfrenzy        // 0034 (c) 1992 SNK
@@ -7789,16 +7789,16 @@ bakatono        // 0036 (c) 1991 Monolith Corp.
 crsword         // 0037 (c) 1991 Alpha Denshi Co.
 trally          // 0038 (c) 1991 Alpha Denshi Co.
 kotm2           // 0039 (c) 1992 SNK
-kotm2p          // 0039 (c) 1992 SNK (prototype)
+// kotm2p          // 0039 (c) 1992 SNK (prototype)
 sengoku2        // 0040 (c) 1993 SNK
 bstars2         // 0041 (c) 1992 SNK
 quizdai2        // 0042 (c) 1992 SNK
 3countb         // 0043 (c) 1993 SNK
 aof             // 0044 (c) 1992 SNK
 samsho          // 0045 (c) 1993 SNK
-samshoh         // 0045 (c) 1993 SNK
+// samshoh         // 0045 (c) 1993 SNK
 tophuntr        // 0046 (c) 1994 SNK
-tophuntrh       // 0046 (c) 1994 SNK
+// tophuntrh       // 0046 (c) 1994 SNK
 fatfury2        // 0047 (c) 1992 SNK
 janshin         // 0048 (c) 1994 Aicom
 androdun        // 0049 (c) 1992 Visco
@@ -7806,22 +7806,22 @@ ncommand        // 0050 (c) 1992 Alpha Denshi Co.
 viewpoin        // 0051 (c) 1992 Sammy
 ssideki         // 0052 (c) 1992 SNK
 wh1             // 0053 (c) 1992 Alpha Denshi Co.
-wh1h            // 0053 (c) 1992 Alpha Denshi Co.
-wh1ha           // 0053 (c) 1992 Alpha Denshi Co.
+// wh1h            // 0053 (c) 1992 Alpha Denshi Co.
+// wh1ha           // 0053 (c) 1992 Alpha Denshi Co.
 				// 0054 Crossed Swords 2  (CD only? not confirmed, MVS might exist)
 kof94           // 0055 (c) 1994 SNK
 aof2            // 0056 (c) 1994 SNK
-aof2a           // 0056 (c) 1994 SNK
+// aof2a           // 0056 (c) 1994 SNK
 wh2             // 0057 (c) 1993 ADK
 fatfursp        // 0058 (c) 1993 SNK
-fatfurspa       // 0058 (c) 1993 SNK
+// fatfurspa       // 0058 (c) 1993 SNK
 savagere        // 0059 (c) 1995 SNK
 fightfev        // 0060 (c) 1994 Viccom
-fightfeva       // 0060 (c) 1994 Viccom
+// fightfeva       // 0060 (c) 1994 Viccom
 ssideki2        // 0061 (c) 1994 SNK
 spinmast        // 0062 (c) 1993 Data East Corporation
 samsho2         // 0063 (c) 1994 SNK
-samsho2k        // 0063 (c) 1994 SNK (Korean hack)
+// samsho2k        // 0063 (c) 1994 SNK (Korean hack)
 wh2j            // 0064 (c) 1994 ADK / SNK
 wjammers        // 0065 (c) 1994 Data East Corporation
 karnovr         // 0066 (c) 1994 Data East Corporation
@@ -7840,18 +7840,18 @@ zedblade        // 0076 (c) 1994 NMK
 galaxyfg        // 0078 (c) 1995 Sunsoft
 strhoop         // 0079 (c) 1994 Data East Corporation
 quizkof         // 0080 (c) 1995 Saurus
-quizkofk        // 0080 (c) 1995 Saurus
+// quizkofk        // 0080 (c) 1995 Saurus
 ssideki3        // 0081 (c) 1995 SNK
 doubledr        // 0082 (c) 1995 Technos
 pbobblen        // 0083 (c) 1994 Taito
-pbobblenb       // bootleg
+// pbobblenb       // bootleg
 kof95           // 0084 (c) 1995 SNK
-kof95a          // 0084 (c) 1995 SNK, alternate board
-kof95h          // 0084 (c) 1995 SNK
+// kof95a          // 0084 (c) 1995 SNK, alternate board
+// kof95h          // 0084 (c) 1995 SNK
 				// 0085 Shinsetsu Samurai Spirits Bushidoretsuden / Samurai Shodown RPG (CD only)
 tws96           // 0086 (c) 1996 Tecmo
 samsho3         // 0087 (c) 1995 SNK
-samsho3h        // 0087 (c) 1995 SNK
+// samsho3h        // 0087 (c) 1995 SNK
 fswords         // 0187 Korean hack of samsho3
 stakwin         // 0088 (c) 1995 Saurus
 pulstar         // 0089 (c) 1995 Aicom
@@ -7861,9 +7861,9 @@ kabukikl        // 0092 (c) 1995 Hudson
 neobombe        // 0093 (c) 1997 Hudson
 gowcaizr        // 0094 (c) 1995 Technos
 rbff1           // 0095 (c) 1995 SNK
-rbff1a          // 0095 (c) 1995 SNK
+// rbff1a          // 0095 (c) 1995 SNK
 aof3            // 0096 (c) 1996 SNK
-aof3k           // 0196 Censored Korean release of aof3
+// aof3k           // 0196 Censored Korean release of aof3
 sonicwi3        // 0097 (c) 1995 Video System Co.
 				// 0098 Idol Mahjong - final romance 2 (CD only? not confirmed, MVS might exist)
 				// 0099 Neo Pool Masters
@@ -7883,20 +7883,20 @@ zintrckb        // 0211 hack - this is not a genuine MVS proto, its a bootleg ma
 overtop         // 0212 (c) 1996 ADK
 neodrift        // 0213 (c) 1996 Visco
 kof96           // 0214 (c) 1996 SNK
-kof96h          // 0214 (c) 1996 SNK
+// kof96h          // 0214 (c) 1996 SNK
 ssideki4        // 0215 (c) 1996 SNK
 kizuna          // 0216 (c) 1996 SNK
-kizuna4p        // 0216 (c) 1996 SNK - same cartridge as kizuna, needs extension board and a compatible MVS to enable 4p mode
+// kizuna4p        // 0216 (c) 1996 SNK - same cartridge as kizuna, needs extension board and a compatible MVS to enable 4p mode
 ninjamas        // 0217 (c) 1996 ADK / SNK
 ragnagrd        // 0218 (c) 1996 Saurus
 pgoal           // 0219 (c) 1996 Saurus
 ironclad        // 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype)
-ironclado       // 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype, older)
+// ironclado       // 0220 (c) 1996 Saurus - Choutetsu Brikin'ger - Iron clad (protoype, older)
 magdrop2        // 0221 (c) 1996 Data East Corporation
 samsho4         // 0222 (c) 1996 SNK
-samsho4k        // Censored Korean release of samsho4
+// samsho4k        // Censored Korean release of samsho4
 rbffspec        // 0223 (c) 1996 SNK
-rbffspeck       // 0124 (c) 1996 SNK
+// rbffspeck       // 0124 (c) 1996 SNK
 twinspri        // 0224 (c) 1996 ADK
 wakuwak7        // 0225 (c) 1996 Sunsoft
 				// 0226 Pair Pair Wars (prototype) 1996 Sunsoft?
@@ -7906,108 +7906,108 @@ ghostlop        // 0228 GhostLop (prototype) 1996? Data East
 breakers        // 0230 (c) 1996 Visco
 miexchng        // 0231 (c) 1997 Face
 kof97           // 0232 (c) 1997 SNK
-kof97h          // 0232 (c) 1997 SNK
-kof97k          // 0232 (c) 1997 SNK
-kof97pls        // bootleg of kof97
-kof97oro        // bootleg of kof97
-kog             // bootleg of kof97
+// kof97h          // 0232 (c) 1997 SNK
+// kof97k          // 0232 (c) 1997 SNK
+// kof97pls        // bootleg of kof97
+// kof97oro        // bootleg of kof97
+// kog             // bootleg of kof97
 magdrop3        // 0233 (c) 1997 Data East Corporation
 lastblad        // 0234 (c) 1997 SNK
-lastbladh       // 0234 (c) 1997 SNK
-lastsold        // 0196 Censored Korean release of lastblad
+// lastbladh       // 0234 (c) 1997 SNK
+// lastsold        // 0196 Censored Korean release of lastblad
 puzzldpr        // 0235 (c) 1997 Taito (Visco license)
 irrmaze         // 0236 (c) 1997 SNK / Saurus
 popbounc        // 0237 (c) 1997 Video System Co.
 shocktro        // 0238 (c) 1997 Saurus
-shocktroa       // 0238 (c) 1997 Saurus
+// shocktroa       // 0238 (c) 1997 Saurus
 blazstar        // 0239 (c) 1998 Yumekobo
 rbff2           // 0240 (c) 1998 SNK
-rbff2h          // 0240 (c) 1998 SNK
-rbff2k          // 0140 Censored Korean release of rbff2
+// rbff2h          // 0240 (c) 1998 SNK
+// rbff2k          // 0140 Censored Korean release of rbff2
 mslug2          // 0241 (c) 1998 SNK
 kof98           // 0242 (c) 1998 SNK
-kof98a          // 0242 (c) 1998 SNK, alternate board
-kof98k          // 0242 (c) 1998 SNK
-kof98ka         // 0242 (c) 1998 SNK
-kof98h          // 0242 (c) 1998 SNK
+// kof98a          // 0242 (c) 1998 SNK, alternate board
+// kof98k          // 0242 (c) 1998 SNK
+// kof98ka         // 0242 (c) 1998 SNK
+// kof98h          // 0242 (c) 1998 SNK
 lastbld2        // 0243 (c) 1998 SNK
 neocup98        // 0244 (c) 1998 SNK
 breakrev        // 0245 (c) 1998 Visco
 shocktr2        // 0246 (c) 1998 Saurus
-lans2004        // bootleg of shocktr2
+// lans2004        // bootleg of shocktr2
 flipshot        // 0247 (c) 1998 Visco
 pbobbl2n        // 0248 (c) 1999 Taito (SNK license)
 ctomaday        // 0249 (c) 1999 Visco
 mslugx          // 0250 (c) 1999 SNK
 kof99           // 0251 (c) 1999 SNK
-kof99h          // 0251 (c) 1999 SNK
-kof99e          // 0251 (c) 1999 SNK
-kof99k          // 0152 (c) 1999 SNK
-kof99p          // 0251 (c) 1999 SNK
+// kof99h          // 0251 (c) 1999 SNK
+// kof99e          // 0251 (c) 1999 SNK
+// kof99k          // 0152 (c) 1999 SNK
+// kof99p          // 0251 (c) 1999 SNK
 ganryu          // 0252 (c) 1999 Visco
 garou           // 0253 (c) 1999 SNK
-garouh          // 0253 (c) 1999 SNK
-garoup          // 0253 (c) 1999 SNK
-garoubl         // bootleg
+// garouh          // 0253 (c) 1999 SNK
+// garoup          // 0253 (c) 1999 SNK
+// garoubl         // bootleg
 s1945p          // 0254 (c) 1999 Psikyo
 preisle2        // 0255 (c) 1999 Yumekobo
 mslug3          // 0256 (c) 2000 SNK
 mslug3h         // 0256 (c) 2000 SNK
-mslug3b6        // bootleg
+// mslug3b6        // bootleg
 kof2000         // 0257 (c) 2000 SNK
-kof2000n        // 0257 (c) 2000 SNK
+// kof2000n        // 0257 (c) 2000 SNK
 				// 0258 SNK vs. Capcom?
 bangbead        // 0259 (c) 2000 Visco
 b2b             // 0071 (c) 2000 Visco (released by NCI in 2010)
 nitd            // 0260 (c) 2000 Eleven / Gavaking
-nitdbl          // bootleg
+// nitdbl          // bootleg
 sengoku3        // 0261 (c) 2001 Noise Factory / SNK
 kof2001         // 0262 (c) 2001 Eolith / SNK
-kof2001h        // 0262 (c) 2001 Eolith / SNK
-cthd2003        // bootleg of kof2001
-ct2k3sp         // bootleg of kof2001
-ct2k3sa         // bootleg of kof2001
+// kof2001h        // 0262 (c) 2001 Eolith / SNK
+// cthd2003        // bootleg of kof2001
+// ct2k3sp         // bootleg of kof2001
+// ct2k3sa         // bootleg of kof2001
 mslug4          // 0263 (c) 2002 Mega Enterprise
-mslug4h         // 0263 (c) 2002 Mega Enterprise
-ms4plus         // bootleg
+// mslug4h         // 0263 (c) 2002 Mega Enterprise
+// ms4plus         // bootleg
 rotd            // 0264 (c) 2002 Evoga
 kof2002         // 0265 (c) 2002 Eolith / Playmore
-kof2002b        // bootleg
-kf2k2pls        // bootleg
-kf2k2pla        // bootleg
-kf2k2mp         // bootleg
-kf2k2mp2        // bootleg
-kof10th         // bootleg of kof2002
-kf2k5uni        // bootleg of kof2002
-kf10thep        // bootleg of kof2002
-kof2k4se        // bootleg of kof2002
+// kof2002b        // bootleg
+// kf2k2pls        // bootleg
+// kf2k2pla        // bootleg
+// kf2k2mp         // bootleg
+// kf2k2mp2        // bootleg
+// kof10th         // bootleg of kof2002
+// kf2k5uni        // bootleg of kof2002
+// kf10thep        // bootleg of kof2002
+// kof2k4se        // bootleg of kof2002
 matrim          // 0266 (c) 2002 Atlus
-matrimbl        // bootleg
+// matrimbl        // bootleg
 pnyaa           // 0267 (c) 2003 Aiky / Taito
-ms5pcb          // 0268 (c) 2003 Playmore
+// ms5pcb          // 0268 (c) 2003 Playmore
 mslug5          // 0268 (c) 2003 Playmore
-mslug5h         // 0268 (c) 2003 Playmore
-ms5plus         // bootleg
-svcpcb          // 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
-svcpcba         // 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
+// mslug5h         // 0268 (c) 2003 Playmore
+// ms5plus         // bootleg
+// svcpcb          // 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
+// svcpcba         // 0269 (c) 2003 Playmore / Capcom - JAMMA PCB
 svc             // 0269 (c) 2003 Playmore / Capcom
-svcboot         // bootleg
-svcplus         // bootleg
-svcplusa        // bootleg
-svcsplus        // bootleg
+// svcboot         // bootleg
+// svcplus         // bootleg
+// svcplusa        // bootleg
+// svcsplus        // bootleg
 samsho5         // 0270 (c) 2003 Playmore
-samsho5h        // 0270 (c) 2003 Playmore
-samsho5b        // bootleg
-kf2k3pcb        // 0271 (c) 2003 Playmore - JAMMA PCB
+// samsho5h        // 0270 (c) 2003 Playmore
+// samsho5b        // bootleg
+// kf2k3pcb        // 0271 (c) 2003 Playmore - JAMMA PCB
 kof2003         // 0271 (c) 2003 Playmore
-kof2003h        // 0271 (c) 2003 Playmore
-kf2k3bl         // bootleg
-kf2k3bla        // bootleg
-kf2k3pl         // bootleg
-kf2k3upl        // bootleg
+// kof2003h        // 0271 (c) 2003 Playmore
+// kf2k3bl         // bootleg
+// kf2k3bla        // bootleg
+// kf2k3pl         // bootleg
+// kf2k3upl        // bootleg
 samsh5sp        // 0272 (c) 2004 Playmore
-samsh5sph       // 0272 (c) 2004 Playmore
-samsh5spho      // 0272 (c) 2004 Playmore
+// samsh5sph       // 0272 (c) 2004 Playmore
+// samsh5spho      // 0272 (c) 2004 Playmore
 
 // Unlicensed commercial releases (no game ID)
 jockeygp
