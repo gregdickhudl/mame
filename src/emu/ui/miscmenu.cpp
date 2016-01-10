@@ -532,6 +532,260 @@ ui_menu_crosshair::~ui_menu_crosshair()
 {
 }
 
+#define AUTOFIRE_ITEM_P1_DELAY 1
+/*-------------------------------------------------
+	menu_autofire - handle the autofire settings
+	menu
+-------------------------------------------------*/
+
+ui_menu_autofire::ui_menu_autofire(running_machine &machine, render_container *container) : ui_menu(machine, container)
+{
+}
+
+ui_menu_autofire::~ui_menu_autofire()
+{
+}
+
+void ui_menu_autofire::handle()
+{
+	bool changed = false;
+
+	/* process the menu */
+	const ui_menu_event *menu_event = process(0);
+
+	/* handle events */
+	if (menu_event != nullptr && menu_event->itemref != nullptr)
+	{
+		if (menu_event->iptkey == IPT_UI_LEFT || menu_event->iptkey == IPT_UI_RIGHT)
+		{
+			int player = (int)(FPTR)menu_event->itemref - AUTOFIRE_ITEM_P1_DELAY;
+			//autofire delay
+			if (player >= 0 && player < MAX_PLAYERS)
+			{
+				int autofire_delay = machine().ioport().get_autofiredelay(player);
+
+				if (menu_event->iptkey == IPT_UI_LEFT)
+				{
+					autofire_delay--;
+					if (autofire_delay < 1)
+						autofire_delay = 1;
+				}
+				else
+				{
+					autofire_delay++;
+					if (autofire_delay > 99)
+						autofire_delay = 99;
+				}
+
+				machine().ioport().set_autofiredelay(player, autofire_delay);
+
+				changed = true;
+			}
+			//anything else is a toggle item
+			else
+			{
+				ioport_field *field = (ioport_field *)menu_event->itemref;
+				ioport_field::user_settings settings;
+				int selected_value;
+				field->get_user_settings(settings);
+				selected_value = settings.autofire;
+
+				if (menu_event->iptkey == IPT_UI_LEFT)
+				{
+					if (--selected_value < 0)
+						selected_value = 2;
+				}
+				else
+				{
+					if (++selected_value > 2)
+						selected_value = 0;
+				}
+
+				settings.autofire = selected_value;
+				field->set_user_settings(settings);
+
+				changed = true;
+			}
+		}
+	}
+
+	/* if something changed, rebuild the menu */
+	if (changed)
+		reset(UI_MENU_RESET_REMEMBER_REF);
+}
+
+
+/*-------------------------------------------------
+	menu_autofire_populate - populate the autofire
+	menu
+-------------------------------------------------*/
+
+void ui_menu_autofire::populate()
+{
+	std::string subtext;
+	std::string text;
+	ioport_field *field;
+	ioport_port *port;
+	int players = 0;
+	int i;
+
+	/* iterate over the input ports and add autofire toggle items */
+	for (port = machine().ioport().first_port(); port != nullptr; port = port->next())
+		for (field = port->first_field(); field != nullptr; field = field->next())
+		{
+			const char *name = field->name();
+
+			if (name != nullptr && (
+				(field->type() >= IPT_BUTTON1 && field->type() < IPT_BUTTON1 + MAX_NORMAL_BUTTONS)
+				|| (field->type() >= IPT_CUSTOM1 && field->type() < IPT_CUSTOM1 + MAX_CUSTOM_BUTTONS)
+			   ))
+			{
+				ioport_field::user_settings settings;
+				field->get_user_settings(settings);
+//                              entry[menu_items] = field;
+
+				if (players < field->player() + 1)
+						players = field->player() + 1;
+
+				/* add an autofire item */
+				switch (settings.autofire)
+				{
+						case 0: subtext.assign("Off");       break;
+						case 1: subtext.assign("On");        break;
+						case 2: subtext.assign("Toggle");    break;
+				}
+				item_append(field->name(), subtext.c_str(), MENU_FLAG_LEFT_ARROW | MENU_FLAG_RIGHT_ARROW, (void *)field);
+			}
+		}
+
+	/* add autofire delay items */
+	for (i = 0; i < players; i++)
+	{
+		strprintf(text, "P%d %s", i + 1, "Autofire Delay");
+		strprintf(subtext, "%d", machine().ioport().get_autofiredelay(i));
+		/* append a menu item */
+		item_append(text.c_str(), subtext.c_str(), MENU_FLAG_LEFT_ARROW | MENU_FLAG_RIGHT_ARROW, (void *)(intptr_t)(i + AUTOFIRE_ITEM_P1_DELAY));
+	}
+}
+#undef AUTOFIRE_ITEM_P1_DELAY
+
+/*-------------------------------------------------
+	menu_custom_button - handle the custom button
+	settings menu
+-------------------------------------------------*/
+
+ui_menu_custom_button::ui_menu_custom_button(running_machine &machine, render_container *container) : ui_menu(machine, container)
+{
+}
+
+ui_menu_custom_button::~ui_menu_custom_button()
+{
+}
+
+void ui_menu_custom_button::handle()
+{
+	const ui_menu_event *menu_event = process(0);
+	bool changed = false;
+	int custom_buttons_count = 0;
+	ioport_field *field;
+	ioport_port *port;
+
+	/* handle events */
+	if (menu_event != nullptr && menu_event->itemref != nullptr)
+	{
+		UINT16 *selected_custom_button = (UINT16 *)(FPTR)menu_event->itemref;
+		int i;
+
+		//count the number of custom buttons
+		for (port = machine().ioport().first_port(); port != nullptr; port = port->next())
+			for (field = port->first_field(); field != nullptr; field = field->next())
+			{
+				int type = field->type();
+
+				if (type >= IPT_BUTTON1 && type < IPT_BUTTON1 + MAX_NORMAL_BUTTONS)
+				{
+					type -= IPT_BUTTON1;
+					if (type >= custom_buttons_count)
+						custom_buttons_count = type + 1;
+				}
+			}
+
+		input_item_id id = ITEM_ID_1;
+		for (i = 0; i < custom_buttons_count; i++, id++)
+		{
+			if (i == 9)
+				id = ITEM_ID_0;
+
+			//fixme: code_pressed_once() doesn't work well
+			if (machine().input().code_pressed_once(input_code(DEVICE_CLASS_KEYBOARD, 0, ITEM_CLASS_SWITCH, ITEM_MODIFIER_NONE, id)))
+			{
+				*selected_custom_button ^= 1 << i;
+				changed = true;
+				break;
+			}
+		}
+	}
+
+	/* if something changed, rebuild the menu */
+	if (changed)
+		reset(UI_MENU_RESET_REMEMBER_REF);
+}
+
+
+/*-------------------------------------------------
+	menu_custom_button_populate - populate the
+	custom button menu
+-------------------------------------------------*/
+
+void ui_menu_custom_button::populate()
+{
+	std::string subtext;
+	std::string text;
+	ioport_field *field;
+	ioport_port *port;
+	int menu_items = 0;
+	int is_neogeo = !core_stricmp(machine().system().source_file+17, "neogeo.c")
+									|| !core_stricmp(machine().system().source_file+17, "neogeo_noslot.c");
+	int i;
+
+//      item_append(_("Press 1-9 to Config"), NULL, 0, NULL);
+//      item_append(MENU_SEPARATOR_ITEM, NULL, 0, NULL);
+
+	/* loop over the input ports and add autofire toggle items */
+	for (port = machine().ioport().first_port(); port != nullptr; port = port->next())
+		for (field = port->first_field(); field != nullptr; field = field->next())
+		{
+			int player = field->player();
+			int type = field->type();
+			const char *name = field->name();
+
+			if (name != nullptr && type >= IPT_CUSTOM1 && type < IPT_CUSTOM1 + MAX_CUSTOM_BUTTONS)
+			{
+				const char colorbutton1 = is_neogeo ? 'A' : 'a';
+				int n = 1;
+				static char commandbuf[256];
+
+				type -= IPT_CUSTOM1;
+				subtext.assign("");
+
+				//unpack the custom button value
+				for (i = 0; i < MAX_NORMAL_BUTTONS; i++, n <<= 1)
+					if (machine().ioport().m_custom_button[player][type] & n)
+					{
+						if (subtext.length() > 0)
+								subtext.append("_+");
+						strcatprintf(subtext, "_%c", colorbutton1 + i);
+					}
+
+				strcpy(commandbuf, subtext.c_str());
+				//convert_command_glyph(commandbuf, ARRAY_LENGTH(commandbuf));
+				item_append(name, commandbuf, 0, (void *)(FPTR)&machine().ioport().m_custom_button[player][type]);
+
+				menu_items++;
+			}
+		}
+}
+
 /*-------------------------------------------------
     menu_quit_game - handle the "menu" for
     quitting the game

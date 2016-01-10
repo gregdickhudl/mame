@@ -85,4 +85,20 @@ public:
 	virtual void handle() override;
 };
 
+class ui_menu_autofire : public ui_menu {
+public:
+	ui_menu_autofire(running_machine &machine, render_container *container);
+	virtual ~ui_menu_autofire();
+	virtual void populate() override;
+	virtual void handle() override;
+};
+
+class ui_menu_custom_button : public ui_menu {
+public:
+	ui_menu_custom_button(running_machine &machine, render_container *container);
+	virtual ~ui_menu_custom_button();
+	virtual void populate() override;
+	virtual void handle() override;
+};
+
 #endif  /* __UI_MISCMENU_H__ */
