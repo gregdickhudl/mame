@@ -11,119 +11,35 @@
 
 
 // "Pacman hardware" games
-// puckman         // (c) 1980 Namco
-// puckmanb        // bootleg
-// puckmanf        // hack 
-// puckmanh        // hack
 pacman          // (c) 1980 Midway
-// pacmanf         // hack
-// puckmod         // (c) 1981 Namco
-// pacmod          // (c) 1981 Midway
-// pacmanjpm       // bootleg
-// newpuc2         // hack
-// newpuc2b        // hack
-// pacuman         // bootleg
-// newpuckx        // hack
-// pacmansp        // hack
-// pacheart        // hack
-// bucaner         // hack
-// hangly          // hack
-// hangly2         // hack
-// hangly3         // hack
-// popeyeman       // hack
-// crockman        // 1980 bootleg (RENE PIERRE)
-// piranhah        // hack
-// abscam          // hack
 crush           // (c) 1981 Kural Samno Electric Ltd
-// crushbl         // bootleg
-// crushbl2        // bootleg
-// crushbl3        // bootleg
-// crush2          // (c) 1981 Kural Esco Electric Ltd - bootleg?
-// crush3          // Kural Electric Ltd - bootleg?
-// crush4          // Kural TWT
-maketrax        // (c) 1981 Williams, high score table says KRL (fur Kural)
-// maketrxb        // (c) 1981 [Kural] (Williams license)
-korosuke        // (c) 1981 Kural Electric
-// crushrlf        // bootleg
-// mbrush          // 1981 bootleg
-// paintrlr        // 1981 bootleg
-// crushs          // 1981 bootleg
+maketrax        // (c) 1981 Williams, high score table says KRL (fur Kural) US version of crush
 pacplus         // (c) 1982 Namco (Midway license)
-// joyman          // hack
-// ctrpllrp        // hack
 eyes            // (c) 1982 Digitrex Techstar + "Rockola presents"
-eyes2           // (c) 1982 Techstar + "Rockola presents"
-// eyesb           // bootleg
-eyeszac         // (c) 1982 Techstar / Zaccaria
-// eyeszacb        // bootleg
 birdiy          // (c) 1983 Mama Top
 mrtnt           // (c) 1983 Telko
-gorkans         // (c) 1984 Techstar
 eggor           // (c) 1983 Telko
 jumpshot        // (c) 1985 Bally Midway
-// jumpshotp       // (c) 1985 Bally Midway
 shootbul        // (c) 1985 Bally Midway
 piranha         // GL
-// piranhao        // GL
 nmouse          // (c) 1981 Amenip (Palcom Queen River)
-// nmouseb         // (c) 1981 Amenip Nova Games Ltd.
 mspacman        // (c) 1981 Midway  // made by General Computer
-// mspacmancr      // bootleg on Crush Roller board
-// mspacmnf        // hack
-// mspacmat        // hack
-// msheartb        // hack
-// mspacmanbg      // bootleg
-// mspacmanbgd     // bootleg
-// mspacmanbcc     // bootleg
-// mspacmanblt     // bootleg
 clubpacm        // Miky
 woodpeck        // (c) 1981 Amenip (Palcom Queen River)
-// woodpeca        // (c) 1981 Amenip Nova Games Ltd.
-// mspacmab        // bootleg
-// mspacmbe        // bootleg
-// mspacii         // bootleg
-// mspacii2        // bootleg
-// pacgal          // hack
-// mspacpls        // hack
 ponpoko         // (c) 1982 Sigma Ent. Inc.
-// ponpokov        // (c) 1982 Sigma Ent. Inc. + Venture Line license
-// candory         // graphics hack of Ponpoko
 lizwiz          // (c) 1985 Techstar + "Sunn presents"
 alibaba         // (c) 1982 Sega
-// alibabab        // Mustafa" and 40 Thieves (Ali Baba bootleg)
 dremshpr        // (c) 1982 Sanritsu
 vanvan          // (c) 1983 Sanritsu
-// vanvank         // (c) 1983 Karateco (bootleg?)
-// vanvanb         // (c) 1983 Karateco (bootleg?)
 bwcasino        // (c) 1983 Epos Corporation
-acitya          // (c) 1983 Epos Corporation
-// theglobp        // (c) 1983 Epos Corporation
-// sprglobp        // (c) 1983 Epos Corporation
-// sprglbpg        // German bootleg
-beastf          // (c) 1984 Epos Corporation
 rocktrv2        // (c) 1986 Triumph Software Inc
 bigbucks        // (c) 1986 Dynasoft Inc.
 numcrash        // (c) 1983 Hanshin Goraku / "Peni"
-// mschamp         // hack by RAYGLO MFG "Zola-Puc" (c) 1992/1993
-// mschamps        // hack (hack of the Rayglo hack?)
-// cannonbp        // hack
-// superabc        // hack
-// superabco       // hack
-// pengojpm        // bootleg
-// pengopac        // bootleg
 
 // S2650 Pacman Kits
 drivfrcp        // (c) 1984 Shinkai Inc. (Magic Eletronics Inc. license)
-8bpm            // (c) 1985 Seatongrove Ltd (Magic Eletronics USA license)
 porky           // (c) 1985 Shinkai Inc. (Magic Eletronics Inc. license)
 pengo           // 834-0386 (c) 1982 Sega
-pengo2          // 834-0386 (c) 1982 Sega
-pengo2u         // 834-0386 (c) 1982 Sega
-pengo3u         // 834-0386 (c) 1982 Sega
-pengo4          // 834-0386 (c) 1982 Sega
-// pengob          // bootleg
-// penta           // bootleg
-// jrpacmbl        // bootleg on Pengo HW
 jrpacman        // (c) 1983 Midway
 jrpacmanf       // speedup hack
 
@@ -131,285 +47,86 @@ jrpacmanf       // speedup hack
 megadon         // (c) 1982
 catapult        // (c) 1982
 suprglob        // (c) 1983
-theglob         // (c) 1983
-theglob2        // (c) 1983
-theglob3        // (c) 1983
 igmo            // (c) 1984
 dealer          // (c) 198?
 revenger        // (c) 1984
 
 // "Galaxian hardware" games
 galaxian        // (c) Namco
-// galaxiana       // (c) Namco
-// galaxianm       // (c) Midway
-// galaxianmo      // (c) Midway
-// galaxiant       // (c) Taito
-// galaxiani       // (c) Irem
-// galaxrf         // bootleg (Recreativos Franco)
-// galaxrfgg       // bootleg (Recreativos Franco)
-// superg          // hack
-// supergs         // Silver Systems hack
-// galapx          // hack
-// moonaln         // [Nichibutsu] (Karateco license) or hack
-// galap1          // hack
-// galap4          // hack
-// galturbo        // hack
-// swarm           // hack
-// zerotime        // hack
-// zerotimed       // hack
-// starfght        // hack
-// galaxbsf        // hack
-// galaxianbl      // bootleg
-// galaxbsf2       // bootleg
-// kamakazi3       // Video Games (UK) Ltd., hack or bootleg?
-// tst_galx        // Galaxian Test ROM
-// gmgalax         // bootleg
 pisces          // Subelectro
-// piscesb         // bootleg
-// omni            // bootleg
 uniwars         // (c) Irem
-gteikoku        // (c) Irem
-// gteikokb        // bootleg
-// gteikob2        // bootleg
-galemp          // (c) Taito do Brasil
-// asideral        // bootleg
-// pajaroes        // bootleg
-// spacbatt        // bootleg
-// spacbat2        // bootleg
-// spacempr        // bootleg
-// skyraidr        // bootleg
-// batman2         // bootleg
-warofbug        // (c) 1981 Armenia
+warofbug        // (c) 1981 Armenia //japan?
 warofbugu       // (c) 1981 Armenia
-// warofbugg       // German Version
-spactrai        //
 redufo          // (c) Artic
-// redufob         // bootleg
-// exodus          // Subelectro - bootleg?
 streakng        // [1980] Shoei
-// streaknga       // [1980] Shoei
-// pacmanbl        // bootleg
-// pacmanbla       // bootleg
-// phoenxp2        // bootleg
-// atlantisb       // bootleg
 tenspot         // (c) 1982 Thomas Automatics
-// devilfsg        // (c) 1984 Vision / Artic (bootleg?)
-// zigzagb         // (c) 1982 LAX (bootleg)
-// zigzagb2        // (c) 1982 LAX (bootleg)
 jumpbug         // (c) 1981 Rock-ola
-// jumpbugb        // (c) 1981 Sega
 levers          // (c) 1983 Rock-ola
 azurian         // (c) 1982 Rait Electronics Ltd
 orbitron        // (c) 1982 Signatron USA (Arcade Tv Game List - P.160, Left, 22 from top)
-// mooncrgx        // bootleg
-mooncrst        // (c) 1980 Nichibutsu
+mooncrst        // (c) 1980 Nichibutsu japan?
 mooncrstu       // (c) 1980 Nichibutsu USA
-// mooncrsto       // (c) 1980 Nichibutsu
-// mooncrstg       // (c) 1980 Gremlin
-// mooncrstuk      // (c) 1980 Nichibutsu UK
-// mooncrstuku     // (c) 1980 Nichibutsu UK
-smooncrs        // Gremlin
-sstarcrs        // Taito (Brazil)
-// mooncmw         // bootleg
-// mooncrsb        // bootleg
-// mooncrs2        // bootleg
-// starfgmc        // bootleg
-// spcdrag         // bootleg
-// stera           // bootleg
-// spcdraga        // bootleg
-// mooncreg        // bootleg
-// mooncrs3        // bootleg
-// mooncrs4        // bootleg
-// fantazia        // bootleg
 moonqsr         // (c) 1980 Nichibutsu
 mshuttle        // (c) 1981 Nichibutsu
-// mshuttle2       // (c) 1981 Nichibutsu
-// mshuttlej       // (c) 1981 Nichibutsu
-// mshuttlej2      // (c) 1981 Nichibutsu
-moonal2         // [1980] Nichibutsu
-// moonal2b        // [1980] Nichibutsu
-supergx         // [1980] Nichibutsu
-eagle           // [1980] Centuri
-// eagle2          // [1980] Centuri
-// eagle3          // [1980] Centuri
-spctbird        // (c) Fortrek
-// mooncptc        // bootleg (Petaco S.A.)
-// mooncrsl        // bootleg (Laguna S.A.)
-// fantastc        // (c) Taito (Brazil) - rewrite of Galaga
-// timefgtr        // (c) Taito (Brazil) - rewrite of Time Pilot
-// kong            // (c) Taito (Brazil) - rewrite of Donkey Kong
 skybase         // (c) 1982 Omori Electric Co., Ltd.
 checkman        // (c) 1982 Zilec-Zenitone
-// checkmanj       // (c) 1982 Jaleco (Zenitone/Zilec in ROM CM4, and the programmer names)
 dingo           // (c) 1983 Ashby Computers and Graphics LTD. + Jaleco license
-// dingoe          // (c) 1983 Ashby Computers and Graphics LTD. + Jaleco license
 blkhole         // TDS (Tokyo Denshi Sekkei) & MINTS
 kingball        // (c) 1980 Namco
-// kingballj       // (c) 1980 Namco
-// scorpionmc      // bootleg
-// frogg           // bootleg
 4in1            // (c) 1981 Armenia / Food and Fun
-// bagmanmc        // bootleg
-bagmanm2        // (c) 1984 Valadon Automation / GIB
-// dkongjrm        // bootleg
 ozon1           // (c) 1983 Proma
-// ladybugg        // bootleg
-// vpool           // bootleg
-drivfrcg        // [1984] Shinkai (Magic Electronics USA license)
-// drivfrcb        // bootleg
-// drivfrct        // bootleg
 bongo           // (c) 1983 Jetsoft
-hunchbkg        // (c) 1983 Century
 harem           // [1983] I.G.R.
-// tazzmang        // bootleg
-// tazzmang2       // bootleg
 racknrol        // (c) 1986 Status (Shinkia license) (Senko Kit)
-hexpool         // (c) 1986 Shinkia (Senko Kit)
-// hexpoola        // (c) 1986 Shinkia (Senko Kit)
 trvchlng        // [1985] Joyland (Senko license)
-bullsdrtg       // 1985 Senko
 luctoday        // 1980 Sigma
-chewing         // ?? unknown
 catacomb        // 1982 MTM Games
-// ckongg          // 1981 bootleg
-// ckongmc         // 1981 bootleg
-ckonggx         //
-ckongcv          // 19?? Competitive Video?
-ckongis         //
-// porter          // 1982 bootleg (Arcade TV Game List - P.98, Left, 15 from bottom)
 tdpgal          // 1983 Design Labs / Thomas Automatics
-guttangt
 
 // Has some similarities with Moon Cresta but Board is very different
 rockclim        // (c)1981 Taito
 
 // "Scramble hardware" (and variations) games
 scramble        // GX387 (c) 1981 Konami
-scrambles       // GX387 (c) 1981 Stern
-scrambles2      // GX387 (c) 1981 Stern
-// scramblebf      // bootleg
-// scramblebb      // bootleg?
-// scramblb        // bootleg
-// scramb2         // bootleg
-// scrambler       // bootleg
-// explorer        // bootleg
-// strfbomb        // bootleg
-// scrambp         // bootleg (Billport S.A.)
-// scramce         // bootleg (Centromatic S.A.)
-// scrampt         // bootleg (Petaco S.A.)
-// scramrf         // bootleg (Recreativos Franco)
 atlantis        // (c) 1981 Comsoft
-atlantis2       // (c) 1981 Comsoft
 theend          // (c) 1980 Konami
-theends         // (c) 1980 Stern
-// theendb         // (c) 1980 Bootleg
-// omega           // bootleg
-// ckongs          // bootleg
-// froggers        // bootleg
-// frogf           // bootleg
-// quaak           // bootleg
-// froggeram       // bootleg
-// froggerv        // bootleg
-amidars         // GX337 (c) 1982 Konami
 triplep         // (c) 1982 KKI / made by Sanritsu?
-// triplepa        // (c) 1982 KKI / made by Sanritsu?
-knockout        // (c) 1982 KKK
-// knockoutb       // bootleg
 mariner         // (c) 1981 Amenip
-800fath         // (c) 1981 Amenip + U.S. Billiards license
+800fath         // (c) 1981 Amenip + U.S. Billiards license US version of mariner
 mars            // (c) 1981 Artic
 devilfsh        // (c) 1982 Artic
 newsin7         // (c) 1983 ATW USA, Inc.
-// newsin7a        // (c) 1982 ATW USA, Inc.
 mrkougar        // (c) 1984 ATW
-mrkougar2       // (c) 1984 ATW
-// mrkougb         // bootleg
-// mrkougb2        // bootleg
 hotshock        // (c) 1982 E.G. Felaco (Domino license)
-// hotshockb       // bootleg
 conquer         // (c) 1982 ????
-hunchbks        // (c) 1983 Century
-// hunchbks2       // bootleg
-hncholms        // (c) 1984 Century
 cavelon         // (c) 1983 Jetsoft
 sfx             // (c) 1983 Nichibutsu
-skelagon        // (c) 1983 Nichibutsu USA
 monsterz        // (c) 1982 Nihon (Arcade TV Game List - P.102, Left, 20 from top)
 mimonkey        // (c) 1982 Universal Video Games (US Copyright Office info - http://cocatalog.loc.gov)
-// mimonsco        // (c) 1982 bootleg
-// mimonscr        // (c) 1982 bootleg
-// mimonscra       // (c) 1982 bootleg
 scobra          // GX316 (c) 1981 Konami
-// scobras         // GX316 (c) 1981 Stern
-// scobrase        // GX316 (c) 1981 Sega
-// scobrae         // GX316 (c) 1981 Stern
-// scobrab         // GX316 (c) 1981 Karateco (bootleg?)
-// suprheli        // bootleg
 stratgyx        // GX306 (c) 1981 Konami
-stratgys        // GX306 (c) 1981 Stern
-// strongx         // bootleg
 armorcar        // (c) 1981 Stern
-armorcar2       // (c) 1981 Stern
 moonwar         // (c) 1981 Stern
-// moonwara        // (c) 1981 Stern
-spdcoin         // (c) 1984 Stern
 darkplnt        // (c) 1982 Stern
 tazmania        // (c) 1982 Stern
-tazmani2        // (c) 1982 Stern
 calipso         // (c) 1982 Tago
 anteater        // (c) 1982 Tago
-// anteaterg       // (c) 1983 TV-Tuning (F.E.G. license)
-// anteateruk      // (c) 1983 Free Enterprise Games
-// anteatergg      // bootleg
 rescue          // (c) 1982 Stern
-// rescueb         // (c) Videl Games (Rescue bootleg)
-// aponow          // bootleg
-// rescuefe        // bootleg
 minefld         // (c) 1983 Stern
-// minefldfe       // bootleg
 losttomb        // (c) 1982 Stern
-// losttombh       // (c) 1982 Stern
-// superbon        // bootleg
 hustler         // GX343 (c) 1981 Konami
-// hustlerd        // GX343 (c) 1981 Konami + Dynamo Games license
-// billiard        // bootleg
-// hustlerb        // bootleg
-// hustlerb2       // bootleg
-// hustlerb3       // bootleg
-// hustlerb4       // bootleg
 frogger         // GX392 (c) 1981 Konami
-// froggers1       // (c) 1981 Sega
-// froggers2       // 834-0068 (c) 1981 Sega
-// froggermc       // 800-3110 (c) 1981 Sega
 amidar          // GX337 (c) 1982 Konami
-// amidar1         // GX337 (c) 1981 Konami
-// amidaru         // GX337 (c) 1982 Konami + Stern license
-// amidaro         // GX337 (c) 1982 Konami + Olympia license
-// amidarb         // bootleg
-// amigo           // bootleg
 turtles         // (c) 1981 Stern
-turpin          // (c) 1981 Sega
-600             // GX353 (c) 1981 Konami
 flyboy          // (c) 1982 Kaneko
-// flyboyb         // bootleg
-fastfred        // 136009   (c) 1982 Atari
+fastfred        // 136009   (c) 1982 Atari US version of flyboy
 jumpcoas        // (c) 1983 Kaneko
-jumpcoast       // (c) 1983 Taito
 boggy84         // (c) 1984 Kaneko
-// boggy84b        // bootleg
 redrobin        // (c) 1986 Elettronolo
 imago           // (c) 1984 Acom
-// imagoa          // (c) 1983 Acom
 scorpion        // (c) 1982 Zaccaria
-// scorpiona       // (c) 1982 Zaccaria
-// scorpionb       // (c) 1982 Zaccaria
-// aracnis         // bootleg
 ad2083          // (c) 1983 Midcoin
-// turpins         // (c) 1981 bootleg
 ghostmun
-bomber
-astrians
-froggrs
 
 // "Crazy Climber hardware" games
 cclimber        // (c) 1980 Nichibutsu
@@ -1145,10 +862,10 @@ timecrs4
 // Misc Namco games
 cswat           // (c) 1984
 kungfur         // (c) 1987
-30test          // (c) 1997
-25pacman        // (c) 2006 Ver 3.0
+30test          // (c) 1997 ***
+25pacman        // (c) 2006 Ver 3.0 ***
 // 25pacmano       // (c) 2005 Ver 2.0 - Same hardware as 20pacgal
-20pacgal        // (c) 2000 Ver 1.08
+20pacgal        // (c) 2000 Ver 1.08 ***
 // 20pacgalr4      // (c) 2000 Ver 1.04
 // 20pacgalr3      // (c) 2000 Ver 1.03
 // 20pacgalr2      // (c) 2000 Ver 1.02
@@ -1445,55 +1162,55 @@ vsfdf           // (c) 1986 Sunsoft licensed by Nintendo of America
 // denseib         // bootleg
 
 // Midway 8080 b/w games
-seawolf         // 596 [1976]
+seawolf         // 596 [1976] ***
 // seawolfo        // 596 [1976]
-gunfight        // 597 [1975]
+gunfight        // 597 [1975] ***
 // gunfighto       // 597 [1975]
 				// 603 - Top Gun [1976]
-tornbase        // 605 [1976]
-280zzzap        // 610 [1976]
-maze            // 611 [1976]
-boothill        // 612 [1977]
-checkmat        // 615 [1977]
-desertgu        // 618 [1977]
-roadrunm        // 618 [1977]
-dplay           // 619 [1977]
-lagunar         // 622 [1977]
-gmissile        // 623 [1977]
-m4              // 626 [1977]
-clowns          // 630 [1978]
+tornbase        // 605 [1976] ***
+280zzzap        // 610 [1976] ***
+maze            // 611 [1976] ***
+boothill        // 612 [1977] ***
+checkmat        // 615 [1977] ***
+desertgu        // 618 [1977] ***
+// roadrunm        // 618 [1977]
+dplay           // 619 [1977] ***
+lagunar         // 622 [1977] ***
+gmissile        // 623 [1977] ***
+m4              // 626 [1977] ***
+clowns          // 630 [1978] ***
 // clowns1         // 630 [1978]
-spacwalk        // 640 [1978]
-einning         // 642 [1978] Midway
-shuffle         // 643 [1978]
-dogpatch        // 644 [1977]
-spcenctr        // 645 (c) 1980 Midway
-phantom2        // 652 [1979]
-bowler          // 730 [1978] Midway
-invaders        // 739 [1979]
-blueshrk        // 742 [1978]
-invad2ct        // 851 (c) 1980 Midway
-invadpt2        // 852 [1980] Taito
-invadpt2br      // Taito do Brasil
-invaddlx        // 852 [1980] Midway
-vortex          // 852 [1980] Zilec Electronics Ltd.
-moonbase        // Taito
+spacwalk        // 640 [1978] ***
+einning         // 642 [1978] Midway ***
+shuffle         // 643 [1978] ***
+dogpatch        // 644 [1977] ***
+spcenctr        // 645 (c) 1980 Midway ***
+phantom2        // 652 [1979] ***
+bowler          // 730 [1978] Midway ***
+invaders        // 739 [1979] ***
+blueshrk        // 742 [1978] ***
+// invad2ct        // 851 (c) 1980 Midway
+invadpt2        // 852 [1980] Taito ***
+// invadpt2br      // Taito do Brasil
+// invaddlx        // 852 [1980] Midway
+vortex          // 852 [1980] Zilec Electronics Ltd. ***
+// moonbase        // Taito
 // moonbasea       // Zeta - Nichibutsu
 				// 870 - Space Invaders Deluxe cocktail
 // searthin        // bootleg
 // searthina       // bootleg
 // searthie        // bootleg
-invadrmr        // (c) 1978 Model Racing
-claybust        // (c) 1978 Model Racing
-gunchamp        // (c) 1980 Model Racing
+// invadrmr        // (c) 1978 Model Racing
+claybust        // (c) 1978 Model Racing ***
+gunchamp        // (c) 1980 Model Racing ***
 // gunchamps       // (c) 1980 Model Racing (sshot.cpp)
 // spaceatt        // (c) 1978 Video Games GmbH
 // spaceattbp      // (c) 1978 Video Games GmbH
 // spaceatt2k      // (c) 1978 Video Games GmbH
-galmonst        // (c) Laguna S.A.
-spaceat2        // (c) 1980 Zenitone-Microsec Ltd
+// galmonst        // (c) Laguna S.A.
+// spaceat2        // (c) 1980 Zenitone-Microsec Ltd
 // spacecom        // bootleg
-sinvzen         // Zenitone-Microsec Ltd
+// sinvzen         // Zenitone-Microsec Ltd
 // superinv        // bootleg
 // invasion        // Sidam
 // invasiona       // bootleg
@@ -1501,60 +1218,60 @@ sinvzen         // Zenitone-Microsec Ltd
 // invasionrz      // bootleg
 // invasionrza     // bootleg
 // invadersem      // Electromar
-sstrangr        // (c) 1978 Yachiyo Electronics, Ltd.
-sstrangr2       // (c) 1979 Yachiyo Electronics, Ltd.
-sinvemag        // Zenitone-Microsec Ltd.
-jspecter        // (c) 1979 Jatre
-jspecter2       // (c) 1979 Jatre
-invrvnge        // Zenitone-Microsec Ltd.
+sstrangr        // (c) 1978 Yachiyo Electronics, Ltd. ***
+// sstrangr2       // (c) 1979 Yachiyo Electronics, Ltd.
+// sinvemag        // Zenitone-Microsec Ltd.
+// jspecter        // (c) 1979 Jatre
+// jspecter2       // (c) 1979 Jatre
+invrvnge        // Zenitone-Microsec Ltd. ***
 // invrvngea       // Zenitone-Microsec Ltd.
 // invrvngeb       // Zenitone-Microsec Ltd.
 // invrvngedu      // Zenitone-Microsec Ltd. (Dutchford license)
 // invrvngegw      // Zenitone-Microsec Ltd. (Game World license)
-galxwars        // (c) 1979 Universal
+galxwars        // (c) 1979 Universal ***
 // galxwars2       // (c) 1979 Universal
 // galxwarst       // (c) 1979 Taito?
 // starw           // bootleg
 // starw1          // bootleg
-lrescue         // LR  (c) 1979 Taito
-mlander         // (c) 1980 Leisure Time Electronics
+lrescue         // LR  (c) 1979 Taito ***
+// mlander         // (c) 1980 Leisure Time Electronics
 // lrescuem        // Model Racing bootleg set 1
 // lrescuem2       // Model Racing bootleg set 2
 // grescue         // bootleg?
 // desterth        // bootleg
 // cosmicmo        // Universal
 // cosmicm2        // Universal
-rollingc        // Nichibutsu
-ozmawars        // Shin Nihon Kikaku (SNK)
+rollingc        // Nichibutsu ***
+ozmawars        // Shin Nihon Kikaku (SNK) ***
 // ozmawars2       // Shin Nihon Kikaku (SNK)
 // solfight        // bootleg
-spaceph         // Zilec Games
-galactic        // (c) 19?? Taito
+// spaceph         // Zilec Games
+galactic        // (c) 19?? Taito ***
 // spacmiss        // bootleg?
-schaser         // RT  Taito
+schaser         // RT  Taito ***
 // schasera        // RT  Taito
 // schaserb        // RT  Taito
 // schaserc        // RT  Taito
 // schasercv       // RT  Taito
-schaserm        // Model Racing
-lupin3          // LP  (c) 1980 Taito
+// schaserm        // Model Racing
+lupin3          // LP  (c) 1980 Taito ***
 // lupin3a         // LP  (c) 1980 Taito
-intruder        // (c) 1980 GamePlan (Taito)
-spclaser        // (c) 1980 GamePlan (Taito)
-laser           // (c) 1980 Leisure Time Electronics Inc.
-spcewarl        // (c) 1979 Leijac Corporation (Konami)
-polaris         // PS  (c) 1980 Taito
+// intruder        // (c) 1980 GamePlan (Taito)
+spclaser        // (c) 1980 GamePlan (Taito) ***
+// laser           // (c) 1980 Leisure Time Electronics Inc.
+// spcewarl        // (c) 1979 Leijac Corporation (Konami)
+polaris         // PS  (c) 1980 Taito ***
 // polarisa        // PS  (c) 1980 Taito
 // polariso        // PS  (c) 1980 Taito
 // polarisbr       // PS  (c) 1981 Taito do Brasil
-ballbomb        // TN  (c) 1980 Taito
-indianbt        // (c) 1980 Taito
-indianbtbr      // (c) 1983 Taito do Brasil
-steelwkr        // (c) 1980 Taito
-m79amb          // (c) 1977 RamTek
-alieninv        // Margamatics
+ballbomb        // TN  (c) 1980 Taito ***
+indianbt        // (c) 1980 Taito ***
+// indianbtbr      // (c) 1983 Taito do Brasil
+steelwkr        // (c) 1980 Taito ***
+m79amb          // (c) 1977 RamTek ***
+// alieninv        // Margamatics
 // alieninvp2      // bootleg
-tst_invd        // Test ROM
+// tst_invd        // Test ROM
 // sisv1           // (c) 1978 Taito
 // sisv2           // (c) 1978 Taito
 // sisv3           // (c) 1978 Taito
@@ -1566,15 +1283,15 @@ tst_invd        // Test ROM
 // spacewr3        // bootleg
 // invaderl        // bootleg
 // invader4        // bootleg
-yosakdon        // (c) 1979 Yosaku To Donbei
+yosakdon        // (c) 1979 Yosaku To Donbei ***
 // yosakdona       // (c) 1979 Yosaku To Donbei
-spceking        // (c) 1978 Leijac Corporation (Konami)
-spcewars        // (c) 1978 Sanritsu
-astropal        // (c) 19?? Sidam
-attackfc        // (c) 1979? E.G.S.
-cosmo           // TDS & Mints
+// spceking        // (c) 1978 Leijac Corporation (Konami)
+// spcewars        // (c) 1978 Sanritsu 
+astropal        // (c) 19?? Sidam ***
+attackfc        // (c) 1979? E.G.S. ***
+cosmo           // TDS & Mints ***
 // darthvdr        // bootleg
-ultrainv
+// ultrainv
 // invmulti        // hack
 // invmultim3a     // hack
 // invmultim2c     // hack
@@ -1587,7 +1304,7 @@ ultrainv
 // invmultip       // hack
 
 // Similar but with a M6800 instead of an 8080
-sflush          // (c)1979 Taito
+sflush          // (c)1979 Taito ***
 
 // Midway Z80 games
 18w             // 653 (c) 1979 Midway
@@ -2049,9 +1766,9 @@ lgp             // (c) 1983 Taito
 vsgongf         // (c) 1984 Kaneko
 ringfgt         // (c) 1984 Taito
 // ringfgt2        // (c) 1984 Taito
-fieldday        // A23 (c) 1984 Taito
-undoukai        // A17 (c) 1984 Taito
-40love          // A30 (c) 1984 Taito
+fieldday        // A23 (c) 1984 Taito ***
+// undoukai        // A17 (c) 1984 Taito
+40love          // A30 (c) 1984 Taito ***
 tsamurai        // A35 (c) 1985 Taito
 // tsamurai2       // A35 (c) 1985 Taito
 // tsamuraih       // bootleg
@@ -2227,7 +1944,7 @@ opwolf3         // D74 (c) 1994 Taito
 // opwolf3u        // D74 (c) 1994 Taito
 scessjoe        // ??? (c) 1990 Wave / Taito
 ashnojoe        // ??? (c) 1990 Wave / Taito
-2mindril        // (c) 1993 Taito
+// 2mindril        // (c) 1993 Taito
 
 // Taito multi-screen games
 wyvernf0        // A39 (c) 1985 Taito Corporation (Japan)
@@ -3007,7 +2724,7 @@ vulgus          //  5/1984 (c) 1984
 sonson          //  7/1984 (c) 1984
 // sonsonj         //  7/1984 (c) 1984 (Japan)
 higemaru        //  9/1984 (c) 1984
-1942            // 12/1984 (c) 1984
+1942            // 12/1984 (c) 1984 ***
 // 1942a           // 12/1984 (c) 1984
 // 1942abl         // bootleg
 // 1942b           // 12/1984 (c) 1984
@@ -3079,7 +2796,7 @@ bionicc         //  3/1987 (c) 1987 (Euro)
 // topsecrt        //  3/1987 (c) 1987 (Japan)
 // bioniccbl       //  bootleg
 supduck         // (c) Comad
-1943            //  6/1987 (c) 1987 (Euro)
+1943            //  6/1987 (c) 1987 (Euro) ***
 // 1943u           //  6/1987 (c) 1987 (US) Rev C
 // 1943ua          //  6/1987 (c) 1987 (US)
 // 1943j           //  6/1987 (c) 1987 (Japan) Rev B
@@ -3104,7 +2821,7 @@ toramich        // 11/1987 (c) 1987 (Japan
 f1dream         //  4/1988 (c) 1988 + Romstar
 // f1dreamb        // bootleg
 // f1dreamba       // bootleg
-1943kai         //  6/1988 (c) 1987 (Japan)
+1943kai         //  6/1988 (c) 1987 (Japan) ***
 lastduel        //  7/1988 (c) 1988 (US)
 // lastduelo       //  7/1988 (c) 1988 (US)
 // lastduelj       //  7/1988 (c) 1988 (Japan)
@@ -10283,8 +10000,8 @@ starcrus        // (c) 1977 Ramtek
 super21         // (c) 1978 Mirco
 
 // Omori games
-shuttlei        // (c) 1979 Omori (Arcade Tv Game List - P.79, Left, 6 from bottom)
-skylove         // (c) 1979 Omori
+shuttlei        // (c) 1979 Omori (Arcade Tv Game List - P.79, Left, 6 from bottom) ***
+skylove         // (c) 1979 Omori ***
 battlex         // (c) 1982 Omori E. Co., Ltd.
 carjmbre        // (c) 1983 Omori Electric Co., Ltd.
 popper          // (c) 1983 Omori Electric Co., Ltd.
@@ -10694,10 +10411,10 @@ catt            // (c) 1993 Wintechno
 nost            // (c) 1993 Face
 nostj           // (c) 1993 Face
 nostk           // (c) 1993 Face
-4enraya         // (c) 1990 IDSA
-4enrayaa        //
-4enlinea        // (c) 1991 System Compumatic
-unkpacg         // (c) 19?? ???
+// 4enraya         // (c) 1990 IDSA
+// 4enrayaa        //
+// 4enlinea        // (c) 1991 System Compumatic ***
+// unkpacg         // (c) 19?? ???
 oneshot         // no copyright notice
 maddonna        // (c) 1995 Tuning
 maddonnb        // (c) 1995 Tuning
@@ -10759,7 +10476,7 @@ brkblast        // bootleg (Fadesa)
 sidampkr        //
 wink            // (c) 1985 Midcoin
 winka           // (c) 1985 Midcoin
-24cdjuke        // (c) 1988 Midcoin
+// 24cdjuke        // (c) 1988 Midcoin
 skyarmy         // (c) 1982 Shoei
 lethalj         // (c) 1996 The Game Room
 franticf        // (c) 1996 The Game Room
@@ -10917,52 +10634,52 @@ mjmaglmp        // (c) 2000 BMC
 // Merit
 mgames          // (c) 1981 Merit
 pitboss         // (c) 1983 Merit
-pitbossa        // (c) 1983 Merit
-pitbossa1       // (c) 1983 Merit
-pitbossb        // (c) 1983 Merit
-pitbossc        // (c) 1983 Merit
+// pitbossa        // (c) 1983 Merit
+// pitbossa1       // (c) 1983 Merit
+// pitbossb        // (c) 1983 Merit
+// pitbossc        // (c) 1983 Merit
 casino5         // (c) 1984 Merit
 mroundup        // (c) 1984 Merit
 trvwzh          // (c) 1985 Merit
-trvwzha         // (c) 1985 Merit
-trvwzhb         // (c) 1985 Merit
+// trvwzha         // (c) 1985 Merit
+// trvwzhb         // (c) 1985 Merit
 trvwzv          // (c) 1985 Merit
 trvwz2          // (c) 1985 Merit
-trvwz2a         // (c) 1985 Merit
+// trvwz2a         // (c) 1985 Merit
 trvwz3h         // (c) 1985 Merit
-trvwz3ha        // (c) 1985 Merit
+// trvwz3ha        // (c) 1985 Merit
 trvwz3v         // (c) 1985 Merit
 trvwz4          // (c) 1985 Merit
-trvwz4a         // (c) 1985 Merit
+// trvwz4a         // (c) 1985 Merit
 dtrvwz5         // (c) 1987 Merit
 tictac          // (c) 1985 Merit
 tictacv         // (c) 1985 Merit
 phrcraze        // (c) 1986 Merit
-phrcrazea       // (c) 1986 Merit
-phrcrazeb       // (c) 1986 Merit
-phrcrazec       // (c) 1986 Merit
+// phrcrazea       // (c) 1986 Merit
+// phrcrazeb       // (c) 1986 Merit
+// phrcrazec       // (c) 1986 Merit
 phrcrazev       // (c) 1986 Merit
 bigappg         // (c) 1986 Merit
 riviera         // (c) 1987 Merit
-rivieraa        // (c) 1986 Merit
-rivierab        // (c) 1986 Merit
+// rivieraa        // (c) 1986 Merit
+// rivierab        // (c) 1986 Merit
 americna        // (c) 1987 Merit
-americnaa       // (c) 1987 Merit
+// americnaa       // (c) 1987 Merit
 meritjp         // (c) 1987 Merit
 dodgecty        // (c) 1988 Merit
-dodgectya       // (c) 1986 Merit
-dodgectyb       // (c) 1986 Merit
-dodgectyc       // (c) 1986 Merit
+// dodgectya       // (c) 1986 Merit
+// dodgectyb       // (c) 1986 Merit
+// dodgectyc       // (c) 1986 Merit
 couple          // (c) 1988 Merit
-couplep         // (c) 1988 Merit
-couplei         // (c) 1988 Merit
+// couplep         // (c) 1988 Merit
+// couplei         // (c) 1988 Merit
 pitboss2        // (c) 1988 Merit
 spitboss        // (c) 1988 Merit
 pitbosss        // (c) 1990 Merit
-pitbosssa       // (c) 1990 Merit
-pitbosssc       // (c) 1992 Merit
+// pitbosssa       // (c) 1990 Merit
+// pitbosssc       // (c) 1992 Merit
 pitbossm        // (c) 1994 Merit
-pitbossma       // (c) 1994 Merit
+// pitbossma       // (c) 1994 Merit
 pbss330         // (c) 1994 Merit
 pbst30          // (c) 1994 Merit
 pbst30a         // (c) 1993 Merit
@@ -10970,11 +10687,11 @@ realbrod        // (c) 1995 Merit
 mtjpoker        // (c) 1994 Merit
 megat           // (c) 1994 Merit
 megat2          // (c) 1994 Merit
-megat2a         // (c) 1994 Merit
-megat2b         // (c) 1994 Merit
-megat2mn        // (c) 1994 Merit
-megat2ca        // (c) 1994 Merit
-megat2caa       // (c) 1994 Merit
+// megat2a         // (c) 1994 Merit
+// megat2b         // (c) 1994 Merit
+// megat2mn        // (c) 1994 Merit
+// megat2ca        // (c) 1994 Merit
+// megat2caa       // (c) 1994 Merit
 megat3          // (c) 1996 Merit
 megat3a         // (c) 1996 Merit
 megat3b         // (c) 1996 Merit
@@ -11007,7 +10724,7 @@ megat6          // (c) 1998 Merit
 suprgolf        // (c) 1989 Nasco
 onetwo          // (c) 1997 Barko
 onetwoe         // (c) 1997 Barko
-1945kiii        // (c) 2000 Oriental
+1945kiii        // (c) 2000 Oriental ***
 witch           // (c) 1992 Excellent System
 witchb          // (c) 1992 Excellent System
 witchs          // (c) 1992 Sega / Vic Tokai license
@@ -13326,7 +13043,7 @@ raaspec         // (c) Roy Abel & Associates 1984
 // (used by Orbatak prototype, and Beavis + Butthead prototype)
 3dobios
 //3do_pal
-orbatak
+//orbatak
 
 // Global VR
 hyperv2         // Hyper V2 (Global VR) Install - 06/12/02
@@ -13342,7 +13059,7 @@ nfsug           // Need For Speed: Underground Install (2 Discs) (v1.1)
 
 // unknown
 fruitpc         // ???
-casanova        //
+//casanova        //
 
 // American Alpha / Paokai
 gogostrk
