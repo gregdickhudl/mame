@@ -11,9 +11,10 @@
 
 
 // "Pacman hardware" games
+puckman			//
 pacman          // (c) 1980 Midway :: clone=puckman; Pac-Man (Midway)
 crush           // (c) 1981 Kural Samno Electric Ltd :: clone= ; Crush Roller (set 1)
-maketrax        // (c) 1981 Williams, high score table says KRL (fur Kural) US version of crush :: clone=crush; Make Trax (US set 1)
+maketrax        // (c) 1981 Williams, high score table says KRL (fur Kural) :: clone=crush; Make Trax (US set 1)
 pacplus         // (c) 1982 Namco (Midway license) :: clone= ; Pac-Man Plus
 eyes            // (c) 1982 Digitrex Techstar + "Rockola presents" :: clone= ; Eyes (US set 1)
 birdiy          // (c) 1983 Mama Top :: clone= ; Birdiy
@@ -130,38 +131,13 @@ ghostmun
 
 // "Crazy Climber hardware" games
 cclimber        // (c) 1980 Nichibutsu :: clone= ; Crazy Climber (US)
-// cclimberj       // (c) 1980 Nichibutsu
-// ccboot          // bootleg
-// ccboot2         // bootleg
-// ccbootmr        // Model Racing bootleg
-// cclimbroper     // Operamatic bootleg
 ckong           // (c) 1981 (Kyoei) :: clone= ; Crazy Kong
-// ckongo          // bootleg (Orca)
-// ckongalc        // bootleg (Alca)
-// bigkong         // bootleg
-// monkeyd         // bootleg
-// dking           // Crazy Kong Bootleg
-// ckongdks        // Spanish Crazy Kong bootleg
 ckongpt2        // (c) 1981 Falcon :: clone= ; Crazy Kong Part II (set 1)
-// ckongpt2a       // (c) 1981 Falcon
-// ckongpt2j       // (c) 1981 Falcon
-// ckongpt2jeu     // bootleg (Jeutel)
-// ckongpt2b       // bootleg
 rpatrol         // Orca, from a suspicious set :: clone= ; River Patrol (Orca)
-// rpatrolb        // bootleg
-silvland        // Falcon :: clone=rpatrol; Silver Land
 yamato          // (c) 1983 Sega :: clone= ; Yamato (US)
-// yamato2         // (c) 1983 Sega
 toprollr        // (c) 1983 Jaleco :: clone= ; Top Roller
 swimmer         // (c) 1982 Tehkan :: clone= ; Swimmer (set 1)
-// swimmera        // (c) 1982 Tehkan
-// swimmerb        // (c) 1982 Tehkan
 guzzler         // (c) 1983 Tehkan :: clone= ; Guzzler
-// guzzlers        // (c) 1983 Tehkan (Swimmer Conversion)
-cannonb         // (c) 1985 Soft :: clone=cannonbp; Cannon Ball (bootleg on Crazy Kong hardware) (set 1, buggy)
-// cannonb2        // (c) 1985 TV Game Gruenberg
-// cannonb3        // (c) 1985 Soft
-bagmanf         // bootleg on Falcon FCK-00 (Falcon Crazy Kong) PCB :: clone=bagman; Bagman (bootleg on Crazy Kong hardware)
 
 // Nichibutsu games
 gomoku          // (c) 1981 :: clone= ; Gomoku Narabe Renju
@@ -169,601 +145,163 @@ wiping          // (c) 1982 :: clone= ; Wiping
 rugrats         // (c) 1983 :: clone=wiping; Rug Rats
 dacholer        // (c) 1983 :: clone= ; Dacholer
 kickboy         // (c) 1983 :: clone= ; Kick Boy
-itaten          // (c) 1984 + Alice :: clone= ; Itazura Tenshi (Japan)
 friskyt         // (c) 1981 :: clone= ; Frisky Tom (set 1)
-// friskyta        // (c) 1981
-// friskytb        // (c) 1981
 radrad          // (c) 1982 Nichibutsu USA :: clone= ; Radical Radial
 seicross        // (c) 1984 + Alice :: clone= ; Seicross
-sectrzon        // (c) 1984 + Alice :: clone=seicross; Sector Zone
 firebatl        // (c) 1984 Taito :: clone= ; Fire Battle
 clshroad        // (c) 1986 Wood Place Inc. :: clone= ; Clash-Road
-// clshroads       // (c) 1986 Wood Place Inc. (Status Games license)
-// clshroadd       // (c) 1986 Wood Place Inc. (Data East license)
 tubep           // (c) 1984 + Fujitek :: clone= ; Tube Panic
-// tubepb          // (c) 1984 + bootleg
 rjammer         // (c) 1984 + Alice :: clone= ; Roller Jammer
 magmax          // (c) 1985 :: clone= ; Mag Max
 cop01           // (c) 1985 :: clone= ; Cop 01 (set 1)
-// cop01a          // (c) 1985
 mightguy        // (c) 1986 :: clone= ; Mighty Guy
 terracre        // (c) 1985 :: clone= ; Terra Cresta (YM3526 set 1)
-// terracreo       // (c) 1985
-// terracrea       // (c) 1985
-// terracren       // (c) 1985
 amazon          // (c) 1986 :: clone= ; Soldier Girl Amazon
-amatelas        // (c) 1986 :: clone=amazon; Sei Senshi Amatelass
 horekid         // (c) 1987 :: clone= ; Kid no Hore Hore Daisakusen
-// horekidb        // bootleg
-// boobhack        // bootleg
 galivan         // (c) 1985 :: clone= ; Cosmo Police Galivan (12/26/1985)
-// galivan2        // (c) 1985
-// galivan3        // (c) 1985
 dangar          // (c) 1986 :: clone= ; Ufo Robo Dangar (12/1/1986)
-// dangar2         // (c) 1986
-// dangarb         // bootleg
 ninjemak        // (c) 1986 (US?) :: clone= ; Ninja Emaki (US)
-youma           // (c) 1986 (Japan) :: clone=ninjemak; Youma Ninpou Chou (Japan)
-// youma2          // (c) 1986 (Japan)
-// youmab          // bootleg
-// youmab2         // bootleg
 legion          // (c) 1986 :: clone= ; Legion - Spinner-87 (World ver 2.03)
-// legionj         // (c) 1986
-// legionjb        // (c) 1986
 terraf          // (c) 1987 :: clone= ; Terra Force
 terrafu         // (c) 1987 Nichibutsu USA :: clone=terraf; Terra Force (US)
-// terrafj         // (c) 1987 Nichibutsu Japan
-// terrafjb        // (c) 1987
-// terrafb         // (c) 1987
-kozure          // (c) 1987 (Japan) :: clone= ; Kozure Ookami (Japan)
 armedf          // (c) 1988 :: clone= ; Armed Formation
-// armedff         // (c) 1988 Fillmore license
-cclimbr2        // (c) 1988 (Japan) :: clone= ; Crazy Climber 2 (Japan)
-// cclimbr2a       // (c) 1988 (Japan)
 skyrobo         // (c) 1989 :: clone= ; Sky Robo
-bigfghtr        // (c) 1989 :: clone=skyrobo; Tatakae! Big Fighter (Japan)
-
-// Nichibutsu Mahjong games
-// hyhoo           // (c) 1987
-// hyhoo2          // (c) 1987
-// jangou          // (c) 1983
-// macha           // (c) 1983 Logitec
-// // Jangou Night // (c) 1983
-// jngolady        // (c) 1984
-// cntrygrl        // (c) 1984 Royal Denshi
-// cntrygrla       // (c) 1984
-// roylcrdn        // (c) 1985
-// fruitbun        // (c) 1984
-// luckygrl        // (c) 1984 Wing?
-// nightgal        // (c) 1984
-// ngtbunny        // (c) 1984
-// royalngt        // (c) 1984 Royal Denshi
-// royalqn
-// sexygal         // (c) 1985
-// sweetgal        // (c) 1985
-// ngalsumr        // (c) 1985
-// pastelg         // (c) 1985
-// threeds         // (c) 1985
-// galds           // (c) 1985
-// crystalg        // (c) 1986
-// crystal2        // (c) 1986
-// nightlov        // (c) 1986
-// citylove        // (c) 1986
-// mcitylov        // (c) 1986
-// apparel         // (c) 1986 Central Denshi
-// secolove        // (c) 1986
-// barline         // (c) 1986?
-// housemnq        // (c) 1987
-// housemn2        // (c) 1987
-// livegal         // (c) 1987
-// seiha           // (c) 1987
-// seiham          // (c) 1987
-// mjgaiden        // (c) 1987 Central Denshi
-// bijokkoy        // (c) 1987
-// iemoto          // (c) 1987
-// iemotom         // (c) 1987
-// ryuuha          // (c) 1987
-// ojousan         // (c) 1987
-// ojousanm        // (c) 1987
-// bijokkog        // (c) 1988
-// orangec         // (c) 1988 Daiichi Denshi
-// orangeci        // (c) 1988 Daiichi Denshi
-// vipclub         // (c) 1988 Daiichi Denshi
-// korinai         // (c) 1988
-// korinaim        // (c) 1988
-// kaguya          // (c) 1988 MIKI SYOUJI
-// kaguya2         // (c) 1989 MIKI SYOUJI
-// kaguya2f        // (c) 1989 MIKI SYOUJI
-// otonano         // (c) 1988 Apple
-// kanatuen        // (c) 1988 Panac
-// kyuhito         // (c) 1988 ROLLER TRON
-// mjsikaku        // (c) 1988
-// mjsikakb        // (c) 1988
-// mjsikakc        // (c) 1988
-// mjsikakd        // (c) 1988
-// mmsikaku        // (c) 1988
-// mjcamera        // (c) 1988 MIKI SYOUJI
-// mmcamera        // (c) 1988 MIKI SYOUJI
-// msjiken         // (c) 1988
-// hanamomo        // (c) 1988
-// hanamomb        // (c) 1988
-// telmahjn        // (c) 1988
-// taiwanmb        // (c) 1988
-// gionbana        // (c) 1989
-// idhimitu        // (c) 1989 Digital Soft
-// mgion           // (c) 1989
-// mjcamerb        // (c) 1989 MIKI SYOUJI
-// omotesnd        // (c) 1989
-// abunai          // (c) 1989
-// mjfocus         // (c) 1989
-// mjfocusm        // (c) 1989
-// peepshow        // (c) 1989 AC
-// scandal         // (c) 1989
-// scandalm        // (c) 1989
-// mgmen89         // (c) 1989
-// mjnanpas        // (c) 1989 BROOKS
-// mjnanpaa        // (c) 1989 BROOKS
-// mjnanpau        // (c) 1989 BROOKS
-// pairsnb         // (c) 1989
-// pairsten        // (c) 1989 System Ten
-// bananadr        // (c) 1989 DIGITAL SOFT
-// mladyhtr        // (c) 1990
-// chinmoku        // (c) 1990
-// maiko           // (c) 1990
-// mmaiko          // (c) 1990
-// hnageman        // (c) 1990 Nichibutsu/AV Japan
-// hnxmasev        // (c) 1990 Nichibutsu/AV Japan
-// club90s         // (c) 1990
-// club90sa        // (c) 1990
-// lovehous        // (c) 1990
-// hanaoji         // (c) 1991
-// hanaojia        // (c) 1991
-// pstadium        // (c) 1990
-// triplew1        // (c) 1989
-// triplew2        // (c) 1990
-// ntopstar        // (c) 1990
-// mjlstory        // (c) 1991
-// vanilla         // (c) 1991
-// finalbny        // (c) 1991
-// qmhayaku        // (c) 1991
-// mjgottub        // (c) 1991
-// galkoku         // (c) 1989 Nichibutsu/T.R.TEC
-// hyouban         // (c) 1989 Nichibutsu/T.R.TEC
-// galkaika        // (c) 1989 Nichibutsu/T.R.TEC
-// tokyogal        // (c) 1989
-// tokimbsj        // (c) 1989
-// mcontest        // (c) 1989
-// uchuuai         // (c) 1989
-// av2mj1bb        // (c) 1991 MIKI SYOUJI/AV JAPAN
-// av2mj2rg        // (c) 1991 MIKI SYOUJI/AV JAPAN
-// ohpaipee        // (c) 1990 Nichibutsu
-// togenkyo        // (c) 1990 Nichibutsu
-// mjuraden        // (c) 1992 Nichibutsu/Yubis
-// koinomp         // (c) 1992
-// patimono        // (c) 1992
-// janbari         // (c) 1992 Nichibutsu/Yubis/AV JAPAN
-// mjanbari        // (c) 1992 Nichibutsu/Yubis/AV JAPAN
-// ultramhm        // (c) 1993 Apple
-// gal10ren        // (c) 1993 FUJIC
-// renaiclb        // (c) 1993 FUJIC
-// mjlaman         // (c) 1993 Nichibutsu/AV JAPAN
-// mkeibaou        // (c) 1993
-// pachiten        // (c) 1993 Nichibutsu/MIKI SYOUJI/AV JAPAN
-// sailorws        // (c) 1993
-// sailorwa        // (c) 1993
-// sailorwr        // (c) 1993
-// wcatcher        // (c) 1993
-// jituroku        // (c) 1993 Windom
-// yosimoto        // (c) 1994 Nichibutsu/Yoshimoto Kougyou
-// yosimotm        // (c) 1994 Nichibutsu/Yoshimoto Kougyou
-// psailor1        // (c) 1994 SPHINX
-// psailor2        // (c) 1994 SPHINX
-// otatidai        // (c) 1995 SPHINX
-// ngpgal          // (c) 1991
-// mjgottsu        // (c) 1991
-// bakuhatu        // (c) 1991
-// cmehyou         // (c) 1992 Nichibutsu/Kawakusu
-// mmehyou         // (c) 1992 Nichibutsu/Kawakusu
-// mjkoiura        // (c) 1992
-// mkoiuraa        // (c) 1992
-// imekura         // (c) 1994 SPHINX/AV JAPAN
-// mscoutm         // (c) 1994 SPHINX/AV JAPAN
-// mjegolf         // (c) 1994 FUJIC/AV JAPAN
-// mhhonban        // (c) 199?
-// shabdama        // (c) 199?
-// zokumahj        // (c) 199?
-// 4psimasy        // (c) 1994
-// musobana        // (c) 1995
-// niyanpai        // (c) 1996
-// csplayh1        // (c) 1995
-// junai           // (c) 1998
-// csplayh5        // (c) 1998
-// junai2          // (c) 1998
-// mjmania         // (c) 1999
-// //renaimj
-// bikiniko        // (c) 1999
-// thenanpa        // (c) 1999
-// //pokoachu
-// csplayh7        // (c) 1999
-// fuudol          // (c) 2000
 
 // "Phoenix hardware" (and variations) games
 safarir         // (c) 1980 Shin Nihon Kikaku (SNK) + Taito license :: clone= ; Safari Rally (World)
-// safarirj        // (c) 1979 Shin Nihon Kikaku (SNK)
 phoenix         // (c) 1980 Amstar :: clone= ; Phoenix (Amstar)
-// phoenixa        // (c) 1980 Amstar + Centuri license
-// phoenixb        // (c) 1980 Amstar + Centuri license
-// phoenixt        // (c) 1980 Taito
-// phoenixj        // (c) 1980 Taito
-// phoenix3        // bootleg
-// phoenixdal      // bootleg D&L (No copyright/title)
-// phoenixc        // bootleg
-// phoenixc2       // bootleg
-// phoenixc3       // bootleg
-// phoenixc4       // bootleg
-// condor          // bootleg
-// fenix           // bootleg
-// falcon          // bootleg
-// vautour         // bootleg (Jeutel)
-// falconz         // bootleg
-// vautourz        // bootleg
-// vautourza       // bootleg (Jeutal)
-// griffon         // bootleg (Videotron)
-// nextfase        // bootleg
-// phoenixs        // bootleg (Sonic)
-// phoenixass      // bootleg (Assa)
-// avefenix        // bootleg (Video Game)
-// avefenixrf      // bootleg (Recreativos Franco)
-// avefenixl       // bootleg (Laguna)
 pleiads         // (c) 1981 Tehkan :: clone= ; Pleiads (Tehkan)
-// pleiadsb2       // bootleg
-// pleiadbl        // bootleg
-// pleiadce        // (c) 1981 Centuri + Tehkan
-// pleiadsi        // bootleg?
-// pleiadss        // bootleg
-// capitol         // bootleg?
 survival        // (c) 1982 Rock-ola :: clone= ; Survival
 naughtyb        // (c) 1982 Jaleco :: clone= ; Naughty Boy
-// naughtyba       // bootleg
-// naughtybc       // (c) 1982 Jaleco + Cinematronics
 popflame        // (c) 1982 Jaleco :: clone= ; Pop Flamer (protected)
-// popflamea       // (c) 1982 Jaleco
-// popflameb       // (c) 1982 Jaleco
-// popflamen       // (c) 1982 Jaleco
 trvmstr         // (c) 1985 Enerdyne Technologies Inc. :: clone= ; Trivia Master (set 1)
-// trvmstra        // (c) 1985 Enerdyne Technologies Inc.
-// trvmstrb        // (c) 1985 Enerdyne Technologies Inc.
-// trvmstrc        // (c) 1985 Enerdyne Technologies Inc.
-// trvgns          // bootleg
 
 // Namco games (plus some intruders on similar hardware)
-geebee          // [1978] Namco :: clone= ; Gee Bee (Japan)
-// geebeeb         // [1978] Namco (F.lli Bertolino license)
-// geebeeg         // [1978] Gremlin
 bombbee         // [1979] Namco :: clone= ; Bomb Bee
 cutieq          // (c) 1979 Namco :: clone= ; Cutie Q
 navarone        // (c) 1980 Namco :: clone= ; Navarone
-// kaitein         // [1980] Namco
 kaitei          // [1980] K.K. Tokki :: clone= ; Kaitei Takara Sagashi
 sos             // [1980] Namco :: clone= ; SOS
 tankbatt        // (c) 1980 Namco :: clone= ; Tank Battalion
-// tankbattb       // bootleg
 warpwarp        // (c) 1981 Namco :: clone= ; Warp &amp; Warp
-// warpwarpr       // (c) 1981 [Namco] (Rock-ola license)
-// warpwarpr2      // (c) 1981 [Namco] (Rock-ola license)
 rallyx          // (c) 1980 Namco :: clone= ; Rally X (32k Ver.?)
-// rallyxa         // (c) 1980 Namco
-// rallyxm         // (c) 1980 Midway
-// rallyxmr        // Model Racing bootleg
 nrallyx         // (c) 1981 Namco :: clone= ; New Rally X
-// nrallyxb        // (c) 1981 Namco
 jungler         // GX327 (c) 1981 Konami :: clone= ; Jungler
-// junglers        // GX327 (c) 1981 Stern
-jackler         // 1 9 8 2 (Jungler Bootleg) :: clone=jungler; Jackler (Jungler bootleg)
-savanna         // Olympia (c) 1982 (Jungler bootleg) :: clone=jungler; Savanna (Jungler bootleg)
 tactcian        // GX335 (c) 1982 Sega :: clone= ; Tactician (set 1)
-// tactcian2       // GX335 (c) 1981 Sega
 locomotn        // GX359 (c) 1982 Konami + Centuri license :: clone= ; Loco-Motion
-gutangtn        // GX359 (c) 1982 Konami + Sega license :: clone=locomotn; Guttang Gottong
-// cottong         // bootleg
-// locoboot        // bootleg
 commsega        // (c) 1983 Sega :: clone= ; Commando (Sega)
 
 // the following ones all have a custom I/O chip
 bosco           // (c) 1981 :: clone= ; Bosconian (new version)
-// boscoo          // (c) 1981
-// boscoo2         // (c) 1981
-// boscomd         // (c) 1981 Midway
-// boscomdo        // (c) 1981 Midway
 galaga          // (c) 1981 :: clone= ; Galaga (Namco rev. B)
-// galagao         // (c) 1981
-// galagamw        // (c) 1981 Midway
-// galagamk        // (c) 1981 Midway
 galagamf        // (c) 1981 Midway / hack :: clone=galaga; Galaga (Midway set 1 with fast shoot hack)
-// gallag          // bootleg
-gatsbee         // (c) 1984 Uchida / hack :: clone=galaga; Gatsbee
 digdug          // (c) 1982 :: clone= ; Dig Dug (rev 2)
-// digdug1         // (c) 1982
-// digdugat        // 136007   (c) 1982 Atari
-// digdugat1       // 136007   (c) 1982 Atari
-// dzigzag         // bootleg
-// digsid          // bootleg
 xevious         // (c) 1982 :: clone= ; Xevious (Namco)
-// xeviousa        // 136018   (c) 1982 + Atari license
-// xeviousb        // 136018   (c) 1982 + Atari license
-// xeviousc        // 136018   (c) 1982 + Atari license
-// xevios          // bootleg
-// battles         // bootleg
-sxevious        // (c) 1984 :: clone=xevious; Super Xevious
-// sxeviousj       // (c) 1984
 superpac        // (c) 1982 :: clone= ; Super Pac-Man
-// superpacm       // (c) 1982 Midway
 pacnpal         // (c) 1983 :: clone= ; Pac &amp; Pal
-// pacnpal2        // (c) 1983
-pacnchmp        // (c) 1983 :: clone=pacnpal; Pac-Man &amp; Chomp Chomp
-phozon          // (c) 1983 :: clone= ; Phozon (Japan)
-// phozons         // (c) 1983 pcb manufactured by Sidam
 mappy           // (c) 1983 :: clone= ; Mappy (US)
-// mappyj          // (c) 1983
 digdug2         // (c) 1985 :: clone= ; Dig Dug II (New Ver.)
-// digdug2o        // (c) 1985
 todruaga        // (c) 1984 :: clone= ; The Tower of Druaga (New Ver.)
-// todruagao       // (c) 1984
-// todruagas       // (c) 1984 pcb manufactured by Sidam
 motos           // (c) 1985 :: clone= ; Motos
 grobda          // (c) 1984 :: clone= ; Grobda (New Ver.)
-// grobda2         // (c) 1984
-// grobda3         // (c) 1984
 gaplus          // (c) 1984 :: clone= ; Gaplus (GP2 rev. B)
-// gaplusa         // (c) 1984
-// gaplusd         // (c) 1984
-// gaplust         // (c) 1984
 galaga3         // (c) 1984 :: clone=gaplus; Galaga 3 (GP3 rev. D)
-// galaga3a        // (c) 1984
-// galaga3b        // (c) 1984
-// galaga3c        // (c) 1984
-// galaga3m        // (c) 1984
 
 // Libble Rabble board (first Japanese game using a 68000)
-liblrabl        // (c) 1983 :: clone= ; Libble Rabble
 toypop          // (c) 1986 :: clone= ; Toypop
 
 // Z8000 games
 polepos         // (c) 1982 :: clone= ; Pole Position (World)
-// poleposj        // (c) 1982
-// poleposa2       // 136014   (c) 1982 + Atari license
-// poleposa1       // 136014   (c) 1982 Atari
-// topracer        // bootleg
-// topracera       // bootleg
-// topracern       // bootleg
-// ppspeed         // bootleg
-polepos2        // (c) 1983 :: clone= ; Pole Position II (Japan)
-// polepos2a       // 136014   (c) 1983 + Atari license
-// polepos2b       // bootleg
-// polepos2bi      // bootleg
+
 // no custom I/O in the following, HD63701 (or compatible) microcontroller instead
 pacland         // (c) 1984 :: clone= ; Pac-Land (World)
-// paclandj        // (c) 1984
-// paclandjo       // (c) 1984
-// paclandjo2      // (c) 1984
-// paclandm        // (c) 1984 Midway
 drgnbstr        // (c) 1984 :: clone= ; Dragon Buster
 skykid          // (c) 1985 :: clone= ; Sky Kid (new version)
-// skykido         // (c) 1985
-// skykidd         // (c) 1985
-// skykids         // (c) 1985
 aliensec        // (c) 1985 :: clone= ; Alien Sector
-baraduke        // (c) 1985 :: clone=aliensec; Baraduke
 metrocrs        // (c) 1985 :: clone= ; Metro-Cross (set 1)
-// metrocrsa       // (c) 1985
 
 // Namco System 86 games
 hopmappy        // (c) 1986 :: clone= ; Hopping Mappy
 skykiddx        // (c) 1986 :: clone= ; Sky Kid Deluxe (set 1)
-// skykiddxo       // (c) 1986
 roishtar        // (c) 1986 :: clone= ; The Return of Ishtar
 genpeitd        // (c) 1986 :: clone= ; Genpei ToumaDen
 rthunder        // (c) 1986 :: clone= ; Rolling Thunder (rev 3)
-// rthunder2       // (c) 1986
-// rthunder1       // (c) 1986
-// rthunder0       // (c) 1986
-// rthundera
 wndrmomo        // (c) 1987 :: clone= ; Wonder Momo
 
 // Thunder Ceptor HW
 tceptor         // (c) 1986 :: clone= ; Thunder Ceptor
-// tceptor2        // (c) 1986
 
 // Namco System 1 games
 shadowld        // (c) 1987 (YD3) :: clone= ; Shadowland (YD3)
-youkaidk2       // (c) 1987 (Japan, new version (YD2, Rev B)) :: clone=shadowld; Yokai Douchuuki (Japan, new version (YD2, Rev B))
-youkaidk1       // (c) 1987 (Japan, old version (YD1)) :: clone=shadowld; Yokai Douchuuki (Japan, old version (YD1))
 dspirit         // (c) 1987 (new version (DS3)) :: clone= ; Dragon Spirit (new version (DS3))
-// dspirit2        // (c) 1987 (DS2, Atari had rights to US market)
-// dspirit1        // (c) 1987 (old version (DS1))
-blazer          // (c) 1987 (Japan) :: clone= ; Blazer (Japan)
-quester         // (c) 1987 (Japan) :: clone= ; Quester (Japan)
-// questers        // (c) 1987 (Japan)
 pacmania        // (c) 1987 :: clone= ; Pac-Mania
-// pacmaniao       // (c) 1987
-// pacmaniaj       // (c) 1987 (Japan)
 galaga88        // (c) 1987 :: clone= ; Galaga '88
-// galaga88a       // (c) 1987
-// galaga88j       // (c) 1987 (Japan)
-ws              // (c) 1988 (Japan) :: clone= ; World Stadium (Japan)
-berabohm        // (c) 1988 (Japan, Rev C) :: clone= ; Beraboh Man (Japan, Rev C)
-// berabohmb       // (c) 1988 (Japan, Rev B)
-				// 1988 Alice in Wonderland (English version of Marchen maze)
-mmaze           // (c) 1988 (Japan) :: clone= ; Marchen Maze (Japan)
-bakutotu        // (c) 1988 (Japan) :: clone= ; Bakutotsu Kijuutei
-wldcourt        // (c) 1988 (Japan) :: clone= ; World Court (Japan)
 splatter        // (c) 1988 (World, SH3) :: clone= ; Splatter House (World, new version (SH3))
-// splatter2       // (c) 1988 (World, SH2)
-// splatterj       // (c) 1988 (Japan)
-faceoff         // (c) 1988 (Japan) :: clone= ; Face Off (Japan)
-rompers         // (c) 1989 (Japan, new version (Rev B)) :: clone= ; Rompers (Japan, new version (Rev B))
-// romperso        // (c) 1989 (Japan, old version)
-blastoff        // (c) 1989 (Japan) :: clone= ; Blast Off (Japan)
-ws89            // (c) 1989 (Japan) :: clone=ws; World Stadium '89 (Japan)
-dangseed        // (c) 1989 (Japan) :: clone= ; Dangerous Seed (Japan)
-ws90            // (c) 1990 (Japan) :: clone=ws; World Stadium '90 (Japan)
-pistoldm        // (c) 1990 (Japan) :: clone= ; Pistol Daimyo no Bouken (Japan)
 boxyboy         // (c) 1990 (US) :: clone= ; Boxy Boy (SB?)
-soukobdx        // (c) 1990 (Japan) :: clone=boxyboy; Souko Ban Deluxe (Japan, SB1)
-puzlclub        // (c) 1990 (Japan) :: clone= ; Puzzle Club (Japan prototype)
 tankfrce        // (c) 1991 (US, 2 Player) :: clone= ; Tank Force (US, 2 Player)
 tankfrce4       // (c) 1991 (US, 4 Player) :: clone=tankfrce; Tank Force (US, 4 Player)
-// tankfrcej       // (c) 1991 (Japan)
 
 // Namco System 2 games
 finallap        // 87.12 Final Lap :: clone= ; Final Lap (Rev E)
-// finallapd       // 87.12 Final Lap
-// finallapc       // 87.12 Final Lap
-// finallapjc      // 87.12 Final Lap
-// finallapjb      // 87.12 Final Lap
 assault         // (c) 1988 :: clone= ; Assault (Rev B)
-// assaultj        // (c) 1988 (Japan)
-// assaultp        // (c) 1988 (Japan)
 metlhawk        // (c) 1988 :: clone= ; Metal Hawk (Rev C)
-// metlhawkj       // (c) 1988
 ordyne          // (c) 1988 :: clone= ; Ordyne (Japan, English Version)
-// ordynej         // (c) 1988
-mirninja        // (c) 1988 (Japan) :: clone= ; Mirai Ninja (Japan)
 phelios         // (c) 1988 :: clone= ; Phelios
-// pheliosj        // (c) 1988 (Japan)
-dirtfoxj        // (c) 1989 (Japan) :: clone= ; Dirt Fox (Japan)
 fourtrax        // 89.11 :: clone= ; Four Trax
-valkyrie        // (c) 1989 (Japan) :: clone= ; Valkyrie No Densetsu (Japan)
-finehour        // (c) 1989 (Japan) :: clone= ; Finest Hour (Japan)
-burnforc        // (c) 1989 (Japan, new version) :: clone= ; Burning Force (Japan, new version (Rev C))
-// burnforco       // (c) 1989 (Japan, old version)
 marvland        // (c) 1989 (US) :: clone= ; Marvel Land (US)
-// marvlandj       // (c) 1989 (Japan)
-kyukaidk        // (c) 1990 (Japan, new version) :: clone= ; Kyuukai Douchuuki (Japan, new version (Rev B))
-// kyukaidko       // (c) 1990 (Japan, old version)
 dsaber          // (c) 1990 :: clone= ; Dragon Saber
-// dsaberj         // (c) 1990 (Japan)
 finalap2        // 90.8  Final Lap 2 :: clone= ; Final Lap 2
-// finalap2j       // 90.8  Final Lap 2 (Japan)
 gollygho        // 91.7  Golly Ghost :: clone= ; Golly! Ghost!
 rthun2          // (c) 1990 :: clone= ; Rolling Thunder 2
-// rthun2j         // (c) 1990 (Japan)
 sgunner         // (c) 1990 :: clone= ; Steel Gunner (Rev B)
-// sgunnerj        // (c) 1990
 sgunner2        // (c) 1991 (US) :: clone= ; Steel Gunner 2 (US)
-// sgunner2j       // (c) 1991 (Japan)
 cosmogng        // (c) 1991 (US) :: clone= ; Cosmo Gang the Video (US)
-// cosmogngj       // (c) 1991 (Japan)
-bubbletr        // (c) 1992 :: clone= ; Bubble Trouble (Japan, Rev C)
 finalap3        // 92.9  Final Lap 3 :: clone= ; Final Lap 3 (World, set 1)
-// finalap3a       // 92.9  Final Lap 3
-// finalap3j       // 92.9  Final Lap 3
-// finalap3jc      // (c) 1992
-// finalap3bl      // (c) 1992 (bootleg)
 luckywld        // (c) 1992 :: clone= ; Lucky &amp; Wild
-// luckywldj       // (c) 1992
 suzuka8h        // (c) 1992 (World) :: clone= ; Suzuka 8 Hours (World, Rev C)
-// suzuka8hj       // (c) 1992 (Japan)
-sws             // (c) 1992 (Japan) :: clone= ; Super World Stadium (Japan)
-sws92           // (c) 1992 (Japan) :: clone= ; Super World Stadium '92 (Japan)
-// sws92g          // (c) 1992 (Japan)
 suzuk8h2        // (c) 1993 (World) :: clone= ; Suzuka 8 Hours 2 (World, Rev B)
-// suzuk8h2j       // (c) 1993 (Japan)
-sws93           // (c) 1993 (Japan) :: clone= ; Super World Stadium '93 (Japan)
 
 // Namco FL games
 speedrcr        // (c) 1995 :: clone= ; Speed Racer
 finalapr        // (c) 1995 :: clone= ; Final Lap R (Rev. B)
-// finalaprj       // (c) 1995
-// finalapro       // (c) 1995
 
 // Namco NA-1 / NA-2 System games
-bkrtmaq         // (c) 1992 (Japan) :: clone= ; Bakuretsu Quiz Ma-Q Dai Bouken (Japan)
 cgangpzl        // (c) 1992 (US) :: clone= ; Cosmo Gang the Puzzle (US)
-// cgangpzlj       // (c) 1992 (Japan)
 exvania         // (c) 1992 (World) :: clone= ; Exvania (World)
-// exvaniaj        // (c) 1992 (Japan)
 fghtatck        // (c) 1992 (US) :: clone= ; Fighter &amp; Attacker (US)
-fa              // (c) 1992 (Japan) :: clone=fghtatck; F/A (Japan)
 knckhead        // (c) 1992 (World) :: clone= ; Knuckle Heads (World)
-// knckheadj       // (c) 1992 (Japan)
-// knckheadjp      // (c) 1992 (Japan)
 swcourt         // (c) 1992 (Japan) :: clone= ; Super World Court (World)
-// swcourtj        // (c) 1992 (Japan)
 emeralda        // (c) 1993 (Japan) :: clone= ; Emeraldia (World)
-// emeraldaj       // (c) 1993 (Japan)
-// emeraldaja      // (c) 1993 (Japan)
 numanath        // (c) 1993 (World) :: clone= ; Numan Athletics (World)
-// numanathj       // (c) 1993 (Japan)
-quiztou         // (c) 1993 (Japan) :: clone= ; Nettou! Gekitou! Quiztou!! (Japan)
-tinklpit        // (c) 1993 (Japan) :: clone= ; Tinkle Pit (Japan)
-xday2           // (c) 1995 (Japan) :: clone= ; X-Day 2 (Japan)
 
 // Namco NB-1 / NB-2 System games
 nebulray        // (c) 1994 (World) :: clone= ; Nebulas Ray (World, NR2)
-// nebulrayj       // (c) 1994 (Japan)
 ptblank         // (c) 1994 (GN2 World) :: clone= ; Point Blank (World, GN2 Rev B, set 1)
-// ptblanka        // (c) 1994 (GN2 World) - Alternate labels, NRx-SPR0 (X=1 to 9)
-// gunbuletj       // (c) 1994 (GN1 Japan)
-// gunbuletw       // (c) 1994 (GN3 World)
-gslugrsj        // (c) 1993 (Japan) :: clone= ; Great Sluggers (Japan)
 gslgr94u        // (c) 1994 :: clone= ; Great Sluggers '94
-// gslgr94j        // (c) 1994 (Japan)
-sws95           // (c) 1995 (Japan) :: clone= ; Super World Stadium '95 (Japan)
-sws96           // (c) 1996 (Japan) :: clone= ; Super World Stadium '96 (Japan)
-sws97           // (c) 1997 (Japan) :: clone= ; Super World Stadium '97 (Japan)
-vshoot          // (c) 1994 :: clone= ; J-League Soccer V-Shoot (Japan)
 outfxies        // (c) 1994 (World) :: clone= ; The Outfoxies (World, OU2)
-// outfxiesj       // (c) 1994 (Japan)
-machbrkr        // (c) 1995 (Japan) :: clone= ; Mach Breakers - Numan Athletics 2 (Japan)
 
 // Namco ND-1 games
 ncv1            // (c) 1995 :: clone= ; Namco Classic Collection Vol.1
-// ncv1j           // (c) 1995 (Japan)
-// ncv1j2          // (c) 1995 (Japan)
 ncv2            // (c) 1996 :: clone= ; Namco Classic Collection Vol.2
-// ncv2j           // (c) 1996 (Japan)
 
 // Namco System 21 games
 winrun          // (c) 1988 :: clone= ; Winning Run
-winrungp        // (c) 1989 :: clone= ; Winning Run Suzuka Grand Prix (Japan)
-winrun91        // (c) 1991 :: clone= ; Winning Run '91 (Japan)
-solvalou        // (c) 1991 (Japan) :: clone= ; Solvalou (Japan)
 starblad        // (c) 1991 (World) :: clone= ; Starblade (World)
-// starbladj       // (c) 1991 (Japan)
-driveyes        // (c) 1992? :: clone= ; Driver's Eyes (Japan)
-				// 1992, SimDrive
 aircomb         // (c) 1992 (US) :: clone= ; Air Combat (US)
-// aircombj        // (c) 1992 (Japan)
 cybsled         // (c) 1993 (World) :: clone= ; Cyber Sled (World)
-// cybsledj        // (c) 1993 (Japan)
 
 // Galaxian 3 HW
 gal3            // (c) 1992 (Arcade TV Game List - P.73, Right, 6 from top) :: clone= ; Galaxian 3 - Theater 6 : Project Dragoon
-//gal3zlgr
 
 // Namco System 22 games
 ridgerac        // (c) 1993 :: clone= ; Ridge Racer (Rev. RR3, World)
-// ridgeracb       // (c) 1993
-// ridgeracj       // (c) 1993
-// ridgerac3       // (c) 1993
-// ridgeracf       // (c) 1993
 acedrvrw        // (c) 1994 :: clone= ; Ace Driver: Racing Evolution (Rev. AD2)
 alpinerd        // (c) 1994 :: clone= ; Alpine Racer (Rev. AR2 Ver.D)
-// alpinerc        // (c) 1994
 ridgera2        // (c) 1994 :: clone= ; Ridge Racer 2 (Rev. RRS2, World)
-// ridgera2j       // (c) 1994
-// ridgera2ja      // (c) 1994
 raveracw        // (c) 1995 :: clone= ; Rave Racer (Rev. RV2, World)
-// raveracj        // (c) 1995
-// raveracja       // (c) 1995
-airco22b        // (c) 1995 :: clone= ; Air Combat 22 (Rev. ACS1 Ver.B, Japan)
 alpinr2b        // (c) 1995 :: clone= ; Alpine Racer 2 (Rev. ARS2 Ver.B)
-// alpinr2a        // (c) 1995
-cybrcomm        // (c) 1995 :: clone= ; Cyber Commando (Rev. CY1, Japan)
 cybrcycc        // (c) 1995 :: clone= ; Cyber Cycles (Rev. CB2 Ver.C)
 timecris        // (c) 1995 :: clone= ; Time Crisis (Rev. TS2 Ver.B)
-// timecrisa       // (c) 1995
 dirtdash        // (c) 1995 :: clone= ; Dirt Dash (Rev. DT2)
 victlapw        // (c) 1996 :: clone= ; Ace Driver: Victory Lap (Rev. ADV2)
 alpinesa        // (c) 1996 :: clone= ; Alpine Surfer (Rev. AF2 Ver.A)
@@ -775,32 +313,16 @@ adillor         // (c) 1997 :: clone= ; Armadillo Racing (Rev. AM1 Ver.A)
 // Namco System 23
 finfurl         // July 1997 :: clone= ; Final Furlong (FF2 Ver. A)
 motoxgo         // November 1997 :: clone= ; Motocross Go! (MG3 Ver. A)
-motoxgov2a      // November 1997 :: clone=motoxgo; Motocross Go! (MG2 Ver. A)
-motoxgov1a      // November 1997 :: clone=motoxgo; Motocross Go! (MG1 Ver. A, set 1)
-motoxgov1a2     // November 1997 :: clone=motoxgo; Motocross Go! (MG1 Ver. A, set 2)
 rapidrvr        // December 1997 :: clone= ; Rapid River (RD3 Ver. C)
-rapidrvrv2c     // December 1997 :: clone=rapidrvr; Rapid River (RD2 Ver. C)
-rapidrvrp       // December 1997 (prototype) :: clone=rapidrvr; Rapid River (prototype)
 downhill        // March 1998 :: clone= ; Downhill Bikers (DH3 Ver. A)
 timecrs2        // April 1998 :: clone= ; Time Crisis II (TSS3 Ver. B)
-timecrs2v2b     // April 1998 :: clone=timecrs2; Time Crisis II (TSS2 Ver. B)
-timecrs2v4a     // April 1998 :: clone=timecrs2; Time Crisis II (TSS4 Ver. A)
 panicprk        // May 1998 :: clone= ; Panic Park (PNP2 Ver. A)
-panicprkj       // May 1998 :: clone=panicprk; Panic Park (PNP1 Ver. B)
 raceon          // Race On - September 1998 :: clone= ; Race On! (RO2 Ver. A)
 gunwars         // September 1998 - Rev B :: clone= ; Gunmen Wars (GM1 Ver. B)
-gunwarsa        // September 1998 - Rev A :: clone=gunwars; Gunmen Wars (GM1 Ver. A)
 aking           // Angler King - March 1999 :: clone= ; Angler King (AG1 Ver. A)
 500gp           // March 1999 :: clone= ; 500 GP (5GP3 Ver. C)
 finfurl2        // March 1999 :: clone= ; Final Furlong 2 (World)
-// finfurl2j       // March 1999
-				// Guitar Jam - July 1999
 crszone         // Crisis Zone - December 1999 :: clone= ; Crisis Zone (CSZO4 Ver. B)
-crszonev4a      // Crisis Zone - December 1999 :: clone=crszone; Crisis Zone (CSZO4 Ver. A)
-crszonev3b      // Crisis Zone - December 1999 :: clone=crszone; Crisis Zone (CSZO3 Ver. B, set 1)
-crszonev3b2     // Crisis Zone - December 1999 :: clone=crszone; Crisis Zone (CSZO3 Ver. B, set 2)
-crszonev3a      // Crisis Zone - December 1999 :: clone=crszone; Crisis Zone (CSZO3 Ver. A)
-crszonev2a      // Crisis Zone - December 1999 :: clone=crszone; Crisis Zone (CSZO2 Ver. A)
 
 // Namco System 246
 sys246
@@ -864,322 +386,72 @@ cswat           // (c) 1984 :: clone= ; Cosmoswat
 kungfur         // (c) 1987 :: clone= ; Kung-Fu Roushi
 30test          // (c) 1997 *** :: clone= ; 30 Test (Remake)
 25pacman        // (c) 2006 Ver 3.0 *** :: clone= ; Pac-Man - 25th Anniversary Edition (Rev 3.00)
-// 25pacmano       // (c) 2005 Ver 2.0 - Same hardware as 20pacgal
 20pacgal        // (c) 2000 Ver 1.08 *** :: clone= ; Ms. Pac-Man/Galaga - 20th Anniversary Class of 1981 Reunion (V1.08)
-// 20pacgalr4      // (c) 2000 Ver 1.04
-// 20pacgalr3      // (c) 2000 Ver 1.03
-// 20pacgalr2      // (c) 2000 Ver 1.02
-// 20pacgalr1      // (c) 2000 Ver 1.01
-// 20pacgalr0      // (c) 2000 Ver 1.00
 turrett         // (c) 2001 licensed from Dell Electronics :: clone= ; Turret Tower
 
 // Universal games
 cosmicg         // 7907 (c) 1979 :: clone= ; Cosmic Guerilla
-// cosmicgi        // bootleg (Inder)
 cosmica         // 7910-AII (c) [1979] :: clone= ; Cosmic Alien (version II)
-// cosmica1        // 7910-A (c) [1979]
-// cosmica2        // 7910 (c) 1979
 nomnlnd         // 8003 (c) [1980?] :: clone= ; No Man's Land
-// nomnlndg        // 8003 (c) [1980?] + Gottlieb
 magspot         // ???? (c) [1980] :: clone= ; Magical Spot
-// magspot2        // 8013 (c) [1980]
 panic           // 8015 (c) 1980 :: clone= ; Space Panic (version E)
-// panic2          // 8015 (c) 1980
-// panic3          // 8015 (c) 1980
-// panich          // 8015 (c) 1980
-// panicger        // 8015 (c) 1980
 devzone         // 8022 (c) [1980] :: clone= ; Devil Zone
-// devzone2        // 8022 (c) [1980]
 cheekyms        // 8004 (c) [1980?] :: clone= ; Cheeky Mouse
 zerohour        // 8011 (c) Universal :: clone= ; Zero Hour (set 1)
-// zerohoura       // 8011 (c) Universal
-// zerohouri       //
 redclash        // (c) 1981 Tehkan :: clone= ; Red Clash (set 1)
-// redclasha       // (c) 1981 Tehkan
-// redclashk       // (c) Kaneko (bootleg?)
 cavenger        // 8106 (c) 1981 :: clone= ; Cosmic Avenger
 ladybug         // 8110 (c) 1981 :: clone= ; Lady Bug
-// ladybugb        // bootleg
-// ladybgb2        // bootleg
 snapjack        // ???? (c) :: clone= ; Snap Jack
 sraider         // ???? (c) 1982 Universal :: clone= ; Space Raider
 dorodon         // Falcon :: clone= ; Dorodon (set 1)
-// dorodon2        // Falcon
 mrdo            // 8201 (c) 1982 :: clone= ; Mr. Do!
-// mrdoy           // 8201 (c) 1982
-// mrdot           // 8201 (c) 1982 + Taito license
-// mrdofix         // 8201 (c) 1982 + Taito license
-// mrlo            // bootleg
-// mrdu            // bootleg
-// yankeedo        // bootleg
 docastle        // 8302 (c) 1983 :: clone= ; Mr. Do's Castle (set 1)
-// docastle2       // 8302 (c) 1983
-// docastleo       // 8302 (c) 1983
-douni           // 8302 (c) 1983 :: clone=docastle; Mr. Do vs. Unicorns
 dorunrun        // ???? (c) 1984 :: clone= ; Do! Run Run (set 1)
-// dorunrun2       // ???? (c) 1984
-// dorunrunc       // ???? (c) 1984
-// dorunrunca      // ???? (c) 1984
-spiero          // ???? (c) 1987 :: clone=dorunrun; Super Pierrot (Japan)
 dowild          // ???? (c) 1984 :: clone= ; Mr. Do's Wild Ride
 jjack           // ???? (c) 1984 :: clone= ; Jumping Jack
 kickridr        // ???? (c) 1984 :: clone= ; Kick Rider
 idsoccer        // ???? (c) 1985 :: clone= ; Indoor Soccer (set 1)
-// idsoccera       // ???? (c) 1985
-asoccer         // 8461 (c) 1987 :: clone=idsoccer; American Soccer
 superdq         // ???? (c) 1984 :: clone= ; Super Don Quix-ote (Long Scenes)
-// superdqs        // ???? (c) 1984
-// superdqa        // ???? (c) 1984
 
 // Nintendo games
 spacefev        // (c) 1979 Nintendo :: clone= ; Space Fever (New Ver.)
-// spacefevo       // (c) 1979 Nintendo
-// spacefevo2      // (c) 1979 Nintendo
 highsplt        // (c) 1979 Nintendo :: clone= ; Space Fever High Splitter (set 1)
-// highsplta       // (c) 1979 Nintendo
-// highspltb       // (c) 1979 Nintendo
 spacelnc        // (c) 1979 Nintendo :: clone= ; Space Launcher
 sheriff         // (c) 1979 Nintendo :: clone= ; Sheriff
-bandido         // (c) 1980 Exidy :: clone=sheriff; Bandido
-westgun2        // (c) 1980 Taito Corporation :: clone=sheriff; Western Gun Part II
 helifire        // (c) 1980 Nintendo :: clone= ; HeliFire (set 1)
-// helifirea       // (c) 1980 Nintendo
 radarscp        // (c) 1980 Nintendo :: clone= ; Radar Scope
-// radarscp1       // (c) 1980 Nintendo
 dkong           // (c) 1981 Nintendo of America :: clone= ; Donkey Kong (US set 1)
-// dkonghrd
-// dkongo          // (c) 1981 Nintendo
-// dkongj          // (c) 1981 Nintendo
-// dkongjo         // (c) 1981 Nintendo
-// dkongjo1        // (c) 1981 Nintendo
-// dkongf          // hack from Jeff's Romhack
 dkongpe         // hack Pauline Edition :: clone=dkong; Donkey Kong: Pauline Edition Rev 5 (2013-04-22)
-// dkongx          // hack
-// dkongx11        // hack
 dkongjr         // (c) 1982 Nintendo of America :: clone= ; Donkey Kong Junior (US set F-2)
-// dkongjrj        // (c) 1982 Nintendo
-// dkongjnrj       // (c) 1982 Nintendo
-// dkongjre        // (c) 1982 Nintendo of America
-// dkongjrpb       // bootleg
-// dkongjrb        // bootleg
-// jrking          // bootleg
-// dkingjr         // bootleg
 dkong3          // (c) 1983 Nintendo of America :: clone= ; Donkey Kong 3 (US)
-// dkong3j         // (c) 1983 Nintendo
-// dkong3b         // bootleg
 mario           // (c) 1983 Nintendo of America :: clone= ; Mario Bros. (US, Revision F)
-// marioe          // (c) 1983 Nintendo of America
-// marioo          // (c) 1983 Nintendo of America
-// marioj          // (c) 1983 Nintendo
-// masao           // bootleg
-// mariobl         // bootleg
 mmagic          // (c) 1979 Nintendo :: clone= ; Monkey Magic
-// dkong3abl       //
-// pestplce        // bootleg on donkey kong hw
 spclforc        // (c) 1985 Senko Industries (Magic Eletronics Inc. license) :: clone= ; Special Forces
 spcfrcii        // (c) 1985 Senko Industries (Magic Eletronics Inc. license) :: clone= ; Special Forces II
 8ballact        // (c) 1984 Seatongrove Ltd (Magic Eletronics USA license) :: clone= ; Eight Ball Action (DK conversion)
-// 8ballact2       // (c) 1984 Seatongrove Ltd (Magic Eletronics USA license)
 shootgal        // (c) 1984 Seatongrove Ltd (Zaccaria license) :: clone= ; Shooting Gallery
 drakton         // (c) 1984 Epos Corporation :: clone= ; Drakton (DK conversion)
-drktnjr         // (c) 1984 Epos Corporation :: clone=drakton; Drakton (DKJr conversion)
 strtheat        // (c) 1985 Epos Corporation :: clone= ; Street Heat
-hunchbkd        // (c) 1983 Century :: clone=hunchbak; Hunchback (DK conversion)
-sbdk            // (c) 1984 Century :: clone=superbik; Super Bike (DK conversion)
-herbiedk        // (c) 1984 CVS :: clone=huncholy; Herbie at the Olympics (DK conversion)
-herodk          // (c) 1984 Seatongrove + Crown license :: clone=hero; Hero in the Castle of Doom (DK conversion)
-// herodku         // (c) 1984 Seatongrove + Crown license
 skyskipr        // (c) 1981 :: clone= ; Sky Skipper
 popeye          // (c) 1982 :: clone= ; Popeye (revision D)
-// popeyeu         // (c) 1982
-// popeyef         // (c) 1982
-// popeyebl        // bootleg
 punchout        // (c) 1984 :: clone= ; Punch-Out!! (Rev B)
-// punchouta       // (c) 1984
-// punchoutj       // (c) 1984 (Japan)
-// punchita        // bootleg
 spnchout        // (c) 1984 :: clone= ; Super Punch-Out!! (Rev B)
-// spnchouta       // (c) 1984
-// spnchoutj       // (c) 1984 (Japan)
 armwrest        // (c) 1985 :: clone= ; Arm Wrestling
-
-// Nintendo Playchoice 10 games
-// playch10
-// pc_tenis        // (c) 1983 Nintendo
-// pc_mario        // (c) 1983 Nintendo
-// pc_bball        // (c) 1984 Nintendo of America
-// pc_bfght        // (c) 1984 Nintendo
-// pc_ebike        // (c) 1984 Nintendo
-// pc_golf         // (c) 1984 Nintendo
-// pc_kngfu        // (c) 1984 Irem (Nintendo license)
-// pc_1942         // (c) 1985 Capcom
-// pc_smb          // (c) 1985 Nintendo
-// pc_vball        // (c) 1986 Nintendo
-// pc_duckh        // (c) 1984 Nintendo
-// pc_hgaly        // (c) 1984 Nintendo
-// pc_wgnmn        // (c) 1984 Nintendo
-// pc_grdus        // (c) 1986 Konami
-// pc_grdue        // (c) 1986 Konami
-// pc_tkfld        // (c) 1987 Konami (Nintendo of America license)
-// pc_pwrst        // (c) 1986 Nintendo
-// pc_trjan        // (c) 1986 Capcom USA (Nintendo of America license)
-// pc_cvnia        // (c) 1987 Konami (Nintendo of America license)
-// pc_dbldr        // (c) 1987 Konami (Nintendo of America license)
-// pc_rnatk        // (c) 1987 Konami (Nintendo of America license)
-// pc_rygar        // (c) 1987 Tecmo (Nintendo of America license)
-// pc_cntra        // (c) 1988 Konami (Nintendo of America license)
-// pc_goons        // (c) 1986 Konami
-// pc_mtoid        // (c) 1986 Nintendo
-// pc_radrc        // (c) 1987 Square
-// pc_miket        // (c) 1987 Nintendo
-// pc_rcpam        // (c) 1987 Rare
-// pc_ngaid        // (c) 1989 Tecmo (Nintendo of America license)
-// pc_tmnt         // (c) 1989 Konami (Nintendo of America license)
-// pc_ftqst        // (c) 1989 Sunsoft (Nintendo of America license)
-// pc_bstar        // (c) 1989 SNK (Nintendo of America license)
-// pc_tbowl        // (c) 1989 Tecmo (Nintendo of America license)
-// pc_drmro        // (c) 1990 Nintendo
-// pc_virus        // (c) 1990 Nintendo
-// pc_bload        // (c) 1990 Jaleco (Nintendo of America license)
-// pc_ynoid        // (c) 1990 Capcom USA (Nintendo of America license)
-// pc_rrngr        // (c) Capcom USA (Nintendo of America license)
-// pc_ddrgn        // (c) 1988 Technos
-// pc_gntlt        // (c) 1985 Atari/Tengen (Nintendo of America license)
-// pc_smb2         // (c) 1988 Nintendo
-// pc_smb3         // (c) 1988 Nintendo
-// pc_mman3        // (c) 1990 Capcom USA (Nintendo of America license)
-// pc_radr2        // (c) 1990 Square (Nintendo of America license)
-// pc_suprc        // (c) 1990 Konami (Nintendo of America license)
-// pc_tmnt2        // (c) 1990 Konami (Nintendo of America license)
-// pc_wcup         // (c) 1990 Technos (Nintendo license)
-// pc_ngai2        // (c) 1990 Tecmo (Nintendo of America license)
-// pc_ngai3        // (c) 1991 Tecmo (Nintendo of America license)
-// pc_pwbld        // (c) 1991 Taito (Nintendo of America license)
-// pc_rkats        // (c) 1991 Atlus (Nintendo of America license)
-// pc_pinbt        // (c) 1988 Rare (Nintendo of America license)
-// pc_cshwk        // (c) 1989 Rare (Nintendo of America license)
-// pc_sjetm        // (c) 1990 Rare
-// pc_moglf        // (c) 1991 Nintendo
-
-// Nintendo VS games
-btlecity        // (c) 1985 Namco :: clone= ; Vs. Battle City
-starlstr        // (c) 1985 Namco :: clone= ; Vs. Star Luster
-cstlevna        // (c) 1987 Konami licensed to Nintendo :: clone= ; Vs. Castlevania
-cluclu          // (c) 1984 Nintendo :: clone= ; Vs. Clu Clu Land
-drmario         // (c) 1990 Nintendo :: clone= ; Vs. Dr. Mario
-duckhunt        // (c) 1985 Nintendo :: clone= ; Vs. Duck Hunt (set DH3 E)
-excitebk        // (c) 1984 Nintendo :: clone= ; Vs. Excitebike (set EB4-4 A)
-// excitebka       // (c) 1984 Nintendo
-goonies         // (c) 1986 Konami :: clone= ; Vs. The Goonies (set E)
-hogalley        // (c) 1985 Nintendo :: clone= ; Vs. Hogan's Alley (set HA4-1 E-1)
-iceclimb        // (c) 1984 Nintendo :: clone= ; Vs. Ice Climber (set IC4-4 B-1)
-// iceclimba       // (c) 1984 Nintendo
-smgolf          // (c) 1984 Nintendo :: clone= ; Vs. Stroke &amp; Match Golf (Men Version, set GF4-2 F)
-// smgolfb         // (c) 1984 Nintendo
-// smgolfj         // (c) 1984 Nintendo Co., Ltd.
-ladygolf        // (c) 1984 Nintendo :: clone=smgolf; Vs. Stroke &amp; Match Golf (Ladies Version, set LG4 ?)
-// ladygolfe       // (c) 1984 Nintendo
-machridr        // (c) 1985 Nintendo :: clone= ; Vs. Mach Rider (Endurance Course Version)
-// machridra       // (c) 1985 Nintendo
-rbibb           // (c) 1987 Namco :: clone= ; Vs. Atari R.B.I. Baseball (set 1)
-// rbibba          // (c) 1987 Namco
-suprmrio        // (c) 1986 Nintendo :: clone= ; Vs. Super Mario Bros. (set SM4-4 E)
-// suprmrioa       // (c) 1986 Nintendo
-// suprmriobl      // bootleg
-// suprmriobl2     // bootleg
-// skatekds        // (c) 1988 (hack)
-vsskykid        // (c) 1986 Namco :: clone= ; Vs. Super SkyKid
-tkoboxng        // (c) 1987 Data East :: clone= ; Vs. T.K.O. Boxing
-vspinbal        // (c) 1984 Nintendo :: clone= ; Vs. Pinball (US, set PN4 E-1)
-// vspinbalj       // (c) 1984 Nintendo Co., Ltd.
-vsslalom        // (c) 1986 Rare Coin-It Inc. licensed to Nintendo :: clone= ; Vs. Slalom
-vssoccer        // (c) 1985 Nintendo :: clone= ; Vs. Soccer (set SC4-2 A)
-// vssoccera       // (c) 1985 Nintendo
-vsgradus        // (c) 1986 Konami licensed to Nintendo :: clone= ; Vs. Gradius (US, set GR E)
-platoon         // (c) 1987 Ocean :: clone= ; Vs. Platoon
-vstetris        // (c) 1988 Atari :: clone= ; Vs. Tetris
-mightybj        // (c) 1986 Tecmo :: clone= ; Vs. Mighty Bomb Jack (Japan)
-jajamaru        // (c) 1985 Jaleco :: clone= ; Vs. Ninja Jajamaru Kun (Japan)
-topgun          // (c) 1987 Konami :: clone= ; Vs. Top Gun
-bnglngby        // (c) 1985 Nintendo licensed by Broderbund Software Inc. :: clone= ; Vs. Raid on Bungeling Bay (RD4-2 B)
-vstennis        // (c) 1984 Nintendo Co., Ltd. / Nintendo of America :: clone= ; Vs. Tennis (Japan/USA, set TE A-3)
-// vstennisa       // (c) 1984 Nintendo Co., Ltd. / Nintendo of America
-// vstennisb       // (c) 1984 Nintendo Co., Ltd. / Nintendo of America
-wrecking        // (c) 1984 Nintendo :: clone= ; Vs. Wrecking Crew
-balonfgt        // (c) 1984 Nintendo :: clone= ; Vs. Balloon Fight (set BF4 A-3)
-vsmahjng        // (c) 1984 Nintendo Co., Ltd. :: clone= ; Vs. Mahjong (Japan)
-vsbball         // (c) 1984 Nintendo of America :: clone= ; Vs. BaseBall (US, set BA E-1)
-// vsbballj        // (c) 1984 Nintendo Co., Ltd.
-// vsbballja       // (c) 1984 Nintendo Co., Ltd.
-// vsbballjb       // (c) 1984 Nintendo Co., Ltd.
-iceclmrd        // (c) 1984 Nintendo (Dual game version) :: clone= ; Vs. Ice Climber Dual (set IC4-4 A-1)
-vsgshoe         // (c) 1986 Nintendo :: clone= ; Vs. Gumshoe (set GM5)
-supxevs         // (c) 1986 Nintendo :: clone= ; Vs. Super Xevious
-vsfdf           // (c) 1986 Sunsoft licensed by Nintendo of America :: clone= ; Vs. Freedom Force
-
-// NES-based hacks
-// multigam        // 1992
-// multigmb        // 1992
-// multigm2        // 1992
-// multigm3        // 19??
-// multigmt
-// sgmt1           // 1994
-// supergm3        // 1996
-// cham24          // 2002
-
-// Famicom Box
-// famibox         // 1986
-
-// Nintendo Super System Games
-// nss
-// nss_ssoc        // 1992 Human Inc.
-// nss_actr        // 1992 Enix
-// nss_con3        // 1992 Konami
-// nss_adam        // 1992 Ocean
-// nss_aten        // 1992 Absolute Entertainment Inc.
-// nss_rob3        // 1992 Ocean
-// nss_ncaa        // 1992 Sculptured Software Inc.
-// nss_skin        // 1992 Irem
-// nss_lwep        // 1992 Nintendo
-// nss_smw         // 1991 Nintendo
-// nss_fzer        // 1991 Nintendo
-// nss_sten        // 199? Nintendo
-
-// Super Famicom Box Games
-// sfcbox
-// pss61           // 199? Nintendo
-// pss62           // 199? T & E Soft / I'Max
-// pss63           // 199? Nintendo / BPS
-// pss64           // 199? Nintendo / Hudson Soft
-
-// SNES-based hacks
-//kin stb          // bootleg
-// mk3snes         // bootleg
-// ffight2b        // bootleg
-// sblast2b        // bootleg
-// iron            // bootleg
-// endless         // bootleg
-// denseib         // bootleg
 
 // Midway 8080 b/w games
 seawolf         // 596 [1976] *** :: clone= ; Sea Wolf (set 1)
-// seawolfo        // 596 [1976]
 gunfight        // 597 [1975] *** :: clone= ; Gun Fight (set 1)
-// gunfighto       // 597 [1975]
-				// 603 - Top Gun [1976]
 tornbase        // 605 [1976] *** :: clone= ; Tornado Baseball / Ball Park
 280zzzap        // 610 [1976] *** :: clone= ; 280-ZZZAP
 maze            // 611 [1976] *** :: clone= ; Amazing Maze
 boothill        // 612 [1977] *** :: clone= ; Boot Hill
 checkmat        // 615 [1977] *** :: clone= ; Checkmate
 desertgu        // 618 [1977] *** :: clone= ; Desert Gun
-// roadrunm        // 618 [1977]
 dplay           // 619 [1977] *** :: clone= ; Double Play
 lagunar         // 622 [1977] *** :: clone= ; Laguna Racer
 gmissile        // 623 [1977] *** :: clone= ; Guided Missile
 m4              // 626 [1977] *** :: clone= ; M-4
 clowns          // 630 [1978] *** :: clone= ; Clowns (rev. 2)
-// clowns1         // 630 [1978]
 spacwalk        // 640 [1978] *** :: clone= ; Space Walk
 einning         // 642 [1978] Midway *** :: clone= ; Extra Inning / Ball Park II
 shuffle         // 643 [1978] *** :: clone= ; Shuffleboard
@@ -1189,126 +461,35 @@ phantom2        // 652 [1979] *** :: clone= ; Phantom II
 bowler          // 730 [1978] Midway *** :: clone= ; Bowling Alley
 invaders        // 739 [1979] *** :: clone= ; Space Invaders / Space Invaders M
 blueshrk        // 742 [1978] *** :: clone= ; Blue Shark
-// invad2ct        // 851 (c) 1980 Midway
 invadpt2        // 852 [1980] Taito *** :: clone= ; Space Invaders Part II (Taito)
-// invadpt2br      // Taito do Brasil
-// invaddlx        // 852 [1980] Midway
 vortex          // 852 [1980] Zilec Electronics Ltd. *** :: clone= ; Vortex
-// moonbase        // Taito
-// moonbasea       // Zeta - Nichibutsu
-				// 870 - Space Invaders Deluxe cocktail
-// searthin        // bootleg
-// searthina       // bootleg
-// searthie        // bootleg
-// invadrmr        // (c) 1978 Model Racing
 claybust        // (c) 1978 Model Racing *** :: clone= ; Claybuster
 gunchamp        // (c) 1980 Model Racing *** :: clone= ; Gun Champ
-// gunchamps       // (c) 1980 Model Racing (sshot.cpp)
-// spaceatt        // (c) 1978 Video Games GmbH
-// spaceattbp      // (c) 1978 Video Games GmbH
-// spaceatt2k      // (c) 1978 Video Games GmbH
-// galmonst        // (c) Laguna S.A.
-// spaceat2        // (c) 1980 Zenitone-Microsec Ltd
-// spacecom        // bootleg
-// sinvzen         // Zenitone-Microsec Ltd
-// superinv        // bootleg
-// invasion        // Sidam
-// invasiona       // bootleg
-// invasionb       // bootleg
-// invasionrz      // bootleg
-// invasionrza     // bootleg
-// invadersem      // Electromar
 sstrangr        // (c) 1978 Yachiyo Electronics, Ltd. *** :: clone= ; Space Stranger
-// sstrangr2       // (c) 1979 Yachiyo Electronics, Ltd.
-// sinvemag        // Zenitone-Microsec Ltd.
-// jspecter        // (c) 1979 Jatre
-// jspecter2       // (c) 1979 Jatre
 invrvnge        // Zenitone-Microsec Ltd. *** :: clone= ; Invader's Revenge (set 1)
-// invrvngea       // Zenitone-Microsec Ltd.
-// invrvngeb       // Zenitone-Microsec Ltd.
-// invrvngedu      // Zenitone-Microsec Ltd. (Dutchford license)
-// invrvngegw      // Zenitone-Microsec Ltd. (Game World license)
 galxwars        // (c) 1979 Universal *** :: clone= ; Galaxy Wars (Universal set 1)
-// galxwars2       // (c) 1979 Universal
-// galxwarst       // (c) 1979 Taito?
-// starw           // bootleg
-// starw1          // bootleg
 lrescue         // LR  (c) 1979 Taito *** :: clone= ; Lunar Rescue
-// mlander         // (c) 1980 Leisure Time Electronics
-// lrescuem        // Model Racing bootleg set 1
-// lrescuem2       // Model Racing bootleg set 2
-// grescue         // bootleg?
-// desterth        // bootleg
-// cosmicmo        // Universal
-// cosmicm2        // Universal
 rollingc        // Nichibutsu *** :: clone= ; Rolling Crash / Moon Base
 ozmawars        // Shin Nihon Kikaku (SNK) *** :: clone= ; Ozma Wars (set 1)
-// ozmawars2       // Shin Nihon Kikaku (SNK)
-// solfight        // bootleg
-// spaceph         // Zilec Games
 galactic        // (c) 19?? Taito *** :: clone= ; Galactica - Batalha Espacial
-// spacmiss        // bootleg?
 schaser         // RT  Taito *** :: clone= ; Space Chaser (set 1)
-// schasera        // RT  Taito
-// schaserb        // RT  Taito
-// schaserc        // RT  Taito
-// schasercv       // RT  Taito
-// schaserm        // Model Racing
 lupin3          // LP  (c) 1980 Taito *** :: clone= ; Lupin III (set 1)
-// lupin3a         // LP  (c) 1980 Taito
-// intruder        // (c) 1980 GamePlan (Taito)
 spclaser        // (c) 1980 GamePlan (Taito) *** :: clone= ; Space Laser
-// laser           // (c) 1980 Leisure Time Electronics Inc.
-// spcewarl        // (c) 1979 Leijac Corporation (Konami)
 polaris         // PS  (c) 1980 Taito *** :: clone= ; Polaris (Latest version)
-// polarisa        // PS  (c) 1980 Taito
-// polariso        // PS  (c) 1980 Taito
-// polarisbr       // PS  (c) 1981 Taito do Brasil
 ballbomb        // TN  (c) 1980 Taito *** :: clone= ; Balloon Bomber
 indianbt        // (c) 1980 Taito *** :: clone= ; Indian Battle
-// indianbtbr      // (c) 1983 Taito do Brasil
 steelwkr        // (c) 1980 Taito *** :: clone= ; Steel Worker
 m79amb          // (c) 1977 RamTek *** :: clone= ; M-79 Ambush
-// alieninv        // Margamatics
-// alieninvp2      // bootleg
-// tst_invd        // Test ROM
-// sisv1           // (c) 1978 Taito
-// sisv2           // (c) 1978 Taito
-// sisv3           // (c) 1978 Taito
-// sisv            // (c) 1978 Taito
-// sitv1           // (c) 1978 Taito
-// sitv            // (c) 1978 Taito
-// sicv            // (c) 1979 Taito
-// spacerng        // bootleg
-// spacewr3        // bootleg
-// invaderl        // bootleg
-// invader4        // bootleg
 yosakdon        // (c) 1979 Yosaku To Donbei *** :: clone= ; Yosaku To Donbei (set 1)
-// yosakdona       // (c) 1979 Yosaku To Donbei
-// spceking        // (c) 1978 Leijac Corporation (Konami)
-// spcewars        // (c) 1978 Sanritsu 
 astropal        // (c) 19?? Sidam *** :: clone= ; Astropal
 attackfc        // (c) 1979? E.G.S. *** :: clone= ; Attack Force
 cosmo           // TDS & Mints *** :: clone= ; Cosmo
-// darthvdr        // bootleg
-// ultrainv
-// invmulti        // hack
-// invmultim3a     // hack
-// invmultim2c     // hack
-// invmultim2a     // hack
-// invmultim1a     // hack
-// invmultit3d     // hack
-// invmultis3a     // hack
-// invmultis2a     // hack
-// invmultis1a     // hack
-// invmultip       // hack
 
 // Similar but with a M6800 instead of an 8080
 sflush          // (c)1979 Taito *** :: clone= ; Straight Flush
 
 // Midway Z80 games
 18w             // 653 (c) 1979 Midway :: clone= ; 18 Wheeler (set 1)
-// 18w2            // 653 (c) 1979 Midway
 sspeedr         // 1979 Midway :: clone= ; Super Speed Race
 submar          // 760 (c) 1979 Midway :: clone= ; Submarine (Midway)
 
@@ -1329,28 +510,21 @@ cosmos          // (c) 1981 Century :: clone= ; Cosmos
 darkwar         // (c) 1981 Century :: clone= ; Dark Warrior
 spacefrt        // (c) 1981 Century :: clone= ; Space Fortress (CVS)
 8ball           // (c) 1982 Century :: clone= ; Video Eight Ball
-// 8ball1          // (c) 1982 Century
 logger          // (c) 1982 Century :: clone= ; Logger
 dazzler         // (c) 1982 Century :: clone= ; Dazzler
 diggerc         // (c) 1982 Century :: clone= ; Digger (CVS)
 wallst          // (c) 1982 Century :: clone= ; Wall Street
 radarzon        // (c) 1982 Century :: clone= ; Radar Zone
-// radarzon1       // (c) 1982 Century
-// radarzont       // (c) 1982 Tuni Electro Service
-outline         // (c) 1982 Century :: clone=radarzon; Outline
 goldbug         // (c) 1982 Century :: clone= ; Gold Bug
 heartatk        // (c) 1983 Century Electronics :: clone= ; Heart Attack
 hunchbak        // (c) 1983 Century :: clone= ; Hunchback (set 1)
-// hunchbaka       // (c) 1983 Century
 superbik        // (c) 1983 Century :: clone= ; Superbike
 raiders         // (c) 1983 Century Electronics UK :: clone= ; Raiders
-// raidersr3       // (c) 1983 Century Electronics UK
 hero            // (c) 1983 Seatongrove (c) 1984 CVS :: clone= ; Hero
 huncholy        // (c) 1984 Seatongrove (c) CVS :: clone= ; Hunchback Olympic
 
 // Zaccaria Hardware (similar to CVS)
 quasar          // (c) 1980 Zelco Games Italy :: clone= ; Quasar (set 1)
-// quasara         // (c) 1980 Zelco Games Italy
 
 // Unknown Century Electronics hardware (CVS?)
 spcwarp         // 1983 Century Electronics UK LTD :: clone= ; Space Warp? (Cosmos conversion on Galaxian hardware)
@@ -1360,12 +534,8 @@ seawolf2        // (c) 1978 :: clone= ; Sea Wolf II
 spacezap        // (c) 1980 :: clone= ; Space Zap
 ebases          // (c) 1980 :: clone= ; Extra Bases
 wow             // (c) 1980 :: clone= ; Wizard of Wor
-// wowg            // (c) 1980
 gorf            // (c) 1981 :: clone= ; Gorf
-// gorfpgm1        // (c) 1981
-// gorfpgm1g       // (c) 1981
 robby           // (c) 1981 Bally Midway :: clone= ; The Adventures of Robby Roto!
-demndrgn        // (c) 1982 Bally Midway :: clone= ; Demons &amp; Dragons (prototype)
 profpac         // (c) 1983 Bally Midway :: clone= ; Professor Pac-Man
 tenpindx        // (c) 1983 Bally Midway :: clone= ; Ten Pin Deluxe
 
@@ -1373,62 +543,39 @@ tenpindx        // (c) 1983 Bally Midway :: clone= ; Ten Pin Deluxe
 // MCR1
 solarfox        // (c) 1981 :: clone= ; Solar Fox (upright)
 kick            // (c) 1981 :: clone= ; Kick (upright)
-kickman         // (c) 1981 :: clone=kick; Kickman (upright)
-kickc           // (c) 1981 :: clone=kick; Kick (cocktail)
 dpoker          // (c) 1985 :: clone= ; Draw Poker (Bally, 03-20)
 // MCR2
 shollow         // (c) 1981 :: clone= ; Satan's Hollow (set 1)
-// shollow2        // (c) 1981
 tron            // (c) 1982 :: clone= ; Tron (8/9)
-// tron2           // (c) 1982
-// tron3           // (c) 1982
-// tron4           // (c) 1982
-tronger         // (c) 1982 :: clone=tron; Tron (Germany)
 kroozr          // (c) 1982 :: clone= ; Kozmik Kroozr
 domino          // (c) 1982 :: clone= ; Domino Man
 wacko           // (c) 1982 :: clone= ; Wacko
 twotiger        // (c) 1984 :: clone= ; Two Tigers (dedicated)
-// twotigerc       // (c) 1984
 // MCR2 + MCR3 sprites
 journey         // (c) 1983 :: clone= ; Journey
 // MCR3
 tapper          // (c) 1983 :: clone= ; Tapper (Budweiser, set 1)
-// tappera         // (c) 1983
-// sutapper        // (c) 1983
 rbtapper        // (c) 1984 :: clone=tapper; Tapper (Root Beer)
 timber          // (c) 1984 :: clone= ; Timber
 dotron          // (c) 1983 :: clone= ; Discs of Tron (Upright)
-// dotrona         // (c) 1983
-// dotrone         // (c) 1983
 nflfoot         // (c) 1983 + laserdisk :: clone= ; NFL Football
 demoderb        // (c) 1984 :: clone= ; Demolition Derby
-// demoderbc       // (c) 1984
-// demoderm        // (c) 1984
 sarge           // (c) 1985 :: clone= ; Sarge
 rampage         // (c) 1986 :: clone= ; Rampage (Rev 3, 8/27/86)
-// rampage2        // (c) 1986
 powerdrv        // (c) 1986 :: clone= ; Power Drive
 stargrds        // (c) 1987 :: clone= ; Star Guards
 maxrpm          // (c) 1986 :: clone= ; Max RPM (ver 2)
 spyhunt         // (c) 1983 :: clone= ; Spy Hunter
-// spyhuntp        // (c) 1983
-// spyhuntpr       //
 turbotag        // (c) 1985 :: clone= ; Turbo Tag (prototype)
 crater          // (c) 1984 :: clone= ; Crater Raider
 // MCR 68000
 zwackery        // (c) 1984 :: clone= ; Zwackery
 xenophob        // (c) 1987 :: clone= ; Xenophobe
 spyhunt2        // (c) 1987 :: clone= ; Spy Hunter II (rev 2)
-// spyhunt2a       // (c) 1987
-intlaser        // (c) 1987 :: clone=blasted; International Team Laser (prototype)
 blasted         // (c) 1988 :: clone= ; Blasted
 archrivl        // (c) 1989 :: clone= ; Arch Rivals (rev 4.0 6/29/89)
-// archrivla       // (c) 1989
-// archrivlb       // bootleg
 trisport        // (c) 1989 :: clone= ; Tri-Sports
 pigskin         // (c) 1990 :: clone= ; Pigskin 621AD (rev 1.1K 8/01/90)
-// pigskina        // (c) 1990
-// pigskinb        // (c) 1990
 
 // Bally / Sente games
 sentetst
@@ -1437,45 +584,23 @@ gghost          // (c) 1984 :: clone= ; Goalie Ghost
 hattrick        // (c) 1984 :: clone= ; Hat Trick
 otwalls         // (c) 1984 :: clone= ; Off the Wall (Sente)
 snakepit        // (c) 1984 :: clone= ; Snake Pit
-// snakepit2       // (c) 1983
 snakjack        // (c) 1984 :: clone= ; Snacks'n Jaxson
 stocker         // (c) 1984 :: clone= ; Stocker (3/19/85)
-triviag1        // (c) 1984 :: clone= ; Trivial Pursuit (Think Tank - Genus Edition) (set 1)
-// trivia12        // (c) 1984
-triviag2        // (c) 1984 :: clone= ; Trivial Pursuit (Genus II Edition)
-triviasp        // (c) 1984 :: clone= ; Trivial Pursuit (All Star Sports Edition)
-triviayp        // (c) 1984 :: clone= ; Trivial Pursuit (Young Players Edition)
-triviabb        // (c) 1984 :: clone= ; Trivial Pursuit (Baby Boomer Edition) (3/20/85)
-triviaes        // (c) 1984 :: clone= ; Trivial Pursuit (Spanish)
 gimeabrk        // (c) 1985 :: clone= ; Gimme A Break (7/7/85)
 minigolf        // (c) 1985 :: clone= ; Mini Golf (11/25/85)
-// minigolf2       // (c) 1985
-toggle          // (c) 1985 :: clone= ; Toggle (prototype)
 nametune        // (c) 1986 :: clone= ; Name That Tune (set 1)
-// nametune2       // (c) 1986
 nstocker        // (c) 1986 :: clone= ; Night Stocker (10/6/86)
-// nstocker2       // (c) 1986
 sfootbal        // (c) 1986 :: clone= ; Street Football (11/12/86)
 spiker          // (c) 1986 :: clone= ; Spiker
-// spiker2         // (c) 1986
-// spiker3         // (c) 1986
 stompin         // (c) 1986 :: clone= ; Stompin' (4/4/86)
 rescraid        // (c) 1987 :: clone= ; Rescue Raider (5/11/87) (non-cartridge)
-// rescraida       // (c) 1987
-// grudge          // prototype - Bally/Midway
-shrike          // (c) 1987 :: clone= ; Shrike Avenger (prototype)
-// gridlee         // [1983 Videa] prototype - no copyright notice
 
 // Bally PC-based
 gammagic        // (c) 1999 Bally Gaming Co. :: clone= ; Game Magic
-99bottles       // (c) 1999 Bally Gaming Co. :: clone=gammagic; 99 Bottles of Beer
 
 // Irem games
 // trivia: IREM means "International Rental Electronics Machines"
-andromed        // (c) 1979 :: clone= ; Andromeda (Japan?)
 ipminvad        // M10 no copyright notice (Arcade TV Game List - P.67, Left, 26 from top) :: clone= ; IPM Invader
-// ipminvad1       // M10 incomplete dump
-ptrmj           // M14 (c) 1979 :: clone= ; PT Reach Mahjong (Japan)
 skychut         // Irem [1980] :: clone= ; Sky Chuter
 spacbeam        // M15 no copyright notice :: clone= ; Space Beam
 greenber        // Irem :: clone= ; Green Beret (Irem)
@@ -1483,242 +608,95 @@ headoni         // Irem no copyright notice (1979 - Arcade TV Game List - P.98, 
 panther         // M27 no copyright notice :: clone= ; Panther
 redalert        // M27 (c) 1981 + "GDI presents" :: clone= ; Red Alert
 demoneye        // M27 (c) 1981 :: clone= ; Demoneye-X
-ww3             // M27 (c) 1981 :: clone=redalert; WW III
 olibochu        // M47 (c) 1981 + "GDI presents" :: clone= ; Oli-Boo-Chu
 mpatrol         // M52 (c) 1982 :: clone= ; Moon Patrol
-// mpatrolw        // M52 (c) 1982 + Williams license
-mranger         // bootleg :: clone=mpatrol; Moon Ranger (bootleg of Moon Patrol)
 alpha1v         // Vision Electronics :: clone= ; Alpha One (Vision Electronics)
 troangel        // (c) 1983 :: clone= ; Tropical Angel
-newtangl        // (c) 1983 :: clone=troangel; New Tropical Angel
 10yard          // (c) 1983 :: clone= ; 10-Yard Fight (World, set 1)
-// 10yardj         // (c) 1983
-vs10yard        // (c) 1983/1984 :: clone=10yard; Vs 10-Yard Fight (World, 11/05/84)
-// vs10yardj       // (c) 1983/1984
-// vs10yardu       // (c) 1983/1984
-10yard85        // (c) 1985 :: clone=10yard; 10-Yard Fight '85 (US, Taito license)
 travrusa        // (c) 1983 :: clone= ; Traverse USA / Zippy Race
-// travrusab       // (c) 1983 I.P. (bootleg)
-motorace        // (c) 1983 Williams license :: clone=travrusa; MotoRace USA
-mototour        // (c) 1983 Tecfri :: clone=travrusa; MotoTour / Zippy Race (Tecfri license)
 shtrider        // (c) 1984 Seibu Kaihatsu :: clone= ; Shot Rider
-// shtridera       // (c) 1984 Seibu Kaihatsu
-// shtriderb       // bootleg
 wilytowr        // M63 (c) 1984 :: clone= ; Wily Tower
-atomboy         // M63 (c) 1985 Irem + Memetron license :: clone=wilytowr; Atomic Boy (revision B)
-// atomboya        // M63 (c) 1985 Irem + Memetron license
 fghtbskt        // (c) 1984 Paradise Co. Ltd. :: clone= ; Fighting Basketball
-// M62
 kungfum         // (c) 1984 :: clone= ; Kung-Fu Master (World)
-// kungfumd        // (c) 1984 + Data East license
-spartanx        // (c) 1984 (Japan) :: clone=kungfum; Spartan X (Japan)
-// kungfub         // bootleg
-// kungfub2        // bootleg
 battroad        // (c) 1984 :: clone= ; The Battle-Road
 ldrun           // (c) 1984 licensed from Broderbund :: clone= ; Lode Runner (set 1)
-// ldruna          // (c) 1984 licensed from Broderbund
-// ldrun2          // (c) 1984 licensed from Broderbund
-// ldrun3          // (c) 1985 licensed from Broderbund
-// ldrun3j         // (c) 1985 licensed from Broderbund
-// ldrun4          // (c) 1986 licensed from Broderbund
 lotlot          // (c) 1985 licensed from Tokuma Shoten :: clone= ; Lot Lot
 kidniki         // (c) 1986 + Data East USA license :: clone= ; Kid Niki - Radical Ninja (World)
-// kidnikiu        // (c) 1986 + Data East USA license
-yanchamr        // (c) 1986 (Japan) :: clone=kidniki; Kaiketsu Yanchamaru (Japan)
-lithero         // bootleg :: clone=kidniki; Little Hero
 spelunkr        // (c) 1985 licensed from Broderbund :: clone= ; Spelunker
-// spelunkrj       // (c) 1985 licensed from Broderbund
-// spelunk2        // (c) 1986 licensed from Broderbund
 horizon         // (c) 1985 :: clone= ; Horizon (Irem)
-youjyudn        // (c) 1986 (Japan) :: clone= ; Youjyuden (Japan)
 
 vigilant        // (c) 1988 (World Rev E) :: clone= ; Vigilante (World, Rev E)
-// vigilanta       // (c) 1988 (World Rev A)
-// vigilantb       // (c) 1988 (US Rev B)
-// vigilantc       // (c) 1988 (World Rev C)
-// vigilantd       // (c) 1988 (Japan Rev D)
-// vigilantg       // (c) 1988 (US Rev G)
-// vigilanto       // (c) 1988 (US)
-// vigilantbl      // bootleg
-kikcubic        // (c) 1988 (Japan) :: clone= ; Meikyu Jima (Japan)
-// kikcubicb       // bootleg
 buccanrs        // (c) 1989 Duintronic :: clone= ; Buccaneers (set 1)
-// buccanrsa       // (c) 1989 Duintronic
 // M72 (and derivatives)
 rtype           // (c) 1987 (Japan) :: clone= ; R-Type (World)
-// rtypej          // (c) 1987 (Japan)
-// rtypejp         // (c) 1987 (Japan)
-rtypeu          // (c) 1987 + Nintendo USA license (US) :: clone=rtype; R-Type (US)
-// rtypeb          // bootleg
-// rtypem82b       // bootleg
 bchopper        // (c) 1987 :: clone= ; Battle Chopper
-mrheli          // (c) 1987 (Japan) :: clone=bchopper; Mr. HELI no Daibouken (Japan)
 nspirit         // (c) 1988 :: clone= ; Ninja Spirit
-// nspiritj        // (c) 1988 (Japan)
 imgfight        // (c) 1988 (World) :: clone= ; Image Fight (World, revision A)
-// imgfightj       // (c) 1988 (Japan)
 loht            // (c) 1989 :: clone= ; Legend of Hero Tonma
-// lohtj           // (c) 1989 (Japan)
-// lohtb           // (c) 1989 (bootleg)
-// lohtb2          // (c) 1989 (bootleg)
 xmultipl        // (c) 1989 (Japan) :: clone= ; X Multiply (World, M81)
-// xmultiplm72     // (c) 1989 (Japan)
 dbreed          // (c) 1989 :: clone= ; Dragon Breed (M81 PCB version)
-// dbreedm72       // (c) 1989
 rtype2          // (c) 1989 :: clone= ; R-Type II
-// rtype2j         // (c) 1989 (Japan)
-// rtype2jc        // (c) 1989 (Japan)
-// rtype2m82b      // bootleg
 majtitle        // (c) 1990 (World) :: clone= ; Major Title (World)
-// majtitlej       // (c) 1990 (Japan)
 hharry          // (c) 1990 (World) :: clone= ; Hammerin' Harry (World, M81)
-// hharryu         // (c) 1990 Irem America (US)
-dkgensan        // (c) 1990 (Japan) :: clone=hharry; Daiku no Gensan (Japan, M84)
-// dkgensanm72     // (c) 1990 (Japan)
 poundfor        // (c) 1990 (World) :: clone= ; Pound for Pound (World)
-// poundforj       // (c) 1990 (Japan)
-// poundforu       // (c) 1990 Irem America (US)
-// airduelm72      // (c) 1990 (Japan)
 airduel         // (c) 1990 (World) :: clone= ; Air Duel (World, M82-A-A + M82-B-A)
 cosmccop        // (c) 1991 (World) :: clone= ; Cosmic Cop (World)
-gallop          // (c) 1991 (Japan) :: clone=cosmccop; Gallop - Armed Police Unit (Japan, M72)
 ltswords        // (c) 1991 (World) :: clone= ; Lightning Swords
-kengo           // (c) 1991 (Japan) :: clone=ltswords; Ken-Go (set 1)
-// kengoa          // (c) 1991 (Japan)
-// not M72, but same sound hardware
-sichuan2        // (c) 1989 Tamtex :: clone=matchit; Sichuan II (hack, set 1)
-// sichuan2a       // (c) 1989 Tamtex
-shisen          // (c) 1989 Tamtex :: clone=matchit; Shisensho - Joshiryo-Hen (Japan)
 matchit         // (c) 1989 Tamtex :: clone= ; Match It
 // M90
-hasamu          // (c) 1991 Irem (Japan) :: clone= ; Hasamu (Japan)
 dynablst        // (c) 1991 Irem (World) :: clone= ; Dynablaster / Bomber Man
-// dynablstb       // bootleg
-// dynablstb2      // bootleg (alt)
-bombrman        // (c) 1991 Irem (Japan) :: clone=dynablst; Bomber Man (Japan)
 atompunk        // (c) 1991 Irem America (licensed from Hudson Soft) :: clone=dynablst; Atomic Punk (US)
 // M97
 bbmanw          // (c) 1992 Irem (World) :: clone= ; Bomber Man World / New Dyna Blaster - Global Quest
-// bbmanwj         // (c) 1992 Irem (Japan)
-// bbmanwja        // (c) 1992 Irem (Japan) - revised sound hardware
-// bomblord        // bootleg
 newapunk        // (c) 1992 Irem America (US) :: clone=bbmanw; New Atomic Punk - Global Quest (US)
-quizf1          // (c) 1992 Irem (Japan) :: clone= ; Quiz F1 1-2 Finish (Japan)
 riskchal        // (c) 1993 Irem :: clone= ; Risky Challenge
-gussun          // (c) 1993 Irem (Japan) :: clone=riskchal; Gussun Oyoyo (Japan)
 matchit2        // (c) 1993 Tamtex :: clone= ; Match It II
-shisen2         // (c) 1993 Tamtex :: clone=matchit2; Shisensho II
 // M92
 gunforce        // (c) 1991 Irem (World) :: clone= ; Gunforce - Battle Fire Engulfed Terror Island (World)
-// gunforceu       // (c) 1991 Irem America (US)
-// gunforcej       // (c) 1991 Irem (Japan)
 bmaster         // (c) 1991 Irem :: clone= ; Blade Master (World)
-crossbld        // (c) 1991 Irem (Japan) :: clone=bmaster; Cross Blades! (Japan)
 lethalth        // (c) 1991 Irem (World) :: clone= ; Lethal Thunder (World)
-thndblst        // (c) 1991 Irem (Japan) :: clone=lethalth; Thunder Blaster (Japan)
 uccops          // (c) 1992 Irem (World) :: clone= ; Undercover Cops (World)
-// uccopsu         // (c) 1992 Irem (US)
-// uccopsar        // (c) 1992 Irem (World)
-// uccopsj         // (c) 1992 Irem (Japan)
 mysticri        // (c) 1992 Irem (World) :: clone= ; Mystic Riders (World)
-// mysticrib       // bootleg?
-gunhohki        // (c) 1992 Irem (Japan) :: clone=mysticri; Mahou Keibitai Gun Hohki (Japan)
 majtitl2        // (c) 1992 Irem (World) :: clone= ; Major Title 2 (World)
-// majtitl2j       // (c) 1992 Irem (Japan)
-skingame        // (c) 1992 Irem America (US) :: clone=majtitl2; The Irem Skins Game (US set 1)
-// skingame2       // (c) 1992 Irem America (US)
 hook            // (c) 1992 Irem (World) :: clone= ; Hook (World)
-// hooku           // (c) 1992 Irem America (US)
-// hookj           // (c) 1992 Irem (Japan)
-// ppan            // bootleg
 rtypeleo        // (c) 1992 Irem (World) :: clone= ; R-Type Leo (World)
-// rtypeleoj       // (c) 1992 Irem (Japan)
 inthunt         // (c) 1993 Irem (World) :: clone= ; In The Hunt (World)
-// inthuntu        // (c) 1993 Irem (US)
-kaiteids        // (c) 1993 Irem (Japan) :: clone=inthunt; Kaitei Daisensou (Japan)
 nbbatman        // (c) 1993 Irem (World) :: clone= ; Ninja Baseball Bat Man (World)
-// nbbatmanu       // (c) 1993 Irem America (US)
-// nbbatman2bl             // bootleg
-leaguemn        // (c) 1993 Irem (Japan) :: clone=nbbatman; Yakyuu Kakutou League-Man (Japan)
 ssoldier        // (c) 1993 Irem America (US) :: clone= ; Superior Soldiers (US)
-// psoldier        // (c) 1993 Irem (Japan)
-dsoccr94j       // (c) 1994 Irem (Japan) :: clone=dsoccr94; Dream Soccer '94 (Japan, M92 hardware)
 gunforc2        // (c) 1994 Irem :: clone= ; Gun Force II (US)
-geostorm        // (c) 1994 Irem (Japan) :: clone=gunforc2; Geo Storm (Japan)
 // M107
 airass          // (c) 1993 Irem (World) :: clone= ; Air Assault (World)
-firebarr        // (c) 1993 Irem (Japan) :: clone=airass; Fire Barrel (Japan)
 dsoccr94        // (c) 1994 Irem (Data East Corporation license) :: clone= ; Dream Soccer '94 (World, M107 hardware)
-// dsoccr94k       //
-kftgoal         // (c) 1994 Jaleco :: clone=wpksoc; Kick for the Goal
 wpksoc          // (c) 1995 Jaleco :: clone= ; World PK Soccer
 
 // Gottlieb/Mylstar games (Gottlieb became Mylstar in 1983)
 reactor         // GV-100 (c) 1982 Gottlieb :: clone= ; Reactor
 mplanets        // GV-102 (c) 1983 Gottlieb :: clone= ; Mad Planets
-// mplanetsuk      // GV-102 (c) 1983 Gottlieb
 qbert           // GV-103 (c) 1982 Gottlieb :: clone= ; Q*bert (US set 1)
-// qberta          // GV-103 (c) 1982 Gottlieb
-// qbertj          // GV-103 (c) 1982 Gottlieb + Konami license
-// myqbert         // GV-103?(c) 1982 Gottlieb
-// qberttst        // GV-103 (c) 1982 Gottlieb
-// qbtrktst        // GV-103 (c) 1982 Gottlieb
-// insector        // GV-??? (c) 1982 Gottlieb - never released
-// tylz            // GV-??? (c) 1982 Gottlieb - never released
-// argusg          // GV-??? (c) 1982 Gottlieb - never released
 krull           // GV-105 (c) 1983 Gottlieb :: clone= ; Krull
-// kngtmare        // GV-??? (c) 1983 Gottlieb - never released
-// sqbert          // GV-??? (c) 1983 Mylstar - never released
 mach3           // GV-109 (c) 1983 Mylstar :: clone= ; M.A.C.H. 3
-cobram3         // ...... (c) 1984 Data East :: clone=cobra; Cobra Command (M.A.C.H. 3 hardware)
 usvsthem        // GV-??? (c) 198? Mylstar :: clone= ; Us vs. Them
 3stooges        // GV-113 (c) 1984 Mylstar :: clone= ; The Three Stooges In Brides Is Brides (set 1)
-// 3stoogesa       // GV-113 (c) 1984 Mylstar
-// qbertqub        // GV-119 (c) 1983 Mylstar
-// screwloo        // GV-123 (c) 1983 Mylstar - never released
 curvebal        // GV-134 (c) 1984 Mylstar :: clone= ; Curve Ball
-// vidvince        // GV-??? (c) 1984 Mylstar - never released
-// wizwarz         // GV-??? (c) 1984 Mylstar - never released
 
 // Taito "Qix hardware" games
 qix             // LK  (c) 1981 Taito America Corporation :: clone= ; Qix (Rev 2)
-// qixa            // LK  (c) 1981 Taito America Corporation
-// qixb            // LK  (c) 1981 Taito America Corporation
-// qixo            // LK  (c) 1981 Taito America Corporation
-// qix2            // ??  (c) 1981 Taito America Corporation
 sdungeon        // SD  (c) 1981 Taito America Corporation :: clone= ; Space Dungeon
 elecyoyo        // YY  (c) 1982 Taito America Corporation :: clone= ; The Electric Yo-Yo (set 1)
-// elecyoyo2       // YY  (c) 1982 Taito America Corporation
 kram            // KS  (c) 1982 Taito America Corporation :: clone= ; Kram (set 1)
-// kram2           // KS  (c) 1982 Taito America Corporation
-// kram3           // KS  (c) 1982 Taito America Corporation
 zookeep         // ZA  (c) 1982 Taito America Corporation :: clone= ; Zoo Keeper (set 1)
-// zookeep2        // ZA  (c) 1982 Taito America Corporation
-// zookeep3        // ZA  (c) 1982 Taito America Corporation
 slither         // (c) 1982 Century II :: clone= ; Slither (set 1)
-// slithera        // (c) 1982 Century II
 complexx        // CX  (c) 1984 Taito America Corporation :: clone= ; Complex X
 
 // Taito SJ System games
 spaceskr        // EB  (c) 1981 Taito Corporation :: clone= ; Space Seeker
 spacecr         // CG  (c) 1981 Taito Corporation :: clone= ; Space Cruiser
-junglek         // KN  (c) 1982 Taito Corporation :: clone= ; Jungle King (Japan)
-// junglekas       // KN  (c) 1982 Taito Corporation (alternate sound)
-// junglekj2       // KN  (c) 1982 Taito Corporation
-// jungleh         // KN  (c) 1982 Taito America Corporation
-// junglehbr       // KN  (c) 1982 Taito do Brasil
-piratpet        // KN  (c) 1982 Taito America Corporation :: clone=junglek; Pirate Pete
-// jungleby        // bootleg
 alpine          // RH  (c) 1982 Taito Corporation :: clone= ; Alpine Ski (set 1)
-// alpinea         // RH  (c) 1982 Taito Corporation
 timetunl        // UN  (c) 1982 Taito Corporation :: clone= ; Time Tunnel
 wwestern        // WW  (c) 1982 Taito Corporation :: clone= ; Wild Western (set 1)
-// wwestern1       // WW  (c) 1982 Taito Corporation
 frontlin        // FL  (c) 1982 Taito Corporation :: clone= ; Front Line
 elevator        // EA  (c) 1983 Taito Corporation :: clone= ; Elevator Action
-// elevatorb       // bootleg
 tinstar         // A10 (c) 1983 Taito Corporation :: clone= ; The Tin Star (set 1)
-// tinstar2        // A10 (c) 1983 Taito Corporation
 waterski        // A03 (c) 1983 Taito Corporation :: clone= ; Water Ski
 bioatack        // AA8 (c) 1983 Taito Corporation + Fox Video Games license :: clone= ; Bio Attack
 hwrace          // AC4 (c) 1983 Taito Corporation :: clone= ; High Way Race
@@ -1727,593 +705,211 @@ kikstart        // A20 (c) 1984 Taito Corporation :: clone= ; Kick Start - Wheel
 
 // other Taito games
 fgoal           // TF  (c) 1979 Taito Corporation :: clone= ; Field Goal (set 1)
-// fgoala          // MF  (c) 1979 Taito Corporation
 crbaloon        // CL  (c) 1980 Taito Corporation :: clone= ; Crazy Balloon (set 1)
-// crbaloon2       // CL  (c) 1980 Taito Corporation
 sbowling        // KB  (c) 1982 Taito Corporation :: clone= ; Strike Bowling
 grchamp         // GM  (c) 1981 Taito Corporation :: clone= ; Grand Champion
 marinedt        // MG  (c) 1981 Taito Corporation :: clone= ; Marine Date
 changela        // ??? (c) 1983 Taito Corporation :: clone= ; Change Lanes
-// fspiderb        // bootleg
 jollyjgr        // KD  (c) 1982 Taito Corporation :: clone= ; Jolly Jogger
 bking           // DM  (c) 1982 Taito Corporation :: clone= ; Birdie King
-// bking2          // AD6 (c) 1983 Taito Corporation
-// bking3          // A24 (c) 1984 Taito Corporation
 chaknpop        // AO4 (c) 1983 Taito Corporation :: clone= ; Chack'n Pop
 josvolly        // AA  (c) 1983 Taito Corporation :: clone= ; Joshi Volleyball
 gsword          // AC  (c) 1984 Taito Corporation :: clone= ; Great Swordsman (World?)
-// gsword2         // AC  (c) 1984 Taito Corporation
 cyclemb         // P0  (c) 1984 Taito Corporation [+ Seta] :: clone= ; Cycle Maabou (Japan)
 pitnrun         // PR  (c) 1984 Taito Corporation :: clone= ; Pit &amp; Run - F-1 Race (set 1)
-// pitnruna        // PR  (c) 1984 Taito Corporation
 lkage           // A54 (c) 1984 Taito Corporation :: clone= ; The Legend of Kage
-// lkageo          // A54 (c) 1984 Taito Corporation
-// lkageoo         // A54 (c) 1984 Taito Corporation
-// lkageb          // bootleg
-// lkageb2         // bootleg
-// lkageb3         // bootleg
-skydest         // PD0 (c) 1985 Taito Corporation :: clone= ; Sky Destroyer (Japan)
 bygone          // A53 (c) 1985 Taito Corporation - prototype ? :: clone= ; Bygone
 msisaac         // A34 (c) 1985 Taito Corporation :: clone= ; Metal Soldier Isaac II
 retofinv        // A37 (c) 1985 Taito Corporation :: clone= ; Return of the Invaders
-// retofinv1       // bootleg
-// retofinv2       // bootleg
 fightrol        // (c) 1983 Taito :: clone= ; Fighting Roller
-rollace         // (c) 1983 Williams :: clone=fightrol; Roller Aces (set 1)
-// rollace2        // (c) 1983 Williams
 lgp             // (c) 1983 Taito :: clone= ; Laser Grand Prix
-// lgpalt          // (c) 1983 Taito
 vsgongf         // (c) 1984 Kaneko :: clone= ; VS Gong Fight
-ringfgt         // (c) 1984 Taito :: clone=vsgongf; Ring Fighter (set 1)
-// ringfgt2        // (c) 1984 Taito
 fieldday        // A23 (c) 1984 Taito *** :: clone= ; Field Day
-// undoukai        // A17 (c) 1984 Taito
 40love          // A30 (c) 1984 Taito *** :: clone= ; Forty-Love
 tsamurai        // A35 (c) 1985 Taito :: clone= ; Samurai Nihon-Ichi (set 1)
-// tsamurai2       // A35 (c) 1985 Taito
-// tsamuraih       // bootleg
 ladymstr        // A49 (c) 1985 Taito :: clone= ; Lady Master of Kung Fu
-nunchaku        // ??? (c) 1985 Taito :: clone=ladymstr; Nunchackun
 yamagchi        // A38 (c) 1985 Taito :: clone= ; Go Go Mr. Yamaguchi / Yuke Yuke Yamaguchi-kun
 m660            // ??? (c) 1986 Taito America Corporation :: clone= ; Mission 660 (US)
-// m660j           // ??? (c) 1986 Taito Corporation (Japan)
-// m660b           // bootleg
-alphaxz         // AZ  (c) 1986 Ed/Wood Place :: clone=m660; The Alphax Z (Japan)
 buggychl        // A22 (c) 1984 Taito Corporation :: clone= ; Buggy Challenge
-// buggychlt       // A22 (c) 1984 Taito Corporation + Tefri license
 ssrj            // A40 (c) 1985 Taito Corporation :: clone= ; Super Speed Race Junior (Japan)
 bigevglf        // A67 (c) 1986 Taito America Corporation (US) :: clone= ; Big Event Golf (US)
-// bigevglfj       // A67 (c) 1986 Taito Corporation (Japan)
 flstory         // A45 (c) 1985 Taito Corporation :: clone= ; The FairyLand Story
-// flstoryj        // A45 (c) 1985 Taito Corporation (Japan)
-onna34ro        // A52 (c) 1985 Taito Corporation (Japan) :: clone= ; Onna Sansirou - Typhoon Gal (set 1)
-// onna34roa       // A52 (c) 1985 Taito Corporation (Japan)
 victnine        // A16 (c) 1985 Taito Corporation (Japan) :: clone= ; Victorious Nine
 rumba           // A23 (c) 1985 Taito Corporation (Japan) :: clone= ; Rumba Lumber
 gladiatr        // QB  (c) 1986 Taito America Corporation (US) :: clone= ; Gladiator (US)
-gcastle         // QB  (c) 1986 Taito Corporation (prototype?) :: clone=gladiatr; Golden Castle (prototype?)
-ogonsiro        // QB  (c) 1986 Taito Corporation (Japan) :: clone=gladiatr; Ougon no Shiro (Japan)
-greatgur        // QB  (c) 1986 Taito Corporation (Japan?) :: clone=gladiatr; Great Gurianos (Japan?)
 ppking          // QO  (c) 1985 Taito America Corporation (US) :: clone= ; Ping-Pong King
 nycaptor        // A50 (c) 1985 Taito Corporation :: clone= ; N.Y. Captor
 cyclshtg        // A97 (c) 1986 Taito Corporation :: clone= ; Cycle Shooting
-bronx           // bootleg :: clone=cyclshtg; Bronx
-colt            // bootleg :: clone=nycaptor; Colt
 ksayakyu        // ??? (c) 1985 Taito Corporation :: clone= ; Kusayakyuu
-benberob        // A26 :: clone= ; Ben Bero Beh (Japan)
 halleys         // A62 (c) 1986 Taito America Corporation + Coin It (US) :: clone= ; Halley's Comet (US)
-// halleysc        // A62 (c) 1986 Taito Corporation (Japan)
-// halleycj        // A62 (c) 1986 Taito Corporation (Japan)
-halley87        // A62 (c) 1986 Taito Corporation (Japan) :: clone=halleys; Halley's Comet '87
 lsasquad        // A64 (c) 1986 Taito Corporation / Taito America (dip switch) :: clone= ; Land Sea Air Squad / Riku Kai Kuu Saizensen
-storming        // A64 (c) 1986 Taito Corporation :: clone=lsasquad; Storming Party / Riku Kai Kuu Saizensen
 daikaiju        // A74 (c) 1986 Taito :: clone= ; Daikaiju no Gyakushu
 tokio           // A71 1986 :: clone= ; Tokio / Scramble Formation (newer)
-// tokioo          // A71 1986
-// tokiou          // A71 1986
-// tokiob          // bootleg
 bublbobl        // A78 (c) 1986 Taito Corporation :: clone= ; Bubble Bobble (Japan, Ver 0.1)
-// bublbobl1       // A78 (c) 1986 Taito Corporation
-// bublboblr       // A78 (c) 1986 Taito America Corporation + Romstar license
-// bublboblr1      // A78 (c) 1986 Taito America Corporation + Romstar license
-// boblbobl        // bootleg
-// sboblbobl       // bootleg
-// sboblbobla      // bootleg
-// sboblboblb      // bootleg
-// sboblboblc      // bootleg
-// bublboblb       // bootleg
-// bub68705        // bootleg
-// dland           // bootleg
-// bbredux         // bootleg / hack
-// bublcave        // hack
-// boblcave        // hack
-// bublcave11      // hack
-// bublcave10      // hack
-// missb2          // bootleg on enhanced hardware
-// bublpong        // bootleg on enhanced hardware
 kikikai         // A85 (c) 1986 Taito Corporation :: clone= ; KiKi KaiKai
-// knightb         // bootleg
 kicknrun        // A87 (c) 1986 Taito Corporation :: clone= ; Kick and Run (World)
-kicknrunu       // A87 (c) 1986 Taito Corporation :: clone=kicknrun; Kick and Run (US)
-// mexico86        // bootleg (Micro Research)
-// mexico86a       // bootleg
 darius          // A96 (c) 1986 Taito Corporation Japan (World) :: clone= ; Darius (World, rev 2)
-// dariusu         // A96 (c) 1986 Taito America Corporation (US)
-// dariusj         // A96 (c) 1986 Taito Corporation (Japan)
-// dariuso         // A96 (c) 1986 Taito Corporation (Japan)
-// dariuse         // A96 (c) 1986 Taito Corporation (Japan)
 rastan          // B04 (c) 1987 Taito Corporation Japan (World) :: clone= ; Rastan (World Rev 1)
-// rastana         // B04 (c) 1987 Taito Corporation Japan (World)
-// rastanu         // B04 (c) 1987 Taito America Corporation (US)
-// rastanua        // B04 (c) 1987 Taito America Corporation (US)
-// rastanub        // B04 (c) 1987 Taito America Corporation (US)
-rastsaga        // B04 (c) 1987 Taito Corporation (Japan) :: clone=rastan; Rastan Saga (Japan Rev 1)
-// rastsagaa       // B04 (c) 1987 Taito Corporation (Japan)
 topspeed        // B14 (c) 1987 Taito Corporation Japan (World) :: clone= ; Top Speed (World)
-// topspeedu       // B14 (c) 1987 Taito America Corporation (US)
-fullthrl        // B14 (c) 1987 Taito Corporation (Japan) :: clone=topspeed; Full Throttle (Japan)
 opwolf          // B20 (c) 1987 Taito Corporation Japan (World) :: clone= ; Operation Wolf (World, set 1)
-// opwolfa         // B20 (c) 1987 Taito Corporation Japan (World)
-// opwolfj         // B20 (c) 1987 Taito Corporation (Japan)
-// opwolfu         // B20 (c) 1987 Taito America Corporation (US)
-// opwolfb         // bootleg
 othunder        // B67 (c) 1988 Taito Corporation Japan (World) :: clone= ; Operation Thunderbolt (World)
-// othunderu       // B67 (c) 1988 Taito America Corporation (US)
-// othunderuo      // B67 (c) 1988 Taito America Corporation (US)
-// othunderj       // B67 (c) 1988 Taito Corporation (Japan)
 rbisland        // B22 (c) 1987 Taito Corporation :: clone= ; Rainbow Islands (new version)
-// rbislando       // B22 (c) 1987 Taito Corporation
-// rbislande       // B39 (c) 1988 Taito Corporation
-// jumping         // bootleg
-// jumpinga        // bootleg (Seyutu)
-// jumpingi        // bootleg (Seyutu / Imnoe)
 arkanoid        // A75 (c) 1986 Taito Corporation Japan (World) :: clone= ; Arkanoid (World, oldest rev)
-// arkanoidu       // A75 (c) 1986 Taito America Corporation + Romstar license (US)
-// arkanoiduo      // A75 (c) 1986 Taito America Corporation + Romstar license (US)
-// arkanoidj       // A75 (c) 1986 Taito Corporation (Japan)
-// arkanoidja      // A75 (c) 1986 Taito Corporation (Japan)
-// arkanoidjb      // A75 (c) 1986 Taito Corporation (Japan)
-// arkanoidjbl     // bootleg
-// arkanoidjbl2    // bootleg (Beta)
-// ark1ball        // bootleg
-// arkangc         // bootleg
-// arkangc2        // bootleg
-// arkblock        // bootleg
-// arkbloc2        // bootleg
-// arkbloc3        // bootleg
-// arkgcbl         // bootleg
-// arkgcbla        // bootleg
-// paddle2         // bootleg
-// block2          // bootleg
-// arkatayt        // bootleg
-// arktayt2        // bootleg
 arkatour        // ??? (c) 1987 Taito America Corporation + Romstar license (US) :: clone= ; Tournament Arkanoid (US)
 tetrsark        // ??? (c) D.R.Korea :: clone= ; Tetris (D.R. Korea)
 hexa            // D. R. Korea :: clone= ; Hexa
-// hexaa           //
 brixian         // (c) 1993 Cheil Computer System :: clone= ; Brixian
 sqix            // B03 1987 :: clone= ; Super Qix (World, Rev 2)
-// sqixr1          // B03 1987
-// sqixu           // B03 1987
-// sqixb1          // bootleg? but (c) 1987
-// sqixb2          // bootleg? but (c) 1987
 perestro        // (c) 1994 Promat :: clone= ; Perestroika Girls
-// perestrof       // (c) 1993 Promat / Fuuki
 pbillian        // (c) 1986 Taito :: clone= ; Prebillian
 hotsmash        // B18 (c) 1987 Taito :: clone= ; Vs. Hot Smash
-exzisus         // B12 (c) 1987 Taito Corporation (Japan) :: clone= ; Exzisus (Japan, dedicated)
-// exzisusa        // B23 (c) 1987 Taito Corporation (Japan)
-// exzisust        // B23 (c) 1987 TAD Corp (based on Japan Conversion)
-// minivadr        // D26 cabinet test board
 volfied         // C04 (c) 1989 Taito Corporation Japan (World) :: clone= ; Volfied (World, revision 1)
-// volfiedu        // C04 (c) 1989 Taito America Corporation (US)
-// volfiedj        // C04 (c) 1989 Taito Corporation (Japan)
-// volfiedo        // C04 (c) 1989 Taito Corporation Japan (World)
-// volfieduo       // C04 (c) 1989 Taito America Corporation (US)
-// volfiedjo       // C04 (c) 1989 Taito Corporation (Japan)
 bonzeadv        // B41 (c) 1988 Taito Corporation Japan (World) :: clone= ; Bonze Adventure (World, Newer)
-// bonzeadvo       // B41 (c) 1988 Taito Corporation Japan (World)
-// bonzeadvu       // B41 (c) 1988 Taito America Corporation (US)
-// bonzeadvp
-jigkmgri        // B41 (c) 1988 Taito Corporation (Japan) :: clone=bonzeadv; Jigoku Meguri (Japan)
 asuka           // B68 (c) 1988 Taito Corporation (World) :: clone= ; Asuka &amp; Asuka (World)
-// asukaj          // B68 (c) 1988 Taito Corporation (Japan)
 mofflott        // C17 (c) 1989 Taito Corporation (Japan) :: clone= ; Maze of Flott (Japan)
 cadash          // C21 (c) 1989 Taito Corporation Japan :: clone= ; Cadash (World)
-// cadashj         // C21 (c) 1989 Taito Corporation
-// cadashj1        // C21 (c) 1989 Taito Corporation
-// cadashjo        // C21 (c) 1989 Taito Corporation
-cadashu         // C21 (c) 1989 Taito America Corporation :: clone=cadash; Cadash (US, version 2)
-// cadashi         // C21 (c) 1989 Taito Corporation Japan
-// cadashf         // C21 (c) 1989 Taito Corporation Japan
-// cadashg         // C21 (c) 1989 Taito Corporation Japan
-// cadashp         // prototype
 parentj         // C42 (c) 199? Taito :: clone= ; Parent Jack
-galmedes        // (c) 1992 Visco (Japan) :: clone= ; Galmedes (Japan)
-earthjkr        // (c) 1993 Visco (Japan) :: clone= ; U.N. Defense Force: Earth Joker (Japan)
-// earthjkrp       //
-eto             // (c) 1994 Visco (Japan) :: clone= ; Kokontouzai Eto Monogatari (Japan)
 wgp             // C32 (c) 1989 Taito America Corporation (US) :: clone= ; World Grand Prix (US)
-// wgpj            // C32 (c) 1989 Taito Corporation (Japan)
-// wgpjoy          // C32 (c) 1989 Taito Corporation (Japan)
-// wgpjoya         // C32 (c) 1989 Taito Corporation (Japan)
-wgp2            // C73 (c) 1990 Taito Corporation (Japan) :: clone=wgp; World Grand Prix 2 (Japan)
-galastrm        // C99 (c) 1992 Taito Corporation :: clone= ; Galactic Storm (Japan)
-slapshot        // D71 (c) 1994 Taito Corporation (Japan) :: clone= ; Slap Shot (Japan)
 opwolf3         // D74 (c) 1994 Taito :: clone= ; Operation Wolf 3 (World)
-// opwolf3u        // D74 (c) 1994 Taito
 scessjoe        // ??? (c) 1990 Wave / Taito :: clone= ; Success Joe (World)
-ashnojoe        // ??? (c) 1990 Wave / Taito :: clone=scessjoe; Ashita no Joe (Japan)
-// 2mindril        // (c) 1993 Taito
 
 // Taito multi-screen games
 wyvernf0        // A39 (c) 1985 Taito Corporation (Japan) :: clone= ; Wyvern F-0
 ninjaw          // B31 (c) 1987 Taito Corporation Japan (World) :: clone= ; The Ninja Warriors (World)
-// ninjawu         // B31 (c) 1987 Taito America Corporation (US)
-// ninjawj         // B31 (c) 1987 Taito Corporation (Japan)
 darius2         // C07 (c) 1989 Taito Corporation (Japan) :: clone= ; Darius II (triple screen) (Japan)
-sagaia          // C07 (c) 1989 Taito Corporation Japan (World) :: clone=darius2; Sagaia (dual screen) (World)
-// darius2d        // C07 (c) 1989 Taito Corporation (Japan)
-// darius2do       // C07 (c) 1989 Taito Corporation (Japan)
 warriorb        // D24 (c) 1991 Taito Corporation (Japan) :: clone= ; Warrior Blade - Rastan Saga Episode III (Japan)
 
 // Taito "X"-system games
 superman        // B61 (c) 1988 Taito Corporation :: clone= ; Superman (World)
-// supermanu       // B61 (c) 1988 Taito Corporation
-// supermanj       // B61 (c) 1988 Taito Corporation
 twinhawk        // B87 (c) 1989 Taito Corporation Japan (World) :: clone= ; Twin Hawk (World)
-// twinhawku       // B87 (c) 1989 Taito America Corporation (US)
-daisenpu        // B87 (c) 1989 Taito Corporation (Japan) :: clone=twinhawk; Daisenpu (Japan)
 gigandes        // (c) 1989 East Technology :: clone= ; Gigandes
-// gigandesa       // (c) 1989 East Technology
 kyustrkr        // (c) 1989 East Technology :: clone= ; Last Striker / Kyuukyoku no Striker
 ballbros        // no copyright notice :: clone= ; Balloon Brothers
 
 // Taito "tnzs" (Seta) hardware
-plumppop        // A98 (c) 1987 Taito Corporation (Japan) :: clone= ; Plump Pop (Japan)
-jpopnics        // (c)1992 NICs, based on Plump Pop code :: clone= ; Jumping Pop (Nics, Korean hack of Plump Pop)
 extrmatn        // B06 (c) 1987 Taito Corporation Japan (World) :: clone= ; Extermination (World)
-// extrmatnu       // B06 (c) 1987 World Games
-// extrmatnj       // B06 (c) 1987 Taito Corporation (Japan)
 arknoid2        // B08 (c) 1987 Taito Corporation Japan (World) :: clone= ; Arkanoid - Revenge of DOH (World)
-// arknoid2u       // B08 (c) 1987 Taito America Corporation + Romstar license (US)
-// arknoid2j       // B08 (c) 1987 Taito Corporation (Japan)
-// arknoid2b       // B08 (c) 1987 (bootleg)
 drtoppel        // B19 (c) 1987 Taito Corporation Japan (World) :: clone= ; Dr. Toppel's Adventure (World)
-// drtoppelu       // B19 (c) 1987 Taito Corporation (US)
-// drtoppelj       // B19 (c) 1987 Taito Corporation (Japan)
 kageki          // B35 (c) 1988 Taito America Corporation + Romstar license (US) :: clone= ; Kageki (US)
-// kagekij         // B35 (c) 1988 Taito Corporation (Japan)
-// kagekih         // B35 (c) 1992 (hack)
 chukatai        // B44 (c) 1988 Taito Corporation Japan (World) :: clone= ; Chuka Taisen (World)
-// chukataiu       // B44 (c) 1988 Taito Corporation (US)
-// chukataij       // B44 (c) 1988 Taito Corporation (Japan)
 kabukiz         // B50 (c) 1988 Taito Corporation Japan (World) :: clone= ; Kabuki-Z (World)
-// kabukizj        // B50 (c) 1988 Taito Corporation (Japan)
 tnzs            // B53 (c) 1988 Taito Corporation Japan (World) (new logo) :: clone= ; The NewZealand Story (World, new version) (newer PCB)
-// tnzsj           // B53 (c) 1988 Taito Corporation (Japan) (new logo)
-// tnzsjo          // B53 (c) 1988 Taito Corporation (Japan) (new logo)
-// tnzso           // B53 (c) 1988 Taito Corporation Japan (World) (old logo)
-// tnzsop          // B53?(c) 1988 Taito Corporation Japan (World) (old logo)
 insectx         // B97 (c) 1989 Taito Corporation Japan (World) :: clone= ; Insector X (World)
-// insectxj        // B97 (c) 1989 Taito Corporation (Japan)
 cchance         // (c)1987 Taito? :: clone= ; Cherry Chance
 champbwl        // (c)1989 Romstar.  not Taito, but the same Seta video chips :: clone= ; Championship Bowling
-doraemon        // Sunsoft / Epoch / Fujiko - Shogakukan - TV Asahi (prototype) :: clone= ; Doraemon no Eawase Montage (prototype)
 thedealr        // Visco Games :: clone= ; The Dealer (Visco)
 
 // Taito L-System games
 raimais         // B36 (c) 1988 Taito Corporation (Japan) :: clone= ; Raimais (World)
-// raimaisj        // B36 (c) 1988 Taito Corporation
-// raimaisjo       // B36 (c) 1988 Taito Corporation
 kurikint        // B42 (c) 1988 Taito Corporation Japan (World) :: clone= ; Kuri Kinton (World)
-// kurikintu       // B42 (c) 1988 Taito America Corporation (US)
-// kurikintj       // B42 (c) 1988 Taito Corporation (Japan)
-// kurikinta       // B42 (c) 1988 Taito Corporation Japan (World)
 evilston        // C67 (c) 1990 Spacy Industrial, Ltd :: clone= ; Evil Stone
 fhawk           // B70 (c) 1988 Taito Corporation Japan (World) :: clone= ; Fighting Hawk (World)
-// fhawkj          // B70 (c) 1988 Taito Corporation (Japan)
 plotting        // B96 (c) 1989 Taito Corporation Japan (World) :: clone= ; Plotting (World set 1)
-// plottingu       // B96 (c) 1989 Taito Corporation Japan (US)
-// plottinga       // B96 (c) 1989 Taito Corporation Japan (World)
-// plottingb       // B96 (c) 1989 Taito Corporation Japan (World)
-flipull         // B96 (c) 1989 Taito Corporation Japan (World) :: clone=plotting; Flipull (Japan)
 champwr         // C01 (c) 1989 Taito Corporation Japan (World) :: clone= ; Champion Wrestler (World)
-// champwru        // C01 (c) 1989 Taito America Corporation (US)
-// champwrj        // C01 (c) 1989 Taito Corporation (Japan)
 puzznic         // C20 (c) 1989 Taito Corporation (Japan) :: clone= ; Puzznic (World)
-// puzznicj        // C20 (c) 1989 Taito Corporation (Japan)
-// puzznici        // bootleg
-// puzznicb        // bootleg
-// puzznicba       // bootleg
 horshoes        // C47 (c) 1990 Taito America Corporation (US) :: clone= ; American Horseshoes (US)
-palamed         // C63 (c) 1990 Taito Corporation (Japan) :: clone= ; Palamedes (Japan)
-cachat          // ??? (c) 1993 Taito Corporation (Japan) :: clone= ; Cachat (Japan)
 tubeit          // ??? no copyright message :: clone=cachat; Tube-It
 cubybop         // ??? no copyright message :: clone= ; Cuby Bop (location test)
-plgirls         // (c) 1992 Hot-B. :: clone= ; Play Girls
-plgirls2        // (c) 1993 Hot-B. :: clone= ; Play Girls 2
-// plgirls2b       //
-// lagirl          // plgirls bootleg?
 
 // Taito H-System games
-syvalion        // B51 (c) 1988 Taito Corporation (Japan) :: clone= ; Syvalion (Japan)
-// syvalionp       //
 recordbr        // B56 (c) 1988 Taito Corporation Japan (World) :: clone= ; Recordbreaker (World)
-gogold          // B56 (c) 1988 Taito Corporation (Japan) :: clone=recordbr; Go For The Gold (Japan)
 dleague         // C02 (c) 1990 Taito America Corporation (US) :: clone= ; Dynamite League (US)
-// dleaguej        // C02 (c) 1990 Taito Corporation (Japan)
-tetristh        // C26 (c) 1988 Sega Enterprises,Ltd. (Japan) :: clone=tetris; Tetris (Japan, Taito H-System)
 
 // Taito B-System games
 masterw         // B72 (c) 1989 Taito Corporation Japan (World) :: clone= ; Master of Weapon (World)
-// masterwu        // B72 (c) 1989 Taito America Corporation (US)
-// masterwj        // B72 (c) 1989 Taito Corporation (Japan)
-yukiwo          // prototype :: clone=masterw; Yukiwo (World, prototype)
 nastar          // B81 (c) 1988 Taito Corporation Japan (World) :: clone= ; Nastar (World)
-// nastarw         // B81 (c) 1988 Taito America Corporation (US)
-rastsag2        // B81 (c) 1988 Taito Corporation (Japan) :: clone=nastar; Rastan Saga 2 (Japan)
 rambo3          // B93 (c) 1989 Taito Europe Corporation (Europe) :: clone= ; Rambo III (Europe)
-// rambo3u         // B93 (c) 1989 Taito America Corporation (US)
-// rambo3p         // B93 (c) 1989 Taito Europe Corporation (Europe) Proto or bootleg???
 crimec          // B99 (c) 1989 Taito Corporation Japan (World) :: clone= ; Crime City (World)
-// crimecu         // B99 (c) 1989 Taito America Corporation (US)
-// crimecj         // B99 (c) 1989 Taito Corporation (Japan)
-tetrist         // C12 (c) 1988 Sega Enterprises,Ltd. (Japan) :: clone=tetris; Tetris (Japan, Taito B-System, Nastar Conversion Kit)
-// tetrista        // C35 (c) 1988 Sega Enterprises,Ltd. (Japan)
 viofight        // C16 (c) 1989 Taito Corporation Japan (World) :: clone= ; Violence Fight (World)
-// viofightu       // C16 (c) 1989 Taito America Corporation (US)
-// viofightj       // C16 (c) 1989 Taito Corporation (Japan)
 ashura          // C43 (c) 1990 Taito Corporation Japan (World) :: clone= ; Ashura Blaster (World)
-// ashuraj         // C43 (c) 1990 Taito Corporation (Japan)
-// ashurau         // C43 (c) 1990 Taito America Corporation (US)
 hitice          // C59 (c) 1990 Williams (US) :: clone= ; Hit the Ice (US)
-// hiticej         // C59 (c) 1990 Midway/Taito Corporation (Japan)
 sbm             // C69 (c) 1990 Taito Corporation (Japan) :: clone= ; Sonic Blast Man (Japan)
 selfeena        // ??? (c) 1991 East Technology :: clone= ; Sel Feena
 silentd         // ??? (c) 1992 Taito Corporation Japan (World) :: clone= ; Silent Dragon (World)
-// silentdu        // ??? (c) 1992 Taito Corporation Japan (World)
-silentdj        // ??? (c) 1992 Taito Corporation (Japan) :: clone=silentd; Silent Dragon (Japan)
-ryujin          // ??? (c) 1993 Taito Corporation (Japan) :: clone= ; Ryu Jin (Japan)
-qzshowby        // D72 (c) 1993 Taito Corporation (Japan) :: clone= ; Quiz Sekai wa SHOW by shobai (Japan)
 realpunc        // D76 (c) 1994 Taito Corporation (Japan) :: clone= ; Real Puncher
 pbobble         // ??? (c) 1994 Taito Corporation (Japan) :: clone= ; Puzzle Bobble (Japan, B-System)
 spacedx         // D89 (c) 1994 Taito Corporation (US) :: clone= ; Space Invaders DX (US, v2.1)
-// spacedxj        // D89 (c) 1994 Taito Corporation (Japan)
-// spacedxo        // D89 (c) 1994 Taito Corporation (Japan)
 
 // Taito Z-System games
 contcirc        // B33 (c) 1987 Taito Corporation Japan (World) :: clone= ; Continental Circus (World)
-// contcircu       // B33 (c) 1987 Taito America Corporation (US)
-// contcircua      // B33 (c) 1987 Taito America Corporation (US)
-// contcircj       // B33 (c) 1987 Taito Corporation (Japan)
 chasehq         // B52 (c) 1988 Taito Corporation Japan (World) :: clone= ; Chase H.Q. (World)
-// chasehqj        // B52 (c) 1988 Taito Corporation (Japan)
-// chasehqju       // B52 (c) 1988 Taito Corporation (Japan)
-// chasehqu        // B52 (c) 1988 Taito America Corporation (US)
 enforce         // B58 (c) 1988 Taito Corporation Japan (World) :: clone= ; Enforce (World)
-// enforcej        // B58 (c) 1988 Taito Corporation (Japan)
-// enforceja       // B58 (c) 1988 Taito Corporation (Japan)
 nightstr        // B91 (c) 1989 Taito Corporation Japan (World) :: clone= ; Night Striker (World)
-// nightstrj       // B91 (c) 1989 Taito Corporation (Japan)
-// nightstru       // B91 (c) 1989 Taito America Corporation (US)
 sci             // C09 (c) 1989 Taito Corporation Japan (World) :: clone= ; Special Criminal Investigation (World set 1)
-// scia            // C09 (c) 1989 Taito Corporation Japan (World)
-// scij            // C09 (c) 1989 Taito Corporation Japan (World)
-// sciu            // C09 (c) 1989 Taito America Corporation (US)
-// scin            // C09 (c) 1991 Taito Corporation Japan (Negro Torino hack)
 bshark          // C34 (c) 1989 Taito Corporation Japan (World) :: clone= ; Battle Shark (World)
-// bsharku         // C34 (c) 1989 Taito America Corporation (US)
-// bsharkj         // C34 (c) 1989 Taito Corporation (Japan)
-// bsharkjjs       // C34 (c) 1989 Taito Corporation (Japan) (Joystick version)
 aquajack        // B77 (c) 1990 Taito Corporation Japan (World) :: clone= ; Aqua Jack (World)
-// aquajacku       // B77 (c) 1990 Taito America Corporation (US)
-// aquajackj       // B77 (c) 1990 Taito Corporation (Japan)
 spacegun        // C57 (c) 1990 Taito Corporation Japan (World) :: clone= ; Space Gun (World)
-// spacegunu       // C57 (c) 1990 Taito America Corporation (US)
-// spacegunj       // C57 (c) 1990 Taito Corporation (Japan)
 dblaxle         // C78 (c) 1991 Taito America Corporation (US) :: clone= ; Double Axle (US)
-// dblaxleu        // C78 (c) 1991 Taito America Corporation (US)
-pwheelsj        // C78 (c) 1991 Taito Corporation (Japan) :: clone=dblaxle; Power Wheels (Japan)
 racingb         // C84 (c) 1991 Taito Corporation Japan (World) :: clone= ; Racing Beat (World)
-// racingbj        // C84 (c) 1991 Taito Corporation (Japan)
 
 // Taito Air System games
 mlanding        // ??? (c) 1987 Taito America Corporation (US) :: clone= ; Midnight Landing (Germany)
 topland         // B62 (c) 1988 Taito Corporation Japan (World) :: clone= ; Top Landing (World)
 ainferno        // C45 (c) 1990 Taito America Corporation (US) :: clone= ; Air Inferno (US)
-// ainfernoj       // C45 (c) 1990 Taito Corporation (Japan)
 
 // enhanced Z-System hardware games
 gunbustr        // D27 (c) 1992 Taito Corporation Japan (World) :: clone= ; Gunbuster (World)
-// gunbustru       // D27 (c) 1992 Taito America Corporation (US)
-// gunbustrj       // D27 (c) 1992 Taito Corporation (Japan)
 superchs        // D46 (c) 1992 Taito Corporation Japan (World) :: clone= ; Super Chase - Criminal Termination (World)
-// superchsu       // D46 (c) 1992 Taito America Corporation (US)
-// superchsj       // D46 (c) 1992 Taito Corporation (Japan)
-// superchsp       // prototype
 groundfx        // D51 (c) 1992 Taito Corporation :: clone= ; Ground Effects / Super Ground Effects (Japan)
 undrfire        // D67 (c) 1993 Taito Corporation Japan (World) :: clone= ; Under Fire (World)
-// undrfireu       // D67 (c) 1993 Taito America Corporation (US)
-// undrfirej       // D67 (c) 1993 Taito Corporation (Japan)
 cbombers        // D83 (c) 1993 Taito Corporation Japan (World) :: clone= ; Chase Bombers (World)
-// cbombersj       // D83 (c) 1993 Taito Corporation (Japan)
-// cbombersp       //
 
 // Taito F2 games
 finalb          // 1989.?? B82 (c) 1988 Taito Corporation Japan (World) :: clone= ; Final Blow (World)
-// finalbj         // 1989.04 B82 (c) 1988 Taito Corporation (Japan)
-// finalbu         // 1989.06 B82 (c) 1988 Taito America Corporation (US)
 dondokod        // 1989.?? B95 (c) 1989 Taito Corporation Japan (World) :: clone= ; Don Doko Don (World)
-// dondokodu       // 1989.?? B95 (c) 1989 Taito America Corporation (US)
-// dondokodj       // 1989.07 B95 (c) 1989 Taito Corporation (Japan)
 megablst        // 1989.?? C11 (c) 1989 Taito Corporation Japan (World) :: clone= ; Mega Blast (World)
-// megablstu       // 1989.?? C11 (c) 1989 Taito America Corporation (US)
-// megablstj       // 1989.11 C11 (c) 1989 Taito Corporation (Japan)
 thundfox        // 1990.?? C28 (c) 1990 Taito Corporation Japan (World) :: clone= ; Thunder Fox (World)
-// thundfoxu       // 1990.06 C28 (c) 1990 Taito America Corporation (US)
-// thundfoxj       // 1990.07 C28 (c) 1990 Taito Corporation (Japan)
 cameltry        // 1990.?? C38 (c) 1989 Taito America Corporation (US) :: clone= ; Cameltry (US, YM2610)
-// cameltrya       // 1990.?? C38 (c) 1989 Taito America Corporation (US)
-// cameltryau      // 1990.?? C38 (c) 1989 Taito America Corporation (US)
-// cameltryj       // 1990.04 C38 (c) 1989 Taito Corporation (Japan)
-qtorimon        // 1990.02 C41 (c) 1990 Taito Corporation (Japan) :: clone= ; Quiz Torimonochou (Japan)
 liquidk         // 1990.?? C49 (c) 1990 Taito Corporation Japan (World) :: clone= ; Liquid Kids (World)
 // liquidku        // 1990.?? C49 (c) 1990 Taito America Corporation (US)
-mizubaku        // 1990.08 C49 (c) 1990 Taito Corporation (Japan) :: clone=liquidk; Mizubaku Daibouken (Japan)
-quizhq          // 1990.07 C53 (c) 1990 Taito Corporation (Japan) :: clone= ; Quiz H.Q. (Japan)
 ssi             // 1990.?? C64 (c) 1990 Taito Corporation Japan (World) :: clone= ; Super Space Invaders '91 (World, Rev 1)
-// ssia            // 1990.?? C64 (c) 1990 Taito Corporation Japan (World)
-majest12        // 1990.11 C64 (c) 1990 Taito Corporation (Japan) :: clone=ssi; Majestic Twelve - The Space Invaders Part IV (Japan)
-				// 1990.12 C64 (US)
 gunfront        // 1991.?? C71 (c) 1990 Taito Corporation Japan (World) :: clone= ; Gun &amp; Frontier (World)
-// gunfrontj       // 1991.01 C71 (c) 1990 Taito Corporation (Japan)
 growl           // 1991.?? C74 (c) 1990 Taito Corporation Japan (World) :: clone= ; Growl (World, Rev 1)
-// growla          // 1991.?? C74 (c) 1990 Taito Corporation Japan (World)
-// growlu          // 1991.02 C74 (c) 1990 Taito America Corporation (US)
-runark          // 1991.02 C74 (c) 1990 Taito Corporation (Japan) :: clone=growl; Runark (Japan)
-growlp          // 1991.?? C74 (c) 1990 Taito Corporation Japan (World, prototype) :: clone=growl; Growl (World, prototype)
-mjnquest        // 1991.05 C77 (c) 1990 Taito Corporation (Japan) :: clone= ; Mahjong Quest (Japan)
-// mjnquestb       // 1991.05 C77 (c) 1990 Taito Corporation (Japan)
 footchmp        // 1991.?? C80 (c) 1990 Taito Corporation Japan (World) :: clone= ; Football Champ (World)
-// footchmpbl      // bootleg
-hthero          // 1991.03 C80 (c) 1990 Taito Corporation (Japan) :: clone=footchmp; Hat Trick Hero (Japan)
-euroch92        // 1991.??     (c) 1992 Taito Corporation Japan (World) :: clone=footchmp; Euro Champ '92 (World)
-koshien         // 1991.04 C81 (c) 1990 Taito Corporation (Japan) :: clone= ; Ah Eikou no Koshien (Japan)
-yuyugogo        // 1991.03 C83 (c) 1990 Taito Corporation (Japan) :: clone= ; Yuuyu no Quiz de GO!GO! (Japan)
 ninjak          // 1991.?? C85 (c) 1990 Taito Corporation Japan (World) :: clone= ; The Ninja Kids (World)
-// ninjakj         // 1991.04 C85 (c) 1990 Taito Corporation (Japan)
-// ninjaku         // 1991.03 C85 (c) 1990 Taito Corporation (Japan)
 solfigtr        // 1991.?? C91 (c) 1991 Taito Corporation Japan (World) :: clone= ; Solitary Fighter (World)
-qzquest         // 1991.07 C92 (c) 1991 Taito Corporation (Japan) :: clone= ; Quiz Quest - Hime to Yuusha no Monogatari (Japan)
 pulirula        // 1991.?? C98 (c) 1991 Taito Corporation Japan (World) :: clone= ; PuLiRuLa (World)
-// pulirulaj       // 1991.11 C98 (c) 1991 Taito Corporation (Japan)
 metalb          // 1991.?? D16? (c) 1991 Taito Corporation Japan (World) :: clone= ; Metal Black (World)
-// metalbj         // 1991.11 D12 (c) 1991 Taito Corporation (Japan)
-qzchikyu        // 1992.02 D19 (c) 1991 Taito Corporation (Japan) :: clone= ; Quiz Chikyu Bouei Gun (Japan)
-yesnoj          // 1992.03 D20 (c) 1992 Taito Corporation (Japan) :: clone= ; Yes/No Sinri Tokimeki Chart
 deadconx        // 1992.?? D28 (c) 1992 Taito Corporation Japan (World) :: clone= ; Dead Connection (World)
-// deadconxj       // 1992.08 D28 (c) 1992 Taito Corporation (Japan)
 dinorex         // 1992.?? D39 (c) 1992 Taito Corporation Japan (World) :: clone= ; Dino Rex (World)
-// dinorexj        // 1992.11 D39 (c) 1992 Taito Corporation (Japan)
-// dinorexu        // 1992.?? D39 (c) 1992 Taito America Corporation (US)
-qjinsei         // 1993.03 D48 (c) 1992 Taito Corporation (Japan) :: clone= ; Quiz Jinsei Gekijoh (Japan)
-qcrayon         // 1993.08 D55 (c) 1993 Taito Corporation (Japan) :: clone= ; Quiz Crayon Shinchan (Japan)
-// qcrayon2        // 1994.01 D63 (c) 1993 Taito Corporation (Japan)
 driftout        // 1991.10 (c) 1991 Visco (Europe) :: clone= ; Drift Out (Europe)
-// driftoutj       // 1991.10 (c) 1991 Visco (Japan)
-driveout        // bootleg :: clone=driftout; Drive Out (bootleg)
 
 // Taito F3 games
 ringrage        // 1992.?? D21 (c) 1992 Taito Corporation Japan (World) :: clone= ; Ring Rage (Ver 2.3O 1992/08/09)
-// ringragej       // 1992.09 D21 (c) 1992 Taito Corporation (Japan)
-// ringrageu       // 1992.02 D21 (c) 1992 Taito America Corporation (US)
 arabianm        // 1992.?? D29 (c) 1992 Taito Corporation Japan (World) :: clone= ; Arabian Magic (Ver 1.0O 1992/07/06)
-// arabianmj       // 1992.09 D29 (c) 1992 Taito Corporation (Japan)
-// arabianmu       // 1992.10 D29 (c) 1992 Taito America Corporation (US)
 ridingf         // 1992.?? D34 (c) 1992 Taito Corporation Japan (World) :: clone= ; Riding Fight (Ver 1.0O)
-// ridingfj        // 1992.12 D34 (c) 1992 Taito Corporation (Japan)
-// ridingfu        // 1992.?? D34 (c) 1992 Taito America Corporation (US)
 gseeker         // 1992.?? D40 (c) 1992 Taito Corporation Japan (World) :: clone= ; Grid Seeker: Project Storm Hammer (Ver 1.3O)
-// gseekerj        // 1992.12 D40 (c) 1992 Taito Corporation (Japan)
-// gseekeru        // 1992.?? D40 (c) 1992 Taito America Corporation (US)
-hthero93        // 1993.03 D49 (c) 1992 Taito Corporation (Japan) :: clone=cupfinal; Hat Trick Hero '93 (Ver 1.0J 1993/02/28)
-// hthero93u       // 1993.04 D49 (c) 1992 Taito America Corporation (US)
 cupfinal        // 1993.?? D49 (c) 1993 Taito Corporation Japan (World) :: clone= ; Taito Cup Finals (Ver 1.0O 1993/02/28)
 trstar          // 1993.?? D53 (c) 1993 Taito Corporation Japan (World) :: clone= ; Top Ranking Stars (Ver 2.1O 1993/05/21) (New Version)
-// trstarj         // 1993.07 D53 (c) 1993 Taito Corporation (Japan)
-prmtmfgt        // 1993.08 D53 (c) 1993 Taito Corporation (US) :: clone=trstar; Prime Time Fighter (Ver 2.1A 1993/05/21) (New Version)
-// prmtmfgto       // 1993.08 D53 (c) 1993 Taito Corporation (US)
-trstaro         // 1993.?? D53 (c) 1993 Taito Corporation (World) :: clone=trstar; Top Ranking Stars (Ver 2.1O 1993/05/21) (Old Version)
-// trstaroj        // 1993.07 D53 (c) 1993 Taito Corporation (Japan)
 gunlock         // 1994.?? D66 (c) 1993 Taito Corporation Japan (World) :: clone= ; Gunlock (Ver 2.3O 1994/01/20)
-// rayforcej       // 1994.02 D66 (c) 1993 Taito Corporation (Japan)
-rayforce        // 1994.?? D66 (c) 1993 Taito America Corporation (US) :: clone=gunlock; Ray Force (Ver 2.3A 1994/01/20)
 scfinals        // 1994.?? D68 (c) 1993 Taito Corporation Japan (World) :: clone= ; Super Cup Finals (Ver 2.2O 1994/01/13)
-// scfinalso       // 1994.?? D68 (c) 1993 Taito Corporation Japan (World)
 intcup94        // 1994.?? D78 (c) 1994 Taito (World) :: clone= ; International Cup '94 (Ver 2.2O 1994/05/26)
-hthero94        // 1994.09 D78 (c) 1994 Taito (US) :: clone=intcup94; Hat Trick Hero '94 (Ver 2.2A 1994/05/26)
 lightbr         // 1994.03 D69 (c) 1993 Taito Corporation Japan (World) :: clone= ; Light Bringer (Ver 2.2O 1994/04/08)
-// lightbrj        // 1994.03 D69 (c) 1993 Taito Corporation (Japan)
-dungeonm        // 1994.?? D69 (c) 1993 Taito Corporation Japan (World) :: clone=lightbr; Dungeon Magic (Ver 2.1O 1994/02/18)
-// dungeonmu       // 1994.?? D69 (c) 1993 Taito America Corporation (US)
 kaiserkn        // 1994.?? D84 (c) 1994 Taito Corporation Japan (World) :: clone= ; Kaiser Knuckle (Ver 2.1O 1994/07/29)
-// kaiserknj       // 1994.08 D84 (c) 1994 Taito Corporation (Japan)
-gblchmp         // 1994.10 D84 (c) 1994 Taito America Corporation (US) :: clone=kaiserkn; Global Champion (Ver 2.1A 1994/07/29)
-dankuga         // 1994.?? D84? (c) 1994 Taito Corporation (Japan) :: clone=kaiserkn; Dan-Ku-Ga (Ver 0.0J 1994/12/13, prototype)
 dariusg         // 1994.?? D87 (c) 1994 Taito Corporation Japan (World) :: clone= ; Darius Gaiden - Silver Hawk (Ver 2.5O 1994/09/19)
-// dariusgj        // 1994.09 D87 (c) 1994 Taito Corporation (Japan)
-// dariusgu        // 1994.11 D87 (c) 1994 Taito America Corporation (US)
-// dariusgx        // 1994.?? D87 (c) 1994 Taito Corporation
 bublbob2        // 1994.?? D90 (c) 1994 Taito Corporation Japan (World) :: clone= ; Bubble Bobble II (Ver 2.6O 1994/12/16)
-// bublbob2o       // 1994.?? D90 (c) 1994 Taito Corporation Japan (World)
-// bublbob2p       // prototype
-bubsymphe       // 1994.?? D90 (c) 1994 Taito Corporation Japan (Europe) :: clone=bublbob2; Bubble Symphony (Ver 2.5O 1994/10/05)
-bubsymphu       // 1994.10 D90 (c) 1994 Taito America Corporation (US) :: clone=bublbob2; Bubble Symphony (Ver 2.5A 1994/10/05)
-bubsymphj       // 1994.10 D90 (c) 1994 Taito Corporation (Japan) :: clone=bublbob2; Bubble Symphony (Ver 2.5J 1994/10/05)
-// bubsymphb       // bootleg
-spcinvdj        // 1994.09 D93 (c) 1994 Taito Corporation (Japan) :: clone=spacedx; Space Invaders DX (Ver 2.6J 1994/09/14) (F3 Version)
 pwrgoal         // 1994.?? D94 (c) 1995 Taito Corporation Japan (World) :: clone= ; Taito Power Goal (Ver 2.5O 1994/11/03)
-hthero95        // 1994.11 D94 (c) 1995 Taito Corporation (Japan) :: clone=pwrgoal; Hat Trick Hero '95 (Ver 2.5J 1994/11/03)
-hthero95u       // 1995.05 D94 (c) 1995 Taito America Corporation (US) :: clone=pwrgoal; Hat Trick Hero '95 (Ver 2.5A 1994/11/03)
-qtheater        // 1995.01 D95 (c) 1994 Taito Corporation (Japan) :: clone= ; Quiz Theater - 3tsu no Monogatari (Ver 2.3J 1994/11/10)
 elvactr         // 1995.?? E02 (c) 1994 Taito Corporation Japan (World) :: clone= ; Elevator Action Returns (Ver 2.2O 1995/02/20)
-// elvactrj        // 1995.03 E02 (c) 1994 Taito Corporation (Japan)
-// elvact2u        // 1995.05 E02 (c) 1994 Taito America Corporation (US)
 spcinv95        // 1995.?? E06 (c) 1995 Taito Corporation Japan (World) :: clone= ; Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5O 1995/06/14)
-// spcinv95u       // 1995.05 E06 (c) 1995 Taito America Corporation (US)
-akkanvdr        // 1995.07 E06 (c) 1995 Taito Corporation (Japan) :: clone=spcinv95; Akkanbeder (Ver 2.5J 1995/06/14)
 twinqix         // 1995.03 ??? (c) 1995 Taito America Corporation (US) :: clone= ; Twin Qix (Ver 1.0A 1995/01/17, prototype)
-quizhuhu        // 1995.07 E08 (c) 1995 Taito Corporation (Japan) :: clone= ; Moriguchi Hiroko no Quiz de Hyuu!Hyuu! (Ver 2.2J 1995/05/25)
 pbobble2        // 1995.?? E10 (c) 1995 Taito Corporation Japan (World) :: clone= ; Puzzle Bobble 2 (Ver 2.3O 1995/07/31)
-// pbobble2o       // 1995.?? E10 (c) 1995 Taito Corporation Japan (World)
-// pbobble2j       // 1995.09 E10 (c) 1995 Taito Corporation (Japan)
-// pbobble2u       // 1995.11 E10 (c) 1995 Taito America Corporation (US)
-// pbobble2x       // 1995.12 E10 (c) 1995 Taito Corporation (Japan)
 gekiridn        // 1995.11 E11 (c) 1995 Taito Corporation Japan (World) :: clone= ; Gekirindan (Ver 2.3O 1995/09/21)
-// gekiridnj       // 1995.11 E11 (c) 1995 Taito Corporation (Japan)
 tcobra2         // 1996.?? E15 (c) 1995 Taito Corporation (World) :: clone= ; Twin Cobra II (Ver 2.1O 1995/11/30)
-// tcobra2u        // 1996.?? E15 (c) 1995 Taito Corporation (US)
-ktiger2         // 1996.02 E15 (c) 1995 Taito Corporation (Japan) :: clone=tcobra2; Kyukyoku Tiger II (Ver 2.1J 1995/11/30)
 bubblem         // 1996.?? E21 (c) 1995 Taito Corporation Japan (World) :: clone= ; Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)
-// bubblemj        // 1996.04 E21 (c) 1995 Taito Corporation (Japan)
-cleopatr        // 1996.10 E28 (c) 1996 Taito Corporation (Japan) :: clone= ; Cleopatra Fortune (Ver 2.1J 1996/09/05)
 pbobble3        // 1996.?? E29 (c) 1996 Taito Corporation (World) :: clone= ; Puzzle Bobble 3 (Ver 2.1O 1996/09/27)
-// pbobble3u       // 1996.11 E29 (c) 1996 Taito Corporation (US)
-// pbobble3j       // 1996.11 E29 (c) 1996 Taito Corporation (Japan)
 arkretrn        // 1997.03 E36 (c) 1997 Taito Corporation (World) :: clone= ; Arkanoid Returns (Ver 2.02O 1997/02/10)
-// arkretrnu       // 1997.03 E36 (c) 1997 Taito Corporation (US)
-// arkretrnj       // 1997.03 E36 (c) 1997 Taito Corporation (Japan)
 kirameki        // 1997.09 E44 (c) 1997 Taito Corporation (Japan) :: clone= ; Kirameki Star Road (Ver 2.10J 1997/08/29)
 puchicar        // 1997.?? E46 (c) 1997 Taito Corporation (World) :: clone= ; Puchi Carat (Ver 2.02O 1997/10/29)
-// puchicarj       // 1997.12 E46 (c) 1997 Taito Corporation (Japan)
 pbobble4        // 1998.?? E49 (c) 1997 Taito Corporation (World) :: clone= ; Puzzle Bobble 4 (Ver 2.04O 1997/12/19)
-// pbobble4j       // 1998.02 E49 (c) 1997 Taito Corporation (Japan)
-// pbobble4u       // 1998.?? E49 (c) 1997 Taito Corporation (US)
 popnpop         // 1998.?? E51 (c) 1997 Taito Corporation (World) :: clone= ; Pop'n Pop (Ver 2.07O 1998/02/09)
-// popnpopj        // 1998.03 E51 (c) 1997 Taito Corporation (Japan)
-// popnpopu        // 1998.?? E51 (c) 1997 Taito Corporation (US)
-landmakr        // 1998.08 E61 (c) 1998 Taito Corporation (Japan) :: clone= ; Land Maker (Ver 2.01J 1998/06/01)
-// landmakrp       // 1998.?? E61 (c) 1998 Taito Corporation (World, prototype)
-recalh          // prototype :: clone= ; Recalhorn (Ver 1.42J 1994/5/11, prototype)
-commandw        // prototype :: clone= ; Command War - Super Special Battle &amp; War Game (Ver 0.0J, prototype)
 
 // Taito JC System
 dangcurv        // 1995.?? E09 (c) 1995 Taito Corporation :: clone= ; Dangerous Curves (Ver 2.2 J)
-				// 1995.07 (Japan)
-				// 1995.10 (US)
 landgear        // 1996.?? E17 (c) 1995 Taito Corporation Japan (World) - Ver 4.2 O :: clone= ; Landing Gear (Ver 4.2 O)
-// landgeara       // 1996.?? E17 (c) 1995 Taito Corporation Japan (World) - Ver 3.1 O
-// landgearj       // 1996.?? E17 (c) 1996 Taito Corporation (Japan) - Ver 4.2 J
-// landgearja      // 1996.03 E17 (c) 1996 Taito Corporation (Japan) - Ver 3.0 J
 sidebs          // 1996.07 E23 (c) 1996 Taito Corporation (Japan) - Ver 2.7 J :: clone= ; Side by Side (Ver 2.7 J)
-// sidebsja        // 1996.07 E23 (c) 1996 Taito Corporation (Japan) - Ver 2.5 J
 dendego         // 1997.03 E35 (c) 1996 Taito Corporation (Japan) - Ver 2.2 J :: clone= ; Densha de GO! (Ver 2.2 J)
 sidebs2         // 1997.?? E38 (c) 1997 Taito Corporation (US) - Ver 2.6 A :: clone= ; Side by Side 2 (Ver 2.6 A)
-// sidebs2j        // 1997.07 E38 (c) 1997 Taito Corporation (Japan) - Ver 2.4 J
-dendegox        // 1997.09 E35 (c) 1996 Taito Corporation (Japan) - Ver 2.4 J :: clone=dendego; Densha de GO! EX (Ver 2.4 J)
 dendego2        // 1998.03 E52 (c) 1998 Taito Corporation (Japan) - Ver 2.5 J :: clone= ; Densha de GO! 2 Kousoku-hen (Ver 2.5 J)
-dendego23k      // 1998.08 E52 (c) 1998 Taito Corporation (Japan) - Ver 2.20 J :: clone=dendego2; Densha de GO! 2 Kousoku-hen 3000-bandai (Ver 2.20 J)
 
 // Taito "Wolf" System
 pf2012          // E59 (c) 1997 Taito :: clone= ; Psychic Force 2012
@@ -2327,10 +923,8 @@ batlgear        // E68 (c) 1999 Taito :: clone= ; Battle Gear
 pwrshovl        // E74 (c) 1999 Taito :: clone= ; Power Shovel ni Norou!! - Power Shovel Simulator
 landhigh        // E82 (c) 1999 Taito :: clone= ; Landing High Japan
 batlgr2         // E87 (c) 2000 Taito (2.04J) :: clone= ; Battle Gear 2 (v2.04J)
-// batlgr2a        // E87 (c) 2000 Taito (2.01J)
 styphp          // E98 (c) 2000 Taito :: clone= ; Stunt Typhoon Plus
 raizpin         // F14 (c) 2002 Taito :: clone= ; Raizin Ping Pong
-
 invqix          // F34 (c) 2003 Taito Corporation :: clone= ; Space Invaders / Qix Silver Anniversary Edition (Ver. 2.03)
 
 // Taito Type X/X+
@@ -2361,81 +955,28 @@ samspsen        // (c) 2008 SNK Playmore :: clone= ; Samurai Spirits Sen (v1.00)
 perfrman        // (c) 1985 Data East Corporation (Japan) :: clone= ; Performan (Japan)
 perfrmanu       // (c) 1985 Data East USA (US) :: clone=perfrman; Performan (US)
 tigerh          // A47 (c) 1985 Taito America  Corporation   GX-551 [not a Konami board!] :: clone= ; Tiger Heli (US)
-// tigerhj         // A47 (c) 1985 Taito Corporation   GX-551 [not a Konami board!]
-// tigerhb1        // bootleg but (c) 1985 Taito Corporation
-// tigerhb2        // bootleg but (c) 1985 Taito Corporation
-// tigerhb3        // bootleg but (c) 1985 Taito Corporation
 alcon           // A77 / TP-??? :: clone= ; Alcon (US)
-slapfigh        // A77 / TP-??? :: clone=alcon; Slap Fight (Japan set 1)
-// slapfigha       // A76 / TP-???
-// slapfighb1      // bootleg but (c) 1986 Taito Corporation
-// slapfighb2      // bootleg but (c) 1986 Taito Corporation
-// slapfighb3      // bootleg but (c) 1986 Taito Corporation
 grdian          // A68 (c) 1986 Taito Corporation :: clone= ; Guardian (US)
-getstarj        // A68 (c) 1986 Taito Corporation :: clone=grdian; Get Star (Japan)
-// getstarb1       // GX-006 bootleg but (c) 1986 Taito Corporation
-// getstarb2       // GX-006 bootleg but (c) 1986 Taito Corporation
-mjsister        // (c) 1986 Toaplan :: clone= ; Mahjong Sisters (Japan)
 fshark          // B02 / TP-007 (c) 1987 Taito Corporation (World) :: clone= ; Flying Shark (World)
-skyshark        // B02 / TP-007 (c) 1987 Taito America Corporation + Romstar license (US) :: clone=fshark; Sky Shark (US, set 1)
-// skysharka       // B02 / TP-007 (c) 1987 Taito America Corporation + Romstar license (US)
-hishouza        // B02 / TP-007 (c) 1987 Taito Corporation (Japan) :: clone=fshark; Hishou Zame (Japan)
-// fsharkbt        // bootleg
-// fnshark         // bootleg
 wardner         // B25 / TP-009 (c) 1987 Taito Corporation Japan (World) :: clone= ; Wardner (World)
 pyros           // B25 / TP-009 (c) 1987 Taito America Corporation (US) :: clone=wardner; Pyros (US)
-// wardnerj        // B25 / TP-009 (c) 1987 Taito Corporation (Japan)
 twincobr        // B30 / TP-011 (c) 1987 Taito Corporation (World) :: clone= ; Twin Cobra (World)
-// twincobru       // B30 / TP-011 (c) 1987 Taito America Corporation + Romstar license (US)
-ktiger          // B30 / TP-011 (c) 1987 Taito Corporation (Japan) :: clone=twincobr; Kyukyoku Tiger (Japan)
 gulfwar2        // (c) 1991 Comad :: clone= ; Gulf War II (set 1)
-// gulfwar2a       //
 rallybik        // B45 / TP-O12 (c) 1988 Taito :: clone= ; Rally Bike / Dash Yarou
 truxton         // B65 / TP-O13B (c) 1988 Taito :: clone= ; Truxton / Tatsujin
 hellfire        // B90 / TP-??? (c) 1989 Toaplan + Taito license :: clone= ; Hellfire (2P set)
-// hellfire1       // B90 / TP-??? (c) 1989 Toaplan + Taito license
-// hellfire2a      // B90 / TP-??? (c) 1989 Toaplan + Taito license
-// hellfire1a      // B90 / TP-??? (c) 1989 Toaplan + Taito license
 zerowing        // TP-O15 (c) 1989 Toaplan :: clone= ; Zero Wing (2P set)
-// zerowing1       // TP-O15 (c) 1989 Toaplan
-// zerowingw       // TP-O15 (c) 1989 Williams Electronics
 demonwld        // TP-O16 (c) 1990 Toaplan (+ Taito license when set to Japan) :: clone= ; Demon's World / Horror Story (set 1)
-// demonwld1       // TP-O16 (c) 1989 Toaplan + Taito license
-// demonwld2       // TP-O16 (c) 1989 Toaplan
-// demonwld3       // TP-O16 (c) 1989 Toaplan
 fireshrk        // TP-O17 (c) 1990 Toaplan :: clone= ; Fire Shark
-// fireshrka       // TP-O17 (c) 1989 Toaplan
-// fireshrkd       // TP-O17 (c) 1990 Toaplan
-// fireshrkdh      // TP-O17 (c) 1990 Toaplan
-samesame        // TP-O17 (c) 1989 Toaplan :: clone=fireshrk; Same! Same! Same! (1P set)
-// samesame2       // TP-O17 (c) 1989 Toaplan
 outzone         // TP-O18 (c) 1990 Toaplan :: clone= ; Out Zone
-// outzoneh        // TP-O18 (c) 1990 Toaplan
-// outzonea        // TP-O18 (c) 1990 Toaplan
-// outzoneb        // TP-O18 (c) 1990 Toaplan
-// outzonec        // TP-O18 (c) 1990 Toaplan
 vimana          // TP-O19 (c) 1991 Toaplan (+ Tecmo license when set to Japan) :: clone= ; Vimana (World, set 1)
-// vimanaj         // TP-O19 (c) 1991 Toaplan (+ Tecmo license when set to Japan)
-// vimanan         // TP-O19 (c) 1991 Toaplan (+ Nova Apparate GmbH & Co license)
 snowbros        // MIN16-02 (c) 1990 Toaplan + Romstar license :: clone= ; Snow Bros. - Nick &amp; Tom (set 1)
-// snowbrosa       // MIN16-02 (c) 1990 Toaplan + Romstar license
-// snowbrosb       // MIN16-02 (c) 1990 Toaplan + Romstar license
-// snowbrosc       // MIN16-02 (c) 1990 Toaplan + Romstar license
-// snowbrosj       // MIN16-02 (c) 1990 Toaplan
-// snowbrosd       // MIN16-02 (c) 1990 Toaplan + Dooyong license
-// wintbob         // bootleg
-// snowbroswb      //
 toto            // :: clone= ; Come Back Toto
-// modified snowbros 'clone' hardware
 honeydol        // (c) 1995 Barko Corp :: clone= ; Honey Dolls
 twinadv         // (c) 1995 Barko Corp :: clone= ; Twin Adventure (World)
-// twinadvk        // (c) 1995 Barko Corp
 snowbro3        // (c) 2002 Syrmex :: clone= ; Snow Brothers 3 - Magical Adventure
-// ballboy         // bootleg
-// SemiCom games on "SnowBros"-like hardware
 finalttr        // (c) 1993 Jeil Computer System :: clone= ; Final Tetris
 hyperpac        // (c) 1995 SemiCom :: clone= ; Hyper Pacman
-// hyperpacb       // bootleg
 toppyrap        // (c) 1996 SemiCom :: clone= ; Toppy &amp; Rappy
 cookbib2        // (c) 1996 SemiCom :: clone= ; Cookie &amp; Bibi 2
 cookbib3        // (c) 1997 SemiCom :: clone= ; Cookie &amp; Bibi 3
@@ -2443,76 +984,23 @@ twinkle         // (c) 1997 SemiCom :: clone= ; Twinkle
 pzlbreak        // (c) 1997 SemiCom :: clone= ; Puzzle Break
 suhosong        // (c) 1997 SemiCom :: clone= ; Su Ho Seong
 3in1semi        // (c) 1998 SemiCom :: clone= ; New HyperMan (3-in-1 with Cookie &amp; Bibi &amp; HyperMan)
-mcheonru        // (c) 1999 SemiCom :: clone= ; Ma Cheon Ru
-// moremore        // (c) 1999 SemiCom + Exit
-// moremorp        // (c) 1999 SemiCom + Exit
-// 4in1boot        // (c) 2002 KISoft (includes hacks of Semicom games + Snowbros)
 
 // More Toaplan Games
 tekipaki        // TP-020 (c) 1991 Toaplan :: clone= ; Teki Paki
 ghox            // TP-021 (c) 1991 Toaplan :: clone= ; Ghox (spinner)
-// ghoxj           // TP-021 (c) 1991 Toaplan
 dogyuun         // TP-022 (c) 1992 Toaplan :: clone= ; Dogyuun
-// dogyuuna        // TP-022 (c) 1992 Toaplan
-// dogyuunt        // TP-022 (c) 1992 Toaplan
 kbash           // TP-023 (c) 1993 Toaplan :: clone= ; Knuckle Bash
-// kbashk          // TP-023 (c) 1993 Toaplan
-// kbash2          // bootleg
 truxton2        // TP-024 (c) 1992 Toaplan :: clone= ; Truxton II / Tatsujin Oh
 pipibibs        // TP-025 :: clone= ; Pipi &amp; Bibis / Whoopee!! (Z80 sound cpu, set 1)
-// pipibibsa       // TP-025
-// pipibibsp       // TP-025
-// pipibibsbl      // (c) 1991 Ryouta Kikaku (bootleg)
-whoopee         // TP-025 :: clone=pipibibs; Pipi &amp; Bibis / Whoopee!! (Teki Paki hardware)
 fixeight        // TP-026 (c) 1992 + Taito license :: clone= ; FixEight (Europe)
-// fixeightt       // TP-026 (c) 1992 + Taito license
-// fixeightkt      // TP-026 (c) 1992 + Taito license
-// fixeightk       // TP-026 (c) 1992 + Taito license
-// fixeightht      // TP-026 (c) 1992 + Taito license
-// fixeighth       // TP-026 (c) 1992 + Taito license
-// fixeighttwt     // TP-026 (c) 1992 + Taito license
-// fixeighttw      // TP-026 (c) 1992 + Taito license
-// fixeightat      // TP-026 (c) 1992 + Taito license
-// fixeighta       // TP-026 (c) 1992 + Taito license
-fixeightu       // TP-026 (c) 1992 + Taito license :: clone=fixeight; FixEight (USA)
-// fixeightut      // TP-026 (c) 1992 + Taito license
-// fixeightj       // TP-026 (c) 1992 + Taito license
-// fixeightjt      // TP-026 (c) 1992 + Taito license
-// fixeightbl      // bootleg
 grindstm        // TP-027 (c) 1993 Toaplan + Unite Trading license (Korea) :: clone= ; Grind Stormer
-// grindstma       // TP-027 (c) 1993 Toaplan + Unite Trading license (Korea)
-vfive           // TP-027 (c) 1993 Toaplan (Japan) :: clone=grindstm; V-Five (Japan)
 batsugun        // TP-030 (c) 1993 Toaplan :: clone= ; Batsugun
-// batsuguna       // TP-030 (c) 1993 Toaplan
-// batsugunsp      // TP-030 (c) 1993 Toaplan
 snowbro2        // TP-033 (c) 1994 Hanafram :: clone= ; Snow Bros. 2 - With New Elves / Otenki Paradise
-// snowbro2b       //
-pwrkick         // (c) 1994 Sunwise :: clone= ; Power Kick (Japan)
-othldrby        // (c) 1995 Sunwise :: clone= ; Othello Derby (Japan)
 sstriker        // (c) 1993 Raizing :: clone= ; Sorcer Striker (set 1)
-// sstrikera       // (c) 1993 Raizing
-mahoudai        // (c) 1993 Raizing + Able license :: clone=sstriker; Mahou Daisakusen (Japan)
 kingdmgp        // (c) 1994 Raizing/8ing :: clone= ; Kingdom Grandprix
-shippumd        // (c) 1994 Raizing/8ing :: clone=kingdmgp; Shippu Mahou Daisakusen (Japan)
 bgaregga        // (c) 1996 Raizing/8ing :: clone= ; Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)
-// bgareggahk      // (c) 1996 Raizing/8ing
-// bgareggatw      // (c) 1996 Raizing/8ing
-// bgaregganv      // (c) 1996 Raizing/8ing
-// bgareggat2      // (c) 1996 Raizing/8ing
-// bgareggacn      // (c) 1996 Raizing/8ing
-// bgareggabl      // hack
-// bgareggabla     // hack
 batrider        // (c) 1998 Raizing/8ing :: clone= ; Armed Police Batrider (Europe) (Fri Feb 13 1998)
-batrideru       // (c) 1998 Raizing/8ing :: clone=batrider; Armed Police Batrider (USA) (Fri Feb 13 1998)
-// batriderc       // (c) 1998 Raizing/8ing
-// batriderj       // (c) 1998 Raizing/8ing
-// batriderk       // (c) 1998 Raizing/8ing
-// batriderja      // (c) 1998 Raizing/8ing
-// batridert       // (c) 1998 Raizing/8ing
 bbakraid        // (c) 1999 8ing :: clone= ; Battle Bakraid - Unlimited Version (USA) (Tue Jun 8 1999)
-// bbakraidc       // (c) 1999 8ing
-// bbakraidj       // (c) 1999 8ing
-// bbakraidja      // (c) 1999 8ing
 
 /*
   Toa Plan's board list
@@ -2561,79 +1049,35 @@ bbakraid        // (c) 1999 8ing :: clone= ; Battle Bakraid - Unlimited Version 
 // Cave games
 // Cave was formed in 1994 from the ruins of Toaplan, like Raizing was.
 pwrinst2        // (c) 1994 Atlus :: clone= ; Power Instinct 2 (US, Ver. 94/04/08)
-// pwrinst2j       // (c) 1994 Atlus
 plegends        // (c) 1994 Atlus :: clone= ; Gogetsuji Legends (US, Ver. 95/06/20)
-// plegendsj       // (c) 1994 Atlus
 mazinger        // (c) 1994 Banpresto (country is in EEPROM) :: clone= ; Mazinger Z (World)
-// mazingerj       // (c) 1994 Banpresto (country is in EEPROM)
 donpachi        // (c) 1995 Atlus/Cave :: clone= ; DonPachi (US)
-// donpachij       // (c) 1995 Atlus/Cave
-// donpachikr      // (c) 1995 Atlus/Cave
-// donpachihk      // (c) 1995 Atlus/Cave
 metmqstr        // (c) 1995 Banpresto / Pandorabox :: clone= ; Metamoqester (International)
-nmaster         // (c) 1995 Banpresto / Pandorabox :: clone=metmqstr; Oni - The Ninja Master (Japan)
 sailormn        // (c) 1995 Banpresto (country is in EEPROM) :: clone= ; Pretty Soldier Sailor Moon (Ver. 95/03/22B, Europe)
-sailormnu       // (c) 1995 Banpresto (country is in EEPROM) :: clone=sailormn; Pretty Soldier Sailor Moon (Ver. 95/03/22B, USA)
-// sailormnj       // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnk       // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnt       // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnh       // (c) 1995 Banpresto (country is in EEPROM)
-// sailormno       // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnou      // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnoj      // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnok      // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnot      // (c) 1995 Banpresto (country is in EEPROM)
-// sailormnoh      // (c) 1995 Banpresto (country is in EEPROM)
 agallet         // (c) 1996 Banpresto / Gazelle (country is in EEPROM) :: clone= ; Air Gallet (Europe)
-agalletu        // (c) 1996 Banpresto / Gazelle (country is in EEPROM) :: clone=agallet; Air Gallet (USA)
-// agalletj        // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
-// agalletk        // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
-// agallett        // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
-// agalleth        // (c) 1996 Banpresto / Gazelle (country is in EEPROM)
 hotdogst        // (c) 1996 Marble :: clone= ; Hotdog Storm (International)
 pacslot         // (c) 1996 Namco :: clone= ; Pac-Slot
-ppsatan         // (c) 1996 <unknown> :: clone= ; Poka Poka Satan (Japan)
 ddonpach        // (c) 1997 Atlus/Cave :: clone= ; DoDonPachi (International, Master Ver. 97/02/05)
-// ddonpachj       // (c) 1997 Atlus/Cave
-// ddonpacha       // hack
-dfeveron        // (c) 1998 Cave + Nihon System license :: clone=feversos; Dangun Feveron (Japan, Ver. 98/09/17)
 feversos        // (c) 1998 Cave + Nihon System license :: clone= ; Fever SOS (International, Ver. 98/09/25)
 esprade         // (c) 1998 Atlus/Cave :: clone= ; ESP Ra.De. (International, Ver. 98/04/22)
-// espradej        // (c) 1998 Atlus/Cave (Japan)
-// espradejo       // (c) 1998 Atlus/Cave (Japan)
 uopoko          // (c) 1998 Cave + Jaleco license :: clone= ; Puzzle Uo Poko (International)
-// uopokoj         // (c) 1998 Cave + Jaleco license
 guwange         // (c) 1999 Atlus/Cave :: clone= ; Guwange (Japan, Master Ver. 99/06/24)
-// guwanges        // (c) 1999 Atlus/Cave
 gaia            // (c) 1999 Noise Factory :: clone= ; Gaia Crusaders
 theroes         // (c) 2001 Primetek Investments :: clone= ; Thunder Heroes
-korokoro        // (c) 1999 Takumi :: clone= ; Koro Koro Quest (Japan)
-crusherm        // (c) 1999 Takumi :: clone= ; Crusher Makochan (Japan)
 tjumpman        // (c) 1999 Namco :: clone= ; Tobikose! Jumpman
 
 mushisam        // (c) 2004 Cave (AMI license) - 2004/10/12.MASTER VER. :: clone= ; Mushihime-Sama (2004/10/12.MASTER VER.)
-// mushisama       // (c) 2004 Cave (AMI license) - 2004/10/12 MASTER VER.
-// mushisamb       // (c) 2004 Cave (AMI license) - 2004/10/12 MASTER VER
 espgal2         // (c) 2005 Cave (AMI license) - 2005/11/14 MASTER VER :: clone= ; Espgaluda II (2005/11/14 MASTER VER)
 ibara           // (c) 2005 Cave (AMI license) - 2005/03/22 MASTER VER.. :: clone= ; Ibara (2005/03/22 MASTER VER..)
 ibarablk        // (c) 2005 Cave (AMI license) - 2006/02/06. MASTER VER. :: clone= ; Ibara Kuro Black Label (2006/02/06. MASTER VER.)
-// ibarablka       // (c) 2005 Cave (AMI license) - 2006/02/06 MASTER VER.
 mushitam        // (c) 2005 Cave (AMI license) - 2005/09/09.MASTER VER :: clone= ; Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)
-// mushitama       // (c) 2005 Cave (AMI license) - 2005/09/09 MASTER VER
 futari15        // (c) 2006 Cave (AMI license) - 2006/12/8.MASTER VER. 1.54. :: clone= ; Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)
-// futari15a       // (c) 2006 Cave (AMI license) - 2006/12/8 MASTER VER 1.54
-// futari10        // (c) 2006 Cave (AMI license) - 2006/10/23 MASTER VER.
 futaribl        // (c) 2007 Cave (AMI license) - 2009/11/27 INTERNATIONAL BL :: clone= ; Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)
-// futariblj       // (c) 2007 Cave (AMI license) - 2007/12/11 BLACK LABEL VER
 pinkswts        // (c) 2006 Cave (AMI license) - 2006/04/06 MASTER VER.... :: clone= ; Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)
-// pinkswtsa       // (c) 2006 Cave (AMI license) - 2006/04/06 MASTER VER...
-// pinkswtsb       // (c) 2006 Cave (AMI license) - 2006/04/06 MASTER VER.
-// pinkswtsx       // (c) 2006 Cave (AMI license) - 2006/xx/xx MASTER VER.
 deathsml        // (c) 2007 Cave (AMI license) - 2007/10/09 MASTER VER :: clone= ; Deathsmiles (2007/10/09 MASTER VER)
 mmpork          // (c) 2007 Cave (AMI license) - 2007/ 4/17 MASTER VER. :: clone= ; Muchi Muchi Pork! (2007/ 4/17 MASTER VER.)
 mmmbanc         // (c) 2007 Cave (AMI license) - 2007/06/05 MASTER VER. :: clone= ; Medal Mahjong Moukari Bancho (2007/06/05 MASTER VER.)
 ddpdfk          // (c) 2008 Cave (AMI license) - 2008/06/23  MASTER VER 1.5 :: clone= ; DoDonPachi Dai-Fukkatsu Ver 1.5 (2008/06/23 MASTER VER 1.5)
-// ddpdfk10        // (c) 2008 Cave (AMI license) - 2008/05/16  MASTER VER
 dsmbl           // (c) 2008 Cave (AMI license) - 2008/10/06 MEGABLACK LABEL VER :: clone= ; Deathsmiles MegaBlack Label (2008/10/06 MEGABLACK LABEL VER)
 dfkbl           // (c) 2010 Cave (AMI license) - 2010/1/18 BLACK LABEL :: clone= ; DoDonPachi Dai-Fukkatsu Black Label (2010/1/18 BLACK LABEL)
 
@@ -2643,72 +1087,30 @@ deathsm2
 // Kyugo only made four games: Repulse, Flash Gal, SRD Mission and Air Wolf.
 // Gyrodine was made by Crux. Crux was antecedent of Toa Plan, and spin-off from Orca.
 gyrodine        // (c) 1984 Crux :: clone= ; Gyrodine
-// gyrodinet       // (c) 1984 Crux (Taito Corporation license)
-buzzard         // (c) 1984 Crux :: clone=gyrodine; Buzzard
 repulse         // (c) 1985 Sega :: clone= ; Repulse
-99lstwar        // (c) 1985 Proma :: clone=repulse; '99: The Last War (set 1)
-// 99lstwara       // (c) 1985 Proma
-// 99lstwark       // (c) 1985 Kyugo
-// sonofphx        // bootleg
 flashgal        // (c) 1985 Sega :: clone= ; Flashgal (set 1)
-// flashgala       // (c) 1985 Sega
 srdmissn        // (c) 1986 Taito Corporation :: clone= ; S.R.D. Mission
-// fx              // bootleg
 legend          // no copyright notice [1986 Sega/Coreland] (Arcade TV Game List - P.104, Left, 14 from top) :: clone= ; Legend
-// legendb         // no copyright notice [1986 Sega/Coreland] (Arcade TV Game List - P.104, Left, 14 from top)
 airwolf         // (c) 1987 Kyugo :: clone= ; Airwolf
-// airwolfa        // (c) 1987 Kyugo
-// skywolf         // bootleg
-// skywolf2        // bootleg
-// skywolf3        // bootleg
 pprobe          // Kyugo? :: clone= ; Planet Probe (prototype?)
 
 // Williams games
 defender        // (c) 1980 :: clone= ; Defender (Red label)
-// defenderg       // (c) 1980
-// defenderb       // (c) 1980
-// defenderw       // (c) 1980
-// defndjeu        // bootleg
-// tornado1        // bootleg
-// tornado2        // bootleg
-// zero            // bootleg
-// zero2           // bootleg
-// defcmnd         // bootleg
-// defence         // bootleg
-// startrkd        // bootleg
-// mayday          // bootleg
-// maydaya         // bootleg
-// maydayb         // bootleg
-// batlzone        // bootleg?
 colony7         // (c) 1981 Taito :: clone= ; Colony 7 (set 1)
-// colony7a        // (c) 1981 Taito
-// jin             // Falcon bootleg/hack
 stargate        // (c) 1981 :: clone= ; Stargate
 robotron        // (c) 1982 :: clone= ; Robotron: 2084 (Solid Blue label)
-// robotronyo      // (c) 1982
 joust           // (c) 1982 :: clone= ; Joust (White/Green label)
-// joustr          // (c) 1982
-// joustwr         // (c) 1982
 bubbles         // (c) 1982 :: clone= ; Bubbles
-// bubblesr        // (c) 1982
-// bubblesp        // (c) 1982
 splat           // (c) 1982 :: clone= ; Splat!
 sinistar        // (c) 1982 :: clone= ; Sinistar (revision 3)
-// sinistar1       // (c) 1982
-// sinistar2       // (c) 1982
 playball        // (c) 1983 :: clone= ; PlayBall! (prototype)
 blaster         // (c) 1983 :: clone= ; Blaster
-// blastero        // (c) 1983
-blasterkit      // (c) 1983 :: clone=blaster; Blaster (conversion kit)
 spdball         // (c) 1985 :: clone= ; Speed Ball - Contest at Neonworld (prototype)
 alienar         // (c) 1985 Duncan Brown :: clone= ; Alien Arena
-// alienaru        // (c) 1985 Duncan Brown
 mysticm         // (c) 1983 :: clone= ; Mystic Marathon
-// mysticmp        // (c) 1983 Prototype
 tshoot          // (c) 1984 :: clone= ; Turkey Shoot
 inferno         // (c) 1984 :: clone= ; Inferno (Williams)
 joust2          // (c) 1986 :: clone= ; Joust 2 - Survival of the Fittest (revision 2)
-// joust2r1        // (c) 1986
 lottofun        // (c) 1987 H.A.R. Management :: clone= ; Lotto Fun
 wmg             // Williams 6in1 Multigame, Clay Cowgill :: clone= ; Williams Multigame
 
