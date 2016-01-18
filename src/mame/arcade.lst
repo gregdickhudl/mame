@@ -2608,13 +2608,11 @@ optiger         // 1998.09 E63 (c) 1998 Taito
 taitotz
 batlgear        // E68 (c) 1999 Taito
 pwrshovl        // E74 (c) 1999 Taito
-pwrshovla		//
 landhigh        // E82 (c) 1999 Taito
 batlgr2         // E87 (c) 2000 Taito (2.04J)
 batlgr2a        // E87 (c) 2000 Taito (2.01J)
 styphp          // E98 (c) 2000 Taito
 raizpin         // F14 (c) 2002 Taito
-raizpinj		//
 
 invqix          // F34 (c) 2003 Taito Corporation
 
@@ -2715,7 +2713,6 @@ toto            //
 honeydol        // (c) 1995 Barko Corp
 twinadv         // (c) 1995 Barko Corp
 twinadvk        // (c) 1995 Barko Corp
-multi96			// (c) 1996 Barko Corp
 snowbro3        // (c) 2002 Syrmex
 ballboy         // bootleg
 // SemiCom games on "SnowBros"-like hardware
@@ -6376,9 +6373,8 @@ avengrgs        // MCG (c) 1995 Data East Corporation (World)
 avengrgsj       // MCG (c) 1995 Data East Corporation (Japan)
 skullfng        // MCH (c) 1996 Data East Corporation (World)
 skullfngj       // MCH (c) 1996 Data East Corporation (Japan)
-stadhr96        // MCM (c) 1996 Data East Corporation (World)
-stadhr96u       // MCM (c) 1996 Data East Corporation (USA)
-stadhr96j       // MCM (c) 1996 Data East Corporation (Japan)
+stadhr96        // MCM (c) 1996 Data East
+stadhr96j       // MCM (c) 1996 Data East
 
 // SemiCom games on Tumble Pop based hardware
 metlsavr        // (c) 1994 First Amusements
@@ -8238,7 +8234,6 @@ jackrabts       // (c) 1984
 mouser          // UPL-83001 (c) 1983
 mouserc         // UPL-83001 (c) 1983
 nova2001        // UPL-83005 (c) 1983
-nova2001h		// hack?
 nova2001u       // UPL-83005 (c) [1983] + Universal license
 ninjakun        // UPL-84003 (c) 1984 Taito Corporation
 raiders5        // UPL-85004 (c) 1985
@@ -12034,7 +12029,6 @@ tvgunhed        // (c) 1989 Hudson / Toho Sunrise (Tourvision bootleg)
 tvmrheli        // (c) 1989 IREM Corp (Tourvision bootleg)
 tvusapb         // (c) 1989 Aicom (Tourvision bootleg)
 tvvolfd         // (c) 1989 Taito (Tourvision bootleg)
-tvdormon        // (c) 1989 Hudson / Fujiko-Shogakukan-TV Asahi (Tourvision bootleg)
 tvdunexp        // (c) 1989 Hudson / Atlus (Tourvision bootleg)
 tvwnshot        // (c) 1989 Data East Corp. (Tourvision bootleg)
 tvablast        // (c) 1990 Hudson / Kaneko (Tourvision bootleg)
@@ -32667,4 +32661,3 @@ clowndwn // Elwood Clown Roll Down
 
 fi6845
 fi8275
-

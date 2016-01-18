@@ -35,7 +35,6 @@ dremshpr        // 1982  Puzzle / Maze                      Dream Shopper
 vanvan          // 1983  Maze                               Van-Van Car
 numcrash        // 1983  Not Classified                     Number Crash
 cannonbp        // 198?  Ball & Paddle / Breakout           Cannon Ball (Pac-Man Hardware)
-superabc        // 1999  Multiplay / Compilation            Super ABC (Pac-Man multigame kit, Sep. 03 1999)
 
 // S2650 Pacman Kits
 drivfrcp        // 1984  Driving / Race (chase view)        Driving Force (Pac-Man conversion)
@@ -74,7 +73,6 @@ checkman        // 1982  Puzzle / Maze                      Check Man
 dingo           // 1983  Maze                               Dingo
 blkhole         // 1981  Shooter / Gallery                  Black Hole
 kingball        // 1980  Shooter / Gallery                  King &amp; Balloon (US)
-4in1            // 1981  Multiplay / Compilation            4 Fun in 1
 ozon1           // 1983  Shooter / Gallery                  Ozon I
 bongo           // 1983  Platform / Run Jump Scrolling      Bongo
 harem           // 1983  Shooter / Field                    Harem
@@ -310,10 +308,6 @@ sws97           // 1997  Sports / Baseball                  Super World Stadium 
 vshoot          // 1994  Sports / Soccer                    J-League Soccer V-Shoot (Japan)
 outfxies        // 1994  Platform / Fighter                 The Outfoxies (World, OU2)
 machbrkr        // 1995  Sports / Track & Field             Mach Breakers - Numan Athletics 2 (Japan)
-
-// Namco ND-1 games
-ncv1            // 1995  Multiplay / Compilation            Namco Classic Collection Vol.1
-ncv2            // 1996  Multiplay / Compilation            Namco Classic Collection Vol.2
 
 // Namco System 21 games
 winrun          // 1988  Driving / Race 1st Person          Winning Run
@@ -617,9 +611,6 @@ grudge          // 198?  Driving / Race Track               Grudge Match (protot
 shrike          // 1986  Shooter / Flying 1st Person        Shrike Avenger (prototype)
 gridlee         // 1983  Shooter / 3rd Person               Gridlee
 
-// Bally PC-based
-gammagic        // 1999  Multiplay / Compilation            Game Magic
-
 // Irem games
 // trivia: IREM means "International Rental Electronics Machines"
 andromed        // 1979  Shooter / Gallery                  Andromeda (Japan?)
@@ -922,7 +913,6 @@ pulirula        // 1991  Fighter / 2.5D                     PuLiRuLa (World)
 metalb          // 1991  Shooter / Flying Horizontal        Metal Black (World)
 deadconx        // 1992  Shooter / Field                    Dead Connection (World)
 dinorex         // 1992  Fighter / Versus                   Dino Rex (World)
-qcrayon2        // 1993  Multiplay / Mini-Games             Crayon Shinchan Orato Asobo (Japan)
 driftout        // 1991  Driving / Race                     Drift Out (Europe)
 
 // Taito F3 games
@@ -975,12 +965,10 @@ optiger         // 1998  Shooter / Gun                      Operation Tiger
 taitotz         // 1999  System / BIOS                      Type Zero BIOS
 batlgear        // 1999  Driving / Race (chase view)        Battle Gear
 pwrshovl        // 1999  Maze / Digging                     Power Shovel ni Norou!! - Power Shovel Simulator
-pwrshovla		//   //                                          
 landhigh        // 1999  Driving / Plane                    Landing High Japan
 batlgr2         // 2000  Driving / Race (chase view)        Battle Gear 2 (v2.04J)
 styphp          // 2000  Driving / Race (chase view)        Stunt Typhoon Plus
 raizpin         // 2002  Sports / Ping pong                 Raizin Ping Pong
-raizpinj		//    //                                          
 
 invqix          // 2003  Multiplay / Compilation            Space Invaders / Qix Silver Anniversary Edition (Ver. 2.03)
 
@@ -1029,7 +1017,6 @@ snowbros        // 1990  Platform / Run Jump                Snow Bros. - Nick &a
 toto            // 1996  Platform / Run Jump                Come Back Toto
 // modified snowbros 'clone' hardware
 twinadv         // 1995  Multiplay / Mini-Games             Twin Adventure (World)
-multi96			//    //                                          
 snowbro3        // 2002  Platform / Run Jump                Snow Brothers 3 - Magical Adventure
 // SemiCom games on "SnowBros"-like hardware
 finalttr        // 1993  Puzzle / Drop                      Final Tetris
@@ -1039,11 +1026,6 @@ cookbib2        // 1996  Puzzle / Toss                      Cookie &amp; Bibi 2
 cookbib3        // 1997  Puzzle / Toss                      Cookie &amp; Bibi 3
 twinkle         // 1997  Maze                               Twinkle
 pzlbreak        // 1997  Puzzle / Misc.                     Puzzle Break
-3in1semi        // 1998  Multiplay / Compilation            New HyperMan (3-in-1 with Cookie &amp; Bibi &amp; HyperMan)
-mcheonru        // 1999  Multiplay / Mini-Games             Ma Cheon Ru
-moremore        // 1999  Multiplay / Mini-Games             More More
-moremorp        // 1999  Multiplay / Mini-Games             More More Plus
-4in1boot        // 2002  Multiplay / Compilation            Puzzle King (PacMan 2, Tetris, HyperMan 2, Snow Bros.)
 
 // More Toaplan Games
 tekipaki        // 1991  Puzzle / Drop                      Teki Paki
@@ -1175,8 +1157,6 @@ mysticm         // 1983  Sports / Track & Field             Mystic Marathon
 tshoot          // 1984  Shooter / Gun                      Turkey Shoot
 inferno         // 1984  Maze / Shooter Small               Inferno (Williams)
 joust2          // 1986  Platform / Run Jump                Joust 2 - Survival of the Fittest (revision 2)
-wmg             // 2001  Multiplay / Compilation            Williams Multigame
-
 
 // Capcom games
 // The following is a COMPLETE list of the Capcom games up to 1997, as shown on
@@ -2449,7 +2429,6 @@ hoops96         // 1996  Sports / Basketball                Hoops '96 (Europe/As
 avengrgs        // 1995  Fighter / Versus                   Avengers In Galactic Storm (US)
 skullfng        // 1996  Shooter / Flying Vertical          Skull Fang (World)
 stadhr96        // 1996  Sports / Baseball                  Stadium Hero '96 (World, EAJ)
-stadhr96u       //                                          
 
 // SemiCom games on Tumble Pop based hardware
 metlsavr        // 1994  Platform / Run Jump                Metal Saver
@@ -3208,7 +3187,6 @@ jackrabt        // 1984  Platform / Run Jump                Jack Rabbit (set 1)
 // UPL games
 mouser          // 1983  Maze                               Mouser
 nova2001        // 1983  Shooter / Field                    Nova 2001 (Japan)
-nova2001h		//   //                                          
 ninjakun        // 1984  Platform / Shooter Scrolling       Ninjakun Majou no Bouken
 raiders5        // 1985  Maze / Shooter Large               Raiders5
 pkunwar         // 1985  Sports / Misc.                     Penguin-Kun Wars (US)
@@ -3459,13 +3437,6 @@ f1gpstr2        // 1993  Driving / Race (chase view)        F-1 Grand Prix Star 
 scudhamm        // 1994  Fighter / Misc.                    Scud Hammer
 tetrisp2        // 1997  Puzzle / Drop                      Tetris Plus 2 (World)
 nndmseal        // 1997  Print Club                         Nandemo Seal Iinkai
-stepstag        // 1999  Rhythm / Dance                     Stepping Stage Special
-step3           // 1999  Rhythm / Dance                     Stepping 3 Superior
-rockn           // 1999  Rhythm / Misc.                     Rock'n Tread (Japan)
-rockn2          // 1999  Rhythm / Misc.                     Rock'n Tread 2 (Japan)
-rocknms         // 1999  Rhythm / Misc.                     Rock'n MegaSession (Japan)
-rockn3          // 1999  Rhythm / Misc.                     Rock'n 3 (Japan)
-rockn4          // 2000  Rhythm / Misc.                     Rock'n 4 (Japan, prototype)
 
 // Jaleco Mega System 1 games
 lomakai         // 1988  Fighter / 2D                       Legend of Makai (World)
@@ -3688,11 +3659,6 @@ penbros         // 2000  Platform / Run Jump                Penguin Brothers (Ja
 deerhunt        // 2000  Shooter / Gun                      Deer Hunting USA V4.3
 turkhunt        // 2001  Shooter / Gun                      Turkey Hunting USA V1.0
 wschamp         // 2001  Shooter / Gun                      Wing Shooting Championship V2.00
-funcube         // 2000  Multiplay / Compilation            Funcube (v1.5)
-funcube2        // 2001  Multiplay / Compilation            Funcube 2 (v1.1)
-funcube3        // 2001  Multiplay / Compilation            Funcube 3 (v1.1)
-funcube4        // 2001  Multiplay / Compilation            Funcube 4 (v1.0)
-funcube5        // 2002  Multiplay / Compilation            Funcube 5 (v1.0)
 trophyh         // 2002  Shooter / Gun                      Trophy Hunting - Bear &amp; Moose V1.0
 
 // SSV System (Seta, Sammy, Visco) games
@@ -3947,7 +3913,6 @@ kovshp          // 2004  Fighter / 2.5D                     Knights of Valour Su
 kovytzy         // 1999  Fighter / 2.5D                     Knights of Valour: Yi Tong Zhong Yuan / Sangoku Senki: Yi Tong Zhong Yuan (ver. 201, China)
 oldsplus        // 2004  Fighter / 2.5D                     Oriental Legend Special Plus / Xi You Shi E Zhuan Super Plus
 killbldp        // 2005  Fighter / Versus                   The Killing Blade Plus (China, ver. 300)
-happy6          // 2004  Multiplay / Compilation            Happy 6-in-1 (ver. 102CN)
 svg             // 2005  Fighter / Versus                   S.V.G. - Spectral vs Generation (M68k label V200) (ARM label V200, ROM 10/11/05 S.V.G V201)
 ket             // 2002  Shooter / Flying Vertical          Ketsui: Kizuna Jigoku Tachi (2003/01/01. Master Ver.)
 ddpdoj          // 2002  Shooter / Flying Vertical          DoDonPachi Dai-Ou-Jou V101 (2002.04.05.Master Ver)
@@ -4325,7 +4290,6 @@ pangofun        // 1995  Puzzle / Misc.                     Pango Fun (Italy)
 filetto         // 1990  Puzzle / Match                     Filetto (v1.05 901009)
 gstream         // 2002  Shooter / Flying Vertical          G-Stream G2020
 x2222           // 2000  Shooter / Flying Vertical          X2222 (final debug?)
-39in1           // 2004  Multiplay / Compilation            39 in 1 MAME bootleg
 kingpin         // 1983  Sports / Bowling                   Kingpin
 thayers         // 1984  Platform / Run Jump                Thayer's Quest (set 1)
 istellar        // 1983  Shooter / 1st Person               Interstellar Laser Fantasy
@@ -4340,73 +4304,6 @@ aliencr         // 1989  Pinball                            Alien Crush
 paclandp        // 1989  Platform / Run Jump Scrolling      Pac-Land (United Amusements PC Engine)
 ggconnie        // 1996  Misc.                              Go! Go! Connie chan Jaka Jaka Janken
 paranoia        // 1990  Shooter / Flying Horizontal        Paranoia
-tourvis         // 19??  System / BIOS                      Tourvision PCE bootleg
-tvdrgnst        //                                          
-tvlegaxe        // 1988  Platform / Fighter Scrolling       Makyo Densetsu - The Legenary Axe (Tourvision PCE bootleg)
-tvflaptw        // 1989  Driving / Race (chase view)        Final Lap Twin (Tourvision PCE bootleg)
-tvdensho        //                                          
-tvshnobi        //                                          
-tvsdarms        //                                          
-tvsson2         //                                          
-tvgunhed        //                                          
-tvmrheli        //                                          
-tvusapb         // 1989  Sports / Basketball                USA Pro Basketball (Tourvision PCE bootleg)
-tvvolfd         // 1989  Puzzle / Outline                   Volfied (Tourvision PCE bootleg)
-tvdormon        //                                          
-tvdunexp        // 1989  Maze / Shooter Large               Dungeon Explorer (Tourvision PCE bootleg)
-tvwnshot        //                                          
-tvablast        // 1990  Shooter / Flying Horizontal        Aero Blasters (Tourvision PCE bootleg)
-tvaburn         //                                          
-tvarmedf        //                                          
-tvbeball        //                                          
-tvbomber        //                                          
-tvdsenpu        //                                          
-tvdevilc        //                                          
-tvdodgeb        //                                          
-tvfblast        //                                          
-tvbrabho        //                                          
-tvfsoc90        // 1990  Sports / Soccer                    Formation Soccer - Human Cup '90 (Tourvision PCE bootleg)
-tvgomola        // 1990  Maze                               Gomola Speed (Tourvision PCE bootleg)
-tvkaikai        //                                          
-tvsssold        // 1990  Shooter / Flying Vertical          Super Star Soldier (Tourvision PCE bootleg)
-tvthbld         // 1990  Shooter / Flying                   Thunder Blade (Tourvision PCE bootleg)
-tvrs2           // 1990  Platform / Fighter Scrolling       Rastan Saga II (Tourvision PCE bootleg)
-tvninjas        //                                          
-tvopwolf        //                                          
-tvovride        //                                          
-tvpchasr        //                                          
-tvsvball        // 1990  Sports / Volleyball                Super Volley ball (Tourvision PCE bootleg)
-tvtsboys        //                                          
-tveigues        //                                          
-tvwring         //                                          
-tvxvious        //                                          
-tv1943          //                                          
-tvbalstx        //                                          
-tvcolumn        // 1991  Puzzle / Drop                      Columns (Tourvision PCE bootleg)
-tvcoryon        //                                          
-tvdmoon         //                                          
-tvftenis        //                                          
-tvhtdaka        //                                          
-tvtonma         //                                          
-tvjchan         // 1991  Platform / Fighter Scrolling       Jackie Chan (Tourvision PCE bootleg)
-tvpcgen2        // 1991  Platform / Run Jump Scrolling      PC Genjin 2 - Pithecanthropus Computerurus (Tourvision PCE bootleg)
-tvpaclnd        //                                          
-tvpdrift        //                                          
-tvpros91        //                                          
-tvpow11         // 1991  Sports / Soccer                    Power Eleven (Tourvision PCE bootleg)
-tvpwlg4         // 1991  Sports / Baseball                  Power League IV (Tourvision PCE bootleg)
-tvpzlboy        //                                          
-tvraiden        //                                          
-tvrtype2        //                                          
-tvslmndr        //                                          
-tvsci           // 1991  Shooter / Driving (chase view)     Special Criminal Investigation (Tourvision PCE bootleg)
-tvskweek        //                                          
-tvtaisen        //                                          
-tvlqkids        //                                          
-tvninjar        //                                          
-tvpcybrg        //                                          
-tvtsujin        //                                          
-tvtcrst2        //                                          
 vcombat         // 1993  Shooter / Gun                      Virtual Combat
 shadfgtr        // 1993  Fighter / Versus                   Shadow Fighters
 skimaxx         // 1996  Sports / Skiing                    Skimaxx
@@ -4421,11 +4318,6 @@ superwng        // 1985  Pinball                            Super Wing
 
 // Sanki Denshi Kogyo
 pachifev        // 1983  Pinball / Pachinko                 Pachifever
-
-// New Image Technologies
-bonanza         // 1994  Multiplay / Compilation            Touchstar Bonanza (Revision 3)
-streetg         // 1993  Multiplay / Compilation            Street Games (Revision 4)
-streetg2        // 1993  Multiplay / Compilation            Street Games II (Revision 7C)
 
 // GCE / Roy Abel & Associates
 raaspec         // 1984  Misc.                              Spectrum I+
