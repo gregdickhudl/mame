@@ -136,66 +136,66 @@ astrocdl    // Bally Home Library Computer
 astrocdw    // Bally Computer System (white case)
 
 // RCA
-// microkit
-// vip    // 1977 Cosmac VIP VP-711
-// vp111    // 1977 Cosmac VIP VP-111
-// studio2   // 1977 Studio II
-// visicom
-// mpt02
-// eti660
-// mpt02h
-// mtc9016   // 1978 Mustang 9016 Telespiel Computer
-// shmc1200
-// cm1200
-// apollo80
-// d6800       // Dream 6800
+microkit
+vip    // 1977 Cosmac VIP VP-711
+vp111    // 1977 Cosmac VIP VP-111
+studio2   // 1977 Studio II
+visicom
+mpt02
+eti660
+mpt02h
+mtc9016   // 1978 Mustang 9016 Telespiel Computer
+shmc1200
+cm1200
+apollo80
+d6800       // Dream 6800
 
 // Ensoniq
-// enmirage    // 1985 Mirage Digital Multi-Sampler
-// esq1        // 1986 ESQ-1 Digital Wave Synthesizer
-// esqm        // 1986 ESQ-M rack-mount ESQ-1
-// sq80        // 1988 SQ-80 Digital Wave Synthesizer
-// eps         // 1988 EPS
-// vfx         // 1989 VFX
-// vfxsd       // 1989 VFX-SD
-// eps16p      // 1990 EPS 16 Plus
-// sd1         // 1990 SD-1
-// sq1         // 1990 SQ-1
-// sqrack      // 1990 SQ-Rack
-// sd132       // 1991 SD-1 32
-// asr10       // 1992 ASR-10
-// kt76        // 1996 KT-76
-// mr61        // 1996 MR-61
-// mrrack      // 1996 MR-Rack
-// asrx        // 1997 ASR-X
+enmirage    // 1985 Mirage Digital Multi-Sampler
+esq1        // 1986 ESQ-1 Digital Wave Synthesizer
+esqm        // 1986 ESQ-M rack-mount ESQ-1
+sq80        // 1988 SQ-80 Digital Wave Synthesizer
+eps         // 1988 EPS
+vfx         // 1989 VFX
+vfxsd       // 1989 VFX-SD
+eps16p      // 1990 EPS 16 Plus
+sd1         // 1990 SD-1
+sq1         // 1990 SQ-1
+sqrack      // 1990 SQ-Rack
+sd132       // 1991 SD-1 32
+asr10       // 1992 ASR-10
+kt76        // 1996 KT-76
+mr61        // 1996 MR-61
+mrrack      // 1996 MR-Rack
+asrx        // 1997 ASR-X
 
 // Fairchild
-// channelf  // Fairchild Channel F VES - 1976
-// sabavdpl  // SABA Videoplay - 1977 (PAL)
-// luxorves  // Luxor Video Entertainment System (PAL)
-// channlf2  // Fairchild Channel F II - 1978
-// sabavpl2  // SABA Videoplay 2 (PAL)
-// luxorvec  // Luxor Video Entertainment Computer (PAL)
-// itttelma  // ITT Tele-Match Processor (PAL)
-// ingtelma  // Ingelen Tele-Match Processor (PAL)
+channelf  // Fairchild Channel F VES - 1976
+sabavdpl  // SABA Videoplay - 1977 (PAL)
+luxorves  // Luxor Video Entertainment System (PAL)
+channlf2  // Fairchild Channel F II - 1978
+sabavpl2  // SABA Videoplay 2 (PAL)
+luxorvec  // Luxor Video Entertainment Computer (PAL)
+itttelma  // ITT Tele-Match Processor (PAL)
+ingtelma  // Ingelen Tele-Match Processor (PAL)
 
 // Casio
-// pv1000  // Casio PV-1000
-// pv2000  // Casio PV-2000
-// pb1000  // Casio PB-1000
-// pb2000c // Casio PB-2000C
-// ai1000  // Casio AI-1000
-// cfx9850 // Casio CFX-9850
+pv1000  // Casio PV-1000
+pv2000  // Casio PV-2000
+pb1000  // Casio PB-1000
+pb2000c // Casio PB-2000C
+ai1000  // Casio AI-1000
+cfx9850 // Casio CFX-9850
 
 // Coleco
-// coleco   // ColecoVision (Original BIOS)
-// colecop  // Colecovision PAL (Italy)
-// svi603   // Spectravideo SVI-603 Coleco Game Adapter
-// czz50    // Bit Corporation Chuang Zao Zhe 50
-// dina     // Telegames Dina
-// prsarcde // Telegames Personal Arcade
-// adam     // Coleco Adam
-// onyx     // Microdigital ONYX (Brazilian Coleco clone / unreleased prototype)
+coleco   // ColecoVision (Original BIOS)
+colecop  // Colecovision PAL (Italy)
+svi603   // Spectravideo SVI-603 Coleco Game Adapter
+czz50    // Bit Corporation Chuang Zao Zhe 50
+dina     // Telegames Dina
+prsarcde // Telegames Personal Arcade
+adam     // Coleco Adam
+onyx     // Microdigital ONYX (Brazilian Coleco clone / unreleased prototype)
 
 // NEC
 pce    // PC/Engine NEC 1987-1993
@@ -205,119 +205,119 @@ pcfx      // PC-FX NEC 1994
 pcfxga  // PC-FX NEC 199? (PC-FX on a PC ISA Card)
 
 // Arcadia 2001 family
-// advsnha     // Advision Home Arcade
-// bndarc      // Bandai Arcadia
-// arcadia     // Emerson Arcadia 2001
-// tccosmos        // Tele-Computer Cosmos
-// dynavisn        // Dynavision
-// ekusera     // Ekusera
-// hanihac     // Hanimex Home Arcade Centre
-// hmg2650     // Hanimex HMG-2650
-// intmpt03        // Intelligent Game MPT-03
-// ixl2000     // Intercord XL 2000 System
-// intervsn        // Intervision 2001
-// itmcmtp3        // ITMC MPT-03
-// lvision     // Leisure-Vision
-// leonardo        // Leonardo
-// mratlus     // Mr. Altus Tele Brain
-// ormatu      // Ormatu 2001
-// plldium     // Palladium Video-Computer-Game
-// polyvcg     // Polybrain Video Computer Game
-// poppympt        // Poppy MPT-03 Tele Computer Spiel
-// prestmpt        // Prestige Video Computer Game MPT-03
-// rowtrn2k        // Rowtron 2000
-// tvg2000     // Schmid TVG 2000
-// sheenhvc        // Sheen Home Video Centre 2001
-// soundic     // Soundic MPT-03
-// telefevr        // Tchibo Tele-Fever
-// tempestm        // Tempest MPT-03
-// tbbympt3        // Tobby MPT-03
-// trakcvg     // Trakton Computer Video Game
-// tunixha     // Tunix Home Arcade
-// tryomvgc        // Tryom Video Game Center
-// orbituvi        // UVI Compu-Game
-// vdmaster        // Video Master
+advsnha     // Advision Home Arcade
+bndarc      // Bandai Arcadia
+arcadia     // Emerson Arcadia 2001
+tccosmos        // Tele-Computer Cosmos
+dynavisn        // Dynavision
+ekusera     // Ekusera
+hanihac     // Hanimex Home Arcade Centre
+hmg2650     // Hanimex HMG-2650
+intmpt03        // Intelligent Game MPT-03
+ixl2000     // Intercord XL 2000 System
+intervsn        // Intervision 2001
+itmcmtp3        // ITMC MPT-03
+lvision     // Leisure-Vision
+leonardo        // Leonardo
+mratlus     // Mr. Altus Tele Brain
+ormatu      // Ormatu 2001
+plldium     // Palladium Video-Computer-Game
+polyvcg     // Polybrain Video Computer Game
+poppympt        // Poppy MPT-03 Tele Computer Spiel
+prestmpt        // Prestige Video Computer Game MPT-03
+rowtrn2k        // Rowtron 2000
+tvg2000     // Schmid TVG 2000
+sheenhvc        // Sheen Home Video Centre 2001
+soundic     // Soundic MPT-03
+telefevr        // Tchibo Tele-Fever
+tempestm        // Tempest MPT-03
+tbbympt3        // Tobby MPT-03
+trakcvg     // Trakton Computer Video Game
+tunixha     // Tunix Home Arcade
+tryomvgc        // Tryom Video Game Center
+orbituvi        // UVI Compu-Game
+vdmaster        // Video Master
 
 // Radofin 1292 Advanced Programmable Video System family
-// vc4000  // Interton vc4000
-// spc4000
-// cx3000tc
-// tvc4000
-// 1292apvs
-// 1392apvs
-// mpu1000
-// mpu2000
-// pp1292
-// pp1392
-// f1392
-// fforce2
-// hmg1292
-// hmg1392
-// lnsy1392
-// vc6000
-// database
-// vmdtbase
-// rwtrntcs
-// telngtcs
-// krvnjvtv
-// oc2000
-// mpt05
-// h21     // TRQ Video Computer H-21
+vc4000  // Interton vc4000
+spc4000
+cx3000tc
+tvc4000
+1292apvs
+1392apvs
+mpu1000
+mpu2000
+pp1292
+pp1392
+f1392
+fforce2
+hmg1292
+hmg1392
+lnsy1392
+vc6000
+database
+vmdtbase
+rwtrntcs
+telngtcs
+krvnjvtv
+oc2000
+mpt05
+h21     // TRQ Video Computer H-21
 
 
 // Game Park
-// gp32    // GP32 2001
-// gp2x    // GP2X 2005
+gp32    // GP32 2001
+gp2x    // GP2X 2005
 
 // GCE
-// vectrex   // General Consumer Electric Vectrex - 1982-1984
+vectrex   // General Consumer Electric Vectrex - 1982-1984
 // (aka Milton-Bradley Vectrex)
 
 // Mattel
-// intv      // Mattel Intellivision - 1979 AKA INTV
-// intv2     // Mattel Intellivision II- 1982?
-// intvsrs   // Intellivision (Sears License) - 19??
-// intvoice      // Mattel Intellivision + IntelliVoice expansion - 1982
+intv      // Mattel Intellivision - 1979 AKA INTV
+intv2     // Mattel Intellivision II- 1982?
+intvsrs   // Intellivision (Sears License) - 19??
+intvoice      // Mattel Intellivision + IntelliVoice expansion - 1982
 
 // Capcom
-// sfach    // CPS Changer (Street Fighter Alpha)
-// sfzbch  // CPS Changer (Street Fighter ZERO Brazil)
-// sfzch    // CPS Changer (Street Fighter ZERO)
-// wofch    // CPS Changer (Tenchi Wo Kurau II)
+sfach    // CPS Changer (Street Fighter Alpha)
+sfzbch  // CPS Changer (Street Fighter ZERO Brazil)
+sfzch    // CPS Changer (Street Fighter ZERO)
+wofch    // CPS Changer (Tenchi Wo Kurau II)
 
 // Magnavox
-// odyssey2  // Magnavox Odyssey 2 - 1978-1983
-// odyssey3  // Magnavox Odyssey 3 / Command Center (prototype)
+odyssey2  // Magnavox Odyssey 2 - 1978-1983
+odyssey3  // Magnavox Odyssey 3 / Command Center (prototype)
 
 // Makerbot
-// replica1  // Makerbot Replicator 1 desktop 3d printer
+replica1  // Makerbot Replicator 1 desktop 3d printer
 
 // Metamaquina
-// metamaq2  // Metamaquina 2 desktop 3d printer
+metamaq2  // Metamaquina 2 desktop 3d printer
 
 // Hartung, Watara, ...
-// gmaster   // Hartung Gamemaster
+gmaster   // Hartung Gamemaster
 
 // Watara
-// svision   // Supervision Handheld
-// svisions
-// svisionp
-// svisionn
-// tvlinkp
+svision   // Supervision Handheld
+svisions
+svisionp
+svisionn
+tvlinkp
 
 // BANDAI
-// sv8000    // Super Vision 8000
-// wswan    // Bandai WonderSwan Handheld
-// wscolor   // Bandai WonderSwan Color Handheld
+sv8000    // Super Vision 8000
+wswan    // Bandai WonderSwan Handheld
+wscolor   // Bandai WonderSwan Color Handheld
 
 // EPOCH
-// gamepock  // Epoch Game Pocket Computer
+gamepock  // Epoch Game Pocket Computer
 
 // Bit Corp
-// gamate   // Bit Corp Gamate
+gamate   // Bit Corp Gamate
 
 // KOEI
-// pasogo  // KOEI PasoGo
+pasogo  // KOEI PasoGo
 
 // SNK
 ngp    // NeoGeo Pocket
@@ -328,176 +328,176 @@ neocdz  // NeoGeo CDZ
 neocdzj //
 
 // Philips
-// cdimono1  // Philips CD-i model 200 (Mono-I board, PAL)
-// cdimono2  // Philips CD-i model 220 (Mono-II board, NTSC)
-// cdi910 //
-// cdi490a //
+cdimono1  // Philips CD-i model 200 (Mono-I board, PAL)
+cdimono2  // Philips CD-i model 220 (Mono-II board, NTSC)
+cdi910 //
+cdi490a //
 
 // Yamaha
-// mu100   // 1997 MU-100
-// mu100r  // 1997 MU-100 Rackable version
-// fb01    // 1986 FB-01
+mu100   // 1997 MU-100
+mu100r  // 1997 MU-100 Rackable version
+fb01    // 1986 FB-01
 
 // Roland
-// mt32
-// cm32l
-// d110
-// sc55    // 1991 Sound Canvas SC-55
+mt32
+cm32l
+d110
+sc55    // 1991 Sound Canvas SC-55
 
 //***************COMPUTERS**************************************************
 
 // Acorn
-// acrnsys1  // 1979 Acorn System 1 (Microcomputer Kit)
-// a6809
-// atom      // 1979 Acorn Atom
-// atomeb    // 1979 Acorn Atom
-// atombb    // 1979 Acorn Atom
-// //prophet2
-// bbca      // 1981 BBC Micro Model A
-// bbcb      // 1981 BBC Micro Model B w/8271 FDC
-// torchf    // 1982 Torch CF240
-// torchh10  // 1982 Torch CH240/10
-// torchh21  // 1982 Torch CH240/21
-// bbcb_de   // 1982 BBC Micro Model B (German)
-// bbcb_us   // 1983 BBC Micro Model B (US)
-// electron  // 1983 Acorn Electron
-// bbcb1770  // 1984 BBC Micro Model B w/1770 FDC
-// bbcbp     // 1985 BBC Micro Model B+ 64K
-// bbcbp128  // 1985 BBC Micro Model B+ 128K
-// abc110    // 1985 ABC 110
-// acw443    // 1985 ABC 210/Cambridge Workstation
-// abc310    // 1985 ABC 310
-// reutapm   // 1985 Reuters APM Board
-// bbcm      // 1986 BBC Master 128
-// bbcmt     // 1986 BBC Master Turbo
-// bbcmaiv   // 1986 BBC Master AIV
-// bbcmet    // 1986 BBC Master ET
-// bbcm512   // 1986 BBC Master 512
-// bbcmarm   // 1986 ARM Evaluation System
-// bbcmc     // 1986 BBC Master Compact
-// bbcmc_ar  // 1986 BBC Master Compact (Arabic)
-// pro128s   // 1987 Olivetti Prodest PC 128S
-// bbcbc     // 1985 BBC Bridge Companion
-// a310      // 1988 Acorn Archimedes 310
-// a3010     // 1988 Acorn Archimedes 3010
-// a3020     // 1988 Acorn Archimedes 3020
-// a7000     // 1995 Acorn Archimedes 7000
-// a7000p    // 1997 Acorn Archimedes 7000+
-// rpc600
-// rpc700
-// sarpc
-// sarpc_j233
+acrnsys1  // 1979 Acorn System 1 (Microcomputer Kit)
+a6809
+atom      // 1979 Acorn Atom
+atomeb    // 1979 Acorn Atom
+atombb    // 1979 Acorn Atom
+//prophet2
+bbca      // 1981 BBC Micro Model A
+bbcb      // 1981 BBC Micro Model B w/8271 FDC
+torchf    // 1982 Torch CF240
+torchh10  // 1982 Torch CH240/10
+torchh21  // 1982 Torch CH240/21
+bbcb_de   // 1982 BBC Micro Model B (German)
+bbcb_us   // 1983 BBC Micro Model B (US)
+electron  // 1983 Acorn Electron
+bbcb1770  // 1984 BBC Micro Model B w/1770 FDC
+bbcbp     // 1985 BBC Micro Model B+ 64K
+bbcbp128  // 1985 BBC Micro Model B+ 128K
+abc110    // 1985 ABC 110
+acw443    // 1985 ABC 210/Cambridge Workstation
+abc310    // 1985 ABC 310
+reutapm   // 1985 Reuters APM Board
+bbcm      // 1986 BBC Master 128
+bbcmt     // 1986 BBC Master Turbo
+bbcmaiv   // 1986 BBC Master AIV
+bbcmet    // 1986 BBC Master ET
+bbcm512   // 1986 BBC Master 512
+bbcmarm   // 1986 ARM Evaluation System
+bbcmc     // 1986 BBC Master Compact
+bbcmc_ar  // 1986 BBC Master Compact (Arabic)
+pro128s   // 1987 Olivetti Prodest PC 128S
+bbcbc     // 1985 BBC Bridge Companion
+a310      // 1988 Acorn Archimedes 310
+a3010     // 1988 Acorn Archimedes 3010
+a3020     // 1988 Acorn Archimedes 3020
+a7000     // 1995 Acorn Archimedes 7000
+a7000p    // 1997 Acorn Archimedes 7000+
+rpc600
+rpc700
+sarpc
+sarpc_j233
 
 // ACT
-// apricot // 1983 ACT
-// apricotxi   // 1984 ACT
-// f1
-// f1e
-// f2
-// f10
-// fp
+apricot // 1983 ACT
+apricotxi   // 1984 ACT
+f1
+f1e
+f2
+f10
+fp
 
 // Cambridge Computers
-// z88      // Z88 (UK)
-// z88de    // Z88 (German)
-// z88es    // Z88 (Spanish)
-// z88fr    // Z88 (French)
-// z88it    // Z88 (Italian)
-// z88se    // Z88 (Swedish)
-// z88fi    // Z88 (Finnish)
-// z88no    // Z88 (Norwegian)
-// z88dk    // Z88 (Danish)
-// z88ch    // Z88 (Swiss)
-// z88tr    // Z88 (Turkish)
+z88      // Z88 (UK)
+z88de    // Z88 (German)
+z88es    // Z88 (Spanish)
+z88fr    // Z88 (French)
+z88it    // Z88 (Italian)
+z88se    // Z88 (Swedish)
+z88fi    // Z88 (Finnish)
+z88no    // Z88 (Norwegian)
+z88dk    // Z88 (Danish)
+z88ch    // Z88 (Swiss)
+z88tr    // Z88 (Turkish)
 
 // Amstrad / Schneider
-// cpc464  // Amstrad (Schneider in Germany) 1984
-// cpc664  // Amstrad (Schneider in Germany) 1985
-// cpc6128   // Amstrad (Schneider in Germany) 1985
-// cpc6128s  // Amstrad (Schneider in Germany) 1985
-// cpc6128f  // Amstrad (Schneider in Germany) 1985 (AZERTY)
-// cpc464p   // Amstrad CPC464  Plus - 1990
-// cpc6128p  // Amstrad CPC6128 Plus - 1990
-// gx4000  // Amstrad GX4000 - 1990
-// kccomp  // VEB KC compact
-// al520ex   // Patisonic Aleste 520EX (1993)
-// pcw8256   // 198? PCW8256
-// pcw8512   // 198? PCW8512
-// pcw9256   // 198? PCW9256
-// pcw9512   // 198? PCW9512 (+)
-// pcw10    // 198? PCW10
-// pcw16    // 1995 PCW16
-// nc100    // 1992 NC100
-// dw225
-// nc150    // 1992 NC150
-// nc200    // 1993 NC200
+cpc464  // Amstrad (Schneider in Germany) 1984
+cpc664  // Amstrad (Schneider in Germany) 1985
+cpc6128   // Amstrad (Schneider in Germany) 1985
+cpc6128s  // Amstrad (Schneider in Germany) 1985
+cpc6128f  // Amstrad (Schneider in Germany) 1985 (AZERTY)
+cpc464p   // Amstrad CPC464  Plus - 1990
+cpc6128p  // Amstrad CPC6128 Plus - 1990
+gx4000  // Amstrad GX4000 - 1990
+kccomp  // VEB KC compact
+al520ex   // Patisonic Aleste 520EX (1993)
+pcw8256   // 198? PCW8256
+pcw8512   // 198? PCW8512
+pcw9256   // 198? PCW9256
+pcw9512   // 198? PCW9512 (+)
+pcw10    // 198? PCW10
+pcw16    // 1995 PCW16
+nc100    // 1992 NC100
+dw225
+nc150    // 1992 NC150
+nc200    // 1993 NC200
 
 // Apollo
-// dn3500      // Apollo Workstation DN3500 15" Color (1989)
-// dn3500_19i  // Apollo Workstation DN3500 19" Monochrome (1989)
-// dsp3500     // Apollo Server DSP3500 (1989)
-// dn3000      // Apollo Workstation DN3000 15" Color (1988)
-// dn3000_19i  // Apollo Workstation DN3000 19" Monochrome (1987)
-// dsp3000     // Apollo Server DSP3000 (1987)
-// dn5500      // Apollo Workstation DN5500 15" Color (1991)
-// dn5500_19i  // Apollo Workstation DN5500 19" Monochrome (1991)
-// dsp5500     // Apollo Server DSP5500 (1991)
+dn3500      // Apollo Workstation DN3500 15" Color (1989)
+dn3500_19i  // Apollo Workstation DN3500 19" Monochrome (1989)
+dsp3500     // Apollo Server DSP3500 (1989)
+dn3000      // Apollo Workstation DN3000 15" Color (1988)
+dn3000_19i  // Apollo Workstation DN3000 19" Monochrome (1987)
+dsp3000     // Apollo Server DSP3000 (1987)
+dn5500      // Apollo Workstation DN5500 15" Color (1991)
+dn5500_19i  // Apollo Workstation DN5500 19" Monochrome (1991)
+dsp5500     // Apollo Server DSP5500 (1991)
 
 // Apple
-// apple1  // Jul 1976 Apple 1
-// apple2  // Apr 1977 Apple ][
-// apple2p   // Jun 1979 Apple ][+
-// elppa   // 198? Victor do Brasil Elppa II+
-// maxxi   // 1982 Polymax Maxxi
-// prav82  // Pravetz 82
-// prav8m  // Pravetz 8M
-// uniap2en // 1982 Unitron AP II (in English)
-// uniap2pt // 1982 Unitron AP II (in Brazilian Portuguese)
-// uniap2ti // 1982 Unitron AP II+ (Teclado Inteligente)
-// microeng // 1982 Micro Engenho (Brazilian Apple2 clone) - Spectrum/SCOPUS
-// apple2jp  // ??? ???? Apple ][j+
-// apple2e   // Jan 1983 Apple //e
-// apple2euk // Jan 1983 Apple //e (UK)
-// mprof3  // Microprofessor III
-// apple2ee  // Mar 1985 Apple //e Enhanced
-// apple2eeuk  // Mar 1985 Apple //e Enhanced (UK)
-// apple2ep  // Jan 1987 Apple //e Platinum
-// apple2c   // Apr 1984 Apple //c
-// tk2000      // Microdigital TK2000
-// tk3000      // Microdigital TK3000
-// prav8c  // Pravetz 8C
-// apple2c0  // ??? 1985 Apple //c (3.5 ROM)
-// apple2c3  // Sep 1986 Apple //c (Original Mem. Exp.)
-// apple2c4  // ??? 198? Apple //c (rev 4)
-// apple2cp  // Sep 1988 Apple //c+
-// apple2gsr0p // June 19, 1986 Apple IIgs ROM00 prototype
-// apple2gsr0p2 // March 10, 1986 Apple IIgs ROM00 prototype
-// apple2gsr0  // Sep 1986 Apple IIgs ROM00
-// apple2gsr1  // Sep 1987 Apple IIgs ROM01
-// apple2gs  // Aug 1989 Apple IIgs ROM03
-// apple2gsr3p   // ??? 198? Apple IIgs ROM03 prototype
-// apple2gsr3lp  // ??? 1989 Apple IIgs ROM03 late? prototype
-// apple3  // May 1980 Apple ///
-// // Dec 1983 Apple ///+
-// ace100  // ??? 1982 Franklin Ace 100
-// laser128  // ??? 1987 Laser 128
-// las128ex  // ??? 1988 Laser 128 EX
-// las128e2  // ??? Laser 128 EX2
-// ivelultr  // Ivasim Ivel Ultra
-// agat7    // Agat-7
-// agat9    // Agat-9
-// space84 // 1985 IBS/ComputerTechnik Space 84
-// am64    // 1985 ASEM AM 64 (motherboard is marked AM-100 but it boots as "AM 64")
-// //laba2p  // Lab equipment Apple II Plus Clone
+apple1  // Jul 1976 Apple 1
+apple2  // Apr 1977 Apple ][
+apple2p   // Jun 1979 Apple ][+
+elppa   // 198? Victor do Brasil Elppa II+
+maxxi   // 1982 Polymax Maxxi
+prav82  // Pravetz 82
+prav8m  // Pravetz 8M
+uniap2en // 1982 Unitron AP II (in English)
+uniap2pt // 1982 Unitron AP II (in Brazilian Portuguese)
+uniap2ti // 1982 Unitron AP II+ (Teclado Inteligente)
+microeng // 1982 Micro Engenho (Brazilian Apple2 clone) - Spectrum/SCOPUS
+apple2jp  // ??? ???? Apple ][j+
+apple2e   // Jan 1983 Apple //e
+apple2euk // Jan 1983 Apple //e (UK)
+mprof3  // Microprofessor III
+apple2ee  // Mar 1985 Apple //e Enhanced
+apple2eeuk  // Mar 1985 Apple //e Enhanced (UK)
+apple2ep  // Jan 1987 Apple //e Platinum
+apple2c   // Apr 1984 Apple //c
+tk2000      // Microdigital TK2000
+tk3000      // Microdigital TK3000
+prav8c  // Pravetz 8C
+apple2c0  // ??? 1985 Apple //c (3.5 ROM)
+apple2c3  // Sep 1986 Apple //c (Original Mem. Exp.)
+apple2c4  // ??? 198? Apple //c (rev 4)
+apple2cp  // Sep 1988 Apple //c+
+apple2gsr0p // June 19, 1986 Apple IIgs ROM00 prototype
+apple2gsr0p2 // March 10, 1986 Apple IIgs ROM00 prototype
+apple2gsr0  // Sep 1986 Apple IIgs ROM00
+apple2gsr1  // Sep 1987 Apple IIgs ROM01
+apple2gs  // Aug 1989 Apple IIgs ROM03
+apple2gsr3p   // ??? 198? Apple IIgs ROM03 prototype
+apple2gsr3lp  // ??? 1989 Apple IIgs ROM03 late? prototype
+apple3  // May 1980 Apple ///
+// Dec 1983 Apple ///+
+ace100  // ??? 1982 Franklin Ace 100
+laser128  // ??? 1987 Laser 128
+las128ex  // ??? 1988 Laser 128 EX
+las128e2  // ??? Laser 128 EX2
+ivelultr  // Ivasim Ivel Ultra
+agat7    // Agat-7
+agat9    // Agat-9
+space84 // 1985 IBS/ComputerTechnik Space 84
+am64    // 1985 ASEM AM 64 (motherboard is marked AM-100 but it boots as "AM 64")
+//laba2p  // Lab equipment Apple II Plus Clone
 
 // Lisa   January    1983
 // Lisa 2   January  1984
 // Macintosh XL   January    1985
 
-// lisa      // 1983 Apple Lisa
-// lisa2    // 1984 Apple Lisa 2
-// lisa210   // 1984 Apple Lisa 2/10
-// macxl    // 1985 Apple Macintosh XL
+lisa      // 1983 Apple Lisa
+lisa2    // 1984 Apple Lisa 2
+lisa210   // 1984 Apple Lisa 2/10
+macxl    // 1985 Apple Macintosh XL
 
 // Macintosh    January  1984
 // Macintosh 512k      July?       1984
@@ -507,528 +507,528 @@ neocdzj //
 // Macintosh II  March     1987
 
 //mactw   // Macintosh (4.3T Prototype) - missing roms?
-// mac128k   // 1984 Apple Macintosh
-// mac512k   // 1985 Apple Macintosh 512k
-// mac512ke  // 1986 Apple Macintosh 512ke
-// unitron     // 1985 Unitron
-// macplus   // 1986 Apple Macintosh Plus
-// macse    // 1987 Apple Macintosh SE
-// macii    // 1987 Apple Macintosh II
-// maciihmu // 1987 Apple Macintosh II (w/o 68851 MMU)
-// macsefd   // 1988 Apple Macintosh SE (FDHD)
-// mac2fdhd  // 1988 Apple Macintosh II (FDHD)
-// maciix  // 1988 Apple Macintosh IIx
-// macprtb   // 1989 Apple Macintosh Portable
-// macse30   // 1989 Apple Macintosh SE/30
-// maciicx   // 1989 Apple Macintosh IIcx
-// maciici   // 1989 Apple Macintosh IIci
-// maciifx     // 1990 Apple Macintosh IIfx
-// macclasc  // 1990 Apple Macintosh Classic
-// maclc // 1990 Apple Macintosh LC
-// maciisi   // 1990 Apple Macintosh IIsi
-// macpb100  // 1991 Apple Macintosh PowerBook 100
-// macpb140  // 1991 Apple Macintosh PowerBook 140
-// macpb170  // 1991 Apple Macintosh PowerBook 170
-// macqd700  // 1991 Apple Macintosh Quadra 700
-// macclas2  // 1991 Apple Macintosh Classic II
-// maclc2  // 1991 Apple Macintosh LC II
-// macpb145  // 1992 Apple Macintosh PowerBook 145
-// macpb160    // 1992 Apple Macintosh PowerBook 160
-// macpb180    // 1992 Apple Macintosh PowerBook 180
-// macpb180c // 1992 Apple Macintosh PowerBook 180c
-// macpd210  // 1992 Apple Macintosh PowerBook Duo 210
-// maccclas // 1993 Apple Macintosh Color Classic
-// macpb145b  // 1993 Apple Macintosh PowerBook 145B
-// maclc3  // 1993 Apple Macintosh LC III
-// maciivx // 1993 Apple Macintosh IIvx
-// maciivi // 1993 Apple Macintosh IIvi
-// maclc520    // 1993 Apple Macintosh LC 520
-// pmac6100    // 1993 Apple Power Macintosh 6100
+mac128k   // 1984 Apple Macintosh
+mac512k   // 1985 Apple Macintosh 512k
+mac512ke  // 1986 Apple Macintosh 512ke
+unitron     // 1985 Unitron
+macplus   // 1986 Apple Macintosh Plus
+macse    // 1987 Apple Macintosh SE
+macii    // 1987 Apple Macintosh II
+maciihmu // 1987 Apple Macintosh II (w/o 68851 MMU)
+macsefd   // 1988 Apple Macintosh SE (FDHD)
+mac2fdhd  // 1988 Apple Macintosh II (FDHD)
+maciix  // 1988 Apple Macintosh IIx
+macprtb   // 1989 Apple Macintosh Portable
+macse30   // 1989 Apple Macintosh SE/30
+maciicx   // 1989 Apple Macintosh IIcx
+maciici   // 1989 Apple Macintosh IIci
+maciifx     // 1990 Apple Macintosh IIfx
+macclasc  // 1990 Apple Macintosh Classic
+maclc // 1990 Apple Macintosh LC
+maciisi   // 1990 Apple Macintosh IIsi
+macpb100  // 1991 Apple Macintosh PowerBook 100
+macpb140  // 1991 Apple Macintosh PowerBook 140
+macpb170  // 1991 Apple Macintosh PowerBook 170
+macqd700  // 1991 Apple Macintosh Quadra 700
+macclas2  // 1991 Apple Macintosh Classic II
+maclc2  // 1991 Apple Macintosh LC II
+macpb145  // 1992 Apple Macintosh PowerBook 145
+macpb160    // 1992 Apple Macintosh PowerBook 160
+macpb180    // 1992 Apple Macintosh PowerBook 180
+macpb180c // 1992 Apple Macintosh PowerBook 180c
+macpd210  // 1992 Apple Macintosh PowerBook Duo 210
+maccclas // 1993 Apple Macintosh Color Classic
+macpb145b  // 1993 Apple Macintosh PowerBook 145B
+maclc3  // 1993 Apple Macintosh LC III
+maciivx // 1993 Apple Macintosh IIvx
+maciivi // 1993 Apple Macintosh IIvi
+maclc520    // 1993 Apple Macintosh LC 520
+pmac6100    // 1993 Apple Power Macintosh 6100
 
 // Atari
-// a400      // 1979 Atari 400
-// a400pal   // 1979 Atari 400 PAL
-// a800      // 1979 Atari 800
-// a800pal   // 1979 Atari 800 PAL
-// a1200xl   // 1982 Atari 1200 XL
-// a600xl  // 1983 Atari 600 XL
-// a800xl  // 1983 Atari 800 XL
-// a800xlp   // 1983 Atari 800 XL (PAL)
-// a65xe    // 1986 Atari 65 XE (XL Extended)
-// a65xea  // 1986? Atari 65 XE Arabic
-// a130xe  // 1986 Atari 130 XE
-// a800xe  // 1986 Atari 800 XE
-// xegs      // 1987 Atari XE Game System
-// st   // Atari ST
-// st_uk
-// st_de
-// st_es
-// st_nl
-// st_fr
-// st_se
-// st_sg
-// megast  // Atari Mega ST
-// megast_uk
-// megast_de
-// megast_fr
-// megast_se
-// megast_sg
-// //stacy  // Atari STacy
-// ste  // Atari STe
-// ste_uk
-// ste_de
-// ste_es
-// ste_fr
-// ste_it
-// ste_se
-// ste_sg
-// //stbook    // Atari STBook
-// megaste   // Atari Mega STe
-// megaste_uk
-// megaste_de
-// megaste_es
-// megaste_fr
-// megaste_it
-// megaste_se
-// //stpad  // Atari STPad (prototype)
-// tt030  // Atari TT030
-// tt030_uk
-// tt030_de
-// tt030_fr
-// tt030_pl
-// //fx1      // Atari FX-1 (prototype)
-// falcon30    // Atari Falcon030
-// falcon40  // Atari Falcon040 (prototype)
+a400      // 1979 Atari 400
+a400pal   // 1979 Atari 400 PAL
+a800      // 1979 Atari 800
+a800pal   // 1979 Atari 800 PAL
+a1200xl   // 1982 Atari 1200 XL
+a600xl  // 1983 Atari 600 XL
+a800xl  // 1983 Atari 800 XL
+a800xlp   // 1983 Atari 800 XL (PAL)
+a65xe    // 1986 Atari 65 XE (XL Extended)
+a65xea  // 1986? Atari 65 XE Arabic
+a130xe  // 1986 Atari 130 XE
+a800xe  // 1986 Atari 800 XE
+xegs      // 1987 Atari XE Game System
+st   // Atari ST
+st_uk
+st_de
+st_es
+st_nl
+st_fr
+st_se
+st_sg
+megast  // Atari Mega ST
+megast_uk
+megast_de
+megast_fr
+megast_se
+megast_sg
+//stacy  // Atari STacy
+ste  // Atari STe
+ste_uk
+ste_de
+ste_es
+ste_fr
+ste_it
+ste_se
+ste_sg
+//stbook    // Atari STBook
+megaste   // Atari Mega STe
+megaste_uk
+megaste_de
+megaste_es
+megaste_fr
+megaste_it
+megaste_se
+//stpad  // Atari STPad (prototype)
+tt030  // Atari TT030
+tt030_uk
+tt030_de
+tt030_fr
+tt030_pl
+//fx1      // Atari FX-1 (prototype)
+falcon30    // Atari Falcon030
+falcon40  // Atari Falcon040 (prototype)
 
 // AT&T
-// 3b1     // 3B1 "Unix PC"
+3b1     // 3B1 "Unix PC"
 
 // Commodore
-// kim1      // Commodore (MOS) KIM-1 1975
-// sym1      // Synertek SYM-1
-// aim65    // Rockwell AIM65
-// aim65_40  // Rockwell AIM65/40
-// 
-// pet2001
-// pet20018
-// pet2001n
-// pet2001n16
-// pet2001n32
-// cbm3008
-// cbm3016
-// cbm3032
-// pet2001b
-// pet2001b16
-// pet2001b32
-// cbm3032b
-// pet4016
-// pet4032
-// pet4032f
-// cbm4016
-// cbm4032
-// cbm4032f
-// pet4032b
-// cbm4032b
-// pet8032
-// cbm8032
-// cbm8032_de
-// cbm8032_fr
-// cbm8032_se
-// superpet
-// mmf9000
-// mmf9000_se
-// cbm8096
-// cbm8296
-// cbm8296ed
-// cbm8296d
-// cbm8296d_de
-// cbm8296gd
-// cbm8296dgv_de
-// 
-// vic1001   // Commodore VIC-1001 (Japan)
-// vic20    // Commodore VIC 20 (NTSC)
-// vic20p  // Commodore VIC 20 (PAL)
-// vic20_se    // Commodore VIC 20 (Swedish Expanson Kit)
-// 
-// vic10      // Commodore Max Machine (Japan)
-// c64
-// c64p    // Commodore 64 (PAL)
-// c64_jp  // Commodore 64 (Japan)
-// c64_se  // Commodore 64 (Sweden)
-// pet64    // Commodore PET 64
-// edu64    // Commodore Educator 64
-// //clipper  // C64 in a briefcase with 3" floppy, electroluminescent flat screen, thermal printer - roms needed - not in driver
-// sx64
-// sx64p
-// vip64    // Commodore VIP64 (SX64, PAL, Swedish)
-// dx64    // Commodore DX-64 - Prototype
-// tesa6240
-// c64c
-// c64cp   // Commodore 64C (PAL)
-// c64c_es
-// c64c_se
-// c64g      // Commodore 64G (PAL)
-// c64gs    // Commodore 64 Games System
-// c64dtv   // Commodore 64 Direct-to-TV
-// clcd      // Commodore LCD
-// 
-// b500      // Commodore B500
-// b128      // Commodore B128
-// b256      // Commodore B256
-// cbm610  // Commodore CBM 610
-// cbm620  // Commodore CBM 620
-// cbm620_hu  // Commodore CBM 620 (Hungary)
-// b128hp  // Commodore B128HP
-// b256hp  // Commodore B256HP
-// bx256hp   // Commodore BX256HP
-// cbm710  // Commodore CBM 710
-// cbm720  // Commodore CBM 720
-// cbm720_de
-// cbm720_se  // Commodore CBM 720 (Sweden / Finland)
-// cbm730
-// p500      // Commodore P500 (proto, a.k.a. C128-40, PET-II)
-// p500p
-// 
-// c264
-// plus4
-// plus4p
-// c16
-// c16p
-// c16_hu
-// c116
-// c232
-// v364
-// 
-// c128
-// c128p
-// c128_de
-// //c128_fr
-// //c128_no
-// c128_se
-// c128d
-// c128dp
-// c128cr
-// c128dcr
-// c128dcrp
-// c128dcr_de
-// //c128dcr_it
-// c128dcr_se
-// c128d81
-// 
-// a1000       // Commodore Amiga 1000
-// a1000n
-// a2000       // Commodore Amiga 2000
-// a2000n
-// a500        // Commodore Amiga 500
-// a500n
-// cdtv        // Commodore CDTV
-// cdtvn
-// a3000       // Commodore Amiga 3000
-// a3000n
-// a500p       // Commodore Amiga 500 Plus
-// a500pn
-// a600        // Commodore Amiga 600
-// a600n
-// a1200       // Commodore Amiga 1200
-// a1200n
-// a4000       // Commodore Amiga 4000/040
-// a4000n
-// a400030     // Commodore Amiga 4000/030
-// a400030n
-// cd32        // Commodore Amiga CD32
-// cd32n
-// a4000t      // Commodore Amiga 4000T
-// a4000tn
-// 
-// c65    // 1991 C65 / C64DX (Prototype, NTSC)
-// c64dx    // 1991 C65 / C64DX (Prototype, German PAL)
-// 
-// mps1000 // 1986 Commodore MPS-1000 (dot matrix printer)
-// mps1230 // 1988 Commodore MPS-1230 near-letter-quality dot matrix printer
+kim1      // Commodore (MOS) KIM-1 1975
+sym1      // Synertek SYM-1
+aim65    // Rockwell AIM65
+aim65_40  // Rockwell AIM65/40
+
+pet2001
+pet20018
+pet2001n
+pet2001n16
+pet2001n32
+cbm3008
+cbm3016
+cbm3032
+pet2001b
+pet2001b16
+pet2001b32
+cbm3032b
+pet4016
+pet4032
+pet4032f
+cbm4016
+cbm4032
+cbm4032f
+pet4032b
+cbm4032b
+pet8032
+cbm8032
+cbm8032_de
+cbm8032_fr
+cbm8032_se
+superpet
+mmf9000
+mmf9000_se
+cbm8096
+cbm8296
+cbm8296ed
+cbm8296d
+cbm8296d_de
+cbm8296gd
+cbm8296dgv_de
+
+vic1001   // Commodore VIC-1001 (Japan)
+vic20    // Commodore VIC 20 (NTSC)
+vic20p  // Commodore VIC 20 (PAL)
+vic20_se    // Commodore VIC 20 (Swedish Expanson Kit)
+
+vic10      // Commodore Max Machine (Japan)
+c64
+c64p    // Commodore 64 (PAL)
+c64_jp  // Commodore 64 (Japan)
+c64_se  // Commodore 64 (Sweden)
+pet64    // Commodore PET 64
+edu64    // Commodore Educator 64
+//clipper  // C64 in a briefcase with 3" floppy, electroluminescent flat screen, thermal printer - roms needed - not in driver
+sx64
+sx64p
+vip64    // Commodore VIP64 (SX64, PAL, Swedish)
+dx64    // Commodore DX-64 - Prototype
+tesa6240
+c64c
+c64cp   // Commodore 64C (PAL)
+c64c_es
+c64c_se
+c64g      // Commodore 64G (PAL)
+c64gs    // Commodore 64 Games System
+c64dtv   // Commodore 64 Direct-to-TV
+clcd      // Commodore LCD
+
+b500      // Commodore B500
+b128      // Commodore B128
+b256      // Commodore B256
+cbm610  // Commodore CBM 610
+cbm620  // Commodore CBM 620
+cbm620_hu  // Commodore CBM 620 (Hungary)
+b128hp  // Commodore B128HP
+b256hp  // Commodore B256HP
+bx256hp   // Commodore BX256HP
+cbm710  // Commodore CBM 710
+cbm720  // Commodore CBM 720
+cbm720_de
+cbm720_se  // Commodore CBM 720 (Sweden / Finland)
+cbm730
+p500      // Commodore P500 (proto, a.k.a. C128-40, PET-II)
+p500p
+
+c264
+plus4
+plus4p
+c16
+c16p
+c16_hu
+c116
+c232
+v364
+
+c128
+c128p
+c128_de
+//c128_fr
+//c128_no
+c128_se
+c128d
+c128dp
+c128cr
+c128dcr
+c128dcrp
+c128dcr_de
+//c128dcr_it
+c128dcr_se
+c128d81
+
+a1000       // Commodore Amiga 1000
+a1000n
+a2000       // Commodore Amiga 2000
+a2000n
+a500        // Commodore Amiga 500
+a500n
+cdtv        // Commodore CDTV
+cdtvn
+a3000       // Commodore Amiga 3000
+a3000n
+a500p       // Commodore Amiga 500 Plus
+a500pn
+a600        // Commodore Amiga 600
+a600n
+a1200       // Commodore Amiga 1200
+a1200n
+a4000       // Commodore Amiga 4000/040
+a4000n
+a400030     // Commodore Amiga 4000/030
+a400030n
+cd32        // Commodore Amiga CD32
+cd32n
+a4000t      // Commodore Amiga 4000T
+a4000tn
+
+c65    // 1991 C65 / C64DX (Prototype, NTSC)
+c64dx    // 1991 C65 / C64DX (Prototype, German PAL)
+
+mps1000 // 1986 Commodore MPS-1000 (dot matrix printer)
+mps1230 // 1988 Commodore MPS-1230 near-letter-quality dot matrix printer
 
 // Epson
-// px4    // 1985 Epson PX-4
-// px4p      // 1985 Epson PX-4+
-// px8
-// qx10
-// ehx20
-// ehx20e
+px4    // 1985 Epson PX-4
+px4p      // 1985 Epson PX-4+
+px8
+qx10
+ehx20
+ehx20e
 
 // IBM PC & Clones
-// ibm5150   // 1981 IBM 5150
-// ibm5155   // 1982 IBM 5155
-// ibm5140   // 1985 IBM 5140
-// ibm5550
-// dgone    // 1984 Data General/One
-// pcmda    // 1987 PC with MDA
-// pcherc   // 1987 PC with Hercules (for testing hercules)
-// pc       // 1987 PC with CGA
-// pcega    // 1987 PC with EGA
-// bw230   // 1985 Bondwell (CGA)
-// europc  // 1988 Schneider Euro PC (CGA or Hercules)
-// compc1  // 1984 Commodore PC-1
-// pc10iii // 1987 Commodore PC-10 III
-// pc7000  // 1985 Sharp PC-7000
-// sx16    // Sanyo SX-16
-// mbc16   // Sanyo MBC-16
-// ataripc3
-// ssam88s
-// sicpc1605
-// eagle1600
+ibm5150   // 1981 IBM 5150
+ibm5155   // 1982 IBM 5155
+ibm5140   // 1985 IBM 5140
+ibm5550
+dgone    // 1984 Data General/One
+pcmda    // 1987 PC with MDA
+pcherc   // 1987 PC with Hercules (for testing hercules)
+pc       // 1987 PC with CGA
+pcega    // 1987 PC with EGA
+bw230   // 1985 Bondwell (CGA)
+europc  // 1988 Schneider Euro PC (CGA or Hercules)
+compc1  // 1984 Commodore PC-1
+pc10iii // 1987 Commodore PC-10 III
+pc7000  // 1985 Sharp PC-7000
+sx16    // Sanyo SX-16
+mbc16   // Sanyo MBC-16
+ataripc3
+ssam88s
+sicpc1605
+eagle1600
 
 // Non-PC msdos
-// pcd     // Siemens PC-D
-// pcx     // Siemens PC-X
-// slicer  // 1983 Slicer Computers
-// olypeopl // Olympia People PC
+pcd     // Siemens PC-D
+pcx     // Siemens PC-X
+slicer  // 1983 Slicer Computers
+olypeopl // Olympia People PC
 
 // PC Junior
-// ibmpcjr   // 1984 IBM PC Jr
-// ibmpcjx   // 1985 IBM PC JX
-// t1000hx   // 1987 Tandy 1000 HX (similiar to PCJr)
-// t1000sx   // 1987 Tandy 1000 SX (similiar to PCJr)
-// t1000tx // 1987 Tandy 1000 TX
-// t1000rl // 1989 Tandy 1000 RL
-// t1000tl2 // 1989 Tandy 1000 TL/2
-// t1000sl2 // 198? Tandy 1000 SL/2
+ibmpcjr   // 1984 IBM PC Jr
+ibmpcjx   // 1985 IBM PC JX
+t1000hx   // 1987 Tandy 1000 HX (similiar to PCJr)
+t1000sx   // 1987 Tandy 1000 SX (similiar to PCJr)
+t1000tx // 1987 Tandy 1000 TX
+t1000rl // 1989 Tandy 1000 RL
+t1000tl2 // 1989 Tandy 1000 TL/2
+t1000sl2 // 198? Tandy 1000 SL/2
 
 // XT
-// ibm5160   // 1982 IBM XT 5160
-// ibm5162   // 1986 IBM XT 5162 (XT w/80286)
-// pc200    // 1988 Sinclair PC200
-// pc20      // 1988 Amstrad PC20
-// ppc512  // 1987 Amstrad PPC512
-// ppc640  // 1987 Amstrad PPC640
-// pc1512
-// pc1512dd
-// pc1512hd10
-// pc1512hd20
-// pc1640
-// pc1640dd
-// pc1640hd20
-// pc1640hd30
-// pc2086
-// pc3086
-// pc2386
-// 
-// xtvga    // 198? PC-XT (VGA, MF2 Keyboard)
-// zdsupers
-// m24
-// m240
-// olivm15
+ibm5160   // 1982 IBM XT 5160
+ibm5162   // 1986 IBM XT 5162 (XT w/80286)
+pc200    // 1988 Sinclair PC200
+pc20      // 1988 Amstrad PC20
+ppc512  // 1987 Amstrad PPC512
+ppc640  // 1987 Amstrad PPC640
+pc1512
+pc1512dd
+pc1512hd10
+pc1512hd20
+pc1640
+pc1640dd
+pc1640hd20
+pc1640hd30
+pc2086
+pc3086
+pc2386
+
+xtvga    // 198? PC-XT (VGA, MF2 Keyboard)
+zdsupers
+m24
+m240
+olivm15
 
 // Various PC and XT clones produced in ex-USSR and Soviet bloc
-// asst128
-// ec1840
-// ec1841
-// ec1842
-// ec1845
-// ec1847
-// iskr1030m
-// iskr1031
-// iskr3104
-// mc1502
-// mc1702
-// mk88
-// pk88
-// poisk1
-// poisk2
+asst128
+ec1840
+ec1841
+ec1842
+ec1845
+ec1847
+iskr1030m
+iskr1031
+iskr3104
+mc1502
+mc1702
+mk88
+pk88
+poisk1
+poisk2
 
 // AT
-// ibm5170   // 1984 IBM PC/AT 5170, original 6 MHz model
-// ibm5170a  // 1985 IBM PC/AT 5170, enhanced 8 MHz model
-// i8530h31  // IBM PS/2 8530-H31 (Model 30/286)
-// i8530286  // IBM PS/2 Model 30-286
-// i8535043  // IBM PS/2 8535-043 (Model 35)
-// i8550021  // IBM PS/2 8550-021 (Model 50)
-// i8550061  // IBM PS/2 8550-061 (Model 50Z)
-// i8555081  // IBM PS/2 8550-081 (Model 55SX)
-// i8580071  // IBM PS/2 8580-071 (Model 80)
-// i8580111  // IBM PS/2 8580-111 (Model 80)
-// ibmps1es  // IBM PS/1 (Spanish)
+ibm5170   // 1984 IBM PC/AT 5170, original 6 MHz model
+ibm5170a  // 1985 IBM PC/AT 5170, enhanced 8 MHz model
+i8530h31  // IBM PS/2 8530-H31 (Model 30/286)
+i8530286  // IBM PS/2 Model 30-286
+i8535043  // IBM PS/2 8535-043 (Model 35)
+i8550021  // IBM PS/2 8550-021 (Model 50)
+i8550061  // IBM PS/2 8550-061 (Model 50Z)
+i8555081  // IBM PS/2 8550-081 (Model 55SX)
+i8580071  // IBM PS/2 8580-071 (Model 80)
+i8580111  // IBM PS/2 8580-111 (Model 80)
+ibmps1es  // IBM PS/1 (Spanish)
 
-// at  // 1987 AMI Bios and Diagnostics
-// atvga    // 19?? AT VGA
-// neat      // 1989 New Enhanced AT chipset, AMI BIOS
-// at386    // 19?? IBM AT 386
-// //at386sx // no bios for this currently
-// ct386sx
-// at486    // 19?? IBM AT 486
-// ct486       // 1993? 486 with CS4031
-// ficpio2 // 1995 FIC 486-PIO-2
-// at586    // 19?? AT 586
-// at586x3  // 19?? AT 586
-// c386sx16    // 1990 Commodore 386SX-16
-// xb42663    // 1988 Apricot Qi 300 (Rev D,E & F Motherboard)
-// qi600    // 1988 Apricot Qi 600 (Neptune Motherboard
-// qi900    // 1990 Apricot Qi 900 (Scorpion Motherboard)
-// aplanst // 1990 Apricot LANstation (Krypton Motherboard)
-// ftsserv    // 1991 Apricot FTs (Scorpion)
-// aplannb    // 1990 Apricot LANstation (Novell Remote Boot)
-// apxeni  // 1987 Apricot XEN-i 386 (Leopard Motherboard)
-// xb42639  // 1989 Apricot XEN-S (Venus I Motherboard 286) (Bios:3.10.17i)
-// xb42639a // 1990 Apricot XEN-S (Venus II Motherboard 286) (Bios:1.02.17)
-// xb42664  // 1989 Apricot XEN-S (Venus I Motherboard 386) (Bios:3.10.17i)
-// xb42664a // 1990 Apricot XEN-S (Venus II Motherboard 386) (Bios:1.02.17)
-// aplscar  // 1992 Apricot LS Pro (Caracal Motherboard)
-// aplsbon  // 1992 Apricot LS Pro (Bonsai Motherboard)
-// ficvt503    // 1997 FIC VT-503
-// apxenls3  // 1991 Apricot XEN-LS (Venus IV Motherboard)
-// apxlsam  // 1993 Apricot XEN-LS II (Samurai Motherboard)
-// apvxft  // 1989 Apricot VX FT server
-// apxena1 // 1993 Apricot XEN PC (A1 Motherboard)
-// apxenp2 // 1993 Apricot XEN PC (P2 Motherboard)
-// aprpand
-// aprfte
-// megapc // 1992 Amstrad plc
-// megapcpl
-// megapcpla // AMI BIOS version with Winbond WINBUS chipset
-// ec1849
-// t2000sx
-// k286i   // 1985 Kaypro 286i
-// cmdpc30
+at  // 1987 AMI Bios and Diagnostics
+atvga    // 19?? AT VGA
+neat      // 1989 New Enhanced AT chipset, AMI BIOS
+at386    // 19?? IBM AT 386
+//at386sx // no bios for this currently
+ct386sx
+at486    // 19?? IBM AT 486
+ct486       // 1993? 486 with CS4031
+ficpio2 // 1995 FIC 486-PIO-2
+at586    // 19?? AT 586
+at586x3  // 19?? AT 586
+c386sx16    // 1990 Commodore 386SX-16
+xb42663    // 1988 Apricot Qi 300 (Rev D,E & F Motherboard)
+qi600    // 1988 Apricot Qi 600 (Neptune Motherboard
+qi900    // 1990 Apricot Qi 900 (Scorpion Motherboard)
+aplanst // 1990 Apricot LANstation (Krypton Motherboard)
+ftsserv    // 1991 Apricot FTs (Scorpion)
+aplannb    // 1990 Apricot LANstation (Novell Remote Boot)
+apxeni  // 1987 Apricot XEN-i 386 (Leopard Motherboard)
+xb42639  // 1989 Apricot XEN-S (Venus I Motherboard 286) (Bios:3.10.17i)
+xb42639a // 1990 Apricot XEN-S (Venus II Motherboard 286) (Bios:1.02.17)
+xb42664  // 1989 Apricot XEN-S (Venus I Motherboard 386) (Bios:3.10.17i)
+xb42664a // 1990 Apricot XEN-S (Venus II Motherboard 386) (Bios:1.02.17)
+aplscar  // 1992 Apricot LS Pro (Caracal Motherboard)
+aplsbon  // 1992 Apricot LS Pro (Bonsai Motherboard)
+ficvt503    // 1997 FIC VT-503
+apxenls3  // 1991 Apricot XEN-LS (Venus IV Motherboard)
+apxlsam  // 1993 Apricot XEN-LS II (Samurai Motherboard)
+apvxft  // 1989 Apricot VX FT server
+apxena1 // 1993 Apricot XEN PC (A1 Motherboard)
+apxenp2 // 1993 Apricot XEN PC (P2 Motherboard)
+aprpand
+aprfte
+megapc // 1992 Amstrad plc
+megapcpl
+megapcpla // AMI BIOS version with Winbond WINBUS chipset
+ec1849
+t2000sx
+k286i   // 1985 Kaypro 286i
+cmdpc30
 
 
 // 3Com / Palm / USRobotics
-// pilot1k   // Pilot 1000
-// pilot5k   // Pilot 5000
-// palmpers  // Palm Pilot Personal
-// palmpro   // Palm Pilot Professional
-// palmiii   // Palm III
-// palmiiic   // Palm IIIc
-// palmv    // Palm V
-// palmvx  // Palm Vx
-// palmm100  // Palm m100
-// palmm130  // Palm m130
-// palmm505  // Palm m505
-// palmm515  // Palm m515
-// palmz22   // Palm Z22
-// visor    // Palm Visor Edge
-// spt1500   // Symbol SPT 1500
-// spt1700   // Symbol SPT 1700
-// spt1740   // Symbol SPT 1740
+pilot1k   // Pilot 1000
+pilot5k   // Pilot 5000
+palmpers  // Palm Pilot Personal
+palmpro   // Palm Pilot Professional
+palmiii   // Palm III
+palmiiic   // Palm IIIc
+palmv    // Palm V
+palmvx  // Palm Vx
+palmm100  // Palm m100
+palmm130  // Palm m130
+palmm505  // Palm m505
+palmm515  // Palm m515
+palmz22   // Palm Z22
+visor    // Palm Visor Edge
+spt1500   // Symbol SPT 1500
+spt1700   // Symbol SPT 1700
+spt1740   // Symbol SPT 1740
 
 
 // Osborne
-// osborne1  // 1981 Osborne-1
-// osbexec // 1982 Osborne Executive
+osborne1  // 1981 Osborne-1
+osbexec // 1982 Osborne Executive
 
 // Regnecentralen
-// rc759   // 1984 RC759
+rc759   // 1984 RC759
 
 // Research Machines
-// nimbus  // RM Nimbus 186
+nimbus  // RM Nimbus 186
 
 // Sanyo
-// mbc55x  // Sanyo MBC-550, MBC-555
+mbc55x  // Sanyo MBC-550, MBC-555
 
 // Sinclair Research
-// zx80      // 1980 Sinclair ZX-80
-// zx81      // 1981 Sinclair ZX-81
-// ts1000  // 1982 Timex Sinclair 1000
-// ts1500  // Timex Sinclair 1500
-// ringo470  // Ringo 470
-// pc8300  // Your Computer - PC8300
-// pow3000   // Creon Enterprises - Power 3000
-// lambda  // Lambda 8300
-// tk85      // Microdigital TK85
-// 
-// spectrum // 1982 ZX Spectrum
-// spec80k // 1987 ZX Spectrum 80k
-// specide // 1995 ZX Spectrum IDE
-// inves    // 1986 Inves Spectrum 48K+
-// tk90x    // 1985 TK90x Color Computer
-// tk95      // 1986 TK95 Color Computer
-// tc2048  // 198? TC2048
-// ts2068  // 1983 TS2068
-// uk2086  // 1986 UK2086
-// 
-// spec128  // 1986 ZX Spectrum 128
-// specpls2  // 1986 ZX Spectrum +2
-// specpl2a  // 1987 ZX Spectrum +2a
-// specpls3  // 1987 ZX Spectrum +3
-// specpl3e  // 2000 ZX Spectrum +3e
-// sp3e8bit  // 2002 ZX Spectrum +3e 8bit IDE
-// sp3ezcf   // 2002 ZX Spectrum +3e ZXCF
-// sp3eata   // 2002 ZX Spectrum +3e ZXATASP
-// scorpio
-// profi
-// kay1024
-// quorum
-// pentagon
-// pent1024
-// atm
-// //atmtb1
-// atmtb2
-// //turbo2
-// bestzx
-// 
-// ql  // 1984 Sinclair QL (UK)
-// ql_us    // 1984 Sinclair QL (USA)
-// ql_es    // 1984 Sinclair QL (Spain)
-// ql_fr    // 1984 Sinclair QL (France)
-// ql_de    // 1984 Sinclair QL (Germany)
-// ql_it    // 1984 Sinclair QL (Italy)
-// ql_se    // 1984 Sinclair QL (Sweden)
-// ql_dk    // 1984 Sinclair QL (Denmark)
-// ql_gr    // 1984 Sinclair QL (Greece)
-// tonto
+zx80      // 1980 Sinclair ZX-80
+zx81      // 1981 Sinclair ZX-81
+ts1000  // 1982 Timex Sinclair 1000
+ts1500  // Timex Sinclair 1500
+ringo470  // Ringo 470
+pc8300  // Your Computer - PC8300
+pow3000   // Creon Enterprises - Power 3000
+lambda  // Lambda 8300
+tk85      // Microdigital TK85
+
+spectrum // 1982 ZX Spectrum
+spec80k // 1987 ZX Spectrum 80k
+specide // 1995 ZX Spectrum IDE
+inves    // 1986 Inves Spectrum 48K+
+tk90x    // 1985 TK90x Color Computer
+tk95      // 1986 TK95 Color Computer
+tc2048  // 198? TC2048
+ts2068  // 1983 TS2068
+uk2086  // 1986 UK2086
+
+spec128  // 1986 ZX Spectrum 128
+specpls2  // 1986 ZX Spectrum +2
+specpl2a  // 1987 ZX Spectrum +2a
+specpls3  // 1987 ZX Spectrum +3
+specpl3e  // 2000 ZX Spectrum +3e
+sp3e8bit  // 2002 ZX Spectrum +3e 8bit IDE
+sp3ezcf   // 2002 ZX Spectrum +3e ZXCF
+sp3eata   // 2002 ZX Spectrum +3e ZXATASP
+scorpio
+profi
+kay1024
+quorum
+pentagon
+pent1024
+atm
+//atmtb1
+atmtb2
+//turbo2
+bestzx
+
+ql  // 1984 Sinclair QL (UK)
+ql_us    // 1984 Sinclair QL (USA)
+ql_es    // 1984 Sinclair QL (Spain)
+ql_fr    // 1984 Sinclair QL (France)
+ql_de    // 1984 Sinclair QL (Germany)
+ql_it    // 1984 Sinclair QL (Italy)
+ql_se    // 1984 Sinclair QL (Sweden)
+ql_dk    // 1984 Sinclair QL (Denmark)
+ql_gr    // 1984 Sinclair QL (Greece)
+tonto
 //megaopd
 
 // Sharp
-// pc1245  // Pocket Computer 1245
-// pc1250  // Pocket Computer 1250
-// pc1251  // Pocket Computer 1251
-// pc1255  // Pocket Computer 1255
-// trs80pc3  // Tandy TRS80 PC-3
-// pc1260  // Pocket Computer 1260
-// pc1261  // Pocket Computer 1261
-// pc1401  // Pocket Computer 1401
-// pc1402  // Pocket Computer 1402
-// pc1350  // Pocket Computer 1350
-// pc1360  // Pocket Computer 1360
-// pc1403  // Pocket Computer 1403
-// pc1403h   // Pocket Computer 1403H
-// pc1450  // Pocket Computer 1450
-// pc1500  // Pocket Computer 1500
-// pce220  // Pocket Computer E220
-// pcg850v // Pocket Computer G850V
-// 
-// mz700       // 1982 Sharp MZ700
-// mz700j  // 1982 Sharp MZ700 Japan
-// mz800       // 1984 Sharp MZ800
-// mz1500  // 1984 Sharp MZ1500
-// mz2500  // 1985 Sharp MZ2500
-// mz2520  // 1985 Sharp MZ2520
-// 
-// mz80kj  // 1979 Sharp MZ80K
-// mz80k       // 1979 Sharp MZ80K
-// mz80a       // 1982 Sharp MZ80A
-// mz80b       // 1981 Sharp MZ80B
-// mz2000  // 1981 Sharp MZ2000
-// mz2200  // 1981 Sharp MZ2200
-// 
-// mz3500  // 198? Sharp MZ3500
-// 
-// mz6500  // 198? Sharp MZ6500
-// 
-// x1      // 1982 Sharp X1
-// x1twin  // 1986 Sharp X1 Twin
-// x1turbo   // 1984 Sharp X1 Turbo (Model 10)
-// x1turbo40 // 1985 Sharp X1 Turbo (Model 40)
-// //x1turboz  // 1986 Sharp X1 TurboZ
-// 
-// x68000  // Sharp X68000 (1987)
-// x68ksupr // Sharp X68000 Super (1990)
-// x68kxvi   // Sharp X68000 XVI (1991)
-// x68030  // Sharp X68030 (1993)
-// 
-// zsl5500  // Sharp Zaurus SL-5500 "Collie"
-// zsl5600  // Sharp Zaurus SL-5600 / SL-B500 "Poodle"
-// zslc750  // Sharp Zaurus SL-C750 "Shepherd"
-// zslc760  // Sharp Zaurus SL-C760 "Husky"
-// zslc3000 // Sharp Zaurus SL-C3000 "Spitz"
-// zslc1000 // Sharp Zaurus SL-C1000 "Akita"
+pc1245  // Pocket Computer 1245
+pc1250  // Pocket Computer 1250
+pc1251  // Pocket Computer 1251
+pc1255  // Pocket Computer 1255
+trs80pc3  // Tandy TRS80 PC-3
+pc1260  // Pocket Computer 1260
+pc1261  // Pocket Computer 1261
+pc1401  // Pocket Computer 1401
+pc1402  // Pocket Computer 1402
+pc1350  // Pocket Computer 1350
+pc1360  // Pocket Computer 1360
+pc1403  // Pocket Computer 1403
+pc1403h   // Pocket Computer 1403H
+pc1450  // Pocket Computer 1450
+pc1500  // Pocket Computer 1500
+pce220  // Pocket Computer E220
+pcg850v // Pocket Computer G850V
+
+mz700       // 1982 Sharp MZ700
+mz700j  // 1982 Sharp MZ700 Japan
+mz800       // 1984 Sharp MZ800
+mz1500  // 1984 Sharp MZ1500
+mz2500  // 1985 Sharp MZ2500
+mz2520  // 1985 Sharp MZ2520
+
+mz80kj  // 1979 Sharp MZ80K
+mz80k       // 1979 Sharp MZ80K
+mz80a       // 1982 Sharp MZ80A
+mz80b       // 1981 Sharp MZ80B
+mz2000  // 1981 Sharp MZ2000
+mz2200  // 1981 Sharp MZ2200
+
+mz3500  // 198? Sharp MZ3500
+
+mz6500  // 198? Sharp MZ6500
+
+x1      // 1982 Sharp X1
+x1twin  // 1986 Sharp X1 Twin
+x1turbo   // 1984 Sharp X1 Turbo (Model 10)
+x1turbo40 // 1985 Sharp X1 Turbo (Model 40)
+//x1turboz  // 1986 Sharp X1 TurboZ
+
+x68000  // Sharp X68000 (1987)
+x68ksupr // Sharp X68000 Super (1990)
+x68kxvi   // Sharp X68000 XVI (1991)
+x68030  // Sharp X68030 (1993)
+
+zsl5500  // Sharp Zaurus SL-5500 "Collie"
+zsl5600  // Sharp Zaurus SL-5600 / SL-B500 "Poodle"
+zslc750  // Sharp Zaurus SL-C750 "Shepherd"
+zslc760  // Sharp Zaurus SL-C760 "Husky"
+zslc3000 // Sharp Zaurus SL-C3000 "Spitz"
+zslc1000 // Sharp Zaurus SL-C1000 "Akita"
 
 // Silicon Graphics
 sgi_ip2 // IP2: IRIS 3xx0, 68020, 16MHz
