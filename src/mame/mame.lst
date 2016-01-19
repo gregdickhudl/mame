@@ -9,5 +9,5 @@
 
 ******************************************************************************/
 
-#../../../../../src/mame/arcade.lst
-#../../../../../src/mame/mess.lst
+#../../../../../src/mame/arcadefiltered.lst
+#../../../../../src/mame/messfiltered.lst

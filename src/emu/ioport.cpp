@@ -3174,7 +3174,7 @@ void ioport_manager::load_config(config_type cfg_type, xml_data_node *parentnode
 			load_game_config(portnode, type, player, newseq);
 	}
 
-	if (config_type == CONFIG_TYPE_GAME)
+	if (cfg_type == config_type::CONFIG_TYPE_GAME)
 	{
 			for (xml_data_node *portnode = xml_get_sibling(parentnode->child, "autofire"); portnode; portnode = xml_get_sibling(portnode->next, "autofire"))
 			{

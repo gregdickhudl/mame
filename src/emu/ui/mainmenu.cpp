@@ -162,10 +162,10 @@ void ui_menu_main::handle()
 			break;
 
 		case AUTOFIRE:
-			ui_menu::stack_push(auto_alloc_clear(machine(), ui_menu_autofire(machine(), container)));
+			ui_menu::stack_push(auto_alloc_clear(machine(), <ui_menu_autofire>(machine(), container)));
 			break;
 		case CUSTOM_BUTTON:
-			ui_menu::stack_push(auto_alloc_clear(machine(), ui_menu_custom_button(machine(), container)));
+			ui_menu::stack_push(auto_alloc_clear(machine(), <ui_menu_custom_button>(machine(), container)));
 			break;
 
 		case SETTINGS_DIP_SWITCHES:

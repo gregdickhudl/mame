@@ -25,8 +25,8 @@
 //============================================================
 
 void set_option(running_machine &machine, const char *option_ID, bool state);
-static void switchres_load(running_machine &machine, int config_type, xml_data_node *parentnode);
-static void switchres_save(running_machine &machine, int config_type, xml_data_node *parentnode);
+static void switchres_load(running_machine &machine, config_type cfg_type, xml_data_node *parentnode);
+static void switchres_save(running_machine &machine, config_type cfg_type, xml_data_node *parentnode);
 
 //============================================================
 //  switchres_get_video_mode
@@ -182,7 +182,7 @@ void switchres_init(running_machine &machine)
 	}
 
 	// Register for configuration
-	config_register(machine, "switchres", config_saveload_delegate(FUNC(switchres_load), &machine), config_saveload_delegate(FUNC(switchres_save), &machine));
+	machine.configuration().config_register("switchres", config_saveload_delegate(FUNC(switchres_load), &machine), config_saveload_delegate(FUNC(switchres_save), &machine));
 
 	// Get monitor specs
 	sprintf(cs->monitor, "%s", options.monitor());
@@ -428,7 +428,7 @@ void set_option(running_machine &machine, const char *option_ID, bool state)
 // switchres_load
 //============================================================
 
-static void switchres_load(running_machine &machine, int config_type, xml_data_node *parentnode)
+static void switchres_load(running_machine &machine, config_type cfg_type, xml_data_node *parentnode)
 {
 	// We don't do anything here yet.
 }
@@ -437,17 +437,17 @@ static void switchres_load(running_machine &machine, int config_type, xml_data_n
 // switchres_save
 //============================================================
 
-static void switchres_save(running_machine &machine, int config_type, xml_data_node *parentnode)
+static void switchres_save(running_machine &machine, config_type cfg_type, xml_data_node *parentnode)
 {
 	modeline *mode = &machine.switchres.best_mode;
 	char modeline_txt[256]={'\x00'};
 
 	// only care about game-specific data
-	if (config_type != CONFIG_TYPE_GAME)
+	if (cfg_type != config_type::CONFIG_TYPE_GAME)
 		return;
 
-	xml_data_node *switchresnode = xml_add_child(parentnode, "switchres", NULL);
-	if (switchresnode != NULL)
+	xml_data_node *switchresnode = xml_add_child(parentnode, "switchres", nullptr);
+	if (switchresnode != nullptr)
 	{
 		if (mode && mode->htotal)
 		{
