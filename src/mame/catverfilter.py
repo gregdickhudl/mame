@@ -1,5 +1,5 @@
-good_clones = ["pacman","maketrax","warofbugu","mooncrstu","800fath","fastfred","rugrats","terrafu","galagamf",
-               "galaga3","dkongpe","rbtapper","atompunk",",newapunk","perfrmanu","pyros","tekken3ud","astormu",
+good_clones = ["pacman","maketrax","800fath","fastfred","rugrats","terrafu","galagamf",
+               "galaga3","dkongpe","rbtapper","atompunk",",newapunk","perfrmanu","pyros","astormu",
                "simpsons2p","vendetta2p","tmnt2po","punkshot2","tmnt22pu","ssridersubc","xmen2pu","xmen6p",
                "gauntlet2p","gaunt22p","cyberbal2p","rampart2p","mspacmnf","pacmanf"]
 

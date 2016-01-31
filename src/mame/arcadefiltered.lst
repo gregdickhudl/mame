@@ -54,7 +54,6 @@ galaxian        // 1979  Shooter / Gallery                  Galaxian (Namco set 
 pisces          // 19??  Shooter / Gallery                  Pisces
 uniwars         // 1980  Shooter / Gallery                  UniWar S
 warofbug        // 1981  Shooter / Gallery                  War of the Bugs or Monsterous Manouvers in a Mushroom Maze
-warofbugu       // 1981  Shooter / Gallery                  War of the Bugs or Monsterous Manouvers in a Mushroom Maze (US)
 redufo          // 1981  Shooter / Gallery                  Defend the Terra Attack on the Red UFO
 tenspot         // 1982  Maze / Shooter Small               Ten Spot
 jumpbug         // 1981  Platform / Run Jump Scrolling      Jump Bug
@@ -62,7 +61,6 @@ levers          // 1983  Platform / Run Jump                Levers
 azurian         // 1982  Shooter / Field                    Azurian Attack
 orbitron        // 1982  Shooter / Command                  Orbitron
 mooncrst        // 1980  Shooter / Gallery                  Moon Cresta (Nichibutsu)
-mooncrstu       // 1980  Shooter / Gallery                  Moon Cresta (Nichibutsu USA, unencrypted)
 moonqsr         // 1980  Shooter / Gallery                  Moon Quasar
 mshuttle        // 1981  Shooter / Flying Horizontal        Moon Shuttle (US? set 1)
 fantastc        // 198?  Shooter / Gallery                  Fantastic (Galaga conversion on Galaxian hardware)
@@ -136,12 +134,10 @@ swimmer         // 1982  Sports / Swimming                  Swimmer (set 1)
 guzzler         // 1983  Maze                               Guzzler
 
 // Nichibutsu games
-gomoku          // 1981  Tabletop / Renju                   Gomoku Narabe Renju
 wiping          // 1982  Maze / Digging                     Wiping
 rugrats         // 1983  Maze / Digging                     Rug Rats
 dacholer        // 1983  Maze / Shooter Small               Dacholer
 kickboy         // 1983  Maze / Shooter Small               Kick Boy
-itaten          // 1984  Puzzle / Outline                   Itazura Tenshi (Japan)
 friskyt         // 1981  Maze                               Frisky Tom (set 1)
 radrad          // 1982  Shooter / Driving Vertical         Radical Radial
 seicross        // 1984  Shooter / Driving Horizontal       Seicross
@@ -161,7 +157,6 @@ ninjemak        // 1986  Shooter / Misc. Vertical           Ninja Emaki (US)
 legion          // 1987  Shooter / Flying Vertical          Legion - Spinner-87 (World ver 2.03)
 terraf          // 1987  Shooter / Flying                   Terra Force
 terrafu         // 1987  Shooter / Flying                   Terra Force (US)
-kozure          // 1987  Fighter / 2.5D                     Kozure Ookami (Japan)
 armedf          // 1988  Shooter / Flying Vertical          Armed Formation
 cclimbr2        // 1988  Climbing                           Crazy Climber 2 (Japan)
 skyrobo         // 1989  Shooter / Walking                  Sky Robo
@@ -197,7 +192,6 @@ digdug          // 1982  Maze / Digging                     Dig Dug (rev 2)
 xevious         // 1982  Shooter / Flying Vertical          Xevious (Namco)
 superpac        // 1982  Maze                               Super Pac-Man
 pacnpal         // 1983  Maze                               Pac &amp; Pal
-phozon          // 1983  Puzzle / Misc.                     Phozon (Japan)
 mappy           // 1983  Platform / Run Jump                Mappy (US)
 digdug2         // 1985  Maze                               Dig Dug II (New Ver.)
 todruaga        // 1984  Maze                               The Tower of Druaga (New Ver.)
@@ -212,7 +206,6 @@ toypop          // 1986  Maze                               Toypop
 
 // Z8000 games
 polepos         // 1982  Driving / Race (chase view)        Pole Position (World)
-polepos2        // 1983  Driving / Race (chase view)        Pole Position II (Japan)
 // no custom I/O in the following, HD63701 (or compatible) microcontroller instead
 pacland         // 1984  Platform / Run Jump Scrolling      Pac-Land (World)
 drgnbstr        // 1984  Platform / Fighter Scrolling       Dragon Buster
@@ -238,19 +231,11 @@ blazer          // 1987  Shooter / Driving Diagonal         Blazer (Japan)
 quester         // 1987  Ball & Paddle / Breakout           Quester (Japan)
 pacmania        // 1987  Maze                               Pac-Mania
 galaga88        // 1987  Shooter / Gallery                  Galaga '88
-ws              // 1988  Sports / Baseball                  World Stadium (Japan)
-berabohm        // 1988  Platform / Fighter Scrolling       Beraboh Man (Japan, Rev C)
-mmaze           // 1988  Maze / Shooter Large               Marchen Maze (Japan)
-bakutotu        // 1988  Shooter / Flying Horizontal        Bakutotsu Kijuutei
-wldcourt        // 1988  Sports / Tennis                    World Court (Japan)
 splatter        // 1988  Fighter / 2D                       Splatter House (World, new version (SH3))
-faceoff         // 1988  Sports / Hockey                    Face Off (Japan)
 rompers         // 1989  Maze                               Rompers (Japan, new version (Rev B))
 blastoff        // 1989  Shooter / Flying Vertical          Blast Off (Japan)
 dangseed        // 1989  Shooter / Flying Vertical          Dangerous Seed (Japan)
-pistoldm        // 1990  Shooter / Flying Horizontal        Pistol Daimyo no Bouken (Japan)
 boxyboy         // 1990  Puzzle / Misc.                     Boxy Boy (SB?)
-puzlclub        // 1990  Puzzle / Sliding                   Puzzle Club (Japan prototype)
 tankfrce        // 1991  Maze / Shooter Small               Tank Force (US, 2 Player)
 
 // Namco System 2 games
@@ -258,15 +243,11 @@ finallap        // 1987  Driving / Race (chase view)        Final Lap (Rev E)
 assault         // 1988  Shooter / Driving                  Assault (Rev B)
 metlhawk        // 1988  Shooter / Flying                   Metal Hawk (Rev C)
 ordyne          // 1988  Shooter / Flying Horizontal        Ordyne (Japan, English Version)
-mirninja        // 1988  Platform / Shooter Scrolling       Mirai Ninja (Japan)
 phelios         // 1988  Shooter / Flying Vertical          Phelios
-dirtfoxj        // 1989  Driving / Race                     Dirt Fox (Japan)
 fourtrax        // 1989  Driving / Race (chase view)        Four Trax
-valkyrie        // 1989  Shooter / Walking                  Valkyrie No Densetsu (Japan)
 finehour        // 1989  Platform / Shooter Scrolling       Finest Hour (Japan)
 burnforc        // 1989  Shooter / Driving (chase view)     Burning Force (Japan, new version (Rev C))
 marvland        // 1989  Platform / Fighter Scrolling       Marvel Land (US)
-kyukaidk        // 1990  Sports / Baseball                  Kyuukai Douchuuki (Japan, new version (Rev B))
 dsaber          // 1990  Shooter / Flying Vertical          Dragon Saber
 finalap2        // 1990  Driving / Race (chase view)        Final Lap 2
 gollygho        // 1990  Shooter / Gun                      Golly! Ghost!
@@ -274,14 +255,10 @@ rthun2          // 1990  Platform / Shooter Scrolling       Rolling Thunder 2
 sgunner         // 1990  Shooter / Gun                      Steel Gunner (Rev B)
 sgunner2        // 1991  Shooter / Gun                      Steel Gunner 2 (US)
 cosmogng        // 1991  Shooter / Gallery                  Cosmo Gang the Video (US)
-bubbletr        // 1992  Shooter / Gun                      Bubble Trouble (Japan, Rev C)
 finalap3        // 1992  Driving / Race (chase view)        Final Lap 3 (World, set 1)
 luckywld        // 1992  Driving / 1st Person               Lucky &amp; Wild
 suzuka8h        // 1992  Driving / Race (chase view) Bike   Suzuka 8 Hours (World, Rev C)
-sws             // 1992  Sports / Baseball                  Super World Stadium (Japan)
-sws92           // 1992  Sports / Baseball                  Super World Stadium '92 (Japan)
 suzuk8h2        // 1993  Driving / Race (chase view) Bike   Suzuka 8 Hours 2 (World, Rev B)
-sws93           // 1993  Sports / Baseball                  Super World Stadium '93 (Japan)
 
 // Namco FL games
 speedrcr        // 1995  Driving / Race (chase view)        Speed Racer
@@ -295,19 +272,12 @@ knckhead        // 1992  Fighter / Versus                   Knuckle Heads (World
 swcourt         // 1992  Sports / Tennis                    Super World Court (World)
 emeralda        // 1993  Puzzle / Drop                      Emeraldia (World)
 numanath        // 1993  Sports / Track & Field             Numan Athletics (World)
-tinklpit        // 1993  Maze                               Tinkle Pit (Japan)
 
 // Namco NB-1 / NB-2 System games
 nebulray        // 1994  Shooter / Flying Vertical          Nebulas Ray (World, NR2)
 ptblank         // 1994  Shooter / Gun                      Point Blank (World, GN2 Rev B, set 1)
-gslugrsj        // 1993  Sports / Baseball                  Great Sluggers (Japan)
 gslgr94u        // 1994  Sports / Baseball                  Great Sluggers '94
-sws95           // 1995  Sports / Baseball                  Super World Stadium '95 (Japan)
-sws96           // 1996  Sports / Baseball                  Super World Stadium '96 (Japan)
-sws97           // 1997  Sports / Baseball                  Super World Stadium '97 (Japan)
-vshoot          // 1994  Sports / Soccer                    J-League Soccer V-Shoot (Japan)
 outfxies        // 1994  Platform / Fighter                 The Outfoxies (World, OU2)
-machbrkr        // 1995  Sports / Track & Field             Mach Breakers - Numan Athletics 2 (Japan)
 
 // Namco System 21 games
 winrun          // 1988  Driving / Race 1st Person          Winning Run
@@ -374,8 +344,6 @@ zoidsinf        // 2004  Shooter / Versus                   Zoids Infinity
 cobrata         // 2005  Shooter / Gun                      Cobra: The Arcade (CBR1 Ver. B)
 gundzaft        // 2005  Shooter / 3rd Person               Gundam Seed: Federation vs. Z.A.F.T. (SED1 Ver. A)
 soulclb3        // 2005  Fighter / Versus                   Soul Calibur III (SC31001-NA-A key, NA-B disc)
-taiko7          // 2005  Rhythm / Instruments               Taiko No Tatsujin 7 (TK71-NA-A)
-taiko8          // 2006  Rhythm / Instruments               Taiko No Tatsujin 8 (TK8100-1-NA-A)
 fateulc         // 2008  Fighter / Versus                   Fate: Unlimited Codes (FUD1 ver. A)
 sbxc            // 2008  Fighter / Versus                   Sengoku Basara X Cross
 
@@ -501,7 +469,6 @@ yosakdon        // 1979  Shooter / Gallery                  Yosaku To Donbei (se
 astropal        // 1980? Shooter / Field                    Astropal
 attackfc        // 1979? Shooter / Gallery                  Attack Force
 cosmo           // 1979  Shooter / Gallery                  Cosmo
-invmulti        // 2002  Multiplay / Compilation            Space Invaders Multigame (M8.03D)
 
 // Similar but with a M6800 instead of an 8080
 sflush          // 1979  Ball & Paddle / Breakout           Straight Flush
@@ -646,7 +613,6 @@ horizon         // 1985  Shooter / Driving Horizontal       Horizon (Irem)
 youjyudn        // 1986  Shooter / Walking                  Youjyuden (Japan)
 
 vigilant        // 1988  Platform / Fighter Scrolling       Vigilante (World, Rev E)
-kikcubic        // 1988  Puzzle / Maze                      Meikyu Jima (Japan)
 buccanrs        // 1989  Fighter / 2D                       Buccaneers (set 1)
 // M72 (and derivatives)
 rtype           // 1987  Shooter / Flying Horizontal        R-Type (World)
@@ -666,7 +632,6 @@ ltswords        // 1991  Fighter / 2D                       Lightning Swords
 // not M72, but same sound hardware
 matchit         // 1989  Puzzle / Match                     Match It
 // M90
-hasamu          // 1991  Puzzle / Match                     Hasamu (Japan)
 dynablst        // 1991  Maze                               Dynablaster / Bomber Man
 atompunk        // 1991  Maze                               Atomic Punk (US)
 // M97
@@ -694,20 +659,12 @@ dsoccr94        // 1994  Sports / Soccer                    Dream Soccer '94 (Wo
 reactor         // 1982  Maze / Shooter Small               Reactor
 mplanets        // 1983  Shooter / Field                    Mad Planets
 qbert           // 1982  Platform / Run Jump                Q*bert (US set 1)
-insector        // 1982  Shooter / Field                    Insector (prototype)
-tylz            // 1982  Maze                               Tylz (prototype)
-argusg          // 1984  Shooter / Field                    Argus (Gottlieb, prototype)
 krull           // 1983  Shooter / Field                    Krull
-kngtmare        // 1983  Maze / Fighter                     Knightmare (prototype)
-sqbert          // 1983  Platform / Run Jump                Faster, Harder, More Challenging Q*bert (prototype)
 mach3           // 1983  Shooter / Flying (chase view)      M.A.C.H. 3
 usvsthem        // 1984  Shooter / Flying (chase view)      Us vs. Them
 3stooges        // 1984  Shooter / Field                    The Three Stooges In Brides Is Brides (set 1)
 qbertqub        // 1983  Platform / Run Jump                Q*bert's Qubes
-screwloo        // 1983  Shooter / Field                    Screw Loose (prototype)
 curvebal        // 1984  Sports / Baseball                  Curve Ball
-vidvince        // 1984  Platform / Run Jump                Video Vince and the Game Factory (prototype)
-wizwarz         // 1984  Shooter / Gallery                  Wiz Warz (prototype)
 
 // Taito "Qix hardware" games
 qix             // 1981  Puzzle / Outline                   Qix (Rev 2)
@@ -802,11 +759,9 @@ minivadr        // 1990  Shooter / Gallery                  Mini Vaders
 volfied         // 1989  Puzzle / Outline                   Volfied (World, revision 1)
 bonzeadv        // 1988  Platform / Shooter Scrolling       Bonze Adventure (World, Newer)
 asuka           // 1988  Shooter / Flying Vertical          Asuka &amp; Asuka (World)
-mofflott        // 1989  Maze / Driving                     Maze of Flott (Japan)
 cadash          // 1989  Platform / Fighter Scrolling       Cadash (World)
 galmedes        // 1992  Shooter / Flying Vertical          Galmedes (Japan)
 earthjkr        // 1993  Shooter / Flying Vertical          U.N. Defense Force: Earth Joker (Japan)
-eto             // 1994  Puzzle / Drop                      Kokontouzai Eto Monogatari (Japan)
 wgp             // 1989  Driving / Race 1st P Bike          World Grand Prix (US)
 galastrm        // 1992  Shooter / Driving (chase view)     Galactic Storm (Japan)
 slapshot        // 1994  Sports / Hockey                    Slap Shot (Japan)
@@ -814,10 +769,10 @@ opwolf3         // 1994  Shooter / Gun                      Operation Wolf 3 (Wo
 scessjoe        // 1990  Sports / Boxing                    Success Joe (World)
 
 // Taito multi-screen games
-wyvernf0        // 1985  Shooter / Flying Vertical          Wyvern F-0
-ninjaw          // 1987  Fighter / 2D                       The Ninja Warriors (World)
-darius2         // 1989  Shooter / Flying Horizontal        Darius II (triple screen) (Japan)
-warriorb        // 1991  Fighter / 2.5D                     Warrior Blade - Rastan Saga Episode III (Japan)
+//wyvernf0        // 1985  Shooter / Flying Vertical          Wyvern F-0
+//ninjaw          // 1987  Fighter / 2D                       The Ninja Warriors (World)
+//darius2         // 1989  Shooter / Flying Horizontal        Darius II (triple screen) (Japan)
+//warriorb        // 1991  Fighter / 2.5D                     Warrior Blade - Rastan Saga Episode III (Japan)
 
 // Taito "X"-system games
 superman        // 1988  Fighter / 2D                       Superman (World)
@@ -828,7 +783,6 @@ ballbros        // 1992  Puzzle / Drop                      Balloon Brothers
 
 // Taito "tnzs" (Seta) hardware
 plumppop        // 1987  Ball & Paddle                      Plump Pop (Japan)
-jpopnics        // 1992  Ball & Paddle                      Jumping Pop (Nics, Korean hack of Plump Pop)
 extrmatn        // 1987  Shooter / Walking                  Extermination (World)
 arknoid2        // 1987  Ball & Paddle / Breakout           Arkanoid - Revenge of DOH (World)
 drtoppel        // 1987  Shooter / Flying Vertical          Dr. Toppel's Adventure (World)
@@ -848,12 +802,9 @@ plotting        // 1989  Puzzle / Toss                      Plotting (World set 
 champwr         // 1989  Sports / Wrestling                 Champion Wrestler (World)
 puzznic         // 1989  Puzzle / Misc.                     Puzznic (World)
 horshoes        // 1990  Sports / Horseshoes                American Horseshoes (US)
-palamed         // 1990  Puzzle / Toss                      Palamedes (Japan)
-cachat          // 1993  Puzzle / Drop                      Cachat (Japan)
 cubybop         // 199?  Ball & Paddle / Breakout           Cuby Bop (location test)
 
 // Taito H-System games
-syvalion        // 1988  Shooter / Flying Horizontal        Syvalion (Japan)
 recordbr        // 1988  Sports / Track & Field             Recordbreaker (World)
 dleague         // 1990  Sports / Baseball                  Dynamite League (US)
 
@@ -868,7 +819,6 @@ hitice          // 1990  Sports / Hockey                    Hit the Ice (US)
 selfeena        // 1991  Maze                               Sel Feena
 silentd         // 1992  Fighter / 2.5D                     Silent Dragon (World)
 ryujin          // 1993  Shooter / Flying Vertical          Ryu Jin (Japan)
-pbobble         // 1994  Puzzle / Toss                      Puzzle Bobble (Japan, B-System)
 spacedx         // 1994  Shooter / Gallery                  Space Invaders DX (US, v2.1)
 
 // Taito Z-System games
@@ -884,14 +834,12 @@ dblaxle         // 1991  Driving / Race (chase view)        Double Axle (US)
 racingb         // 1991  Driving / Race (chase view)        Racing Beat (World)
 
 // Taito Air System games
-mlanding        // 1987  Driving / Plane                    Midnight Landing (Germany)
 topland         // 1988  Driving / Plane                    Top Landing (World)
 ainferno        // 1990  Shooter / Flying 1st Person        Air Inferno (US)
 
 // enhanced Z-System hardware games
 gunbustr        // 1992  Shooter / Gun                      Gunbuster (World)
 superchs        // 1992  Driving / 1st Person               Super Chase - Criminal Termination (World)
-groundfx        // 1992  Driving / Race (chase view)        Ground Effects / Super Ground Effects (Japan)
 undrfire        // 1993  Shooter / Gun                      Under Fire (World)
 cbombers        // 1994  Driving / Race (chase view)        Chase Bombers (World)
 
@@ -906,7 +854,6 @@ ssi             // 1990  Shooter / Gallery                  Super Space Invaders
 gunfront        // 1990  Shooter / Flying Vertical          Gun &amp; Frontier (World)
 growl           // 1990  Fighter / 2.5D                     Growl (World, Rev 1)
 footchmp        // 1990  Sports / Soccer                    Football Champ (World)
-koshien         // 1990  Sports / Baseball                  Ah Eikou no Koshien (Japan)
 ninjak          // 1990  Fighter / 2.5D                     The Ninja Kids (World)
 solfigtr        // 1991  Fighter / Versus                   Solitary Fighter (World)
 pulirula        // 1991  Fighter / 2.5D                     PuLiRuLa (World)
@@ -932,28 +879,19 @@ bublbob2        // 1994  Platform / Run Jump                Bubble Bobble II (Ve
 pwrgoal         // 1994  Sports / Soccer                    Taito Power Goal (Ver 2.5O 1994/11/03)
 elvactr         // 1994  Platform / Shooter                 Elevator Action Returns (Ver 2.2O 1995/02/20)
 spcinv95        // 1995  Shooter / Gallery                  Space Invaders '95: The Attack Of Lunar Loonies (Ver 2.5O 1995/06/14)
-twinqix         // 1995  Puzzle / Outline                   Twin Qix (Ver 1.0A 1995/01/17, prototype)
 pbobble2        // 1995  Puzzle / Toss                      Puzzle Bobble 2 (Ver 2.3O 1995/07/31)
 gekiridn        // 1995  Shooter / Flying Vertical          Gekirindan (Ver 2.3O 1995/09/21)
 tcobra2         // 1995  Shooter / Flying Vertical          Twin Cobra II (Ver 2.1O 1995/11/30)
 bubblem         // 1995  Platform / Run Jump                Bubble Memories: The Story Of Bubble Bobble III (Ver 2.4O 1996/02/15)
-cleopatr        // 1996  Puzzle / Drop                      Cleopatra Fortune (Ver 2.1J 1996/09/05)
 pbobble3        // 1996  Puzzle / Toss                      Puzzle Bobble 3 (Ver 2.1O 1996/09/27)
 arkretrn        // 1997  Ball & Paddle / Breakout           Arkanoid Returns (Ver 2.02O 1997/02/10)
 puchicar        // 1997  Ball & Paddle / Breakout           Puchi Carat (Ver 2.02O 1997/10/29)
 pbobble4        // 1997  Puzzle / Toss                      Puzzle Bobble 4 (Ver 2.04O 1997/12/19)
 popnpop         // 1997  Puzzle / Toss                      Pop'n Pop (Ver 2.07O 1998/02/09)
-landmakr        // 1998  Puzzle / Toss                      Land Maker (Ver 2.01J 1998/06/01)
-recalh          // 1994  Platform / Run Jump Scrolling      Recalhorn (Ver 1.42J 1994/5/11, prototype)
-commandw        // 1992  Fighter / Versus                   Command War - Super Special Battle &amp; War Game (Ver 0.0J, prototype)
 
 // Taito JC System
-dangcurv        // 1995  Driving / 1st Person               Dangerous Curves (Ver 2.2 J)
 landgear        // 1995  Driving / Plane                    Landing Gear (Ver 4.2 O)
-sidebs          // 1996  Driving / Race (chase view)        Side by Side (Ver 2.7 J)
-dendego         // 1996  Driving / 1st Person               Densha de GO! (Ver 2.2 J)
 sidebs2         // 1997  Driving / Race (chase view)        Side by Side 2 (Ver 2.6 A)
-dendego2        // 1998  Driving / 1st Person               Densha de GO! 2 Kousoku-hen (Ver 2.5 J)
 
 // Taito "Wolf" System
 pf2012          // 1997  Fighter / Versus                   Psychic Force 2012
@@ -969,8 +907,6 @@ landhigh        // 1999  Driving / Plane                    Landing High Japan
 batlgr2         // 2000  Driving / Race (chase view)        Battle Gear 2 (v2.04J)
 styphp          // 2000  Driving / Race (chase view)        Stunt Typhoon Plus
 raizpin         // 2002  Sports / Ping pong                 Raizin Ping Pong
-
-invqix          // 2003  Multiplay / Compilation            Space Invaders / Qix Silver Anniversary Edition (Ver. 2.03)
 
 // Taito Type X/X+
 
@@ -996,7 +932,6 @@ samspsen        // 2008  Fighter / Versus                   Samurai Spirits Sen 
 
 // Toaplan games
 perfrman        // 1985  Maze / Shooter Small               Performan (Japan)
-perfrmanu       // 1985  Maze / Shooter Small               Performan (US)
 tigerh          // 1985  Shooter / Flying Vertical          Tiger Heli (US)
 alcon           // 1986  Shooter / Flying Vertical          Alcon (US)
 grdian          // 1986  Fighter / 2D                       Guardian (US)
@@ -1038,8 +973,6 @@ fixeight        // 1992  Shooter / Walking                  FixEight (Europe)
 grindstm        // 1992  Shooter / Flying Vertical          Grind Stormer
 batsugun        // 1993  Shooter / Flying Vertical          Batsugun
 snowbro2        // 1994  Platform / Run Jump                Snow Bros. 2 - With New Elves / Otenki Paradise
-pwrkick         // 1994  Sports / Soccer                    Power Kick (Japan)
-othldrby        // 1995  Tabletop / Othello                 Othello Derby (Japan)
 sstriker        // 1993  Shooter / Flying Vertical          Sorcer Striker (set 1)
 kingdmgp        // 1994  Shooter / Flying Vertical          Kingdom Grandprix
 bgaregga        // 1996  Shooter / Flying Vertical          Battle Garegga (Europe / USA / Japan / Asia) (Sat Feb 3 1996)
@@ -1100,7 +1033,6 @@ metmqstr        // 1995  Fighter / Versus Co-op             Metamoqester (Intern
 sailormn        // 1995  Fighter / 2.5D                     Pretty Soldier Sailor Moon (Ver. 95/03/22B, Europe)
 agallet         // 1996  Shooter / Flying Vertical          Air Gallet (Europe)
 hotdogst        // 1996  Shooter / Flying Vertical          Hotdog Storm (International)
-ppsatan         // 1996  Misc.                              Poka Poka Satan (Japan)
 ddonpach        // 1997  Shooter / Flying Vertical          DoDonPachi (International, Master Ver. 97/02/05)
 feversos        // 1998  Shooter / Flying Vertical          Fever SOS (International, Ver. 98/09/25)
 esprade         // 1998  Shooter / Flying Vertical          ESP Ra.De. (International, Ver. 98/04/22)
@@ -1108,14 +1040,11 @@ uopoko          // 1998  Puzzle / Drop                      Puzzle Uo Poko (Inte
 guwange         // 1999  Shooter / Walking                  Guwange (Japan, Master Ver. 99/06/24)
 gaia            // 1999  Fighter / 2.5D                     Gaia Crusaders
 theroes         // 2001  Fighter / 2.5D                     Thunder Heroes
-korokoro        // 1999  Misc.                              Koro Koro Quest (Japan)
-crusherm        // 1999  Fighter / Versus                   Crusher Makochan (Japan)
 
 mushisam        // 2004  Shooter / Flying Vertical          Mushihime-Sama (2004/10/12.MASTER VER.)
 espgal2         // 2005  Shooter / Flying Vertical          Espgaluda II (2005/11/14 MASTER VER)
 ibara           // 2005  Shooter / Flying Vertical          Ibara (2005/03/22 MASTER VER..)
 ibarablk        // 2006  Shooter / Flying Vertical          Ibara Kuro Black Label (2006/02/06. MASTER VER.)
-mushitam        // 2005  Puzzle / Match                     Puzzle! Mushihime-Tama (2005/09/09.MASTER VER)
 futari15        // 2006  Shooter / Flying Vertical          Mushihime-Sama Futari Ver 1.5 (2006/12/8.MASTER VER. 1.54.)
 futaribl        // 2007  Shooter / Flying Vertical          Mushihime-Sama Futari Black Label - Another Ver (2009/11/27 INTERNATIONAL BL)
 pinkswts        // 2006  Shooter / Flying Vertical          Pink Sweets: Ibara Sorekara (2006/04/06 MASTER VER....)
@@ -1149,9 +1078,7 @@ joust           // 1982  Platform / Run Jump                Joust (White/Green l
 bubbles         // 1982  Maze                               Bubbles
 splat           // 1982  Shooter / Field                    Splat!
 sinistar        // 1982  Shooter / Field                    Sinistar (revision 3)
-playball        // 1983  Ball & Paddle                      PlayBall! (prototype)
 blaster         // 1983  Shooter / Flying (chase view)      Blaster
-spdball         // 1985  Sports / Misc.                     Speed Ball - Contest at Neonworld (prototype)
 alienar         // 1985  Maze                               Alien Arena
 mysticm         // 1983  Sports / Track & Field             Mystic Marathon
 tshoot          // 1984  Shooter / Gun                      Turkey Shoot
@@ -1221,11 +1148,8 @@ dino            // 1993  Fighter / 2.5D                     Cadillacs and Dinosa
 punisher        // 1993  Fighter / 2.5D                     The Punisher (World 930422)
 slammast        // 1993  Sports / Wrestling                 Saturday Night Slam Masters (World 930713)
 mbombrd         // 1993  Sports / Wrestling                 Muscle Bomber Duo: Ultimate Team Battle (World 931206)
-kenseim         // 1994  Misc.                              Ken Sei Mogura: Street Fighter II (Japan 940418, Ver 1.00)
-pnickj          // 1994  Puzzle / Drop                      Pnickies (Japan 940608)
 pang3           // 1995  Shooter / 3rd Person               Pang! 3 (Euro 950601)
 megaman         // 1995  Fighter / Versus Co-op             Mega Man: The Power Battle (CPS1, USA 951006)
-ganbare         // 2000  Shooter / 3rd Person               Ganbare! Marine Kun (Japan 2K0411)
 
 
 // Capcom CPS2 games
@@ -1275,7 +1199,6 @@ sfiii           // 1997  Fighter / Versus                   Street Fighter III: 
 sfiii2          // 1997  Fighter / Versus                   Street Fighter III 2nd Impact: Giant Attack (USA 970930)
 jojo            // 1998  Fighter / Versus                   JoJo's Venture (USA 990128)
 sfiii3          // 1999  Fighter / Versus                   Street Fighter III 3rd Strike: Fight for the Future (Euro 990608)
-jojoba          // 1999  Fighter / Versus                   JoJo no Kimyou na Bouken: Mirai e no Isan (Japan 990927)
 
 // Capcom ZN1
 cpzn1           // 1995  System / BIOS                      ZN1
@@ -1295,8 +1218,6 @@ techromn        // 1998  Fighter / Versus                   Tech Romancer (Euro 
 sfex2p          // 1999  Fighter / Versus                   Street Fighter EX2 Plus (USA 990611)
 strider2        // 1999  Platform / Fighter Scrolling       Strider 2 (USA 991213)
 
-// Capcom medal games
-
 // Capcom Nintendo HW?
 tvcapcom        // 2008                                     Tatsunoko Vs Capcom : Cross Generation of Heroes
 
@@ -1306,7 +1227,6 @@ glpracr2        // 1997  Sports / Horse Racing              Gallop Racer 2 (USA)
 doapp           // 1998  Fighter / Versus                   Dead Or Alive ++ (Japan)
 cbaj            // 1998  Sports / Skiing                    Cool Boarders Arcade Jam
 shngmtkb        // 1998  Puzzle / Match                     Shanghai Matekibuyuu
-tondemo         // 1999  Multiplay / Mini-Games             Tondemo Crisis (Japan)
 glpracr3        // 1999  Sports / Horse Racing              Gallop Racer 3 (Export)
 flamegun        // 1999  Shooter / 3rd Person               Flame Gunner
 lpadv           // 1999  Puzzle / Misc.                     Logic Pro Adventure (Japan)
@@ -1343,7 +1263,6 @@ aerofgts        // 1996  Shooter / Flying Vertical          Aero Fighters Specia
 taitofx1        // 1995  System / BIOS                      Taito FX1
 sfchamp         // 1995  Sports / Soccer                    Super Football Champ (Ver 2.5O)
 psyforce        // 1995  Fighter / Versus                   Psychic Force (Ver 2.4O)
-mgcldtex        // 1997  Multiplay / Mini-Games             Magical Date EX / Magical Date - sotsugyou kokuhaku daisakusen (Ver 2.01J)
 
 // Taito FX1b
 raystorm        // 1996  Shooter / Flying Vertical          Ray Storm (Ver 2.06A)
@@ -1354,72 +1273,40 @@ gdarius2        // 1997  Shooter / Flying Horizontal        G-Darius Ver.2 (Ver 
 taitogn         // 1997  System / BIOS                      Taito GNET
 chaoshea        // 1998  Platform / Shooter Scrolling       Chaos Heat (V2.09O)
 raycris         // 1998  Shooter / Flying Vertical          Ray Crisis (V2.03J)
-otenamih        // 1999  Multiplay / Mini-Games             Otenami Haiken (V2.04J)
-otenamhf        // 2005  Multiplay / Mini-Games             Otenami Haiken Final (V2.07JC)
 spuzbobl        // 1999  Puzzle / Toss                      Super Puzzle Bobble (V2.05O)
 gobyrc          // 1999  Driving / Race Track               Go By RC (V2.03O)
-flipmaze        // 1999  Puzzle / Match                     Flip Maze (V2.04J)
 psyvaria        // 2000  Shooter / Flying Vertical          Psyvariar -Medium Unit- (V2.04J)
 shanghss        // 2000  Puzzle / Match                     Shanghai Shoryu Sairin (V2.03J)
 psyvarrv        // 2000  Shooter / Flying Vertical          Psyvariar -Revision- (V2.04J)
-zokuoten        // 2000  Multiplay / Mini-Games             Zoku Otenamihaiken (V2.03J)
-soutenry        // 2000  Puzzle / Match                     Soutenryu (V2.07J)
 nightrai        // 2001  Shooter / Flying Vertical          Night Raid (V2.03J)
 shikigam        // 2001  Shooter / Flying Vertical          Shikigami no Shiro (V2.03J)
-otenki          // 2001  Puzzle / Match                     Otenki Kororin (V2.01J)
-shangtou        // 2002  Puzzle / Match                     Shanghai Sangokuhai Tougi (Ver 2.01J)
 xiistag         // 2002  Shooter / Flying Vertical          XII Stag (V2.01J)
-sianniv         // 2003  Shooter / Gallery                  Space Invaders Anniversary (V2.02J)
-kollon          // 2003  Puzzle / Match                     Kollon (V2.04J)
-zooo            // 2004  Puzzle / Match                     Zooo (V2.01J)
 
 // Namco System 11
 tekken          // 1994  Fighter / Versus                   Tekken (World, TE4/VER.C)
 tekken2         // 1996  Fighter / Versus                   Tekken 2 Ver.B (US, TES3/VER.D)
 souledge        // 1996  Fighter / Versus                   Soul Edge Ver. II (World, SO4/VER.C)
-primglex        // 1996  Sports / Soccer                    Prime Goal EX (Japan, PG1/VER.A)
 xevi3dg         // 1995  Shooter / Flying Vertical          Xevious 3D/G (Japan, XV31/VER.A)
 dunkmnia        // 1995  Sports / Basketball                Dunk Mania (Asia, DM2/VER.C)
-pocketrc        // 1996  Driving / Race (chase view)        Pocket Racer (Japan, PKR1/VER.B)
-starswep        // 1997  Puzzle / Misc.                     Star Sweep (Japan, STP1/VER.A)
 
 // Namco System 12
 tekken3         // 1996  Fighter / Versus                   Tekken 3 (Japan, TET1/VER.E1)
-tekken3ud       // 1996  Fighter / Versus                   Tekken 3 (US, TET3/VER.D)
 lbgrande        // 1997  Sports / Soccer                    Libero Grande (Asia, LG2/VER.A)
-toukon3         // 1997  Sports / Wrestling                 Shin Nihon Pro Wrestling Toukon Retsuden 3 Arcade Edition (Japan, TR1/VER.A)
 ehrgeiz         // 1998  Fighter / Versus                   Ehrgeiz (US, EG3/VER.A)
-sws98           // 1998  Sports / Baseball                  Super World Stadium '98 (Japan, SS81/VER.A)
 soulclbr        // 1998  Fighter / Versus                   Soul Calibur (World, SOC14/VER.C)
-technodr        // 1998  Driving / Race (chase view)        Techno Drive (Japan, TD2/VER.B)
-aplarail        // 1998  Driving / 1st Person               Attack Pla Rail (Japan, AP1/VER.A)
 tenkomor        // 1998  Multiplay / Mini-Games             Tenkomori Shooting (Asia, TKM2/VER.A1)
-pacapp          // 1999  Rhythm / Misc.                     Paca Paca Passion (Japan, PPP1/VER.A2)
 fgtlayer        // 1998  Fighter / Versus                   Fighting Layer (Japan, FTL1/VER.A)
 ptblank2        // 1999  Shooter / Gun                      Point Blank 2 (GNB5/VER.A)
-sws99           // 1999  Sports / Baseball                  Super World Stadium '99 (Japan, SS91/VER.A3)
 ghlpanic        // 1999  Shooter / Gun                      Ghoul Panic (Asia, OB2/VER.A)
-pacapp2         // 1999  Rhythm / Misc.                     Paca Paca Passion 2 (Japan, PKS1/VER.A)
 tektagt         // 1999  Fighter / Versus                   Tekken Tag Tournament (US, TEG3/VER.C1)
 mrdrillr        // 1999  Puzzle / Misc.                     Mr. Driller (US, DRI3/VER.A2)
-pacappsp        // 1999  Rhythm / Misc.                     Paca Paca Passion Special (Japan, PSP1/VER.A)
-aquarush        // 1999  Puzzle / Misc.                     Aqua Rush (Japan, AQ1/VER.A1)
-golgo13         // 1999  Shooter / Gun                      Golgo 13 (Japan, GLG1/VER.A)
-sws2000         // 2000  Sports / Baseball                  Super World Stadium 2000 (Japan, SS01/VER.A)
-truckk          // 2000  Driving / Race (chase view)        Truck Kyosokyoku (Japan, TKK2/VER.A)
-kartduel        // 2000  Driving / Race 1st Person          Kart Duel (Japan, KTD1/VER.A)
-g13knd          // 1999  Shooter / Gun                      Golgo 13 Kiseki no Dandou (Japan, GLS1/VER.A)
 
 // Namco System 10
 mrdrilr2        // 2000  Puzzle / Misc.                     Mr. Driller 2 (Japan, DR21 Ver.A)
 ptblank3        // 2000  Shooter / Gun                      Point Blank 3 (Asia, GNN2 Ver.A)
 mrdrilrg        // 2001  Puzzle / Misc.                     Mr. Driller G (Japan, DRG1 Ver.A)
-knpuzzle        // 2001  Puzzle / Misc.                     Kotoba no Puzzle Mojipittan (Japan, KPM1 Ver.A)
 gjspace         // 2001  Not Classified                     Gekitoride-Jong Space (10011 Ver.A)
-panikuru        // 2002  Puzzle / Misc.                     Panicuru Panekuru (Japan, PPA1 Ver.A)
-startrgn        // 2002  Puzzle / Misc.                     Star Trigon (Japan, STT1 Ver.A)
 gamshara        // 2003  Shooter / 3rd Person               Gamshara (10021 Ver.A)
-chocovdr        // 2002  Multiplay / Mini-Games             Uchuu Daisakusen: Chocovader Contactee (Japan, CVC1 Ver.A)
 nflclsfb        // 2003  Sports / Amer. Football            NFL Classic Football (US, NCF3 Ver.A.)
 konotako        // 2003  Puzzle / Drop                      Kono Tako (10021 Ver.A)
 
@@ -1429,8 +1316,6 @@ cryptklr        // 1995  Shooter / Gun                      Crypt Killer (GQ420 
 // Konami GV
 konamigv        // 1995  System / BIOS                      Baby Phoenix/GV System
 kdeadeye        // 1996  Shooter / Gun                      Dead Eye (GV054 UAA01)
-powyak96        // 1996  Sports / Baseball                  Jikkyou Powerful Pro Yakyuu '96 (GV017 Japan 1.03)
-hyperath        // 1996  Sports / Track & Field             Hyper Athlete (GV021 Japan 1.00)
 lacrazyc        // 1996  Puzzle / Drop                      Let's Attack Crazy Cross (GV027 Asia 1.10)
 btchamp         // 1996  Sports / Multiplay                 Beat the Champ (GV053 UAA01)
 nagano98        // 1998  Sports / Track & Field             Nagano Winter Olympics '98 (GX720 EAA)
@@ -1438,34 +1323,26 @@ simpbowl        // 2000  Sports / Bowling                   Simpsons Bowling (GQ
 
 // Konami System 573
 sys573          // 1997  System / BIOS                      System 573 BIOS
-hndlchmp        // 1997  Driving / Race                     Handle Champ (GQ710 VER. JAB)
-darkhleg        // 1998  Sports / Horse Racing              Dark Horse Legend (GX706 VER. JAA)
 fbaitbc         // 1998  Sports / Fishing                   Fisherman's Bait - A Bass Challenge (GE765 VER. UAB)
 fbait2bc        // 1998  Sports / Fishing                   Fisherman's Bait 2 - A Bass Challenge (GE865 VER. UAB)
 fbaitmc         // 1999  Sports / Fishing                   Fisherman's Bait - Marlin Challenge (GX889 VER. EA)
 
 // Konami Viper games
 kviper          // 1999  System / BIOS                      Konami Viper BIOS
-ppp2nd          // 2001  Rhythm / Dance                     ParaParaParadise 2nd Mix
 boxingm         // 2001  Sports / Boxing                    Boxing Mania (ver JAA)
 code1d          // 2000  Driving / Race (chase view)        Code One Dispatch (ver D)
-gticlub2        // 2001  Driving / Race                     GTI Club 2 (ver JAB)
 jpark3          // 2001  Shooter / Gun                      Jurassic Park 3 (ver EBC)
 mocapglf        // 2001  Sports / Golf                      Mocap Golf (ver UAA)
 mocapb          // 2001  Sports / Boxing                    Mocap Boxing (ver AAA)
 p911            // 2001  Shooter / Gun                      Police 911 (ver UAD)
 p9112           // 2001  Shooter / Gun                      Police 911 2 (VER. UAA:B)
-popn9           // 2003  Rhythm / Misc.                     Pop'n Music 9 (ver JAB)
 sscopex         // 2001  Shooter / Gun                      Silent Scope EX (ver UAA)
 thrild2         // 2001  Driving / Race 1st Person          Thrill Drive 2 (ver EBB)
 tsurugi         // 2002  Fighter / 3D                       Tsurugi (ver EAB)
 wcombat         // 2002  Shooter / Gun                      World Combat (ver AAD:B)
-xtrial          // 2002  Driving / Race (chase view)        Xtrial Racing (ver JAB)
 
 // Mitchell games
-dokaben         // 1989  Puzzle / Cards                     Dokaben (Japan)
 pang            // 1989  Shooter / 3rd Person               Pang (World)
-cbasebal        // 1989  Sports / Baseball                  Capcom Baseball (Japan)
 spang           // 1990  Shooter / 3rd Person               Super Pang (World 900914)
 block           // 1991  Ball & Paddle / Breakout           Block Block (World 910910)
 
@@ -1535,7 +1412,6 @@ ataxx           // 1990  Tabletop / Misc.                   Ataxx (set 1)
 wsf             // 1990  Sports / Soccer                    World Soccer Finals
 indyheat        // 1991  Driving / Race Track               Danny Sullivan's Indy Heat
 brutforc        // 1991  Fighter / Field                    Brute Force
-asylum          // 1991  Shooter / Walking                  Asylum (prototype)
 dlair2          // 1991  Platform / Run Jump                Dragon's Lair 2: Time Warp (US v3.19)
 spacea91        // 1991  Platform / Run Jump                Space Ace (DL2 Conversion) (US v1.3)
 
@@ -1553,15 +1429,12 @@ depthch         // 1977  Shooter / Gallery                  Depthcharge
 safari          // 1977  Shooter / Field                    Safari (set 1)
 frogs           // 1978  Platform / Run Jump                Frogs
 sspaceat        // 1979  Shooter / Gallery                  Space Attack (upright set 1)
-sspacaho        // 1979  Multiplay / Compilation            Space Attack / Head On
 headon          // 1979  Maze / Driving                     Head On (2 players)
 headon2         // 1979  Maze / Driving                     Head On 2
-invho2          // 1979  Multiplay / Compilation            Invinco / Head On 2
 nsub            // 1980  Shooter / Gallery                  N-Sub (upright)
 samurai         // 1980  Fighter / Field                    Samurai
 invinco         // 1979  Shooter / Gallery                  Invinco
 invds           // 1979  Multiplay / Compilation            Invinco / Deep Scan
-carhntds        // 1979  Multiplay / Compilation            Car Hunt / Deep Scan (France)
 tranqgun        // 1980  Maze / Shooter Small               Tranquilizer Gun
 spacetrk        // 1980  Shooter / Gallery                  Space Trek (upright)
 carnival        // 1980  Shooter / Gallery                  Carnival (upright)
@@ -1631,8 +1504,6 @@ wboy            // 1986  Platform / Shooter Scrolling       Wonder Boy (set 1, 3
 gardia          // 1986  Shooter / Flying Vertical          Gardia (317-0006)
 nob             // 1986  Climbing                           Noboranka (Japan)
 tokisens        // 1987  Shooter / Walking                  Toki no Senshi - Chrono Soldier
-wbml            // 1987  Platform / Shooter Scrolling       Wonder Boy in Monster Land (Japan New Ver., MC-8123, 317-0043)
-ufosensi        // 1988  Maze / Shooter Large               Ufo Senshi Yohko Chan (MC-8123, 317-0064)
 /*
   other System 1 / System 2 games:
 
@@ -1641,12 +1512,10 @@ ufosensi        // 1988  Maze / Shooter Large               Ufo Senshi Yohko Cha
 */
 
 // Sega System E games (Master System hardware)
-hangonjr        // 1985  Driving / Race (chase view) Bike   Hang-On Jr.
+hangonjr        // 1985  Driving / Race (chase view) Bike   Hang-On Jr. ***progress
 transfrm        // 1986  Shooter / Flying Horizontal        Transformer
-ridleofp        // 1986  Ball & Paddle / Breakout           Riddle of Pythagoras (Japan)
 fantzn2         // 1988  Shooter / Flying Horizontal        Fantasy Zone II - The Tears of Opa-Opa (MC-8123, 317-0057)
 opaopa          // 1987  Shooter / Flying Horizontal        Opa Opa (MC-8123, 317-0042)
-tetrisse        // 1988  Puzzle / Drop                      Tetris (Japan, System E)
 
 // Shooting Zone (SMS Gun Games on a timer)
 shtzone         // 1987  System / BIOS                      Shooting Zone System BIOS
@@ -1659,7 +1528,6 @@ buckrog         // 1982  Shooter / Flying (chase view)      Buck Rogers: Planet 
 suprloco        // 1982  Maze / Driving                     Super Locomotive (Rev.A)
 dotrikun        // 1990  Maze                               Dottori Kun (new version)
 spcpostn        // 1986  Driving / Race                     Space Position (Japan)
-angelkds        // 1988  Climbing                           Angel Kids (Japan)
 calorie         // 1986  Maze                               Calorie Kun vs Moguranian
 
 // Bingo-based games
@@ -1711,7 +1579,6 @@ hwchamp         // 1987  Sports / Boxing                    Heavyweight Champ
 mvp             // 1989  Sports / Baseball                  MVP (set 2, US) (FD1094 317-0143)
 passsht         // 1988  Sports / Tennis                    Passing Shot (World, 2 Players) (FD1094 317-0080)
 riotcity        // 1991  Fighter / 2.5D                     Riot City (Japan)
-ryukyu          // 1990  Puzzle / Cards                     RyuKyu (Japan) (FD1094 317-5023)
 sonicbom        // 1987  Shooter / Flying Vertical          Sonic Boom (FD1094 317-0053)
 suprleag        // 1987  Sports / Baseball                  Super League (FD1094 317-0045)
 timescan        // 1987  Pinball                            Time Scanner (set 2, System 16B)
@@ -1727,20 +1594,8 @@ fantzn2x        // 2008  Shooter / Flying Horizontal        Fantasy Zone II - Th
 atomicp         // 1990  Puzzle / Drop                      Atomic Point (Korea)
 snapper         // 1990  Maze                               Snapper (Korea)
 
-// S16 decrypted bootlegs
-
-// S16 Bootlegs
-beautyb         // 1991  Puzzle / Drop                      Beauty Block
-iqpipe          // 1991  Not Classified                     IQ Pipe
-
-// ISG S16 bootleg system
-isgsm           // 2006  System / BIOS                      ISG Selection Master Type 2006 BIOS
-tetrbx          // 2006  Puzzle / Drop                      Tetris / Bloxeed (Korean System 16 bootleg) (ISG Selection Master Type 2006)
-shinfz          // 2008  Platform / Fighter Scrolling       Shinobi / FZ-2006 (Korean System 16 bootleg) (ISG Selection Master Type 2006)
-
 // System 18
 shdancer        // 1989  Platform / Fighter Scrolling       Shadow Dancer (World)
-bloxeed         // 1989  Puzzle / Drop                      Bloxeed (Japan) (FD1094 317-0139)
 astormu         // 1990  Platform / Shooter Scrolling       Alien Storm (US, 3 Players) (FD1094 317-0147)
 astorm          // 1990  Platform / Shooter Scrolling       Alien Storm (World, 2 Players) (FD1094 317-0154)
 mwalk           // 1990  Maze / Fighter                     Michael Jackson's Moonwalker (World) (FD1094/8751 317-0159)
@@ -1748,7 +1603,6 @@ lghost          // 1990  Shooter / Gun                      Laser Ghost (World) 
 lghostj			//    //                                          
 cltchitr        // 1991  Sports / Baseball                  Clutch Hitter (US) (FD1094 317-0176)
 ddcrew          // 1991  Fighter / 2.5D                     D. D. Crew (World, 3 Players) (FD1094 317-0190)
-wwallyj         // 1992  Multiplay / Mini-Games             Wally wo Sagase! (rev B, Japan) (FD1094 317-0197B)
 desertbr        // 1992  Shooter / Walking                  Desert Breaker (World) (FD1094 317-0196)
 hamaway         // 1991  Shooter / Flying Vertical          Hammer Away (Japan, prototype)
 
@@ -1764,7 +1618,6 @@ toutrun         // 1989  Driving / Race (chase view)        Turbo Out Run (Out R
 // X Board
 aburner2        // 1987  Shooter / Flying (chase view)      After Burner II
 thndrbld        // 1987  Shooter / Flying                   Thunder Blade (upright) (FD1094 317-0056)
-lastsurv        // 1989  Shooter / 3rd Person               Last Survivor (Japan) (FD1094 317-0083)
 smgp            // 1989  Driving / Race 1st Person          Super Monaco GP (World, Rev B) (FD1094 317-0126a)
 loffire         // 1989  Shooter / Gun                      Line of Fire / Bakudan Yarou (World) (FD1094 317-0136)
 rachero         // 1989  Driving / Race (chase view) Bike   Racing Hero (FD1094 317-0144)
@@ -1787,7 +1640,6 @@ sspirits        // 1988  Shooter / Flying Vertical          Scramble Spirits (Wo
 gground         // 1988  Shooter / Walking                  Gain Ground (World, 3 Players, Floppy Based, FD1094 317-0058-03d Rev A)
 crkdown         // 1989  Maze / Shooter Large               Crack Down (World, Floppy Based, FD1094 317-0058-04c)
 sgmast          // 1989  Sports / Golf                      Super Masters Golf (World?, Floppy Based, FD1094 317-0058-05d?)
-roughrac        // 1990  Driving / Race Track               Rough Racer (Japan, Floppy Based, FD1094 317-0058-06b)
 bnzabros        // 1990  Platform / Shooter                 Bonanza Bros (US, Floppy DS3-5000-07d? Based)
 
 // ROM based
@@ -1808,11 +1660,8 @@ darkedge        // 1992  Fighter / Versus                   Dark Edge (World)
 brival          // 1992  Fighter / Versus                   Burning Rival (World)
 f1lap           // 1993  Driving / Race (chase view)        F1 Super Lap (World)
 alien3          // 1993  Shooter / Gun                      Alien3: The Gun (World)
-sonic           // 1992  Platform / Run Jump Scrolling      SegaSonic The Hedgehog (Japan, rev. C)
 jpark           // 1993  Shooter / Gun                      Jurassic Park (World)
-dbzvrvs         // 1994  Fighter / Versus                   Dragon Ball Z V.R.V.S. (Japan)
 svf             // 1994  Sports / Soccer                    Super Visual Football: European Sega Cup
-slipstrm        // 1995  Driving / Race (chase view)        Slip Stream (Brazil 950515)
 
 // Sega Multi System 32 games
 orunners        // 1992  Driving / Race (chase view)        OutRunners (World)
@@ -1834,11 +1683,8 @@ coolridr        // 1995  Driving / Race (chase view) Bike   Cool Riders
 stvbios         // 1996  Multi-cart Board                   ST-V Bios
 gaxeduel        // 1994  Fighter / Versus                   Golden Axe - The Duel (JUETL 950117 V1.000)
 suikoenb        // 1995  Fighter / Versus                   Suiko Enbu / Outlaws of the Lost Dynasty (JUETL 950314 V2.001)
-bakubaku        // 1995  Puzzle / Drop                      Baku Baku Animal (J 950407 V1.000)
 vfremix         // 1995  Fighter / Versus                   Virtua Fighter Remix (JUETBKAL 950428 V1.000)
-ejihon          // 1995  Puzzle / Misc.                     Ejihon Tantei Jimusyo (J 950613 V1.000)
 shanhigw        // 1995  Puzzle / Match                     Shanghai - The Great Wall / Shanghai Triple Threat (JUE 950623 V1.005)
-sandor          // 1995  Multiplay / Mini-Games             Puzzle &amp; Action: Sando-R (J 951114 V1.000)
 sfish2          // 1995  Sports / Fishing                   Sport Fishing 2 (UET 951106 V1.10e)
 critcrsh        // 1995  Misc.                              Critter Crusher (EA 951204 V1.000)
 batmanfr        // 1996  Fighter / 2.5D                     Batman Forever (JUE 960507 V1.000)
@@ -1847,40 +1693,20 @@ vfkids          // 1996  Fighter / Versus                   Virtua Fighter Kids 
 pblbeach        // 1995  Sports / Golf                      Pebble Beach - The Great Shot (JUE 950913 V0.990)
 smleague        // 1995  Sports / Baseball                  Super Major League (U 960108 V1.000)
 decathlt        // 1996  Sports / Track & Field             Decathlete (JUET 960709 V1.001)
-mausuke         // 1996  Puzzle / Drop                      Mausuke no Ojama the World (J 960314 V1.000)
 diehard         // 1996  Fighter / 2.5D                     Die Hard Arcade (UET 960515 V1.000)
 sokyugrt        // 1996  Shooter / Flying Vertical          Soukyugurentai / Terra Diver (JUET 960821 V1.000)
-prikura         // 1996  Maze / Shooter Large               Princess Clara Daisakusen (J 960910 V1.000)
-puyosun         // 1996  Puzzle / Drop                      Puyo Puyo Sun (J 961115 V0.001)
 colmns97        // 1996  Puzzle / Drop                      Columns '97 (JET 961209 V1.000)
 shienryu        // 1997  Shooter / Flying Vertical          Shienryu (JUET 961226 V1.000)
-pclub2kc        // 1997  Print Club                         Print Club Kome Kome Club (J 970203 V1.000)
-groovef         // 1998  Fighter / Versus                   Groove on Fight - Gouketsuji Ichizoku 3 (J 970416 V1.001)
-nclubv3         // 1997  Misc.                              Name Club Ver.3 (J 970723 V1.000)
-pclb2elk        // 1997  Print Club                         Print Club 2 Earth Limited Kobe (Print Club Custom) (J 970808 V1.000)
-pclub2          // 1997  Print Club                         Print Club 2 (U 970921 V1.000)
 winterht        // 1997  Sports / Skiing                    Winter Heat (JUET 971012 V1.000)
 cotton2         // 1997  Shooter / Flying Horizontal        Cotton 2 (JUET 970902 V1.000)
-hanagumi        // 1997  Puzzle / Drop                      Sakura Taisen - Hanagumi Taisen Columns (J 971007 V1.010)
-maruchan        // 1997  Multiplay / Mini-Games             Maru-Chan de Goo! (J 971216 V1.000)
-techbowl        // 1997  Sports / Bowling                   Technical Bowling (J 971212 V1.000)
-znpwfv          // 1997  Sports / Wrestling                 Zen Nippon Pro-Wrestling Featuring Virtua (J 971123 V1.000)
 seabass         // 1997  Sports / Fishing                   Sea Bass Fishing (JUET 971110 V0.001)
-sasissu         // 1998  Multiplay / Mini-Games             Taisen Tanto-R Sashissu!! (J 980216 V1.000)
 twcup98         // 1998  Sports / Soccer                    Tecmo World Cup '98 (JUET 980410 V1.000)
 grdforce        // 1998  Shooter / Flying Vertical          Guardian Force (JUET 980318 V0.105)
 rsgun           // 1998  Shooter / Flying Vertical          Radiant Silvergun (JUET 980523 V1.000)
-astrass         // 1998  Fighter / Versus                   Astra SuperStars (J 980514 V1.002)
-othellos        // 1998  Tabletop / Othello                 Othello Shiyouyo (J 980423 V1.002)
-pclubol         // 1999  Print Club                         Print Club Olive (J 980717 V1.000)
 cottonbm        // 1998  Shooter / Flying Horizontal        Cotton Boomerang (JUET 980709 V1.000)
-stress          // 1998  Misc.                              Stress Busters (J 981020 V1.000)
 elandore        // 1998  Fighter / Versus                   Touryuu Densetsu Elan-Doree / Elan Doree - Legend of Dragoon (JUET 980922 V1.006)
 sss             // 1998  Sports / Skiing                    Steep Slope Sliders (JUET 981110 V1.000)
-micrombc        // 1999  Misc.                              Microman Battle Charge (J 990326 V1.000)
 ffreveng        // 1999  Fighter / Versus                   Final Fight Revenge (JUET 990930 V1.100)
-pclubpok        // 1999  Print Club                         Print Club Pokemon B (U 991126 V1.000)
-pclubor         // 1999  Print Club                         Print Club Goukakenran (J 991104 V1.000)
 
 // Sega Model 2 Games
 
@@ -2007,24 +1833,14 @@ columns2        // 1990  Puzzle / Drop                      Columns II: The Voya
 borench         // 1990  Maze                               Borench (set 1)
 tfrceac         // 1990  Shooter / Flying Horizontal        Thunder Force AC
 twinsqua        // 1991  Ball & Paddle / Breakout           Twin Squash
-soniccar        // 1991  Driving                            Waku Waku Sonic Patrol Car
 ribbit          // 1991  Maze                               Ribbit!
-tantr           // 1992  Multiplay / Mini-Games             Puzzle &amp; Action: Tant-R (Japan)
 puyo            // 1992  Puzzle / Drop                      Puyo Puyo (World)
 ichir           // 1994  Multiplay / Mini-Games             Puzzle &amp; Action: Ichidant-R (World)
 stkclmns        // 1994  Puzzle / Drop                      Stack Columns (World)
-puyopuy2        // 1994  Puzzle / Drop                      Puyo Puyo 2 (Japan)
-potopoto        // 1994  Puzzle / Drop                      Poto Poto (Japan)
-zunkyou         // 1994  Shooter / 3rd Person               Zunzunkyou No Yabou (Japan)
-
-// Atlus Print Club 'Games' C-2 board
-pclubj          // 1995  Print Club                         Print Club (Japan Vol.1)
 
 // Genie Hardware (uses Genesis VDP) also has 'Sun Mixing Co' put into tile ram
 puckpkmn        // 2000  Maze                               Puckman Pockimon (set 1)
 topshoot        // 1995  Sports / Basketball                Top Shooter
-
-jzth            // 2000  Fighter / 2.5D                     Jue Zhan Tian Huang
 
 // Sega Naomi-based (Dreamcast) systems
 naomi           // 1998  System / BIOS                      Naomi Bios
@@ -2316,7 +2132,6 @@ czeroize        // 1983  Maze / Outline                     Zeroize (DECO Casset
 cscrtry         // 1984  Sports / Rugby Football            Scrum Try (DECO Cassette, set 1)
 cppicf          // 1984  Platform / Run Jump                Peter Pepper's Ice Cream Factory (DECO Cassette, set 1)
 cfghtice        // 1984  Sports / Hockey                    Fighting Ice Hockey (DECO Cassette)
-coozumou        // 1984  Sports / Sumo                      Oozumou - The Grand Sumo (DECO Cassette, Japan)
 cbdash          // 1985  Maze / Digging                     Boulder Dash (DECO Cassette)
 
 // Data East LD games
@@ -2362,7 +2177,6 @@ csilver         // 1987  Platform / Fighter Scrolling       Captain Silver (Worl
 ghostb          // 1987  Shooter / Walking                  The Real Ghostbusters (US 2 Players, revision 2)
 srdarwin        // 1987  Shooter / Flying Vertical          Super Real Darwin (World)
 gondo           // 1987  Shooter / Flying Vertical          Gondomania (US)
-garyoret        // 1987  Shooter / Walking                  Garyo Retsuden (Japan)
 cobracom        // 1988  Shooter / Flying Horizontal        Cobra-Command (World revision 5)
 oscar           // 1987  Platform / Shooter Scrolling       Psycho-Nics Oscar (World revision 0)
 
@@ -2373,14 +2187,12 @@ chelnov         // 1988  Platform / Shooter Scrolling       Chelnov - Atomic Run
 // the following ones all run on similar hardware
 hbarrel         // 1987  Shooter / Walking                  Heavy Barrel (US)
 baddudes        // 1988  Platform / Fighter Scrolling       Bad Dudes vs. Dragonninja (US)
-birdtry         // 1988  Sports / Golf                      Birdie Try (Japan)
 robocop         // 1988  Platform / Shooter Scrolling       Robocop (World revision 4)
 hippodrm        // 1989  Fighter / Versus                   Hippodrome (US)
 secretag        // 1989  Platform / Shooter Scrolling       Secret Agent (World revision 3)
 midres          // 1989  Platform / Shooter Scrolling       Midnight Resistance (World)
 bouldash        // 1990  Maze / Digging                     Boulder Dash / Boulder Dash Part 2 (World)
 // end of similar hardware
-stadhero        // 1988  Sports / Baseball                  Stadium Hero (Japan)
 madmotor        // 1989  Fighter / 2.5D                     Mad Motor
 // All these games have a unique code stamped on the mask roms
 vaportra        // 1989  Shooter / Flying Vertical          Vapor Trail - Hyper Offence Formation (World revision 1)
@@ -2392,7 +2204,6 @@ mutantf         // 1992  Fighter / Versus                   Mutant Fighter (Worl
 cninja          // 1991  Platform / Shooter Scrolling       Caveman Ninja (World ver 4)
 robocop2        // 1991  Fighter / 2.5D                     Robocop 2 (Euro/Asia v0.10)
 thndzone        // 1991  Shooter / Walking                  Thunder Zone (World, Rev 1)
-chinatwn        // 1991  Puzzle / Drop                      China Town (Japan)
 rohga           // 1991  Platform / Shooter Scrolling       Rohga Armor Force (Asia/Europe v5.0)
 schmeisr        // 1993  Fighter / Versus                   Schmeiser Robo (Japan)
 captaven        // 1991  Fighter / 2.5D                     Captain America and The Avengers (Asia Rev 1.4)
@@ -2417,12 +2228,10 @@ lockload        // 1994  Shooter / Gun                      Locked 'n Loaded (Wo
 joemacr         // 1994  Platform / Run Jump                Joe &amp; Mac Returns (World, Version 1.1, 1994.05.27)
 tattass         // 1994  Fighter / Versus                   Tattoo Assassins (US prototype)
 charlien        // 1995  Platform / Shooter Scrolling       Charlie Ninja
-wcvol95         // 1995  Sports / Volleyball                World Cup Volley '95 (Japan v1.0)
 backfire        // 1995  Driving / Race                     Backfire! (set 1)
 chainrec        // 1995  Puzzle / Toss                      Chain Reaction (World, Version 2.2, 1995.09.25)
 // MCE Dunk Dream 95/Hoops96 See MLC games below
 osman           // 1996  Platform / Fighter Scrolling       Osman (World)
-sotsugyo        // 1995  Multiplay / Mini-Games             Sotsugyo Shousho
 
 // Data East MLC Games
 hoops96         // 1996  Sports / Basketball                Hoops '96 (Europe/Asia 2.0)
@@ -2432,21 +2241,15 @@ stadhr96        // 1996  Sports / Baseball                  Stadium Hero '96 (Wo
 
 // SemiCom games on Tumble Pop based hardware
 metlsavr        // 1994  Platform / Run Jump                Metal Saver
-magicbal        // 1994  Sports / Baseball                  Magicball Fighting (Korea)
-wlstar          // 1995  Sports / Baseball                  Wonder League Star - Sok-Magicball Fighting (Korea)
-sdfight         // 1996  Fighter / Versus                   SD Fighters (Korea)
-wondl96         // 1996  Sports / Baseball                  Wonder League '96 (Korea)
 htchctch        // 1995  Puzzle / Toss                      Hatch Catch
 cookbib         // 1995  Puzzle / Toss                      Cookie &amp; Bibi (set 1)
 chokchok        // 1995  Shooter / 3rd Person               Choky! Choky!
 carket          // 1996  Sports / Pool                      Carket Ball
 bcstry          // 1997  Multiplay / Mini-Games             B.C. Story (set 1)
-semibase        // 1997  Sports / Baseball                  MuHanSeungBu (SemiCom Baseball) (Korea)
 
 // Tehkan / Tecmo games (Tehkan became Tecmo in 1986)
 senjyo          // 1983  Shooter / 1st Person               Senjyo
 starforc        // 1984  Shooter / Flying Vertical          Star Force
-baluba          // 1986  Platform / Run Jump                Baluba-louk no Densetsu (Japan)
 bombjack        // 1984  Platform / Run Jump                Bomb Jack (set 1)
 pbaction        // 1985  Pinball                            Pinball Action (set 1)
 tehkanwc        // 1985  Sports / Soccer                    Tehkan World Cup (set 1)
@@ -2464,9 +2267,6 @@ stratof         // 1991  Shooter / Flying Horizontal        Raiga - Strato Fight
 drgnbowl        // 1992  Fighter / 2.5D                     Dragon Bowl (set 1, encrypted program)
 wc90            // 1989  Sports / Soccer                    Tecmo World Cup '90 (World)
 fstarfrc        // 1992  Shooter / Flying Vertical          Final Star Force (US)
-ginkun          // 1995  Multiplay / Mini-Games             Ganbare Ginkun
-deroon          // 1995  Puzzle / Drop                      Deroon DeroDero
-tkdensho        // 1996  Fighter / Versus                   Toukidenshou - Angel Eyes (VER. 960614)
 
 // Konami games
 kamikaze        // 1980  Shooter / Gallery                  Kamikaze
@@ -2475,8 +2275,6 @@ junofrst        // 1983  Shooter / Gallery                  Juno First
 pooyan          // 1982  Shooter / 3rd Person               Pooyan
 timeplt         // 1982  Shooter / Field                    Time Pilot
 psurge          // 1988  Maze                               Power Surge
-chkun           // 1988  Sports / Baseball                  Chance Kun (Japan)
-bikkuric        // 1987  Puzzle / Match                     Bikkuri Card (Japan)
 megazone        // 1983  Shooter / Driving Vertical         Mega Zone (Konami set 1)
 pandoras        // 1984  Platform / Run Jump                Pandora's Palace
 gyruss          // 1983  Shooter / Flying (chase view)      Gyruss
@@ -2496,7 +2294,6 @@ kicker          // 1985  Platform / Fighter                 Kicker
 pingpong        // 1985  Sports / Ping pong                 Konami's Ping-Pong
 merlinmm        // 1986  Maze                               Merlins Money Maze
 gberet          // 1985  Platform / Shooter Scrolling       Green Beret
-mrgoemon        // 1986  Platform / Fighter Scrolling       Mr. Goemon (Japan)
 jailbrek        // 1986  Platform / Shooter Scrolling       Jail Break
 scotrsht        // 1985  Shooter / Flying                   Scooter Shooter
 finalizr        // 1985  Shooter / Flying Vertical          Finalizer - Super Transformation
@@ -2533,12 +2330,9 @@ simpsons2p      // 1991  Fighter / 2.5D                     The Simpsons (2 Play
 esckids         // 1991  Sports / Track & Field             Escape Kids (Asia, 4 Players)
 vendetta        // 1991  Fighter / 2.5D                     Vendetta (World, 4 Players, ver. T)
 vendetta2p      // 1991  Fighter / 2.5D                     Vendetta (World, 2 Players, ver. W)
-mogura          // 1991  Shooter / 1st Person               Mogura Desse (Japan)
 wecleman        // 1986  Driving / Race (chase view)        WEC Le Mans 24 (v2.00, set 1)
 hotchase        // 1988  Driving / Race (chase view)        Hot Chase (set 1)
 chqflag         // 1988  Driving / Race                     Chequered Flag
-ultraman        // 1991  Fighter / Versus                   Ultraman (Japan)
-hexion          // 1992  Puzzle / Drop                      Hexion (Japan ver JAB)
 lethalen        // 1992  Shooter / Gun                      Lethal Enforcers (ver UAE, 11/19/92 15:04)
 tgtpanic        // 1996  Misc.                              Target Panic
 
@@ -2599,8 +2393,6 @@ rungun          // 1993  Sports / Basketball                Run and Gun (ver EAA
 
 dbz             // 1993  Fighter / Versus                   Dragonball Z (rev B)
 dbz2            // 1994  Fighter / Versus                   Dragonball Z 2 - Super Battle
-bishi           // 1996  Multiplay / Mini-Games             Bishi Bashi Championship Mini Game Senshuken (ver JAA, 3 Players)
-sbishi          // 1998  Multiplay / Mini-Games             Super Bishi Bashi Championship (ver JAA, 2 Players)
 
 // Konami dual 68000 games
 overdriv        // 1990  Driving / 1st Person               Over Drive (set 1)
@@ -2608,7 +2400,6 @@ gradius3        // 1989  Shooter / Flying Horizontal        Gradius III (World, 
 
 // Konami 68020 games
 plygonet        // 1993  Shooter / Driving 1st Person       Polygonet Commanders (ver UAA)
-polynetw        // 1993  Shooter / Versus                   Poly-Net Warriors (ver JAA)
 
 // Konami System GX games
 konamigx        // 1994  System / BIOS                      System GX
@@ -2622,11 +2413,7 @@ le2             // 1994  Shooter / Gun                      Lethal Enforcers II:
 crzcross        // 1994  Puzzle / Drop                      Crazy Cross (ver EAA)
 fantjour        // 1994  Shooter / Flying Horizontal        Fantastic Journey (ver EAA)
 dragoona        // 1995  Fighter / Versus                   Dragoon Might (ver AAB)
-tbyahhoo        // 1995  Shooter / Flying Vertical          Twin Bee Yahhoo! (ver JAA)
-tkmmpzdm        // 1995  Puzzle / Drop                      Tokimeki Memorial Taisen Puzzle-dama (ver JAB)
 salmndr2        // 1996  Shooter / Flying Horizontal        Salamander 2 (ver JAA)
-daiskiss        // 1996  Multiplay / Mini-Games             Daisu-Kiss (ver JAA)
-tokkae          // 1996  Puzzle / Misc.                     Taisen Tokkae-dama (ver JAA)
 winspike        // 1997  Sports / Volleyball                Winning Spike (ver EAA)
 
 // GX Type 3
@@ -2709,7 +2496,6 @@ mf_bdash        // 1984  Maze / Digging                     Boulder Dash (Max-A-
 
 // Atari b/w games
 tank8           // 1976  Maze / Shooter Small               Tank 8 (set 1)
-cball           // 1976  Ball & Paddle                      Cannonball (Atari, prototype)
 copsnrob        // 1976  Shooter / Versus                   Cops'n Robbers
 flyball         // 1976  Sports / Baseball                  Flyball (rev 2)
 sprint4         // 1977  Driving / Race Track               Sprint 4 (set 1)
@@ -2723,7 +2509,6 @@ starshp1        // 1977  Shooter / Flying 1st Person        Starship 1
 superbug        // 1977  Driving                            Super Bug
 canyon          // 1977  Shooter / Gallery                  Canyon Bomber
 destroyr        // 1977  Shooter / Gallery                  Destroyer (version O2)
-catchp          // 1977  Ball & Paddle                      Catch (prototype)
 sprint1         // 1978  Driving / Race Track               Sprint 1
 ultratnk        // 1978  Shooter / Versus                   Ultra Tank
 skyraid         // 1978  Shooter / Command                  Sky Raider
@@ -2734,9 +2519,6 @@ skydiver        // 1978  Sports / SkyDiving                 Sky Diver
 sbrkout         // 1978  Ball & Paddle / Breakout           Super Breakout (rev 04)
 atarifb         // 1978  Sports / Amer. Football            Atari Football (revision 2)
 orbit           // 1978  Shooter / Field                    Orbit
-boxer           // 1978  Sports / Boxing                    Boxer (prototype)
-wolfpack        // 1978  Shooter / Gallery                  Wolf Pack (prototype)
-mgolf           // 1978  Sports / Golf                      Atari Mini Golf (prototype)
 videopin        // 1979  Pinball                            Video Pinball
 solarwar        // 1979  Pinball                            Solar War
 subs            // 1977  Shooter / Field                    Subs
@@ -2764,18 +2546,12 @@ bwidow          // 1982  Shooter / Field                    Black Widow
 starwars        // 1983  Shooter / Flying 1st Person        Star Wars (set 1)
 mhavoc          // 1983  Shooter / Misc.                    Major Havoc (rev 3)
 esb             // 1985  Shooter / Flying 1st Person        The Empire Strikes Back
-tomcat          // 1985  Shooter / Flying                   TomCat (prototype)
 
 // Atari "Centipede hardware" games
 warlords        // 1980  Ball & Paddle / Breakout           Warlords
 centiped        // 1980  Shooter / Gallery                  Centipede (revision 4)
-mazeinv         // 1981  Maze                               Maze Invaders (prototype)
 milliped        // 1982  Shooter / Gallery                  Millipede
-multiped        // 2002  Multiplay / Compilation            Multipede (Centipede/Millipede multigame kit)
-qwak            // 1982  Puzzle / Sliding                   Qwak (prototype)
-runaway         // 1982  Maze                               Runaway (prototype)
 bullsdrt        // 1985  Sports / Darts                     Bulls Eye Darts
-cmmb162         // 2002  Multiplay / Compilation            Centipede / Millipede / Missile Command / Let's Go Bowling (rev 1.62)
 
 // misc Atari games
 tunhunt         // 1979  Shooter / Flying 1st Person        Tunnel Hunt
@@ -2783,9 +2559,6 @@ liberatr        // 1982  Shooter / Command                  Liberator (set 1)
 foodf           // 1982  Fighter / Field                    Food Fight (rev 3)
 ccastles        // 1983  Maze                               Crystal Castles (version 4)
 cloak           // 1983  Shooter / Field                    Cloak &amp; Dagger (rev 5)
-cloud9          // 1983  Shooter / Gallery                  Cloud 9 (prototype)
-firebeas        // 1983  Platform / Shooter                 Firebeast (prototype)
-barbball        // 1983  Sports / Baseball                  Barroom Baseball (prototype)
 firefox         // 1984  Shooter / Flying 1st Person        Fire Fox (set 1)
 jedi            // 1984  Shooter / Driving Diagonal         Return of the Jedi
 
@@ -2808,8 +2581,6 @@ apb             // 1987  Driving                            APB - All Points Bul
 // Atari polygon games
 irobot          // 1983  Shooter / Misc.                    I, Robot
 // Atari System IV
-laststar        // 1984  Shooter / Flying 1st Person        The Last Starfighter (prototype)
-airrace         // 1985  Driving / Plane                    Air Race (prototype)
 harddriv        // 1988  Driving / 1st Person               Hard Drivin' (cockpit, rev 7)
 stunrun         // 1989  Shooter / Driving (chase view)     S.T.U.N. Runner (rev 6)
 racedriv        // 1990  Driving / 1st Person               Race Drivin' (cockpit, rev 5)
@@ -2824,26 +2595,15 @@ vindctr2        // 1988  Shooter / Driving Vertical         Vindicators Part II 
 
 // Other Hardware
 
-// Xybots
 xybots          // 1987  Maze / Shooter Large               Xybots (rev 2)
-// Blasteroids
 blstroid        // 1987  Shooter / Field                    Blasteroids (rev 4)
-// Vindicators
 vindictr        // 1988  Shooter / Driving Vertical         Vindicators (rev 5)
-// Toobin
 toobin          // 1988  Sports / Misc.                     Toobin' (rev 3)
-// Cyberball
 cyberbal        // 1988  Sports / Amer. Football            Cyberball (rev 4)
-// Atari Tetris
 atetris         // 1988  Puzzle / Drop                      Tetris (set 1)
-// Escape from the Planet of Robot Monsters
 eprom           // 1989  Maze / Shooter Large               Escape from the Planet of the Robot Monsters (set 1)
-guts            // 1989  Shooter / Gallery                  Guts n' Glory (prototype)
-// Cyberball 2 Player
 cyberbal2p      // 1989  Sports / Amer. Football            Cyberball 2072 (2 player, rev 4)
-// Skull and Crossbones
 skullxbo        // 1989  Fighter / 2.5D                     Skull &amp; Crossbones (rev 5)
-// Cyberball Tournament
 badlands        // 1989  Driving / Race Track               Bad Lands
 klax            // 1989  Puzzle / Drop                      Klax (set 1)
 thunderj        // 1990  Shooter / Misc. Horizontal         ThunderJaws (rev 3)
@@ -2857,21 +2617,13 @@ roadriot        // 1991  Driving / Race (chase view)        Road Riot 4WD (set 1
 offtwall        // 1991  Ball & Paddle / Breakout           Off the Wall (2/3-player upright)
 guardian        // 1992  Fighter / 2.5D                     Guardians of the 'Hood
 relief          // 1992  Sports / Baseball                  Relief Pitcher (set 1, 07 Jun 1992 / 28 May 1992)
-arcadecl        // 1992  Multiplay / Compilation            Arcade Classics (prototype)
-sparkz          // 1992  Puzzle / Drop                      Sparkz (prototype)
 motofren        // 1992  Driving / Race (chase view) Bike   Moto Frenzy
 spclords        // 1992  Shooter / Flying 1st Person        Space Lords (rev C)
-rrreveng        // 1993  Driving / Race (chase view)        Road Riot's Revenge (prototype, Sep 06, 1994)
-beathead        // 1993  Platform / Run Jump                BeatHead (prototype)
 tmek            // 1994  Shooter / 1st Person               T-MEK (v5.1, The Warlords)
 primrage        // 1994  Fighter / Versus                   Primal Rage (version 2.3)
-metalmx         // 1994  Driving / Race (chase view)        Metal Maniax (prototype)
 area51          // 1996  Shooter / Gun                      Area 51 (R3000)
-fishfren        // 1995  Sports / Fishing                   Fishin' Frenzy (prototype)
-freezeat        // 1996  Puzzle / Toss                      Freeze (Atari) (prototype, English voice, 96/10/25)
 area51mx        // 1998  Shooter / Gun                      Area 51 / Maximum Force Duo v2.0
 maxforce        // 1996  Shooter / Gun                      Maximum Force v1.05
-vcircle         // 1996  Fighter / Versus                   Vicious Circle (prototype)
 a51site4        // 1998  Shooter / Gun                      Area 51: Site 4 (HD Rev 2.01, September 7, 1998)
 
 // Atari/Nova Laserdisc
@@ -2892,7 +2644,6 @@ lasso           // 1982  Shooter / Misc.                    Lasso
 chameleo        // 1983  Platform / Run Jump                Chameleon
 wwjgtin         // 1984  Sports / Horse Racing              Wai Wai Jockey Gate-In!
 pinbo           // 1984  Pinball                            Pinbo (set 1)
-joyfulr         // 1983  Driving                            Joyful Road (Japan)
 marvins         // 1983  Maze                               Marvin's Maze
 madcrash        // 1984  Shooter / Driving Diagonal         Mad Crasher
 vangrd2         // 1984  Shooter / Field                    Vanguard II
@@ -2906,8 +2657,7 @@ tnk3            // 1985  Shooter / Driving Vertical         T.N.K III (US)
 athena          // 1986  Platform / Fighter Scrolling       Athena
 fitegolf        // 1988  Sports / Golf                      Fighting Golf (World?)
 countryc        // 1988  Sports / Golf                      Country Club
-ikari           // 1986  Shooter / Walking                  Ikari Warriors (US JAMMA)
-ikariram		//    //                                          
+ikari           // 1986  Shooter / Walking                  Ikari Warriors (US JAMMA)                            
 victroad        // 1986  Shooter / Walking                  Victory Road
 gwar            // 1987  Shooter / Walking                  Guerrilla War (US)
 bermudat        // 1987  Shooter / Flying Vertical          Bermuda Triangle (World?)
@@ -3067,18 +2817,11 @@ rotd            // 2002  Fighter / Versus                   Rage of the Dragons 
 kof2002         // 2002  Fighter / Versus                   The King of Fighters 2002 (NGM-2650)(NGH-2650)
 matrim          // 2002  Fighter / Versus                   Matrimelee / Shin Gouketsuji Ichizoku Toukon (NGM-2660) (NGH-2660)
 pnyaa           // 2003  Puzzle / Drop                      Pochi and Nyaa
-ms5pcb          // 2003  Platform / Shooter Scrolling       Metal Slug 5 (JAMMA PCB)
 mslug5          // 2003  Platform / Shooter Scrolling       Metal Slug 5 (NGM-2680)
-svcpcb          // 2003  Fighter / Versus                   SNK vs. Capcom - SVC Chaos (JAMMA PCB, set 1)
 svc             // 2003  Fighter / Versus                   SNK vs. Capcom - SVC Chaos (NGM-2690)(NGH-2690)
 samsho5         // 2003  Fighter / Versus                   Samurai Shodown V / Samurai Spirits Zero (NGM-2700)
-kf2k3pcb        // 2003  Fighter / Versus                   The King of Fighters 2003 (Japan, JAMMA PCB)
 kof2003         // 2003  Fighter / Versus                   The King of Fighters 2003 (NGM-2710)
 samsh5sp        // 2004  Fighter / Versus                   Samurai Shodown V Special / Samurai Spirits Zero Special (NGM-2720)
-
-// Unlicensed commercial releases (no game ID)
-diggerma        // 2000  Maze / Digging                     Digger Man (prototype)
-sbp             // 2004  Puzzle / Toss                      Super Bubble Pop
 
 // Hyper NeoGeo 64 uses a 3 digit rom code?
 
@@ -3091,12 +2834,6 @@ sams64_2        // 1998  Fighter / Versus                   Samurai Shodown: War
 fatfurwa        // 1998  Fighter / Versus                   Fatal Fury: Wild Ambition (rev.A)
 buriki          // 1999  Fighter / Versus                   Buriki One (rev.B)
 
-// Neo Print
-neoprint        // 1996  Print Club                         Neo Print (Japan) (T2d)
-npcartv1        // 1996  Print Club                         Neo Print V1 (World) (E1a)
-98best44        // 1998  Print Club                         Neo Print - '98 NeoPri Best 44 (Japan) (T4i 3.07)
-nprsp           // 1996  Print Club                         NeopriSP Retro Collection (Japan)
-
 // Alpha Denshi games
 champbas        // 1983  Sports / Baseball                  Champion Base Ball
 champbb2        // 1983  Sports / Baseball                  Champion Base Ball Part-2 (set 1)
@@ -3104,7 +2841,6 @@ exctsccr        // 1983  Sports / Soccer                    Exciting Soccer
 exctscc2        // 1984  Sports / Soccer                    Exciting Soccer II
 talbot          // 1982  Maze                               Talbot
 equites         // 1984  Shooter / Walking                  Equites
-gekisou         // 1985  Driving / Race                     Gekisou (Japan)
 bullfgtr        // 1984  Sports / Hockey                    Bull Fighter
 kouyakyu        // 1985  Sports / Baseball                  The Koukou Yakyuu
 splndrbt        // 1985  Shooter / Flying Vertical          Splendor Blast
@@ -3127,7 +2863,6 @@ scregg          // 1983  Maze                               Scrambled Egg
 rockduck        // 1983  Maze                               Rock Duck (prototype?)
 dommy           // 1983  Maze                               Dommy
 bigprowr        // 1983  Sports / Wrestling                 The Big Pro Wrestling!
-ssozumo         // 1984  Sports / Sumo                      Syusse Oozumou (Japan)
 mystston        // 1984  Maze / Shooter Large               Mysterious Stones - Dr. John's Adventure
 dogfgt          // 1984  Shooter / Flying                   Acrobatic Dog-Fight
 bogeyman        // 1985  Platform / Fighter                 Bogey Manor
@@ -3148,7 +2883,6 @@ darktowr        // 1992  Platform / Run Jump                Dark Tower
 tstrike         // 1991  Shooter / Flying Horizontal        Thunder Strike (set 1)
 ctribe          // 1990  Fighter / 2.5D                     The Combatribes (US)
 blockout        // 1989  Puzzle / Drop                      Block Out (set 1)
-agress          // 1991  Puzzle / Sliding                   Agress - Missile Daisenryaku (Japan)
 ddragon3        // 1990  Fighter / 2.5D                     Double Dragon 3 - The Rosetta Stone (US)
 wwfwfest        // 1991  Sports / Wrestling                 WWF WrestleFest (US set 1)
 shadfrce        // 1993  Fighter / 2.5D                     Shadow Force (World, Version 3)
@@ -3156,7 +2890,6 @@ shadfrce        // 1993  Fighter / 2.5D                     Shadow Force (World,
 // Stern "Berzerk hardware" games
 berzerk         // 1980  Maze / Shooter Small               Berzerk (set 1)
 frenzy          // 1981  Maze / Shooter Small               Frenzy
-moonwarp        // 1981  Shooter / Flying                   Moon War (prototype on Frenzy hardware)
 
 // Stern 'Mazer Blazer hardware' games
 mazerbla        // 1983  Maze / Shooter Large               Mazer Blazer (set 1)
@@ -3204,7 +2937,6 @@ bioship         // 1990  Shooter / Flying Horizontal        Bio-ship Paladin
 vandyke         // 1990  Fighter / Vertical                 Vandyke (Japan)
 blkheart        // 1991  Shooter / Flying Horizontal        Black Heart
 acrobatm        // 1991  Shooter / Flying Vertical          Acrobat Mission
-strahl          // 1992  Shooter / Flying Horizontal        Koutetsu Yousai Strahl (Japan set 1)
 bjtwin          // 1993  Platform / Run Jump                Bombjack Twin (set 1)
 tdragon2        // 1993  Shooter / Flying Vertical          Thunder Dragon 2 (9th Nov. 1993)
 tdragon         // 1991  Shooter / Flying Vertical          Thunder Dragon (8th Jan. 1992, unprotected)
@@ -3271,7 +3003,6 @@ sfrushrk        // 1996  Driving / Race (chase view)        San Francisco Rush: 
 calspeed        // 1998  Driving / Race (chase view)        California Speed (Version 2.1a Apr 17 1998, GUTS 1.25 Apr 17 1998 / MAIN Apr 17 1998)
 vaportrx        // 1998  Driving / Race (chase view)        Vapor TRX
 carnevil        // 1998  Shooter / Gun                      CarnEvil (v1.0.3)
-biofreak        // 1997  Fighter / Versus                   BioFreaks (prototype)
 blitz           // 1997  Sports / Amer. Football            NFL Blitz (boot ROM 1.2)
 blitz99         // 1998  Sports / Amer. Football            NFL Blitz '99 (ver 1.30, Sep 22 1998)
 blitz2k         // 1999  Sports / Amer. Football            NFL Blitz 2000 Gold Edition (ver 1.2, Sep 22 1999)
@@ -3279,13 +3010,11 @@ hyprdriv        // 1998  Driving / Race (chase view)        Hyperdrive
 
 // Midway / Atari  Voodoo 2 & 3 - based Hardware (Vegas, Denver, Durango)
 gauntleg        // 1998  Maze / Shooter Large               Gauntlet Legends (version 1.6)
-tenthdeg        // 1998  Fighter / Versus                   Tenth Degree (prototype)
 roadburn        // 1999  Driving / Race (chase view) Bike   Road Burners
 sf2049          // 1998  Driving / Race (chase view)        San Francisco Rush 2049
 warfa           // 1999  Shooter / 1st Person               War: The Final Assault (EPROM 1.9 Mar 25 1999, GUTS 1.3 Apr 20 1999, GAME Apr 20 1999)
 nbashowt        // 1998  Sports / Basketball                NBA Showtime: NBA on NBC (ver 2.0)
 nbanfl          // 1999  Sports / Basketball                NBA Showtime / NFL Blitz 2000 (ver 2.1)
-nbagold         // 2000  Sports / Multiplay                 NBA Showtime Gold / NFL Blitz 2000 (ver 3.0) (Sports Station?)
 gauntdl         // 1999  Maze / Shooter Large               Gauntlet Dark Legacy (version DL 2.52)
 cartfury        // 2000  Driving / Race (chase view)        Cart Fury
 
@@ -3325,7 +3054,6 @@ boxingb         // 1981  Shooter / Field                    Boxing Bugs
 speedfrk        // 1979  Driving / 1st Person               Speed Freak
 sundance        // 1979  Misc.                              Sundance
 demon           // 1982  Shooter / Field                    Demon
-qb3             // 1982  Shooter / Field                    QB-3 (prototype)
 // this one uses 68000+Z80 instead of the Cinematronics CPU
 cchasm          // 1983  Shooter / Field                    Cosmic Chasm (set 1)
 
@@ -3351,11 +3079,6 @@ koroleva        // 1988  Maze                               Snezhnaja Koroleva
 phtetris        // 19??  Puzzle / Drop                      Tetris (Photon System)
 phpython        // 1989? Maze                               Python (Photon System)
 phklad          // 19??  Maze                               Klad / Labyrinth (Photon System)
-
-// Photon IK2 hardware
-kok             // 19??  Shooter / Misc. Horizontal         Povar / Sobrat' Buran / Agroprom (Arcade multi-game bootleg of ZX Spectrum 'Cookie', 'Jetpac' &amp; 'Pssst')
-black           // 19??  Shooter / Walking                  Czernyj Korabl (Arcade bootleg of ZX Spectrum 'Blackbeard')
-brod            // 19??  Platform / Run Jump Scrolling      Brodjaga (Arcade bootleg of ZX Spectrum 'Inspector Gadget and the Circus of Fear')
 
 // Valadon Automation games
 bagman          // 1982  Platform / Run Jump                Bagman
@@ -3391,7 +3114,6 @@ r2dx_v33        // 1996  Shooter / Flying Vertical          Raiden II New / Raid
 
 // Seibu SPI System games
 
-senkyu          // 1995  Puzzle / Drop                      Senkyu (Japan set 1)
 viprp1          // 1995  Shooter / Flying Vertical          Viper Phase 1 (New Version, World)
 rdft            // 1996  Shooter / Flying Vertical          Raiden Fighters (Germany)
 rdft2           // 1997  Shooter / Flying Vertical          Raiden Fighters 2 - Operation Hell Dive (Germany)
@@ -3404,7 +3126,6 @@ bloodbro        // 1990  Shooter / 3rd Person               Blood Bros. (set 1)
 skysmash        // 1990  Shooter / Flying Vertical          Sky Smasher
 legionna        // 1992  Fighter / 2.5D                     Legionnaire (World)
 heatbrl         // 1992  Shooter / Walking                  Heated Barrel (World version 3)
-godzilla        // 1993  Fighter / Versus                   Godzilla (Japan)
 denjinmk        // 1993  Fighter / 2.5D                     Denjin Makai
 grainbow        // 1993  Platform / Shooter Scrolling       SD Gundam Sangokushi Rainbow Tairiku Senki
 cupsoc          // 1992  Sports / Soccer                    Seibu Cup Soccer (set 1)
@@ -3432,21 +3153,17 @@ cischeat        // 1990  Driving / Race (chase view)        Cisco Heat
 f1gpstar        // 1991  Driving / Race (chase view)        Grand Prix Star
 armchmp2        // 1992  Sports / Armwrestling              Arm Champs II v2.6
 wildplt         // 1992  Shooter / Gun                      Wild Pilot
-captflag        // 1993                                     Captain Flag (Japan)
 f1gpstr2        // 1993  Driving / Race (chase view)        F-1 Grand Prix Star II
 scudhamm        // 1994  Fighter / Misc.                    Scud Hammer
 tetrisp2        // 1997  Puzzle / Drop                      Tetris Plus 2 (World)
-nndmseal        // 1997  Print Club                         Nandemo Seal Iinkai
 
 // Jaleco Mega System 1 games
 lomakai         // 1988  Fighter / 2D                       Legend of Makai (World)
 p47             // 1988  Shooter / Flying Horizontal        P-47 - The Phantom Fighter (World)
-kickoff         // 1988  Sports / Soccer                    Kick Off (Japan)
 tshingen        // 1988  Fighter / Field                    Shingen Samurai-Fighter (Japan, English)
 kazan           // 1988  Platform / Fighter Scrolling       Ninja Kazan (World)
 astyanax        // 1989  Platform / Fighter Scrolling       The Astyanax
 hachoo          // 1989  Fighter / 2.5D                     Hachoo!
-jitsupro        // 1989  Sports / Baseball                  Jitsuryoku!! Pro Yakyuu (Japan)
 plusalph        // 1989  Shooter / Flying Vertical          Plus Alpha
 stdragon        // 1989  Shooter / Flying Horizontal        Saint Dragon (set 1)
 rodland         // 1990  Platform / Run Jump                Rod-Land (World)
@@ -3469,7 +3186,6 @@ f1superb        // 1994  Driving / Race 1st Person          F1 Super Battle
 
 // Video System Co. games
 rabiolep        // 1987  Shooter / Flying Horizontal        Rabio Lepus (Japan)
-svolley         // 1989  Sports / Volleyball                Super Volleyball (Japan)
 tail2nos        // 1989  Driving / Race                     Tail to Nose - Great Championship
 pipedrm         // 1990  Puzzle / Sliding                   Pipe Dream (World)
 hatris          // 1990  Puzzle / Drop                      Hatris (US)
@@ -3547,7 +3263,6 @@ vastar          // 1983  Shooter / Flying Horizontal        Vastar (set 1)
 */
 
 // Gaelco 2D games
-xorworld        // 1990  Puzzle / Misc.                     Xor World (prototype)
 bigkarnk        // 1991  Platform / Fighter Scrolling       Big Karnak
 // Master Boy 2 // (c) 1991 - Ref ???
 rebus           // 1995  Puzzle / Match                     Rebus
@@ -3592,7 +3307,6 @@ jchan2          // 1995  Fighter / Versus                   Jackie Chan in Fists
 
 // Kaneko "AX System" games
 berlwall        // 1991  Platform / Run Jump                The Berlin Wall
-packbang        // 1994  Shooter / Versus                   Pack'n Bang Bang (prototype)
 mgcrystl        // 1991  Maze / Shooter Large               Magical Crystals (World, 92/01/10)
 blazeon         // 1992  Shooter / Flying Horizontal        Blaze On (Japan)
 sandscrp        // 1992  Shooter / Flying Vertical          Sand Scorpion
@@ -3611,9 +3325,6 @@ vblokbrk        // 1997  Ball & Paddle / Breakout           VS Block Breaker (As
 sengekis        // 1997  Shooter / Flying Vertical          Sengeki Striker (Asia)
 cyvern          // 1998  Shooter / Flying Vertical          Cyvern (US)
 puzzloop        // 1998  Puzzle / Toss                      Puzz Loop (Europe, v0.94)
-senknow         // 1999  Puzzle / Drop                      Sen-Know (Japan)
-panicstr        // 1999  Puzzle / Outline                   Panic Street (Japan)
-gutsn           // 2000  Puzzle / Misc.                     Guts'n (Japan)
 
 // Seta 1st Generation HW (seta.cpp)
 tndrcade        // 1987  Shooter / Driving Vertical         Thundercade / Twin Formation
@@ -3637,8 +3348,6 @@ kamenrid        // 1993  Driving / Race Bike                Masked Riders Club B
 madshark        // 1993  Shooter / Flying Vertical          Mad Shark
 msgundam        // 1993  Fighter / Versus                   Mobile Suit Gundam
 daioh           // 1993  Shooter / Flying Vertical          Daioh
-oisipuzl        // 1993  Puzzle / Misc.                     Oishii Puzzle Ha Irimasenka
-utoukond        // 1993  Fighter / 2.5D                     Ultra Toukon Densetsu (Japan)
 wrofaero        // 1993  Shooter / Flying Vertical          War of Aero - Project MEIOU
 eightfrc        // 1994  Shooter / Flying Vertical          Eight Forces
 krzybowl        // 1994  Sports / Bowling                   Krazy Bowl
@@ -3653,9 +3362,6 @@ crazyfgt        // 1996  Platform / Shooter Scrolling       Crazy Fight
 // Seta 2nd Generation HW (seta2.cpp)
 gundamex        // 1994  Fighter / Versus                   Mobile Suit Gundam EX Revue
 grdians         // 1995  Fighter / 2.5D                     Guardians / Denjin Makai II
-pzlbowl         // 1999  Puzzle / Toss                      Puzzle De Bowling (Japan)
-namcostr        // 2000  Multiplay / Compilation            Namco Stars
-penbros         // 2000  Platform / Run Jump                Penguin Brothers (Japan)
 deerhunt        // 2000  Shooter / Gun                      Deer Hunting USA V4.3
 turkhunt        // 2001  Shooter / Gun                      Turkey Hunting USA V1.0
 wschamp         // 2001  Shooter / Gun                      Wing Shooting Championship V2.00
@@ -3669,7 +3375,6 @@ eaglshot        // 1994  Sports / Golf                      Eagle Shot Golf
 cairblad        // 1999  Shooter / Flying Vertical          Change Air Blade (Japan)
 drifto94        // 1994  Driving / Race                     Drift Out '94 - The Hard Order (Japan)
 stmblade        // 1996  Shooter / Flying Vertical          Storm Blade (US)
-mslider         // 1997  Puzzle / Drop                      Monster Slider (Japan)
 vasara          // 2000  Shooter / Flying Vertical          Vasara
 vasara2         // 2001  Shooter / Flying Vertical          Vasara 2 (set 1)
 
@@ -3679,22 +3384,18 @@ gdfs            // 1995  Shooter / Gun                      Mobil Suit Gundam Fi
 // Seta Aleck64 and similar (N64 based)
 aleck64         // 1998  System / BIOS                      Aleck64 PIF BIOS
 11beat          // 1998  Sports / Soccer                    Eleven Beat
-mtetrisc        // 1998  Puzzle / Drop                      Magical Tetris Challenge (981009 Japan)
 starsldr        // 1998  Shooter / Flying Vertical          Star Soldier: Vanishing Earth
 twrshaft        // 2003  Platform / Run Jump                Tower &amp; Shaft
-doncdoon        // 2003  Puzzle / Match                     Hanabi de Doon! - Don-chan Puzzle
 kurufev         // 2003  Puzzle / Drop                      Kurukuru Fever
 
 // Atlus games
 powerins        // 1993  Fighter / Versus                   Power Instinct (USA)
-ohmygod         // 1993  Puzzle / Drop                      Oh My God! (Japan)
-naname          // 1994  Puzzle / Drop                      Naname de Magic! (Japan)
 blmbycar        // 1994  Driving / Race                     Blomby Car
 watrball        // 1996  Puzzle / Toss                      Water Balls
 bowltry         // 200?  Sports / Bowling                   Bowling Try
 
 // Sun Electronics / SunSoft games
-dai3wksi        // 1979  Shooter / Gallery                  Dai San Wakusei Meteor (Japan)
+dai3wksi        // 1979  Shooter / Gallery                  Dai San Wakusei Meteor (Japan) ***progress
 speakres        // 1980  Shooter / Gallery                  Speak &amp; Rescue
 route16         // 1981  Maze                               Route 16 (set 1)
 fnkyfish        // 1981  Shooter / Misc. Horizontal         Funky Fish
@@ -3703,11 +3404,8 @@ arabian         // 1983  Platform / Run Jump                Arabian
 markham         // 1983  Shooter / Flying Horizontal        Markham
 strnskil        // 1984  Sports / Misc.                     Strength &amp; Skill
 banbam          // 1984  Maze                               BanBam
-ikki            // 1985  Maze / Fighter                     Ikki (Japan)
 shanghai        // 1988  Puzzle / Match                     Shanghai (World)
-shangha2        // 1989  Puzzle / Match                     Shanghai II (Japan, set 1)
 shangha3        // 1993  Puzzle / Match                     Shanghai III (World)
-heberpop        // 1994  Puzzle / Drop                      Hebereke no Popoon (Japan)
 blocken         // 1994  Ball & Paddle / Breakout           Blocken (Japan)
 /*
   Other Sun games
@@ -3746,15 +3444,10 @@ leprechn        // 1982  Platform / Run Jump                Leprechaun
 piratetr        // 1982  Maze                               Pirate Treasure
 beezer          // 1982  Maze                               Beezer (set 1)
 
-// Comad games
-		// the following ones run on modified Gals Panic hardware
-smissw          // 1996  Puzzle / Outline                   Super Miss World
-
 // Playmark games
 sslam           // 1993  Sports / Tennis                    Super Slam (set 1)
 powerbal        // 1994  Ball & Paddle                      Power Balls
 wbeachvl        // 1995  Sports / Volleyball                World Beach Volley (set 1)
-hotmind         // 1995  Puzzle / Misc.                     Hot Mind (Hard Times hardware)
 hrdtimes        // 1994  Shooter / 3rd Person               Hard Times (set 1)
 luckboom        // 1996  Shooter / 3rd Person               Lucky Boom
 
@@ -3787,12 +3480,10 @@ msgogo          // 1995  Puzzle / Toss                      Mouse Shooter GoGo
 puzzli          // 1995  Puzzle / Drop                      Puzzli
 pururun         // 1995  Puzzle / Misc.                     Pururun
 balcube         // 1996  Ball & Paddle / Breakout           Bal Cube
-mouja           // 1996  Puzzle / Drop                      Mouja (Japan)
 bangball        // 1996  Puzzle / Toss                      Bang Bang Ball (v1.05)
 blzntrnd        // 1994  Sports / Wrestling                 Blazing Tornado
 gstrik2         // 1996  Sports / Soccer                    Grand Striker 2 (Europe and Oceania)
 hyprduel        // 1993  Shooter / Flying Horizontal        Hyper Duel (Japan set 1)
-magerror        // 1994  Puzzle / Misc.                     Magical Error wo Sagase
 
 // Venture Line games
 spcforce        // 1980  Shooter / Field                    Space Force (set 1)
@@ -3813,10 +3504,6 @@ searchp2        // 1999  Puzzle / Misc.                     Search Eye Plus V2.0
 blueprnt        // 1982  Maze                               Blue Print (Midway)
 saturnzi        // 1983  Shooter / Gallery                  Saturn
 grasspin        // 1983  Maze                               Grasspin
-
-// Fuuki FG-2 games
-gogomile        // 1995  Maze                               Susume! Mile Smile / Go Go! Mile Smile (newer)
-pbancho         // 1996  Puzzle / Drop                      Gyakuten!! Puzzle Bancho (Japan)
 
 // Fuuki FG-3 games
 asurabld        // 1998  Fighter / Versus                   Asura Blade - Sword of Dynasty (Japan)
@@ -3969,7 +3656,6 @@ countrun        // 1988  Maze / Driving                     Counter Run (NS6201-
 
 // Home Data games
 mirderby        // 1988  Sports / Horse Racing              Miracle Derby - Ascot
-reikaids        // 1988  Fighter / Versus                   Reikai Doushi (Japan)
 battlcry        // 1991  Fighter / 2D                       Battlecry
 
 // Art & Magic games
@@ -4037,10 +3723,6 @@ mquake          // 1987  Maze                               Moonquake
 // Other Amiga-based games
 upscope         // 1986  Shooter / Gallery                  Up Scope
 
-// Cubo32 (Commodore CD32-based HW)
-cubo            // 1993  System / BIOS                      Cubo BIOS
-cndypuzl        // 1995  Puzzle / Toss                      Candy Puzzle (v1.0)
-
 // American Laser Games
 alg_bios        // 199?  System / BIOS                      American Laser Games BIOS
 wsjr            // 1991  Shooter / Gun                      Who Shot Johnny Rock? v1.6
@@ -4061,8 +3743,6 @@ crysbios        // 2001  System / BIOS                      Crystal System BIOS
 crysking        // 2001  Fighter / 2.5D                     The Crystal of Kings
 evosocc         // 2001  Sports / Soccer                    Evolution Soccer
 topbladv        // 2003  Fighter / Versus                   Top Blade V
-officeye        // 2001  Multiplay / Mini-Games             Office Yeo In Cheon Ha (version 1.2)
-donghaer        // 2001  Platform / Shooter Scrolling       Donggul Donggul Haerong
 
 psattack        // 2004  Shooter / Gun                      P's Attack
 
@@ -4086,7 +3766,6 @@ spaceace        // 1983  Platform / Run Jump                Space Ace (US Rev. A
 aztarac         // 1983  Shooter / Field                    Aztarac
 mole            // 1982  Misc.                              Mole Attack
 thehand         // 1981  Maze                               The Hand
-mrjong          // 1983  Puzzle / Maze                      Mr. Jong (Japan)
 polyplay        // 1985  Multiplay / Compilation            Poly-Play
 amspdwy         // 1987  Driving / Race Track               American Speedway (set 1)
 jankenmn        // 1991  Misc.                              Janken Man Kattara Ageru
@@ -4108,12 +3787,9 @@ pirates         // 1994  Shooter / 3rd Person               Pirates (set 1)
 genix           // 1994  Shooter / 3rd Person               Genix Family
 fitfight        // 199?  Fighter / Versus                   Fit of Fighting
 histryma        // 199?  Fighter / Versus                   The History of Martial Arts
-bbprot          // 199?  Fighter / Versus                   unknown fighting game 'BB' (prototype)
 beaminv         // 1979  Shooter / Gallery                  Beam Invader
 mcatadv         // 1993  Platform / Shooter Scrolling       Magical Cat Adventure
 nost            // 1993  Shooter / Flying Vertical          Nostradamus
-4enraya         // 1990  Puzzle / Match                     4 En Raya (set 1)
-4enlinea        // 1991  Puzzle / Match                     Cuatro en Linea
 oneshot         // 1996  Shooter / Gun                      One Shot One Kill
 tugboat         // 1982  Driving / Boat                     Tugboat
 noahsark        // 1983  Puzzle / Match                     Noah's Ark
@@ -4134,7 +3810,6 @@ crgolfhi        // 1985  Sports / Golf                      Crowns Golf in Hawai
 thedeep         // 1987  Shooter / Gallery                  The Deep (Japan)
 wallc           // 1984  Ball & Paddle / Breakout           Wall Crash (set 1)
 wink            // 1985  Ball & Paddle / Breakout           Wink (set 1)
-24cdjuke        // 1988  Misc.                              Midcoin Juke Box 24CD
 skyarmy         // 1982  Shooter / Flying Horizontal        Sky Army
 lethalj         // 1996  Shooter / Gun                      Lethal Justice (Version 2.3)
 franticf        // 1996  Platform / Run Jump                Frantic Fred
@@ -4183,25 +3858,18 @@ rabbit          // 1997  Fighter / Versus                   Rabbit (Asia 3/6)
 malzak          // 19??  Shooter / Flying Horizontal        Malzak
 supertnk        // 1981  Shooter / Field                    Super Tank
 crospang        // 1998  Puzzle / Misc.                     Cross Pang
-heuksun         // 199?  Tabletop / Go                      Heuk Sun Baek Sa (Korea)
-bestri          // 1998  Multiplay / Compilation            Bestri (Korea)
 silvmil         // 1995  Shooter / Flying Vertical          Silver Millennium
 puzzlove        // 1994  Multiplay / Mini-Games             PuzzLove
 fredmem         // 1994  Puzzle / Match                     Fred Flintstones' Memory Match (World?, Ticket version, 3/17/95)
 cecmatch        // 1993  Puzzle / Match                     ChuckECheese's Match Game
 f15se           // 1991  Shooter / Flying 1st Person        F-15 Strike Eagle (rev. 2.2 02/25/91)
 botss           // 1992  Shooter / 3rd Person               Battle of the Solar System (rev. 1.1a 7/23/92)
-tankbatl        // 1992  Shooter / 1st Person               Tank Battle (prototype rev. 4/21/92)
 ssingles        // 1983  Maze                               Swinging Singles (US)
-tcl             // 1995  Tabletop / Misc.                   Taiwan Chess Legend
 quake           // 1998  Shooter / 1st Person               Quake Arcade Tournament (Release Beta 2)
 su2000          // 1993  System / BIOS                      SU2000
 stuntair        // 1983  Shooter / Flying Vertical          Stunt Air
 
 // Success
-othello         // 1984  Tabletop / Othello                 Othello (version 3.0)
-sothello        // 1986  Tabletop / Othello                 Super Othello
-kothello        // 1990  Tabletop / Othello                 Kyuukyoku no Othello
 dcon            // 1992  Shooter / Command                  D-Con
 
 // Nexus 3D
@@ -4216,7 +3884,6 @@ bmcbowl         // 1994  Sports / Bowling                   Konkyuu no Hoshi
 popobear        // 2000  Puzzle / Misc.                     PoPo Bear
 
 // Merit
-suprgolf        // 1989  Sports / Golf                      Super Crowns Golf (Japan)
 1945kiii        // 2000  Shooter / Flying Vertical          1945k III
 witch           // 1992  Pinball                            Witch
 pntnpuzl        // 199?  Puzzle / Sliding                   Paint &amp; Puzzle
@@ -4226,22 +3893,13 @@ ppcar           // 1999  Maze / Driving                     Pang Pang Car
 tetfight        // 2001  Puzzle / Misc.                     Tetris Fighters
 imolagp         // 1983? Driving / Race                     Imola Grand Prix (set 1)
 dambustr        // 1981  Shooter / Flying Horizontal        Dambusters (US, set 1)
-gunpey          // 2000  Puzzle / Drop                      Gunpey (Japan)
 spaceg          // 1979  Shooter / Gallery                  Space Guerrilla
 laserbas        // 1981  Shooter / Gallery                  Laser Base (set 1)
-turbosub        // 1985  Shooter / Driving 1st Person       Turbo Sub (prototype rev. TSCA)
 pipeline        // 1990  Puzzle / Sliding                   Pipeline
 ttchamp         // 1995  Sports / Ping pong                 Table Tennis Champions
 cybertnk        // 1988  Shooter / 3rd Person               Cyber Tank (v1.4)
 cubeqst         // 1983  Shooter / Flying                   Cube Quest (01/04/84)
-pkscram         // 1993  Sports / Soccer                    PK Scramble
-
-// Fun World
-photoply        // 199?  Multiplay / Compilation            Photo Play 2000 (v2.01)
-
-// with 2nd set of hardware on PCB for stealth purposes
-royalcrd_nes    //                                          
-royalcrd_msx    //                                          
+pkscram         // 1993  Sports / Soccer                    PK Scramble                                 
 
 // Game-A-Tron
 sbugger         // 1981  Shooter / Gallery                  Space Bugger (set 1)
@@ -4269,24 +3927,12 @@ sfkick          // 1988  Ball & Paddle / Breakout           Super Free Kick (set
 dynabomb        // 2000  Platform / Run Jump                Dynamite Bomber (Korea, Rev 1.5)
 legendoh        // 2000  Fighter / 2.5D                     Legend of Heroes
 sb2003          // 2003  Platform / Run Jump                Super Bubble 2003 (World, Ver 1.0)
-carrera         // 19??  Puzzle / Match                     Carrera (Version 6.7)
-
-// IGT Game King
-gkigt4          //                                          
-gkigt4ms        //                                          
-gkigt43         //                                          
-gkigt43n        //                                          
-gkigtez         //                                          
-gkigt5p         //                                          
-igtsc           //                                          
-gkkey           //                                          
+carrera         // 19??  Puzzle / Match                     Carrera (Version 6.7)                                       
 
 altair          // 1981  Shooter / Gallery                  Altair
 destryer        // 1980  Shooter / Gallery                  Destroyer (Cidelsa) (set 1)
 draco           // 1981  Shooter / Field                    Draco
-tetriskr        // 1988? Puzzle / Drop                      Tetris (bootleg of Mirrorsoft PC-XT Tetris version)
 hammer          // 2000  Misc.                              Hammer
-pangofun        // 1995  Puzzle / Misc.                     Pango Fun (Italy)
 filetto         // 1990  Puzzle / Match                     Filetto (v1.05 901009)
 gstream         // 2002  Shooter / Flying Vertical          G-Stream G2020
 x2222           // 2000  Shooter / Flying Vertical          X2222 (final debug?)
@@ -4309,15 +3955,8 @@ shadfgtr        // 1993  Fighter / Versus                   Shadow Fighters
 skimaxx         // 1996  Sports / Skiing                    Skimaxx
 blackt96        // 1996  Fighter / 2.5D                     Black Touch '96
 magictg         // 1997  Fighter / Versus                   Magic the Gathering: Armageddon (set 1)
-pesadelo        // 1989  Shooter / Walking                  Pesadelo (bootleg of Knightmare on MSX)
-pengadvb        // 1988  Platform / Run Jump Scrolling      Penguin Adventure (bootleg of MSX version)
 galgame         // 1971  Shooter / Flying                   Galaxy Game
 
-// Wing
-superwng        // 1985  Pinball                            Super Wing
-
-// Sanki Denshi Kogyo
-pachifev        // 1983  Pinball / Pachinko                 Pachifever
 
 // GCE / Roy Abel & Associates
 raaspec         // 1984  Misc.                              Spectrum I+
@@ -4397,51 +4036,3 @@ gunman          // 1977  Shooter / Versus                   Gunman [TTL]
 missilex        // 1977  Shooter / Gallery                  Missile-X [TTL]
 ttblock         // 1977  Ball & Paddle / Breakout           T.T. Block [TTL]
 zzblock         // 1979  Ball & Paddle / Breakout           Zun Zun Block [TTL]
-
-
-/* Below are misc lazy adds, or yet to be sorted out... */
-
-barata          // 2002  Misc.                              Dona Barata (early prototype)
-
-
-
-// VLC Nevada
-
-// Webak Austria
-
-// HP Automaten
-bingoman        // 1993  Multiplay                          Bingo Mania (P03-P07-P14)
-
-// Arachnid - Super Six Plus II English Mark Darts 6000
-
-
-sanremmg        //                                          
-
-// Valco fireball
-
-
-cocoloco        // 198?  Maze                               Coco Loco
-
-alinvade        // 198?  Shooter / Gallery                  Alien Invaders
-
-joystand        // 1997  Print Club                         Joy Stand Private
-
-// Doyle & Assoc.
-
-
-amerihok        // 19??                                     Ameri-Hockey
-
-ice_tbd         // 1988                                     Turbo Drive (ICE)
-ice_bozo        // 1997?                                    Bozo's Pail Toss (v2.07)
-
-scm_500         // 1987                                     Standard Change-Makers System 500 / 500E
-
-awetoss         // 19??                                     Awesome Toss'em (Lazer-tron)
-aftrshok        // 19??                                     After Shock (Lazer-tron, set 1)
-ribrac          // 1993                                     Ribbit Racing (Lazer-tron)
-
-age_cand        // 19??                                     Candy Crane (AGE)
-
-clowndwn        // 1987                                     Clown Roll Down (Elwood)
-fi6845          // 1979                                     Fast Invaders (6845 version)
-
