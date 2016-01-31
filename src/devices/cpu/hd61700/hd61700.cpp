@@ -101,7 +101,7 @@ const device_type HD61700 = &device_creator<hd61700_cpu_device>;
 //  hd61700_cpu_device - constructor
 //-------------------------------------------------
 
-hd61700_cpu_device::hd61700_cpu_device(const machine_config &mconfig, std::string tag, device_t *owner, UINT32 clock)
+hd61700_cpu_device::hd61700_cpu_device(const machine_config &mconfig, const char *tag, device_t *owner, UINT32 clock)
 	: cpu_device(mconfig, HD61700, "HD61700", tag, owner, clock, "hd61700", __FILE__),
 		m_program_config("program", ENDIANNESS_BIG, 16, 18, -1),
 		m_ppc(0x0000),
@@ -2654,7 +2654,7 @@ void hd61700_cpu_device::execute_run()
 		}
 
 		//if is in the internal ROM align the pc
-		if ((m_fetch_addr&1) && m_pc < INT_ROM)
+		if (!WORD_ALIGNED(m_fetch_addr) && m_pc < INT_ROM)
 			set_pc((m_fetch_addr+1)>>1);
 
 		m_icount -= 3;
@@ -2871,7 +2871,7 @@ inline void hd61700_cpu_device::check_optional_jr(UINT8 arg)
 {
 	if (arg & 0x80)
 	{
-		if (m_pc < INT_ROM && !(m_fetch_addr&1)) read_op();
+		if (m_pc < INT_ROM && WORD_ALIGNED(m_fetch_addr)) read_op();
 
 		UINT8 arg1 = read_op();
 

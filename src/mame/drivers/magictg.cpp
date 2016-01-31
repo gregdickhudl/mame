@@ -145,7 +145,7 @@ Medium size chip with heat sink on it
 class magictg_state : public driver_device
 {
 public:
-	magictg_state(const machine_config &mconfig, device_type type, std::string tag)
+	magictg_state(const machine_config &mconfig, device_type type, const char *tag)
 		: driver_device(mconfig, type, tag),
 		m_mips(*this, "mips"),
 		m_adsp(*this, "adsp"),
@@ -601,8 +601,8 @@ WRITE32_MEMBER( magictg_state::f0_w )
 				UINT32 dst_addr = m_dma_ch[ch].dst_addr;
 				//device_t *voodoo = dst_addr > 0xa000000 voodoo0 : voodoo1;
 
-				assert((src_addr & 3) == 0);
-				assert((dst_addr & 3) == 0);
+				assert(DWORD_ALIGNED(src_addr));
+				assert(DWORD_ALIGNED(dst_addr));
 
 				while (m_dma_ch[ch].count > 3)
 				{
@@ -929,7 +929,7 @@ static MACHINE_CONFIG_START( magictg, magictg_state )
 	MCFG_SOUND_ROUTE(ALL_OUTPUTS, "lspeaker", 1.0)
 
 	MCFG_PCI_BUS_LEGACY_ADD("pcibus", 0)
-	MCFG_PCI_BUS_LEGACY_DEVICE(0, "", pci_dev0_r, pci_dev0_w)
+	MCFG_PCI_BUS_LEGACY_DEVICE(0, nullptr, pci_dev0_r, pci_dev0_w)
 	MCFG_PCI_BUS_LEGACY_DEVICE(7, "voodoo_0", voodoo_0_pci_r, voodoo_0_pci_w)
 
 #if defined(USE_TWO_3DFX)

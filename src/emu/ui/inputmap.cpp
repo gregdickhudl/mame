@@ -73,7 +73,7 @@ void ui_menu_input_groups::handle()
 	/* process the menu */
 	const ui_menu_event *menu_event = process(0);
 	if (menu_event != nullptr && menu_event->iptkey == IPT_UI_SELECT)
-		ui_menu::stack_push(auto_alloc_clear(machine(), <ui_menu_input_general>(machine(), container, int((long long)(menu_event->itemref)-1))));
+		ui_menu::stack_push(global_alloc_clear<ui_menu_input_general>(machine(), container, int((long long)(menu_event->itemref)-1)));
 }
 
 
@@ -180,7 +180,7 @@ void ui_menu_input_specific::populate()
 				if (field->type() >= IPT_START1 && field->type() < IPT_ANALOG_LAST)
 				{
 					sortorder = (field->type() << 2) | (field->player() << 12);
-					if (field->device().tag()!=":")
+					if (strcmp(field->device().tag(), ":"))
 						sortorder |= (port_count & 0xfff) * 0x10000;
 				}
 				else
@@ -201,7 +201,7 @@ void ui_menu_input_specific::populate()
 					item->sortorder = sortorder + suborder[seqtype];
 					item->type = field->is_analog() ? (INPUT_TYPE_ANALOG + seqtype) : INPUT_TYPE_DIGITAL;
 					item->name = name;
-					item->owner_name = field->device().tag().c_str();
+					item->owner_name = field->device().tag();
 					item->next = itemlist;
 					itemlist = item;
 
@@ -565,13 +565,13 @@ void ui_menu_settings::populate()
 					flags |= MENU_FLAG_RIGHT_ARROW;
 
 				/* add the menu item */
-				if (field->device().tag()!=prev_owner)
+				if (strcmp(field->device().tag(), prev_owner.c_str()) != 0)
 				{
 					if (first_entry)
 						first_entry = false;
 					else
 						item_append(MENU_SEPARATOR_ITEM, nullptr, 0, nullptr);
-					strprintf(name, "[root%s]", field->device().tag().c_str());
+					strprintf(name, "[root%s]", field->device().tag());
 					item_append(name.c_str(), nullptr, 0, nullptr);
 					prev_owner.assign(field->device().tag());
 				}
@@ -869,13 +869,13 @@ void ui_menu_analog::populate()
 						analog_item_data *data;
 						UINT32 flags = 0;
 						std::string name;
-						if (field->device().tag() != prev_owner.c_str())
+						if (strcmp(field->device().tag(), prev_owner.c_str()) != 0)
 						{
 							if (first_entry)
 								first_entry = false;
 							else
 								item_append(MENU_SEPARATOR_ITEM, nullptr, 0, nullptr);
-							strprintf(name,"[root%s]", field->device().tag().c_str());
+							strprintf(name,"[root%s]", field->device().tag());
 							item_append(name.c_str(), nullptr, 0, nullptr);
 							prev_owner.assign(field->device().tag());
 						}

@@ -1953,7 +1953,7 @@ void nv2a_renderer::render_register_combiners(INT32 scanline, const extent_t &ex
 
 	if ((extent.startx < 0) || (extent.stopx > 640))
 		return;
-	osd_lock_acquire(combiner.lock); // needed since multithreading is not supported yet
+	std::lock_guard<std::mutex> lock(combiner.lock); // needed since multithreading is not supported yet
 	x = extent.stopx - extent.startx - 1; // number of pixels to draw
 	while (x >= 0) {
 		xp = extent.startx + x;
@@ -1998,7 +1998,6 @@ void nv2a_renderer::render_register_combiners(INT32 scanline, const extent_t &ex
 		write_pixel(xp, scanline, a8r8g8b8, z);
 		x--;
 	}
-	osd_lock_release(combiner.lock);
 }
 
 #if 0
@@ -2318,10 +2317,10 @@ void nv2a_renderer::convert_vertices_poly(vertex_nv *source, vertex_t *destinati
 			};
 			/*
 			for (int i = 0; i < 4; i++) {
-				v[i] *= matrix.scale[i];
+			    v[i] *= matrix.scale[i];
 			}
 			for (int i = 0; i < 4; i++) {
-				v[i] += matrix.translate[i];
+			    v[i] += matrix.translate[i];
 			}
 			*/
 			destination[m].x = v[0] / v[3]; // source[m].attribute[0].fv[0];
@@ -2655,7 +2654,7 @@ int nv2a_renderer::geforce_exec_method(address_space & space, UINT32 chanel, UIN
 			}
 		}
 		else {
-			machine().logerror("Unsupported primitive %d for method 0x1810\n", (int)primitive_type);
+			machine().logerror("Unsupported primitive %d for method 0x1810\n", primitive_type);
 		}
 		countlen--;
 	}
@@ -2800,7 +2799,7 @@ int nv2a_renderer::geforce_exec_method(address_space & space, UINT32 chanel, UIN
 			}
 		}
 		else {
-			machine().logerror("Unsupported primitive %d for method 0x1800/8\n", (int)primitive_type);
+			machine().logerror("Unsupported primitive %d for method 0x1800/8\n", primitive_type);
 			countlen = 0;
 		}
 		while (countlen > 0) {
@@ -2978,7 +2977,7 @@ int nv2a_renderer::geforce_exec_method(address_space & space, UINT32 chanel, UIN
 			}
 		}
 		else {
-			machine().logerror("Unsupported primitive %d for method 0x1818\n", (int)primitive_type);
+			machine().logerror("Unsupported primitive %d for method 0x1818\n", primitive_type);
 			countlen = 0;
 		}
 	}
@@ -3108,7 +3107,7 @@ int nv2a_renderer::geforce_exec_method(address_space & space, UINT32 chanel, UIN
 			bytespixel_rendertarget = 1;
 			break;
 		default:
-			machine().logerror("Unknown render target color format %d\n\r", (int)colorformat_rendertarget);
+			machine().logerror("Unknown render target color format %d\n\r", colorformat_rendertarget);
 			bytespixel_rendertarget = 4;
 			break;
 		}

@@ -183,7 +183,8 @@ static inline int is_breakable_char(unicode_char ch)
     CORE IMPLEMENTATION
 ***************************************************************************/
 
-static const UINT32 mouse_bitmap[] = {
+static const UINT32 mouse_bitmap[32*32] =
+{
 	0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,
 	0x09a46f30,0x81ac7c43,0x24af8049,0x00ad7d45,0x00a8753a,0x00a46f30,0x009f6725,0x009b611c,0x00985b14,0x0095560d,0x00935308,0x00915004,0x00904e02,0x008f4e01,0x008f4d00,0x008f4d00,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,
 	0x00a16a29,0xa2aa783d,0xffbb864a,0xc0b0824c,0x5aaf7f48,0x09ac7b42,0x00a9773c,0x00a67134,0x00a26b2b,0x009e6522,0x009a5e19,0x00965911,0x0094550b,0x00925207,0x00915004,0x008f4e01,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,0x00ffffff,
@@ -236,7 +237,7 @@ ui_manager::ui_manager(running_machine &machine)
 	m_handler_param = 0;
 	m_single_step = false;
 	m_showfps = false;
-	m_showfps_end = false;
+	m_showfps_end = 0;
 	m_show_profiler = false;
 	m_popup_text_end = 0;
 	m_use_natural_keyboard = false;
@@ -461,7 +462,7 @@ void ui_manager::update_and_render(render_container *container)
 		{
 			float mouse_y=-1,mouse_x=-1;
 			if (mouse_target->map_point_container(mouse_target_x, mouse_target_y, *container, mouse_x, mouse_y)) {
-				container->add_quad(mouse_x,mouse_y,mouse_x + 0.05f*container->manager().ui_aspect(container),mouse_y + 0.05f,UI_TEXT_COLOR,m_mouse_arrow_texture,PRIMFLAG_BLENDMODE(BLENDMODE_ALPHA));
+				container->add_quad(mouse_x,mouse_y,mouse_x + 0.02f*container->manager().ui_aspect(container),mouse_y + 0.02f,UI_TEXT_COLOR,m_mouse_arrow_texture,PRIMFLAG_ANTIALIAS(1)|PRIMFLAG_BLENDMODE(BLENDMODE_ALPHA));
 			}
 		}
 	}
@@ -1023,7 +1024,9 @@ std::string &ui_manager::warnings_string(std::string &str)
 						MACHINE_IMPERFECT_SOUND |  \
 						MACHINE_IMPERFECT_GRAPHICS | \
 						MACHINE_IMPERFECT_KEYBOARD | \
-						MACHINE_NO_COCKTAIL)
+						MACHINE_NO_COCKTAIL| \
+						MACHINE_IS_INCOMPLETE| \
+						MACHINE_NO_SOUND_HW )
 
 	str.clear();
 
@@ -1088,6 +1091,20 @@ std::string &ui_manager::warnings_string(std::string &str)
 			str.append("The ");
 			str.append(emulator_info::get_gamenoun());
 			str.append(" requires external artwork files\n");
+		}
+
+		if (machine().system().flags & MACHINE_IS_INCOMPLETE )
+		{
+			str.append("This ");
+			str.append(emulator_info::get_gamenoun());
+			str.append(" was never completed. It may exhibit strange behavior or missing elements that are not bugs in the emulation.\n");
+		}
+
+		if (machine().system().flags & MACHINE_NO_SOUND_HW )
+		{
+			str.append("This ");
+			str.append(emulator_info::get_gamenoun());
+			str.append(" has no sound hardware, MAME will produce no sounds, this is expected behaviour.\n");
 		}
 
 		// if there's a NOT WORKING, UNEMULATED PROTECTION or GAME MECHANICAL warning, make it stronger
@@ -1174,11 +1191,11 @@ std::string &ui_manager::game_info_astring(std::string &str)
 
 		// count how many identical CPUs we have
 		int count = 1;
-		std::string name = exec->device().name();
+		const char *name = exec->device().name();
 		execute_interface_iterator execinneriter(machine().root_device());
 		for (device_execute_interface *scan = execinneriter.first(); scan != nullptr; scan = execinneriter.next())
 		{
-			if (exec->device().type() == scan->device().type() && name==scan->device().name() && exec->device().clock() == scan->device().clock())
+			if (exec->device().type() == scan->device().type() && strcmp(name, scan->device().name()) == 0 && exec->device().clock() == scan->device().clock())
 				if (exectags.insert(scan->device().tag()).second)
 					count++;
 		}
@@ -1186,7 +1203,7 @@ std::string &ui_manager::game_info_astring(std::string &str)
 		// if more than one, prepend a #x in front of the CPU name
 		if (count > 1)
 			strcatprintf(str, "%d" UTF8_MULTIPLY, count);
-		str += name;
+		str.append(name);
 
 		// display clock in kHz or MHz
 		if (clock >= 1000000)
@@ -1503,7 +1520,6 @@ UINT32 ui_manager::handler_ingame(running_machine &machine, render_container *co
 	// first draw the FPS counter
 	if (machine.ui().show_fps_counter())
 	{
-		std::string tempstring;
 		machine.ui().draw_text_full(container, machine.video().speed_text().c_str(), 0.0f, 0.0f, 1.0f,
 					JUSTIFY_RIGHT, WRAP_WORD, DRAW_OPAQUE, ARGB_WHITE, ARGB_BLACK, nullptr, nullptr);
 	}
@@ -1872,7 +1888,7 @@ static slider_state *slider_init(running_machine &machine)
 		INT32 maxval = 2000;
 		INT32 defval = 1000;
 
-		info.stream->input_name(info.inputnum, str);
+		str.assign(info.stream->input_name(info.inputnum));
 		str.append(" Volume");
 		*tailptr = slider_alloc(machine, str.c_str(), 0, defval, maxval, 20, slider_mixervol, (void *)(FPTR)item);
 		tailptr = &(*tailptr)->next;
@@ -1895,7 +1911,7 @@ static slider_state *slider_init(running_machine &machine)
 		for (device_execute_interface *exec = iter.first(); exec != nullptr; exec = iter.next())
 		{
 			void *param = (void *)&exec->device();
-			strprintf(str, "Overclock CPU %s", exec->device().tag().c_str());
+			strprintf(str, "Overclock CPU %s", exec->device().tag());
 			*tailptr = slider_alloc(machine, str.c_str(), 10, 1000, 2000, 1, slider_overclock, param);
 			tailptr = &(*tailptr)->next;
 		}
@@ -1958,16 +1974,16 @@ static slider_state *slider_init(running_machine &machine)
 			void *param = (void *)laserdisc;
 
 			// add scale and offset controls per-overlay
-			strprintf(str,"Laserdisc '%s' Horiz Stretch", laserdisc->tag().c_str());
+			strprintf(str,"Laserdisc '%s' Horiz Stretch", laserdisc->tag());
 			*tailptr = slider_alloc(machine, str.c_str(), 500, (defxscale == 0) ? 1000 : defxscale, 1500, 2, slider_overxscale, param);
 			tailptr = &(*tailptr)->next;
-			strprintf(str,"Laserdisc '%s' Horiz Position", laserdisc->tag().c_str());
+			strprintf(str,"Laserdisc '%s' Horiz Position", laserdisc->tag());
 			*tailptr = slider_alloc(machine, str.c_str(), -500, defxoffset, 500, 2, slider_overxoffset, param);
 			tailptr = &(*tailptr)->next;
-			strprintf(str,"Laserdisc '%s' Vert Stretch", laserdisc->tag().c_str());
+			strprintf(str,"Laserdisc '%s' Vert Stretch", laserdisc->tag());
 			*tailptr = slider_alloc(machine, str.c_str(), 500, (defyscale == 0) ? 1000 : defyscale, 1500, 2, slider_overyscale, param);
 			tailptr = &(*tailptr)->next;
-			strprintf(str,"Laserdisc '%s' Vert Position", laserdisc->tag().c_str());
+			strprintf(str,"Laserdisc '%s' Vert Position", laserdisc->tag());
 			*tailptr = slider_alloc(machine, str.c_str(), -500, defyoffset, 500, 2, slider_overyoffset, param);
 			tailptr = &(*tailptr)->next;
 		}
@@ -2422,7 +2438,7 @@ static char *slider_get_screen_desc(screen_device &screen)
 	static char descbuf[256];
 
 	if (scrcount > 1)
-		sprintf(descbuf, "Screen '%s'", screen.tag().c_str());
+		sprintf(descbuf, "Screen '%s'", screen.tag());
 	else
 		strcpy(descbuf, "Screen");
 

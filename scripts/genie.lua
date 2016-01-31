@@ -83,6 +83,11 @@ newoption {
 }
 
 newoption {
+	trigger = "with-benchmarks",
+	description = "Enable building benchmarks.",
+}
+
+newoption {
 	trigger = "osd",
 	description = "Choose OSD layer implementation",
 }
@@ -108,6 +113,7 @@ newoption {
 		{ "os2",           "OS/2 eComStation"       },
 		{ "haiku",         "Haiku"                  },
 		{ "solaris",       "Solaris SunOS"          },
+		{ "steamlink",     "Steam Link"             },
 	},
 }
 
@@ -1052,6 +1058,15 @@ configuration { "linux-*" }
 		end
 
 
+
+configuration { "steamlink" }
+	links {
+		"dl",
+	}
+	defines {
+		"EGL_API_FB",
+	}
+
 configuration { "osx*" }
 		links {
 			"pthread",
@@ -1069,6 +1084,11 @@ configuration { "mingw*" }
 			"advapi32",
 			"shlwapi",
 			"wsock32",
+			"ws2_32",
+			"psapi",
+			"iphlpapi",
+			"shell32",
+			"userenv",
 		}
 configuration { "mingw-clang" }
 		linkoptions {
@@ -1090,6 +1110,11 @@ configuration { "vs*" }
 			"advapi32",
 			"shlwapi",
 			"wsock32",
+			"ws2_32",
+			"psapi",
+			"iphlpapi",
+			"shell32",
+			"userenv",
 		}
 
 		buildoptions {
@@ -1285,4 +1310,9 @@ end
 if _OPTIONS["with-tests"] then
 	group "tests"
 	dofile(path.join("src", "tests.lua"))
+end
+
+if _OPTIONS["with-benchmarks"] then
+	group "benchmarks"
+	dofile(path.join("src", "benchmarks.lua"))
 end
